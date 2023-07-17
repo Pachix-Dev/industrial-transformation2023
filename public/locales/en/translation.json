@@ -40,5 +40,29 @@
     },
     "seo": {
         "description": "Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico."
+    },
+    "home": {
+        "registro_itm_2023": "ITM REGISTRATION 2023",
+        "highlights_ITM2022": "The highlights of Industrial Transformation Mexico 2022",
+        "sponsors": "Platinum sponsors",
+        "gold_sponsors": "Gold sponsors",
+        "silver_sponsor": "Silver sponsor",
+        "content_partners": "Content Partners",
+        "industry_partners": "Industry Partners",
+        "strategic_allies": "Strategic Allies",
+        "broadcasting": "Broadcasting Media Partners",
+        "platinum_media": "Platinum Media Partners",
+        "gold_media_partners": "Gold Media Partners",
+        "silver_media_partners": "Silver Media Partners",
+        "galery2022": "GALLERY 2022",
+        "learn_more": "LEARN MORE",
+        "contact_mexico_latam": "Contact Mexico & Latin America",
+        "contact_international": "Contact International",
+        "sales_contact": "Sales Contact",
+        "privacy_policy": "Privacy Policy",
+        "contact": "Contact",
+        "name": "Name",
+        "email": "Email",
+        "subscription": "SUBSCRIPTION"
     }
 }

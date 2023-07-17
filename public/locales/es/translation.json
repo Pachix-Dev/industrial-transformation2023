@@ -40,5 +40,29 @@
     },
     "seo": {
         "description": "Industrial Transformation MEXICO consiste en una feria que contiene un área de exposición, conferencias y un amplio programa educativo, todo esto unido por los temas generales de transformación digital en México y fabricación inteligente."
+    },
+    "home": {
+        "registro_itm_2023": "REGISTRO ITM 2023",
+        "highlights_ITM2022": "Lo mejor de Industrial Transformation México 2022",
+        "sponsors": "Patrocinadores Platino",
+        "gold_sponsors": "Patrocinadores Oro",
+        "silver_sponsor": "Patrocinador Plata",
+        "content_partners": "Content Partners",
+        "industry_partners": "Industry Partners",
+        "strategic_allies": "Strategic Allies",
+        "broadcasting": "Broadcasting Media Partners",
+        "platinum_media": "Platinum Media Partners",
+        "gold_media_partners": "Gold Media Partners",
+        "silver_media_partners": "Silver Media Partners",
+        "galery2022": "GALLERY 2022",
+        "learn_more": "LEARN MORE",
+        "contact_mexico_latam": "Contacto México y Latinoamérica",
+        "contact_international": "Contacto Internacional",
+        "sales_contact": "Contacto de ventas",
+        "privacy_policy": "Aviso de privacidad",
+        "contact": "Contacto",
+        "name": "Name",
+        "email": "Email",
+        "subscription": "SUBSCRIPTION"
     }
 }

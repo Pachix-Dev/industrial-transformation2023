@@ -1,0 +1,24 @@
+.home-register {
+    background-color: #e8001e;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+.home h3 {
+    color: #727272;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home-gallery {
+    background-color: black;
+}
+
+.home-gallery h3 {
+    color: #e00d1b;
+    text-align: center;
+}

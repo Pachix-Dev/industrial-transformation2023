@@ -21,14 +21,14 @@ export function Menu () {
 
       <Container fluid className='mt-2'>
         <div className='language-option'>
-          <img src={iconworld} width={19} height={19} />
-          <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'en' ? 'grey' : '' }}>Es</button>
+          <img src={iconworld} width={19} height={19} alt='languages-world' />
+          <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'grey' : '' }}>Es</button>
           /
-          <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'es' ? 'grey' : '' }}>En</button>
+          <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'es' ? 'grey' : '' }}>En</button>
         </div>
         <Navbar expand='lg' className='menu-itm text-center'>
           <Container>
-            <Navbar.Brand as={Link} to='/'><img src={logoITM} width={160} height={120} /></Navbar.Brand>
+            <Navbar.Brand as={Link} to='/'><img src={logoITM} width={160} height={120} alt='ITM-2023' /></Navbar.Brand>
             <Navbar.Toggle onClick={handleShow} />
             <Navbar.Offcanvas
               id='offcanvasMenuweb'

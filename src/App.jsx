@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import { Routes, Route } from 'react-router'
 import { Helmet } from 'react-helmet'
 import { Menu } from './components/Menu/Menu'
+import { Home } from './components/Home/Home'
 
 function App () {
   const { t } = useTranslation()
@@ -20,6 +21,7 @@ function App () {
                 <title>ITM 2023 | Industrial Transformation</title>
                 <meta name='description' content={t('seo.description')} />
               </Helmet>
+              <Home />
             </>
           }
         />
