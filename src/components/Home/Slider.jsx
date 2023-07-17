@@ -24,11 +24,12 @@ export function Slider () {
           />
         </Carousel.Item>
         <Carousel.Item>
-          <a href='https://hfmexico.mx/MTech/' target='_blank' rel='noreferrer'><img
-            className='d-block w-100'
-            src={mTech}
-            alt='M-TECH-2023'
-                                                                                />
+          <a href='https://hfmexico.mx/MTech/' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src={mTech}
+              alt='M-TECH-2023'
+            />
           </a>
         </Carousel.Item>
         <Carousel.Item>
