@@ -64,5 +64,10 @@
         "name": "Name",
         "email": "Email",
         "subscription": "SUBSCRIPTION"
+    },
+    "aboutPage":{
+        "title_1": "ABOUT US ITM",
+        "description_1": "Technological advancements are redefining manufacturing processes, design & production facilities, distribution systems and global supply chains. Manufacturers and businesses in the region recognize that current business models are no longer sustainable. The time has come for companies to start, scale and sustain their adoption of Industry 4.0 processes and solutions.Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico. The exhibit program features eight main display categories – Research Institutions, Automation, Robotation and Motion, Digital Factory, Additive Manufacturing, Smart Logistics, Power Solutions, Metalworking and Government– as well as areas for live demonstrations and one-on-one consultations.",
+        "description_2": ""
     }
 }
