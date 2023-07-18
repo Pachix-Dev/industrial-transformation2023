@@ -6,6 +6,7 @@ import { Routes, Route } from 'react-router'
 import { Helmet } from 'react-helmet'
 import { Menu } from './components/Menu/Menu'
 import { Home } from './components/Home/Home'
+import { Footer } from './components/Footer/Footer'
 
 function App () {
   const { t } = useTranslation()
@@ -26,6 +27,8 @@ function App () {
           }
         />
       </Routes>
+
+      <Footer />
     </>
   )
 }
