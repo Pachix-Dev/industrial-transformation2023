@@ -51,6 +51,7 @@ export function Home () {
   const { t } = useTranslation()
   return (
     <>
+
       <CounterDown />
       <Slider />
 
