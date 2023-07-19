@@ -6,7 +6,8 @@ import { Helmet } from 'react-helmet'
 import { Menu } from './components/Menu/Menu'
 import { Home } from './components/Home/Home'
 import { Footer } from './components/Footer/Footer'
-
+import { AboutUs } from './components/AboutUS/AboutUs'
+import { Background } from './components/Background/Background'
 function App () {
   const { t } = useTranslation()
   return (
@@ -25,7 +26,24 @@ function App () {
             </>
           }
         />
+        <Route
+          path='/about-us'
+          element={
+            <>
+              <AboutUs />
+            </>
+          }
+        />
+        <Route
+          path='/background'
+          element={
+            <>
+              <Background />
+            </>
+          }
+        />
       </Routes>
+      <Footer />
     </>
   )
 }
