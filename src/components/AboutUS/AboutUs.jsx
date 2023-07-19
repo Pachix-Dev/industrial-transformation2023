@@ -2,7 +2,7 @@ import { Col, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import './AboutUs.css'
 
-export default function AboutUs () {
+export function AboutUs () {
   const { t } = useTranslation()
   return (
     <>

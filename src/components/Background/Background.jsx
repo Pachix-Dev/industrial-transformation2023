@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './Background.css'
 import infoEspanol from '../../assets/InfoEspanol.jpg'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import bgwebsite from './BannersWebSiteCita2.jpg'
 export function Background () {
   const { t } = useTranslation()
@@ -20,7 +20,18 @@ export function Background () {
             <img className='w-100' src={infoEspanol} alt='hannober-messe-2018' />
           </Col>
         </Row>
-        <iframe className='video-container mt-5' width='70%' src='https://www.youtube.com/embed/dM-LExvQw-A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen />
+        <Row>
+          <Col md={8} className='mx-auto'>
+            <Ratio aspectRatio='16x9' className='mt-5'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/dM-LExvQw-A'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
+              />
+            </Ratio>
+          </Col>
+        </Row>
       </Container>
 
     </>
