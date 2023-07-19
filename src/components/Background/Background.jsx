@@ -1,8 +1,8 @@
 import { useTranslation } from 'react-i18next'
 import './Background.css'
-import infoEspanol from '../../assets/InfoEspanol.jpg'
+import infoEspanol from '../../assets/InfoEspanol.webp'
 import { Col, Container, Row } from 'react-bootstrap'
-import bgwebsite from './BannersWebSiteCita2.jpg'
+import bgwebsite from '../../assets/BannersWebSiteCita2.webp'
 export function Background () {
   const { t } = useTranslation()
   return (
@@ -22,8 +22,6 @@ export function Background () {
         </Row>
         <iframe className='video-container mt-5' width='70%' src='https://www.youtube.com/embed/dM-LExvQw-A' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen />
       </Container>
-
     </>
-
   )
 }
