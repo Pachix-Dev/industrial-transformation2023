@@ -41,7 +41,7 @@ export function Menu () {
                 <Nav>
                   <NavDropdown title={t('menu.about_us')} renderMenuOnMount>
                     <NavDropdown.Item href='#action/3.1' onClick={handleClose}>{t('menu.about_1')}</NavDropdown.Item>
-                    <NavDropdown.Item href='#action/3.2' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to='/background' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
                   </NavDropdown>
 
                   <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount>

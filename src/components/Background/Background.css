@@ -1,0 +1,16 @@
+.title-background{
+    margin: 30px 0px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.text-description{
+    font-size: 17px;
+    line-height: 1.7;
+    text-align: justify;
+    color: gray;
+}
+.video-container{
+    display: flex;
+    margin: 0px auto;
+    min-height: 480px;
+}
