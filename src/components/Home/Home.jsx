@@ -41,11 +41,17 @@ import globalindustries from '../../assets/globalindustries.webp'
 import revistaconsultoria from '../../assets/revistaconsultoria.webp'
 import revistapreferencia from '../../assets/revistapreferencia.webp'
 import dpl from '../../assets/dpl.webp'
+import eder from '../../assets/ederRangel.webp'
+import simone from '../../assets/simoneRobering.webp'
+import imke from '../../assets/imkeSelle.webp'
+import { galleryHome } from '../constants_gallery'
+import { Gallery } from '../Gallery/Gallery'
 
 export function Home () {
   const { t } = useTranslation()
   return (
     <>
+
       <CounterDown />
       <Slider />
 
@@ -128,37 +134,37 @@ export function Home () {
         </Row>
 
         <Row>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={gto200} className='w-100' loading='lazy' alt='gto200' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={dual} className='w-100' loading='lazy' alt='dual' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={kas} className='w-100' loading='lazy' alt='kas' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={pagsid} className='w-100' loading='lazy' alt='pagsid' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={onudi} className='w-100' loading='lazy' alt='onudi' />
           </Col>
         </Row>
 
         <Row>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={enpact} className='w-100' loading='lazy' alt='enpact' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={cancham} className='w-100' loading='lazy' alt='cancham' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={camarasuizo} className='w-100' loading='lazy' alt='camarasuizo' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={amsoc80} className='w-100' loading='lazy' alt='80 amsoc' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={cinvestav} className='w-100' loading='lazy' alt='cinvestav' />
           </Col>
         </Row>
@@ -178,19 +184,19 @@ export function Home () {
 
         <h3 className='mt-5 mb-5'>{t('home.platinum_media')}</h3>
         <Row>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={cluster} className='w-100' loading='lazy' alt='cluster industrial' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={cuatrocero} className='w-100' loading='lazy' alt='cuatro cero' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={eleconomista} className='w-100' loading='lazy' alt='el economista' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={mexicoindustry} className='w-100' loading='lazy' alt='mexico industry' />
           </Col>
-          <Col className='mx-auto'>
+          <Col md className='mx-auto'>
             <img src={vanguardia} className='w-100' loading='lazy' alt='vanguardia ' />
           </Col>
         </Row>
@@ -220,30 +226,53 @@ export function Home () {
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.silver_media_partners')}</h3>
-        <Row>
+        <Row className='mb-5'>
           <Col md={3} className='mx-auto'>
             <img src={dpl} className='w-100' loading='lazy' alt='dpl' />
           </Col>
         </Row>
       </Container>
-      <section className='mt-5 pt-5 pb-5 home-gallery'>
-        <Container>
+      <section className='home-gallery'>
+        <Container className='pt-4'>
           <h3>{t('home.galery2022')}</h3>
-
+          <Gallery galleryHome={galleryHome} />
+          <div className='pb-5 pt-5'>
+            <a href='/galeria' className='home-gallery-seemore'> VER MÁS</a>
+          </div>
         </Container>
       </section>
-      <section>
-        <Row>
-          <Col>
-            <h4>{t('home.contact_mexico_latam')}</h4>
-          </Col>
-          <Col>
-            <h4>{t('home.contact_international')}</h4>
-          </Col>
-          <Col>
-            <h4>{t('home.contact_international')}</h4>
-          </Col>
-        </Row>
+      <section className='home-contactos pt-5 pb-5'>
+        <Container>
+          <Row>
+            <Col md className='text-center'>
+              <img src={eder} alt='Eder Rangel' height={150} />
+              <h4>{t('home.contact_mexico_latam')}</h4>
+              <p>
+                Eder Raúl Rangel Déziga<br />
+                Tel. +52 55 7028 3335 ext. 809
+              </p>
+              <a href='mailto:eder.rangel@hfmexico.com'>eder.rangel@hfmexico.com</a>
+            </Col>
+            <Col md className='text-center'>
+              <img src={simone} alt='Simone Robering' width={150} />
+              <h4>{t('home.contact_international')}</h4>
+              <p>
+                Simone Robering<br />
+                Tel. +49 511 89 33128
+              </p>
+              <a href='mailto:simone.roberin@hfmexico.com'>simone.roberin@hfmexico.com</a>
+            </Col>
+            <Col md className='text-center'>
+              <img src={imke} alt='Imke Selle' width={150} />
+              <h4>{t('home.contact_international')}</h4>
+              <p>
+                Imke Selle<br />
+                Tel. +49 511 89 31423
+              </p>
+              <a href='mailto:imke.selle@hfmexico.com'>imke.selle@hfmexico.com</a>
+            </Col>
+          </Row>
+        </Container>
       </section>
     </>
   )

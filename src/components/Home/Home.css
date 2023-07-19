@@ -16,9 +16,27 @@
 
 .home-gallery {
     background-color: black;
+    text-align: center;
 }
 
 .home-gallery h3 {
     color: #e00d1b;
     text-align: center;
+}
+.home-contactos{
+    background-image: url('bgcontactos.webp');
+    background-size: cover;
+    color: white;   
+}
+.home-contactos a{
+    text-decoration: none;
+}
+.home-gallery-seemore{
+    background: linear-gradient(#565656, #262626);
+    padding: 15px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    
 }
