@@ -20,7 +20,9 @@ export function WhyExhibit () {
               </ListGroup>
             </div>
           </Col>
-          <Col><img src={exhibitor} alt='hannover-messe-exhibitors' /></Col>
+          <Col>
+            <div className='exhibitor-img' />
+          </Col>
         </Row>
       </Container>
     </>
