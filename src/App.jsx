@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router'
 import { Helmet } from 'react-helmet'
 import { Menu } from './components/Menu/Menu'
 import { Home } from './components/Home/Home'
-import { Background } from './components/Background/Background'
+import { Footer } from './components/Footer/Footer'
 
 function App () {
   const { t } = useTranslation()
@@ -23,12 +23,6 @@ function App () {
               </Helmet>
               <Home />
             </>
-          }
-        />
-        <Route
-          path='/background'
-          element={
-            <Background />
           }
         />
       </Routes>

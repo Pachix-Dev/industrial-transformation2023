@@ -1,0 +1,31 @@
+.about-title{
+    font-weight: bold;
+    color: #e00d1b;
+    text-align: center;
+    margin: 1em 0;
+}
+.about-parallax{
+    background: url('/bgabout_1.jpg');
+    background-size: cover;
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-description{
+    background-color: #f8f8f8;    
+    padding: 4em;  
+    height: 100%;
+    display: grid;  
+    place-content: center;
+    text-align: justify;
+}
+.about-parallax-two{
+    background: url('/bgabout_2.jpg');
+    background-size: cover;
+    height: 100%;   
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+

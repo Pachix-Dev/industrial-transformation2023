@@ -39,7 +39,13 @@
         "media_hub_3": "download logos"
     },
     "seo": {
-        "description": "Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico."
+        "home":{
+            "description": "Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico."
+        },
+        "about_us": {
+            "description": "Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico."
+        }
+        
     },
     "home": {
         "registro_itm_2023": "ITM REGISTRATION 2023",
