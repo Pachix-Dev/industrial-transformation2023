@@ -8,6 +8,8 @@ import { Home } from './components/Home/Home'
 import { Footer } from './components/Footer/Footer'
 import { AboutUs } from './components/AboutUS/AboutUs'
 import { Background } from './components/Background/Background'
+import { Contact } from './components/Contact/Contact'
+
 function App () {
   const { t } = useTranslation()
   return (
@@ -39,6 +41,14 @@ function App () {
           element={
             <>
               <Background />
+            </>
+          }
+        />
+        <Route
+          path='/contact'
+          element={
+            <>
+              <Contact />
             </>
           }
         />
