@@ -24,13 +24,8 @@ export function Subscribe () {
       setCaptcha(false)
       const formData = Object.fromEntries(new window.FormData(event.target))
       try {
-        const res = await axios.post('https://industrialtransformation.mx/newsletter/', { token, formData })
+        const res = await axios.post('https://industrialtransformation.mx/newsletter/recaptchaValidator.php', { token, formData })
         console.log(res)
-        /* if (res.data.success) {
-          console.log('Your message has been sent!!')
-        } else {
-          console.log('Sorry we couldn\'t verify you are not robot')
-        } */
       } catch (error) {
         console.log('Sorry service not available  try later ')
       }
