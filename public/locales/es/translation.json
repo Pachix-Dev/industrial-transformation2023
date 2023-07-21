@@ -38,6 +38,11 @@
         "media_hub_2": "Galeria",
         "media_hub_3": "Descargar Logotipos"
     },
+    "contactForm":{
+        "subject": "Asunto",
+        "message": "Mensaje",
+        "send": "Enviar"
+    },
     "seo": {
         "description": "Industrial Transformation MEXICO consiste en una feria que contiene un área de exposición, conferencias y un amplio programa educativo, todo esto unido por los temas generales de transformación digital en México y fabricación inteligente."
     },

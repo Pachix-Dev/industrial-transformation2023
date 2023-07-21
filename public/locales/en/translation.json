@@ -38,6 +38,11 @@
         "media_hub_2": "Gallery",
         "media_hub_3": "download logos"
     },
+    "contactForm":{
+        "subject": "Subject",
+        "message": "Message",
+        "send": "Send"
+    },
     "seo": {
         "home":{
             "description": "Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico."

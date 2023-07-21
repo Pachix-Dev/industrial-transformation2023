@@ -26,7 +26,6 @@ export function Subscribe () {
       const formData = Object.fromEntries(new window.FormData(event.target))
       try {
         const res = await axios.post('https://industrialtransformation.mx/newsletter/recaptchaValidator.php', { token, formData })
-        console.log(res)
         if (res.data.status) {
           setMessage('Your are subscribe now!!')
         } else {
@@ -56,7 +55,7 @@ export function Subscribe () {
           onChange={onChange}
         />
         {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
-        <Button variant='dark' type='submit'>
+        <Button variant='dark' type='submit' className='mt-3'>
           {t('home.subscription')}
         </Button>
       </Form>
