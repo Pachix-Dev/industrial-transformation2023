@@ -9,7 +9,7 @@ export function Subscribe () {
   const { t } = useTranslation()
   const captchaRef = useRef()
   const [captcha, setCaptcha] = useState(false)
-
+  const [message, setMessage] = useState()
   const onChange = () => {
     setCaptcha(true)
   }
@@ -18,6 +18,7 @@ export function Subscribe () {
     event.preventDefault()
     if (captcha === false) {
       event.stopPropagation()
+      setMessage('Please verify you are not bot.')
     } else {
       const token = captchaRef.current.getValue()
       captchaRef.current.reset()
@@ -26,8 +27,13 @@ export function Subscribe () {
       try {
         const res = await axios.post('https://industrialtransformation.mx/newsletter/recaptchaValidator.php', { token, formData })
         console.log(res)
+        if (res.data.status) {
+          setMessage('Your are subscribe now!!')
+        } else {
+          setMessage('Sorry we couldn\'t verify you are not robot try again...')
+        }
       } catch (error) {
-        console.log('Sorry service not available  try later ')
+        console.log(error)
       }
       document.getElementById('form-newsletter').reset()
     }
@@ -49,7 +55,7 @@ export function Subscribe () {
           ref={captchaRef}
           onChange={onChange}
         />
-        {captcha ? '' : <div style={{ color: '#dc3545' }}>Please verify you are not a bot</div>}
+        {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
         <Button variant='dark' type='submit'>
           {t('home.subscription')}
         </Button>
