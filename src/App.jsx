@@ -9,6 +9,7 @@ import { Footer } from './components/Footer/Footer'
 import { AboutUs } from './components/AboutUS/AboutUs'
 import { Background } from './components/Background/Background'
 import { Contact } from './components/Contact/Contact'
+import { WhyVisit } from './components/WhyVisit/WhyVisit'
 
 function App () {
   const { t } = useTranslation()
@@ -49,6 +50,22 @@ function App () {
           element={
             <>
               <Contact />
+            </>
+          }
+        />
+        <Route
+          path='/why-visit'
+          element={
+            <>
+              <WhyVisit />
+            </>
+          }
+        />
+        <Route
+          path='/visitor-profile'
+          element={
+            <>
+              <WhyVisit />
             </>
           }
         />
