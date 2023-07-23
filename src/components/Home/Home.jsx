@@ -234,9 +234,9 @@ export function Home () {
       <section className='home-gallery'>
         <Container className='pt-4'>
           <h3>{t('home.galery2022')}</h3>
-          <Gallery galleryHome={galleryHome} />
+          <Gallery galleryImgs={galleryHome} galleryName='gallery-home' />
           <div className='pb-5 pt-5'>
-            <a href='/galeria' className='home-gallery-seemore'> VER MÁS</a>
+            <a href='/gallery' className='home-gallery-seemore'> VER MÁS</a>
           </div>
         </Container>
       </section>

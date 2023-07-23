@@ -24,7 +24,7 @@
         "itm2022": "itm2022",
         "itm2022_1": "imt results 2022",
         "itm2022_2": "exhibitors directory 2022",
-        "itm2022_3": "Pasaport ITM 2022",        
+        "itm2022_3": "Pasaport ITM 2022",
         "itm2021": "itm2021",
         "itm2021_1": "imt results 2022",
         "itm2021_2": "exhibitors directory 2021",
@@ -41,21 +41,25 @@
         "media_hub_2": "Gallery",
         "media_hub_3": "download logos"
     },
-    "contactForm":{
+    "contactForm": {
+        "title": "Leave us a message",
         "subject": "Subject",
         "message": "Message",
         "send": "Send"
     },
     "seo": {
-        "home":{
+        "home": {
             "description": "Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico."
         },
         "about_us": {
             "description": "Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico."
         }
-        
     },
     "home": {
+        "days": "days",
+        "hours": "hours",
+        "minutes": "minutes",
+        "seconds": "seconds",
         "registro_itm_2023": "ITM REGISTRATION 2023",
         "highlights_ITM2022": "The highlights of Industrial Transformation Mexico 2022",
         "sponsors": "Platinum sponsors",
@@ -79,193 +83,194 @@
         "email": "Email",
         "subscription": "SUBSCRIPTION"
     },
-    "aboutPage":{
+    "aboutPage": {
         "title": "ABOUT US ITM",
         "description_1": "Technological advancements are redefining manufacturing processes, design & production facilities, distribution systems and global supply chains. Manufacturers and businesses in the region recognize that current business models are no longer sustainable. The time has come for companies to start, scale and sustain their adoption of Industry 4.0 processes and solutions Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico. The exhibit program features eight main display categories – Research Institutions, Automation, Robotation and Motion, Digital Factory, Additive Manufacturing, Smart Logistics, Power Solutions, Metalworking and Government– as well as areas for live demonstrations and one-on-one consultations.",
         "description_2": "“HANNOVER MESSE is the world’s biggest show for industrial technology and the leading platform for Industry 4.0. During the past decade, we have strategically introduced the brand to growing markets around the world. Mexico impressed the global industry as Partner Country at HANNOVER MESSE 2018. Now is the time to bring to Mexico a HANNOVER MESSE event that is custom-made for Mexico’s booming industrial sector,” said Jochen Köckler, CEO of Deutsche Messe AG. “Industrial Transformation MEXICO packages the leading industrial technologies and solutions with a top-notch education and networking program. Visitors from Mexico and neighboring countries now have a single event that provides all the tools and information they need to digitalize their factories and plants.”Industrial Transformation MEXICO will be an engaging and inclusive event where stakeholders and targeted audience groups convene for networking and knowledge transfer opportunities for business success."
     },
-    "background":{
+    "background": {
         "title": "Mexico - Partner Country at HANNOVER MESSE 2018",
-        "description_1" : "With over 172 exhibitors and over 3,400 net sqm Mexico´s participation as Partner Country at HANNOVER MESSE 2018 was an overwhelming success and laid the groundwork for new business opportunities. Satellite pavilions in segments as Research & Technology, Industrial Supply, Digital Factory, Industrial Automation, Motion & Drive as well as CeMAT were proof of the enormous Industry 4.0 potential that is currently developing in Mexico."
-    }, 
-    "exhibitorReasons" : {
-        "title" : "Why Exhibit",
+        "description_1": "With over 172 exhibitors and over 3,400 net sqm Mexico´s participation as Partner Country at HANNOVER MESSE 2018 was an overwhelming success and laid the groundwork for new business opportunities. Satellite pavilions in segments as Research & Technology, Industrial Supply, Digital Factory, Industrial Automation, Motion & Drive as well as CeMAT were proof of the enormous Industry 4.0 potential that is currently developing in Mexico."
+    },
+    "exhibitorReasons": {
+        "title": "Why Exhibit",
         "description_1": "Generate business with a specialized network of suppliers and leading Industry 4.0 companies from more than 10 countries.",
-        "description_2" : "Be part of the most relevant B2B business meeting of Industry 4.0 in Mexico and Latin America.",
-        "description_3" : "Learn about the latest trends, launches and innovations in Industry 4.0 globally.",
-        "description_4" : "Be part of the best international program of conferences and workshops focused on Industry 4.0 in the country.",
-        "description_5" : "Connect with the most relevant network of professionals specialized in the sector in the country."
+        "description_2": "Be part of the most relevant B2B business meeting of Industry 4.0 in Mexico and Latin America.",
+        "description_3": "Learn about the latest trends, launches and innovations in Industry 4.0 globally.",
+        "description_4": "Be part of the best international program of conferences and workshops focused on Industry 4.0 in the country.",
+        "description_5": "Connect with the most relevant network of professionals specialized in the sector in the country."
     },
-    "profile" : {
-        "title" : "EXHIBITOR PROFILE",
-        "countries" : "(Comprising Mexico, USA, Canada, Europe, Asia)",
-        "description" : "Exhibitor Types: Solutions providers, technology providers, industrial companies, component manufacturers, software companies, manufacturing solutions suppliers, service companies, training and certification companies, institutes of higher learning, research institutions, consultancies, start-ups etc."
+    "profile": {
+        "title": "EXHIBITOR PROFILE",
+        "countries": "(Comprising Mexico, USA, Canada, Europe, Asia)",
+        "description": "Exhibitor Types: Solutions providers, technology providers, industrial companies, component manufacturers, software companies, manufacturing solutions suppliers, service companies, training and certification companies, institutes of higher learning, research institutions, consultancies, start-ups etc."
     },
-    "audience" : {
-        "title" : "WHAT TYPE OF AUDIENCE WILL ATTEND?",
-        "description" : "ndustrial Transformation MEXICO takes advantage of  network synergies to bring together stakeholders and audience groups from every point along the industrial value chain. This provides opportunities for intensive networking, global knowledge transfer and new business."
+    "audience": {
+        "title": "WHAT TYPE OF AUDIENCE WILL ATTEND?",
+        "description": "ndustrial Transformation MEXICO takes advantage of  network synergies to bring together stakeholders and audience groups from every point along the industrial value chain. This provides opportunities for intensive networking, global knowledge transfer and new business."
     },
-    "productsCategory" : {
-        "title" : "PRODUCT CATEGORIES:",
-        "machine" : {
-            "machine_title" : "METALWORKING",
-            "machine_1" : "Sheet metal processing",
-            "machine_2" : "Forming and separation technology",
-            "machine_3" : "Advanced welding, joining, and fastening technology",
-            "machine_4" : "Welding automation systems",
-            "machine_5" : "3D Printing / additive manufacturing",
-            "machine_6" : "Laser technology and application",
-            "machine_7" : "Lightweight construction",
-            "machine_8" : "Machine-tools",
-            "machine_9" : "Clamping devices",
-            "machine_10" : "Cutting devices",
-            "machine_11" : "Measurement equipment",
-            "machine_12" : "Automation",
-            "machine_13" : "Peripheral equipment"
+    "productsCategory": {
+        "title": "PRODUCT CATEGORIES:",
+        "machine": {
+            "machine_title": "METALWORKING",
+            "machine_1": "Sheet metal processing",
+            "machine_2": "Forming and separation technology",
+            "machine_3": "Advanced welding, joining, and fastening technology",
+            "machine_4": "Welding automation systems",
+            "machine_5": "3D Printing / additive manufacturing",
+            "machine_6": "Laser technology and application",
+            "machine_7": "Lightweight construction",
+            "machine_8": "Machine-tools",
+            "machine_9": "Clamping devices",
+            "machine_10": "Cutting devices",
+            "machine_11": "Measurement equipment",
+            "machine_12": "Automation",
+            "machine_13": "Peripheral equipment"
         },
-        "robotization" : {
-            "robotization_title" : "AUTOMATION, ROBOTATION AND MOTION",
-            "robotization_1" : "Assembly and handling systems",
-            "robotization_2" : "Electrical power transmission",
-            "robotization_3" : "Fieldbus system",
-            "robotization_4" : "Industrial image processing",
-            "robotization_5" : "Linear drives",
-            "robotization_6" : "Micro-technology",
-            "robotization_7" : "Motion controls",
-            "robotization_8" : "Process automation",
-            "robotization_9" : "Pneumatic automation technology",
-            "robotization_10" : "Robotics & system integration",
-            "robotization_11" : "Security components & systems",
-            "robotization_12" : "Sensors and actuators",
-            "robotization_13" : "Measurement, process & quality control"
+        "robotization": {
+            "robotization_title": "AUTOMATION, ROBOTATION AND MOTION",
+            "robotization_1": "Assembly and handling systems",
+            "robotization_2": "Electrical power transmission",
+            "robotization_3": "Fieldbus system",
+            "robotization_4": "Industrial image processing",
+            "robotization_5": "Linear drives",
+            "robotization_6": "Micro-technology",
+            "robotization_7": "Motion controls",
+            "robotization_8": "Process automation",
+            "robotization_9": "Pneumatic automation technology",
+            "robotization_10": "Robotics & system integration",
+            "robotization_11": "Security components & systems",
+            "robotization_12": "Sensors and actuators",
+            "robotization_13": "Measurement, process & quality control"
         },
-        "manufacture" : {
-            "manufacture_title" : "DIGITAL FACTORY / ICT",
-            "manufacture_1" : "Asset management systems",
-            "manufacture_2" : "Big data management",
-            "manufacture_3" : "Cloud computing",
-            "manufacture_4" : "Design & product development",
-            "manufacture_5" : "Industry 4.0 / IoT",
-            "manufacture_6" : "Enterprise resource planning (ERP)",
-            "manufacture_7" : "Machine learning",
-            "manufacture_8" : "Manufacturing execution systems (MES)",
-            "manufacture_9" : "Product life cycle management (PCM)",
-            "manufacture_10" : "Security technology",
-            "manufacture_11" : "Virtual & augmented reality",
-            "manufacture_12" : "Smart Manufacturing"
+        "manufacture": {
+            "manufacture_title": "DIGITAL FACTORY / ICT",
+            "manufacture_1": "Asset management systems",
+            "manufacture_2": "Big data management",
+            "manufacture_3": "Cloud computing",
+            "manufacture_4": "Design & product development",
+            "manufacture_5": "Industry 4.0 / IoT",
+            "manufacture_6": "Enterprise resource planning (ERP)",
+            "manufacture_7": "Machine learning",
+            "manufacture_8": "Manufacturing execution systems (MES)",
+            "manufacture_9": "Product life cycle management (PCM)",
+            "manufacture_10": "Security technology",
+            "manufacture_11": "Virtual & augmented reality",
+            "manufacture_12": "Smart Manufacturing"
         },
-        "logistics" : {
-            "logistics_title" : "SMART LOGISTICS",
-            "logistics_1" : "Automated Guided Vehicles (AGV’s)",
-            "logistics_2" : "Conveying systems",
-            "logistics_3" : "Labeling & identification systems",
-            "logistics_4" : "Lifting platforms",
-            "logistics_5" : "Logistics IT",
-            "logistics_6" : "Packaging systems",
-            "logistics_7" : "Racking systems",
-            "logistics_8" : "Robots & handling systems",
-            "logistics_9" : "Shelf storage & retrieval equipments",
-            "logistics_10" : "Supply chain management systems",
-            "logistics_11" : "Turnkey systems for logistics",
-            "logistics_12" : "Warehouse management systems"
+        "logistics": {
+            "logistics_title": "SMART LOGISTICS",
+            "logistics_1": "Automated Guided Vehicles (AGV’s)",
+            "logistics_2": "Conveying systems",
+            "logistics_3": "Labeling & identification systems",
+            "logistics_4": "Lifting platforms",
+            "logistics_5": "Logistics IT",
+            "logistics_6": "Packaging systems",
+            "logistics_7": "Racking systems",
+            "logistics_8": "Robots & handling systems",
+            "logistics_9": "Shelf storage & retrieval equipments",
+            "logistics_10": "Supply chain management systems",
+            "logistics_11": "Turnkey systems for logistics",
+            "logistics_12": "Warehouse management systems"
         },
-        "research" : {
-            "research_title" : "RESEARCH INSTITUTIONS",
-            "research_1" : "Universities",
-            "research_2" : "R&D Institutions",
-            "research_3" : "Clusters"
+        "research": {
+            "research_title": "RESEARCH INSTITUTIONS",
+            "research_1": "Universities",
+            "research_2": "R&D Institutions",
+            "research_3": "Clusters"
         },
-        "government" : {
-            "government_title" : "GOVERNMENT",
-            "government_1" : "Federal government",
-            "government_2" : "State government",
-            "government_3" : "Local government"
+        "government": {
+            "government_title": "GOVERNMENT",
+            "government_1": "Federal government",
+            "government_2": "State government",
+            "government_3": "Local government"
         },
-        "energySolutions" : {
-            "energySolutions_title" : "POWER SOLUTIONS",
-            "energySolutions_1" : "Energy-efficient lightings",
-            "energySolutions_2" : "Energy management solutions",
-            "energySolutions_3" : "Heat recovery systems",
-            "energySolutions_4" :"Heating, ventilation, air-conditioning equipmento",
-            "energySolutions_5" : "Meter boards, distribution systems for electrical building installation",
-            "energySolutions_6" : "Positioners and actuators for building engineering",
-            "energySolutions_7" : "Power generation services",
-            "energySolutions_8" : "Power-saving production technologies",
-            "energySolutions_9" : "Renewable resources",
-            "energySolutions_10" : "Research & development",
-            "energySolutions_11" : "Safety switches",
-            "energySolutions_12" : "Training & education"
+        "energySolutions": {
+            "energySolutions_title": "POWER SOLUTIONS",
+            "energySolutions_1": "Energy-efficient lightings",
+            "energySolutions_2": "Energy management solutions",
+            "energySolutions_3": "Heat recovery systems",
+            "energySolutions_4": "Heating, ventilation, air-conditioning equipmento",
+            "energySolutions_5": "Meter boards, distribution systems for electrical building installation",
+            "energySolutions_6": "Positioners and actuators for building engineering",
+            "energySolutions_7": "Power generation services",
+            "energySolutions_8": "Power-saving production technologies",
+            "energySolutions_9": "Renewable resources",
+            "energySolutions_10": "Research & development",
+            "energySolutions_11": "Safety switches",
+            "energySolutions_12": "Training & education"
         },
-        "additive" : {
-            "additive_title" : "ADDITIVE MANUFACTURING",
-            "additive_1" : "3D printing",
-            "additive_2" : "Manufacturing solutions",
-            "additive_3" : "Materials & components",
-            "additive_4" : "Quality management & metrology",
-            "additive_5" : "Rapid prototyping",
-            "additive_6" : "Research & development",
-            "additive_7" : "Solutions for additive manufacturing",
-            "additive_8" : "Training & education"
+        "additive": {
+            "additive_title": "ADDITIVE MANUFACTURING",
+            "additive_1": "3D printing",
+            "additive_2": "Manufacturing solutions",
+            "additive_3": "Materials & components",
+            "additive_4": "Quality management & metrology",
+            "additive_5": "Rapid prototyping",
+            "additive_6": "Research & development",
+            "additive_7": "Solutions for additive manufacturing",
+            "additive_8": "Training & education"
         }
     },
-    "toolkit" : {
-        "title" : "DOWNLOADABLE ADVERTISING MATERIAL",
-        "toolkit_1" : "banner 780 x 90 ITM",
-        "toolkit_2" : "Banner Linkedin ITM",
-        "toolkit_3" : "Banner Twitter ITM",
-        "toolkit_4" : "Banner Facebook ITM",
-        "toolkit_5" : "Website Banner ITM",
-        "toolkit_6" : "ITM Promotional"
+    "toolkit": {
+        "title": "DOWNLOADABLE ADVERTISING MATERIAL",
+        "toolkit_1": "banner 780 x 90 ITM",
+        "toolkit_2": "Banner Linkedin ITM",
+        "toolkit_3": "Banner Twitter ITM",
+        "toolkit_4": "Banner Facebook ITM",
+        "toolkit_5": "Website Banner ITM",
+        "toolkit_6": "ITM Promotional"
     },
-    "visitorReasons" : {
-        "title_1" : "Why Visit",
-        "title_2" : "How to optimize production towards industry 4.0?",
-        "description_1" : "Only at ITM you will be able to find the answer.",
-        "description_2" : "Participate in top educational programs focused on featured industrial sectors and their given application",
-        "description_3" : "International market leaders showcasing a complete bandwidth of automation technology, smart manufacturing, digital and smart logistics solutions",
-        "description_4" : "Visit exhibitors showcasing their latest innovations and solutions on the show floor",
-        "description_5" : "Hear from industry experts who will share insight about industry 4.0 in Mexico",
-        "description_6" : "Network with an extensive alliance of business leaders and make new connections",
-        "description_7" : "Get a general market overview of more than 160 exhibiting companies",
-        "description_8" : "Increase your productivity through individual solutions",
-        "description_9" : "Visit an international, high quality conference and workshop program"
+    "visitorReasons": {
+        "title_1": "Why Visit",
+        "title_2": "How to optimize production towards industry 4.0?",
+        "description_1": "Only at ITM you will be able to find the answer.",
+        "description_2": "Participate in top educational programs focused on featured industrial sectors and their given application",
+        "description_3": "International market leaders showcasing a complete bandwidth of automation technology, smart manufacturing, digital and smart logistics solutions",
+        "description_4": "Visit exhibitors showcasing their latest innovations and solutions on the show floor",
+        "description_5": "Hear from industry experts who will share insight about industry 4.0 in Mexico",
+        "description_6": "Network with an extensive alliance of business leaders and make new connections",
+        "description_7": "Get a general market overview of more than 160 exhibiting companies",
+        "description_8": "Increase your productivity through individual solutions",
+        "description_9": "Visit an international, high quality conference and workshop program"
     },
-    "visitorProfile" : {
-        "industry" : {
-            "title" : "Participating industries",
-            "item_1" : "Aerospace",
-            "item_2" : "Automotive",
-            "item_3" : "Electrical & electronics",
-            "item_4" : "Food & beverage",
-            "item_5" : "Healthcare",
-            "item_6" : "Infrastructure, facilities, urban solutions",
-            "item_7" : "Logistics & supply chain management",
-            "item_8" : "Machine tool industry",
-            "item_9" : "Mechanical & plant engineering",
-            "item_10" : "Packaging",
-            "item_11" : "Pharmaceutical & biotechnology",
-            "item_12" : "Process industries (steel, (petro) chemical)",
-            "item_13" : "Systems integrators"
+    "visitorProfile": {
+        "industry": {
+            "title": "Participating industries",
+            "item_1": "Aerospace",
+            "item_2": "Automotive",
+            "item_3": "Electrical & electronics",
+            "item_4": "Food & beverage",
+            "item_5": "Healthcare",
+            "item_6": "Infrastructure, facilities, urban solutions",
+            "item_7": "Logistics & supply chain management",
+            "item_8": "Machine tool industry",
+            "item_9": "Mechanical & plant engineering",
+            "item_10": "Packaging",
+            "item_11": "Pharmaceutical & biotechnology",
+            "item_12": "Process industries (steel, (petro) chemical)",
+            "item_13": "Systems integrators"
         },
-        "buyers" : {
-            "title" : "Job levels",
-            "item_1" : "Senior management, consultants, decision makers, department heads, engineers, factory planners, procurement managers, system managers, traders.",
-            "item_2" : "Regions:",
-            "item_3" : "Mexico, Central America, South America"
+        "buyers": {
+            "title": "Job levels",
+            "item_1": "Senior management, consultants, decision makers, department heads, engineers, factory planners, procurement managers, system managers, traders.",
+            "item_2": "Regions:",
+            "item_3": "Mexico, Central America, South America"
         }
     },
-    "directory" : {
-        "title" : "Digital Directory ITM 2020",
-        "name" : "Name (required)",
-        "position" : "Position (required)",
-        "company" : "Company (required)",
-        "email" : "Email (required)"
+    "directory": {
+        "title": "Digital Directory ITM 2020",
+        "name": "Name (required)",
+        "position": "Position (required)",
+        "company": "Company (required)",
+        "email": "Email (required)"
     },
-    "gallery" : {
-        "title" :"ITM GALLERY",
-        "year_1" : "2019",
-        "year_2" : "2020",
-        "year_3" : "2021",
-        "year_4" : "2022"
-    }
+    "gallery": {
+        "title": "ITM GALLERY",
+        "year_1": "2019",
+        "year_2": "2020",
+        "year_3": "2021",
+        "year_4": "2022"
+    },
+    "downloadlogos": "DOWNLOAD LOGOS"
 }

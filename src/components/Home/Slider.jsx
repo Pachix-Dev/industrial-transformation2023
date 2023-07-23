@@ -1,8 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel'
 import slideITM from '../../assets/Banners-ITM-ESP-1.webp'
-import mTech from '../../assets/M-TECH.webp'
 import bjsxaerospace from '../../assets/bjxareospace.webp'
-import oktoberfest from '../../assets/oktoberfest.webp'
+import futuristic from '../../assets/ITM-FUTURISTIC-MINDS.webp'
+
 export function Slider () {
   return (
     <div className='position-relative'>
@@ -25,10 +25,12 @@ export function Slider () {
         </Carousel.Item>
         <Carousel.Item>
           <a href='https://hfmexico.mx/MTech/' target='_blank' rel='noreferrer'>
-            <img
-              className='d-block w-100'
-              src={mTech}
-              alt='M-TECH-2023'
+            <video
+              autoPlay
+              muted loop
+              src='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
+              alt='Startup-Pitch-2023'
+              className='w-100'
             />
           </a>
         </Carousel.Item>
@@ -42,8 +44,17 @@ export function Slider () {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src={oktoberfest}
-            alt='OKTOBERFEST-DISTRITO-LEÓN-GUANAJUATO'
+            src={futuristic}
+            alt='ITM-FUTURISTIC-MINDS'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <video
+            autoPlay
+            muted loop
+            src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
+            alt='Startup-Pitch-2023'
+            className='w-100'
           />
         </Carousel.Item>
       </Carousel>

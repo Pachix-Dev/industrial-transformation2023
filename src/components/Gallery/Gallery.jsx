@@ -10,6 +10,7 @@ export function Gallery (props) {
   const onInit = () => {
     console.log('lightGallery has been initialized')
   }
+
   return (
     <>
       <LightGallery
@@ -17,7 +18,7 @@ export function Gallery (props) {
         speed={500}
         plugins={[lgThumbnail, lgZoom]}
       >
-        {props?.galleryHome.map((img, index) => {
+        {props?.galleryImgs.map((img, index) => {
           return (
             <a
               key={index}
@@ -26,12 +27,12 @@ export function Gallery (props) {
             >
               <img
                 src={img}
-                alt={`home-gallery-2022-${index}`}
+                alt={`${props.galleryName}-${index}`}
                 className='w-100 p-3'
                 loading='lazy'
               />
+              {props?.toolkitNamesImg && <p className='text-center'>{props?.toolkitNamesImg[index]}</p>}
             </a>
-
           )
         })}
       </LightGallery>

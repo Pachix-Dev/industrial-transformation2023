@@ -44,6 +44,7 @@ export function Contact () {
         <h1 className='text-center mb-5'>{t('home.contact')}</h1>
       </Contacts>
       <Container className='mt-5 mb-5'>
+        <h1 className='text-center fw-bold'>{t('contactForm.title')}</h1>
         <Form id='form-newsletter' onSubmit={handleSubmit}>
           <Form.Group className='mb-3' controlId='formBasicPassword'>
             <Form.Label>{t('home.name')}</Form.Label>

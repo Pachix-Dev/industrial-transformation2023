@@ -105,7 +105,12 @@ export function Menu () {
 
                     <NavDropdown.Item href='#action/3.2' onClick={handleClose}>{t('menu.exhibitors_9')}
                     </NavDropdown.Item>
-                    <NavDropdown.Item href='#action/3.2' onClick={handleClose}>{t('menu.exhibitors_10')}</NavDropdown.Item>
+                    <NavDropdown.Item
+                      as={Link}
+                      to='/toolkit'
+                      onClick={handleClose}
+                    >{t('menu.exhibitors_10')}
+                    </NavDropdown.Item>
                   </NavDropdown>
 
                   <NavDropdown title={t('menu.visitors')} renderMenuOnMount>
@@ -245,13 +250,15 @@ export function Menu () {
                       {t('menu.media_hub_1')}
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href='#action/3.2'
+                      as={Link}
+                      to='/gallery'
                       onClick={handleClose}
                     >
                       {t('menu.media_hub_2')}
                     </NavDropdown.Item>
                     <NavDropdown.Item
-                      href='#action/3.2'
+                      as={Link}
+                      to='/donwload-logos'
                       onClick={handleClose}
                     >
                       {t('menu.media_hub_3')}

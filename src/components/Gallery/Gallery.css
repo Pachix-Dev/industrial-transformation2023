@@ -1,3 +1,7 @@
-.lg-react-element{
-    column-count: 3;    
+.lg-react-element {
+    column-count: 3;
+}
+
+.gallery-item {
+    cursor: pointer;
 }

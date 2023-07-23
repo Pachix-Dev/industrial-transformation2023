@@ -14,6 +14,35 @@
     font-weight: bold;
 }
 
+
+.counterdown-timer div {
+    position: relative;
+
+}
+
+.counterdown-timer p {
+    position: relative;
+    top: -45%;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e8001e;
+    text-shadow: 5px 5px 7px #e8001e;
+    text-transform: uppercase;
+}
+
+/*.counterdown-timer>:last-child .timer-numbers>:last-child {
+    transform: translate(-50%, -50%);
+    transition: all 1.5s ease-in-out;
+    animation-delay: 0.2s;
+    animation: letteranim 1s infinite ease;
+}*/
+
+.timer-numbers {
+    color: black;
+    font-size: 9em;
+    font-weight: bold;
+}
+
 .home-gallery {
     background-color: black;
     text-align: center;
@@ -23,20 +52,35 @@
     color: #e00d1b;
     text-align: center;
 }
-.home-contactos{
+
+.home-contactos {
     background-image: url('bgcontactos.webp');
     background-size: cover;
-    color: white;   
+    color: white;
 }
-.home-contactos a{
+
+.home-contactos a {
     text-decoration: none;
 }
-.home-gallery-seemore{
+
+.home-gallery-seemore {
     background: linear-gradient(#565656, #262626);
     padding: 15px;
     border-radius: 25px;
     text-decoration: none;
     color: white;
     font-weight: 500;
-    
+
+}
+
+@keyframes letteranim {
+    0% {
+        opacity: 0.5;
+        filter: blur(0.9rem);
+    }
+
+    100% {
+        opacity: 1;
+        filter: blur(0.1rem);
+    }
 }

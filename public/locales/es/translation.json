@@ -41,15 +41,25 @@
         "media_hub_2": "Galeria",
         "media_hub_3": "Descargar Logotipos"
     },
-    "contactForm":{
+    "contactForm": {
+        "title": "Déjenos un comentario",
         "subject": "Asunto",
         "message": "Mensaje",
         "send": "Enviar"
     },
     "seo": {
-        "description": "Industrial Transformation MEXICO consiste en una feria que contiene un área de exposición, conferencias y un amplio programa educativo, todo esto unido por los temas generales de transformación digital en México y fabricación inteligente."
+        "home": {
+            "description": "Industrial Transformation MEXICO consiste en una feria que contiene un área de exposición, conferencias y un amplio programa educativo, todo esto unido por los temas generales de transformación digital en México y fabricación inteligente."
+        },
+        "about_us": {
+            "description": "“HANNOVER MESSE es la mayor exposición mundial de tecnología industrial y plataforma líder para la Industria 4.0. Durante la última década, hemos introducido estratégicamente la marca en mercados de todo el mundo en vías de crecimiento. México impresionó a la industria global como país invitado de honor en HANNOVER MESSE 2018."
+        }
     },
     "home": {
+        "days": "dias",
+        "hours": "horas",
+        "minutes": "minutos",
+        "seconds": "segundos",
         "registro_itm_2023": "REGISTRO ITM 2023",
         "highlights_ITM2022": "Lo mejor de Industrial Transformation México 2022",
         "sponsors": "Patrocinadores Platino",
@@ -73,197 +83,198 @@
         "email": "Correo electrónico",
         "subscription": "SUSCRIBIRSE"
     },
-    "aboutPage":{
+    "aboutPage": {
         "title": "ACERCA DE ITM",
         "description_1": "Los avances tecnológicos están redefiniendo los procesos de fabricación, las instalaciones de producción y diseño, los sistemas de distribución y las cadenas globales de suministro. Las empresas de la región reconocen que los modelos comerciales actuales ya no son sostenibles, por lo que ha llegado el momento de que las empresas comiencen, aumenten y mantengan su adopción de los procesos y soluciones de la Industria 4.0. Industrial Transformation MEXICO consiste en una feria que contiene un área de exposición, conferencias y un amplio programa educativo, todo esto unido por los temas generales de transformación digital en México y fabricación inteligente. El área de exposición presenta ocho categorías principales: Institutos de Investigación, Automatización y Robotización, Fábrica Inteligente, Manufactura Aditiva, Logística Inteligente, Soluciones de Energía, Máquina y Herramienta y Gobierno así como áreas para demostraciones en vivo y consultas individuales.",
         "description_2": "“HANNOVER MESSE es la mayor exposición mundial de tecnología industrial y plataforma líder para la Industria 4.0. Durante la última década, hemos introducido estratégicamente la marca en mercados de todo el mundo en vías de crecimiento. México impresionó a la industria global como país invitado de honor en HANNOVER MESSE 2018. Es el momento de traer a México un evento HANNOVER MESSE, el cual está hecho a medida al auge del sector industrial que vive México”, dijo Jochen Köckler, CEO de Deutsche Messe AG. “Industrial Transformation MEXICO combina las tecnologías y las soluciones industriales de líderes, con un programa de educación y una red contacto completo. Compradores de México y países vecinos, ahora tienen un evento que proporciona todas las herramientas e información que necesitan para digitalizar sus fábricas y plantas “.Industrial Transformation MEXICO será un evento interesante e inclusivo en el que las partes interesadas y los grupos objetivo se reunirán para crear redes y oportunidades de transferencia de conocimientos para el éxito empresarial."
     },
-    "background":{
+    "background": {
         "title": "México - País invitado de honor en la HANNOVER MESSE 2018",
-        "description_1" : "Con más de 172 expositores y más de 3,400 metros cuadrados, la participación de México como País invitado en HANNOVER MESSE 2018 fue un éxito rotundo y sentó las bases para nuevas oportunidades de negocios. Los pabellones pertenecientes a segmentos como: “Research & Technology”, “Industrial Supply”, “Digital Factory”, “Integrated Automation, Motion & Drive”, así como CeMAT, fueron una prueba del enorme potencial de la Industria 4.0 que se está desarrollando actualmente en México."
-    }, 
-    "exhibitorReasons" : {
-        "title" : "Por qué participar",
+        "description_1": "Con más de 172 expositores y más de 3,400 metros cuadrados, la participación de México como País invitado en HANNOVER MESSE 2018 fue un éxito rotundo y sentó las bases para nuevas oportunidades de negocios. Los pabellones pertenecientes a segmentos como: “Research & Technology”, “Industrial Supply”, “Digital Factory”, “Integrated Automation, Motion & Drive”, así como CeMAT, fueron una prueba del enorme potencial de la Industria 4.0 que se está desarrollando actualmente en México."
+    },
+    "exhibitorReasons": {
+        "title": "Por qué participar",
         "description_1": "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
-        "description_2" : "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina",
-        "description_3" : "Conoce las últimas tendencias, lanzamientos e innovaciones en la Industria 4.0 a nivel global.",
-        "description_4" : "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país.",
-        "description_5" : "Vincúlate con la red de profesionales especializados en el sector más relevante del país."
+        "description_2": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina",
+        "description_3": "Conoce las últimas tendencias, lanzamientos e innovaciones en la Industria 4.0 a nivel global.",
+        "description_4": "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país.",
+        "description_5": "Vincúlate con la red de profesionales especializados en el sector más relevante del país."
     },
-    "profile" : {
-        "title" : "Perfil de Expositor",
-        "countries" : "(Regiones: México, Estados Unidos, Canadá, Europa, Asia)",
-        "description" : "Tipos de expositores: proveedores de soluciones, proveedores de tecnología, empresas industriales, fabricantes de componentes, empresas de software, proveedores de soluciones de manufactura, empresas de servicios, empresas de formación y certificación, institutos de educación superior, instituciones de investigación, consultorías, empresas emergentes, gobierno federales, estatales y municipales, cámaras y asociaciones, medios de comunicación."
+    "profile": {
+        "title": "Perfil de Expositor",
+        "countries": "(Regiones: México, Estados Unidos, Canadá, Europa, Asia)",
+        "description": "Tipos de expositores: proveedores de soluciones, proveedores de tecnología, empresas industriales, fabricantes de componentes, empresas de software, proveedores de soluciones de manufactura, empresas de servicios, empresas de formación y certificación, institutos de educación superior, instituciones de investigación, consultorías, empresas emergentes, gobierno federales, estatales y municipales, cámaras y asociaciones, medios de comunicación."
     },
-    "audience" : {
-        "title" : "¿Qué tipo de audiencia asistirá?",
-        "description" : "Industrial Transformation MEXICO aprovecha las sinergias de la red para reunir a las partes interesadas y grupos de audiencia de todos los puntos a lo largo de la cadena de valor industrial. Esto brinda oportunidades para un networking intensivo, transferencia de conocimiento global y nuevos negocios."
+    "audience": {
+        "title": "¿Qué tipo de audiencia asistirá?",
+        "description": "Industrial Transformation MEXICO aprovecha las sinergias de la red para reunir a las partes interesadas y grupos de audiencia de todos los puntos a lo largo de la cadena de valor industrial. Esto brinda oportunidades para un networking intensivo, transferencia de conocimiento global y nuevos negocios."
     },
-    "productsCategory" : {
-        "title" : "Categoria de Productos",
-        "machine" : {
-            "machine_title" : "Máquinas-Herramientas",
-            "machine_1" : "Procesamiento de láminas de metal",
-            "machine_2" : "Tecnología de formación y separación",
-            "machine_3" : "Tecnología avanzada de soldadura, unión y fijación",
-            "machine_4" : "Sistema automatizado de soldadura",
-            "machine_5" : "Impresión 3D – manufactura aditiva",
-            "machine_6" : "Tecnología y aplicaciones láser",
-            "machine_7" : "Construcción liviana",
-            "machine_8" : "Máquinas-herramienta",
-            "machine_9" : "Dispositivos de sujeción",
-            "machine_10" : "Herramientas de corte",
-            "machine_11" : "Metrología",
-            "machine_12" : "Automatización",
-            "machine_13" : "Periféricos y otros"
+    "productsCategory": {
+        "title": "Categoria de Productos",
+        "machine": {
+            "machine_title": "Máquinas-Herramientas",
+            "machine_1": "Procesamiento de láminas de metal",
+            "machine_2": "Tecnología de formación y separación",
+            "machine_3": "Tecnología avanzada de soldadura, unión y fijación",
+            "machine_4": "Sistema automatizado de soldadura",
+            "machine_5": "Impresión 3D – manufactura aditiva",
+            "machine_6": "Tecnología y aplicaciones láser",
+            "machine_7": "Construcción liviana",
+            "machine_8": "Máquinas-herramienta",
+            "machine_9": "Dispositivos de sujeción",
+            "machine_10": "Herramientas de corte",
+            "machine_11": "Metrología",
+            "machine_12": "Automatización",
+            "machine_13": "Periféricos y otros"
         },
-        "robotization" : {
-            "robotization_title" : "Automatización, Robotización, Transmisión de poder",
-            "robotization_1" : "Sistemas de manipulación y montaje",
-            "robotization_2" : "Transmisión de energía eléctrica",
-            "robotization_3" : "Sistemas fieldbus",
-            "robotization_4" : "Procesamiento industrial de imágenes",
-            "robotization_5" : "Transmisiones lineales",
-            "robotization_6" : "Microtecnología",
-            "robotization_7" : "Controladores de marcha",
-            "robotization_8" : "Procesos de automatización",
-            "robotization_9" : "Tecnología de automatización neumática",
-            "robotization_10" : "Sistemas de integración y robótica",
-            "robotization_11" : "Sistemas y componentes de seguridad",
-            "robotization_12" : "Sensores y mecanismos de encendido",
-            "robotization_13" : "Procesos, mediciones y controles de calidad"
+        "robotization": {
+            "robotization_title": "Automatización, Robotización, Transmisión de poder",
+            "robotization_1": "Sistemas de manipulación y montaje",
+            "robotization_2": "Transmisión de energía eléctrica",
+            "robotization_3": "Sistemas fieldbus",
+            "robotization_4": "Procesamiento industrial de imágenes",
+            "robotization_5": "Transmisiones lineales",
+            "robotization_6": "Microtecnología",
+            "robotization_7": "Controladores de marcha",
+            "robotization_8": "Procesos de automatización",
+            "robotization_9": "Tecnología de automatización neumática",
+            "robotization_10": "Sistemas de integración y robótica",
+            "robotization_11": "Sistemas y componentes de seguridad",
+            "robotization_12": "Sensores y mecanismos de encendido",
+            "robotization_13": "Procesos, mediciones y controles de calidad"
         },
-        "manufacture" : {
-            "manufacture_title" : "Manufactura Digital y Tic",
-            "manufacture_1" : "Sistemas de gestión de activos",
-            "manufacture_2" : "Administración de big data",
-            "manufacture_3" : "Cloud computing",
-            "manufacture_4" : "Desarrollo y diseño de producto",
-            "manufacture_5" : "Industria 4.0 – IoT",
-            "manufacture_6" : "ERP",
-            "manufacture_7" : "Aprendizaje automatizado",
-            "manufacture_8" : "Sistemas de ejecución de manufactura (MES)",
-            "manufacture_9" : "PCM",
-            "manufacture_10" : "Tecnología de seguridad",
-            "manufacture_11" : "Realidad virtual y aumentada",
-            "manufacture_12" : "Manufactura inteligente"
+        "manufacture": {
+            "manufacture_title": "Manufactura Digital y Tic",
+            "manufacture_1": "Sistemas de gestión de activos",
+            "manufacture_2": "Administración de big data",
+            "manufacture_3": "Cloud computing",
+            "manufacture_4": "Desarrollo y diseño de producto",
+            "manufacture_5": "Industria 4.0 – IoT",
+            "manufacture_6": "ERP",
+            "manufacture_7": "Aprendizaje automatizado",
+            "manufacture_8": "Sistemas de ejecución de manufactura (MES)",
+            "manufacture_9": "PCM",
+            "manufacture_10": "Tecnología de seguridad",
+            "manufacture_11": "Realidad virtual y aumentada",
+            "manufacture_12": "Manufactura inteligente"
         },
-        "logistics" : {
-            "logistics_title" : "Logística Inteligente",
-            "logistics_1" : "Vehículos guiados automáticamente",
-            "logistics_2" : "Sistemas de transporte",
-            "logistics_3" : "Sistemas de identificación y etiquetado",
-            "logistics_4" : "Plataformas de levantamiento",
-            "logistics_5" : "TI en logística",
-            "logistics_6" : "Sistemas de embalaje",
-            "logistics_7" : "Sistemas de anaquel",
-            "logistics_8" : "Sistemas de manejo automatizados",
-            "logistics_9" : "Equipos de almacenamiento y recuperación de anaquel",
-            "logistics_10" : "Sistemas de administración para la cadena de suministros",
-            "logistics_11" : "Sistemas de preconfiguración para logística",
-            "logistics_12" : "Sistemas de administración de almacén"
+        "logistics": {
+            "logistics_title": "Logística Inteligente",
+            "logistics_1": "Vehículos guiados automáticamente",
+            "logistics_2": "Sistemas de transporte",
+            "logistics_3": "Sistemas de identificación y etiquetado",
+            "logistics_4": "Plataformas de levantamiento",
+            "logistics_5": "TI en logística",
+            "logistics_6": "Sistemas de embalaje",
+            "logistics_7": "Sistemas de anaquel",
+            "logistics_8": "Sistemas de manejo automatizados",
+            "logistics_9": "Equipos de almacenamiento y recuperación de anaquel",
+            "logistics_10": "Sistemas de administración para la cadena de suministros",
+            "logistics_11": "Sistemas de preconfiguración para logística",
+            "logistics_12": "Sistemas de administración de almacén"
         },
-        "research" : {
-            "research_title" : "Instituciones de Investigación",
-            "research_1" : "Universidades",
-            "research_2" : "Instituciones de I+D",
-            "research_3" : "Clústeres"
+        "research": {
+            "research_title": "Instituciones de Investigación",
+            "research_1": "Universidades",
+            "research_2": "Instituciones de I+D",
+            "research_3": "Clústeres"
         },
-        "government" : {
-            "government_title" : "Gobierno",
-            "government_1" : "Gobierno federal",
-            "government_2" : "Gobierno estatal",
-            "government_3" : "Gobierno loca"
+        "government": {
+            "government_title": "Gobierno",
+            "government_1": "Gobierno federal",
+            "government_2": "Gobierno estatal",
+            "government_3": "Gobierno loca"
         },
-        "energySolutions" : {
-            "energySolutions_title" : "Soluciones de Energía",
-            "energySolutions_1" : "Iluminaciones energéticamente eficientes",
-            "energySolutions_2" : "Soluciones de gestión energética",
-            "energySolutions_3" : "Sistemas de recuperación de calor",
-            "energySolutions_4" :"Equipos de calefacción, ventilación, aire acondicionado",
-            "energySolutions_5" : "Tableros de medida, sistemas de distribución para la instalación eléctrica de edificios",
-            "energySolutions_6" : "Posicionadores y actuadores para ingeniería de edificios",
-            "energySolutions_7" : "Servicios de generación de energía",
-            "energySolutions_8" : "Tecnologías de producción que ahorran energía",
-            "energySolutions_9" : "Recursos renovables",
-            "energySolutions_10" : "Investigación y desarrollo",
-            "energySolutions_11" : "Interruptores de seguridad",
-            "energySolutions_12" : "Entrenamiento y educación"
+        "energySolutions": {
+            "energySolutions_title": "Soluciones de Energía",
+            "energySolutions_1": "Iluminaciones energéticamente eficientes",
+            "energySolutions_2": "Soluciones de gestión energética",
+            "energySolutions_3": "Sistemas de recuperación de calor",
+            "energySolutions_4": "Equipos de calefacción, ventilación, aire acondicionado",
+            "energySolutions_5": "Tableros de medida, sistemas de distribución para la instalación eléctrica de edificios",
+            "energySolutions_6": "Posicionadores y actuadores para ingeniería de edificios",
+            "energySolutions_7": "Servicios de generación de energía",
+            "energySolutions_8": "Tecnologías de producción que ahorran energía",
+            "energySolutions_9": "Recursos renovables",
+            "energySolutions_10": "Investigación y desarrollo",
+            "energySolutions_11": "Interruptores de seguridad",
+            "energySolutions_12": "Entrenamiento y educación"
         },
-        "additive" : {
-            "additive_title" : "Manufactura Aditiva",
-            "additive_1" : "Impresión 3D",
-            "additive_2" : "Soluciones de manufactura",
-            "additive_3" : "Materiales y componentes",
-            "additive_4" : "Gestión de calidad y metrología",
-            "additive_5" : "Creación rápida de prototipos",
-            "additive_6" : "Investigación y desarrollo",
-            "additive_7" : "Soluciones para la manufactura aditiva",
-            "additive_8" : "Entrenamiento y educación"
+        "additive": {
+            "additive_title": "Manufactura Aditiva",
+            "additive_1": "Impresión 3D",
+            "additive_2": "Soluciones de manufactura",
+            "additive_3": "Materiales y componentes",
+            "additive_4": "Gestión de calidad y metrología",
+            "additive_5": "Creación rápida de prototipos",
+            "additive_6": "Investigación y desarrollo",
+            "additive_7": "Soluciones para la manufactura aditiva",
+            "additive_8": "Entrenamiento y educación"
         }
     },
-    "toolkit" : {
-        "title" : "MATERIAL PUBLICITARIO DESCARGABLE",
-        "toolkit_1" : "banner 780 x 90 ITM",
-        "toolkit_2" : "Banner Linkedin ITM",
-        "toolkit_3" : "Banner Twitter ITM",
-        "toolkit_4" : "Banner Facebook ITM",
-        "toolkit_5" : "Banner Sitio Web ITM",
-        "toolkit_6" : "Promocional ITM"
+    "toolkit": {
+        "title": "MATERIAL PUBLICITARIO DESCARGABLE",
+        "toolkit_1": "banner 780 x 90 ITM",
+        "toolkit_2": "Banner Linkedin ITM",
+        "toolkit_3": "Banner Twitter ITM",
+        "toolkit_4": "Banner Facebook ITM",
+        "toolkit_5": "Banner Sitio Web ITM",
+        "toolkit_6": "Promocional ITM"
     },
-    "visitorReasons" : {
-        "title_1" : "Por qué Visitar",
-        "title_2" : "¿Cómo optimizar la producción con la industria 4.0?",
-        "description_1" : "En ITM podrás encontrar la respuesta.",
-        "description_2" : "Participar en los mejores programas educativos enfocados a sectores industriales y su aplicación.",
-        "description_3" : "Líderes internacionales del mercado muestran un completo conocimiento de la tecnología de automatización, fabricación inteligente, soluciones de logística inteligente y digital.",
-        "description_4" : "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
-        "description_5" : "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina.",
-        "description_6" : "Vincúlate con la red de profesionales especializados en el sector más relevante del país.",
-        "description_7" : "Conoce las últimas tendencias, lanzamientos e innovaciones en Industria 4.0 a nivel global.",
-        "description_8" : "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país."
+    "visitorReasons": {
+        "title_1": "Por qué Visitar",
+        "title_2": "¿Cómo optimizar la producción con la industria 4.0?",
+        "description_1": "En ITM podrás encontrar la respuesta.",
+        "description_2": "Participar en los mejores programas educativos enfocados a sectores industriales y su aplicación.",
+        "description_3": "Líderes internacionales del mercado muestran un completo conocimiento de la tecnología de automatización, fabricación inteligente, soluciones de logística inteligente y digital.",
+        "description_4": "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
+        "description_5": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina.",
+        "description_6": "Vincúlate con la red de profesionales especializados en el sector más relevante del país.",
+        "description_7": "Conoce las últimas tendencias, lanzamientos e innovaciones en Industria 4.0 a nivel global.",
+        "description_8": "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país."
     },
-    "visitorProfile" : {
-        "industry" : {
-            "title" : "Compradores de las siguientes industrias:",
-            "item_1" : "Aeroespacial",
-            "item_2" : "Automotriz",
-            "item_3" : "Electricidad y electrónica",
-            "item_4" : "Alimentos y bebidas",
-            "item_5" : "Cuidado de la salud",
-            "item_6" : "Facilidades e infraestructura y soluciones urbanas",
-            "item_7" : "Logística y cadena de suministros",
-            "item_8" : "Industria de Maquinaria de herramienta",
-            "item_9" : "Ingeniería de plantas y mecánica",
-            "item_10" : "Embalaje",
-            "item_11" : "Biotecnología y farmacéutica",
-            "item_12" : "Procesos industriales (acero, (petróleo) y químico)",
-            "item_13" : "Sistemas integradores"
+    "visitorProfile": {
+        "industry": {
+            "title": "Compradores de las siguientes industrias:",
+            "item_1": "Aeroespacial",
+            "item_2": "Automotriz",
+            "item_3": "Electricidad y electrónica",
+            "item_4": "Alimentos y bebidas",
+            "item_5": "Cuidado de la salud",
+            "item_6": "Facilidades e infraestructura y soluciones urbanas",
+            "item_7": "Logística y cadena de suministros",
+            "item_8": "Industria de Maquinaria de herramienta",
+            "item_9": "Ingeniería de plantas y mecánica",
+            "item_10": "Embalaje",
+            "item_11": "Biotecnología y farmacéutica",
+            "item_12": "Procesos industriales (acero, (petróleo) y químico)",
+            "item_13": "Sistemas integradores"
         },
-        "buyers" : {
-            "title" : "Perfil de los compradores",
-            "item_1" : "Directivos",
-            "item_2" : "Consultores",
-            "item_3" : "Tomadores de decisiones",
-            "item_4" : "Líderes de departamento",
-            "item_5" : "Ingenieros",
-            "item_6" : "Planificadores de planta",
-            "item_7" : "Directores de compra",
-            "item_8" : "Directores administrativos"
+        "buyers": {
+            "title": "Perfil de los compradores",
+            "item_1": "Directivos",
+            "item_2": "Consultores",
+            "item_3": "Tomadores de decisiones",
+            "item_4": "Líderes de departamento",
+            "item_5": "Ingenieros",
+            "item_6": "Planificadores de planta",
+            "item_7": "Directores de compra",
+            "item_8": "Directores administrativos"
         }
     },
-    "directory" : {
-        "title" : "Directorio Digital ITM 2020",
-        "name" : "Nombre (requerido)",
-        "position" : "Puesto (requerido)",
-        "company" : "Compañía (requerido)",
-        "email" : "Correo electrónico (requerido)"
+    "directory": {
+        "title": "Directorio Digital ITM 2020",
+        "name": "Nombre (requerido)",
+        "position": "Puesto (requerido)",
+        "company": "Compañía (requerido)",
+        "email": "Correo electrónico (requerido)"
     },
-    "gallery" : {
-        "title" :"GALERÍA ITM",
-        "year_1" : "2019",
-        "year_2" : "2020",
-        "year_3" : "2021",
-        "year_4" : "2022"
-    }
+    "gallery": {
+        "title": "GALERÍA ITM",
+        "year_1": "2019",
+        "year_2": "2020",
+        "year_3": "2021",
+        "year_4": "2022"
+    },
+    "downloadlogos": "DESCARGA DE LOGOTIPOS"
 }
