@@ -19,7 +19,28 @@ const gallery2019 = [
   '/gallery/home/homegaleria2022_3.webp',
   '/gallery/home/homegaleria2022_4.webp',
   '/gallery/home/homegaleria2022_5.webp',
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/home/homegaleria2022_4.webp',
+  '/gallery/home/homegaleria2022_5.webp',
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/home/homegaleria2022_4.webp',
+  '/gallery/home/homegaleria2022_5.webp',
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/home/homegaleria2022_4.webp',
+  '/gallery/home/homegaleria2022_5.webp',
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/home/homegaleria2022_5.webp',
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/home/homegaleria2022_4.webp',
+  '/gallery/home/homegaleria2022_5.webp',
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/home/homegaleria2022_4.webp',
+  '/gallery/home/homegaleria2022_5.webp',
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/home/homegaleria2022_4.webp',
+  '/gallery/home/homegaleria2022_5.webp',
   '/gallery/home/homegaleria2022_6.webp'
+
 ]
 
 const gallery2020 = [
