@@ -77,6 +77,7 @@ const toolkit = [
   '/gallery/toolkit/bannerITM-toolkit5.webp',
   '/gallery/toolkit/bannerITM-toolkit6.webp'
 ]
+
 const toolkitNamesImg = [
   'Banner 780 X 90 ITM',
   'Banner Linkedin ITM',

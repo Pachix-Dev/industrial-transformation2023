@@ -9,7 +9,7 @@ import { useState } from 'react'
 import { Pagination, Row } from 'react-bootstrap'
 
 export function Gallery (props) {
-  const itemsPerPage = 9
+  const itemsPerPage = 12
   const [activePage, setActivePage] = useState(1)
 
   // Calculate total number of pages

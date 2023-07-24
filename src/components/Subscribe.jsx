@@ -26,11 +26,12 @@ export function Subscribe () {
       const formData = Object.fromEntries(new window.FormData(event.target))
       try {
         const res = await axios.post('https://industrialtransformation.mx/newsletter/recaptchaValidator.php', { token, formData })
-        if (res.data.status) {
+        console.log(res)
+        /* if (res.data.status) {
           setMessage('Your are subscribe now!!')
         } else {
           setMessage('Sorry we couldn\'t verify you are not robot try again...')
-        }
+        } */
       } catch (error) {
         console.log(error)
       }
