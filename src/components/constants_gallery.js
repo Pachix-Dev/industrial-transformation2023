@@ -14,6 +14,7 @@ const gallery2019 = [
 
 const gallery2020 = [
   '/gallery/2020/itmgalery-2020.webp'
+
 ]
 
 const gallery2021 = [
