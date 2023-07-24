@@ -52,11 +52,13 @@ export function CounterDown () {
     )
   })
   return (
-    <Container className='mt-5 mb-5 text-center'>
-      <h1 className='fw-bold' style={{ color: '#e8001e' }}>Industrial Tranformation {year}</h1>
+    <Container className='mt-5 mb-5 text-center home-counterdown-timer'>
+
       <Row className='counterdown-timer pb-3'>
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
       </Row>
+      <h1 className='fw-bold mb-5' style={{ color: 'white' }}>Days before ITM {year}</h1>
+
       <a className='home-register' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>{t('home.registro_itm_2023')}</a>
     </Container>
   )

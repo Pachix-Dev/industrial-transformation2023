@@ -51,9 +51,19 @@ export function Home () {
   return (
     <>
 
-      <CounterDown />
+      <div className='home-counter-video'>
+        <CounterDown />
+        <div className='position-absolute top-0'>
+          <video
+            autoPlay
+            muted loop
+            src='/VIDEO COUNTDOWN ITM 2023.webm'
+            alt='Startup-Pitch-2023'
+            className='w-100'
+          />
+        </div>
+      </div>
       <Slider />
-
       <Container className='home mt-5'>
         <h3>{t('home.highlights_ITM2022')}</h3>
         <Row>

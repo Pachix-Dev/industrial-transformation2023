@@ -5,7 +5,7 @@ import futuristic from '../../assets/ITM-FUTURISTIC-MINDS.webp'
 
 export function Slider () {
   return (
-    <div className='position-relative'>
+    <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
         <Carousel.Item>
           <img

@@ -22,7 +22,7 @@ import { WhyExhibit } from './components/WhyExhibit/WhyExhibit'
 import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile'
 import { AudienceGroups } from './components/AudienceGroups/AudienceGroups'
 import { ProductsCategory } from './components/ProductsCategory/ProductsCategory'
-
+import './assets/fonts/stylesheet.css'
 function App () {
   const { t } = useTranslation()
   return (
