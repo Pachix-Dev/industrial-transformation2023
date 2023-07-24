@@ -83,18 +83,18 @@
         "description_5" : "Vincúlate con la red de profesionales especializados en el sector más relevante del país."
     },
     "profile" : {
-        "title" : "Perfil de Expositor",
+        "title" : "PERFIL DEL EXPOSITOR",
         "countries" : "(Regiones: México, Estados Unidos, Canadá, Europa, Asia)",
         "description" : "Tipos de expositores: proveedores de soluciones, proveedores de tecnología, empresas industriales, fabricantes de componentes, empresas de software, proveedores de soluciones de manufactura, empresas de servicios, empresas de formación y certificación, institutos de educación superior, instituciones de investigación, consultorías, empresas emergentes, gobierno federales, estatales y municipales, cámaras y asociaciones, medios de comunicación."
     },
     "audience" : {
-        "title" : "¿Qué tipo de audiencia asistirá?",
+        "title" : "¿QUÉ TIPO DE AUDIENCIA ASISTIRÁ?",
         "description" : "Industrial Transformation MEXICO aprovecha las sinergias de la red para reunir a las partes interesadas y grupos de audiencia de todos los puntos a lo largo de la cadena de valor industrial. Esto brinda oportunidades para un networking intensivo, transferencia de conocimiento global y nuevos negocios."
     },
     "productsCategory" : {
-        "title" : "Categoria de Productos",
+        "title" : "CATEGORÍA DE PRODUCTOS",
         "machine" : {
-            "machine_title" : "Máquinas-Herramientas",
+            "machine_title" : "MÁQUINAS-HERRAMIENTAS",
             "machine_1" : "Procesamiento de láminas de metal",
             "machine_2" : "Tecnología de formación y separación",
             "machine_3" : "Tecnología avanzada de soldadura, unión y fijación",
@@ -110,7 +110,7 @@
             "machine_13" : "Periféricos y otros"
         },
         "robotization" : {
-            "robotization_title" : "Automatización, Robotización, Transmisión de poder",
+            "robotization_title" : "AUTOMATIZACIÓN, ROBOTIZACIÓN Y TRANSMISIÓN DE PODER",
             "robotization_1" : "Sistemas de manipulación y montaje",
             "robotization_2" : "Transmisión de energía eléctrica",
             "robotization_3" : "Sistemas fieldbus",
@@ -126,7 +126,7 @@
             "robotization_13" : "Procesos, mediciones y controles de calidad"
         },
         "manufacture" : {
-            "manufacture_title" : "Manufactura Digital y Tic",
+            "manufacture_title" : "MANUFACTURA DIGITAL Y TIC",
             "manufacture_1" : "Sistemas de gestión de activos",
             "manufacture_2" : "Administración de big data",
             "manufacture_3" : "Cloud computing",
@@ -141,7 +141,7 @@
             "manufacture_12" : "Manufactura inteligente"
         },
         "logistics" : {
-            "logistics_title" : "Logística Inteligente",
+            "logistics_title" : "LOGÍSTICA INTELIGENTE",
             "logistics_1" : "Vehículos guiados automáticamente",
             "logistics_2" : "Sistemas de transporte",
             "logistics_3" : "Sistemas de identificación y etiquetado",
@@ -156,19 +156,19 @@
             "logistics_12" : "Sistemas de administración de almacén"
         },
         "research" : {
-            "research_title" : "Instituciones de Investigación",
+            "research_title" : "INSTITUCIONES DE INVESTIGACIÓN",
             "research_1" : "Universidades",
             "research_2" : "Instituciones de I+D",
             "research_3" : "Clústeres"
         },
         "government" : {
-            "government_title" : "Gobierno",
+            "government_title" : "GOBIERNO",
             "government_1" : "Gobierno federal",
             "government_2" : "Gobierno estatal",
             "government_3" : "Gobierno loca"
         },
         "energySolutions" : {
-            "energySolutions_title" : "Soluciones de Energía",
+            "energySolutions_title" : "SOLUCIONES DE ENERGÍA",
             "energySolutions_1" : "Iluminaciones energéticamente eficientes",
             "energySolutions_2" : "Soluciones de gestión energética",
             "energySolutions_3" : "Sistemas de recuperación de calor",
@@ -183,7 +183,7 @@
             "energySolutions_12" : "Entrenamiento y educación"
         },
         "additive" : {
-            "additive_title" : "Manufactura Aditiva",
+            "additive_title" : "MANUFACTURA ADITIVA",
             "additive_1" : "Impresión 3D",
             "additive_2" : "Soluciones de manufactura",
             "additive_3" : "Materiales y componentes",

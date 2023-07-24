@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './Background.css'
 import infoEspanol from '../../assets/InfoEspanol.webp'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import bgwebsite from '../../assets/BannersWebSiteCita2.webp'
 export function Background () {
   const { t } = useTranslation()

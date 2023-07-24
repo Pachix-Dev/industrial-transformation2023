@@ -8,6 +8,13 @@ import { Home } from './components/Home/Home'
 import { Footer } from './components/Footer/Footer'
 import { AboutUs } from './components/AboutUS/AboutUs'
 import { Background } from './components/Background/Background'
+import { WhyExhibit } from './components/WhyExhibit/WhyExhibit'
+import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile'
+import { AudienceGroups } from './components/AudienceGroups/AudienceGroups'
+import { ProductsCategory } from './components/ProductsCategory/ProductsCategory'
+import { Toolkit } from './components/Toolkit/Toolkit'
+import { WhyVisit } from './components/WhyVisit/WhyVisit'
+
 function App () {
   const { t } = useTranslation()
   return (
@@ -39,6 +46,54 @@ function App () {
           element={
             <>
               <Background />
+            </>
+          }
+        />
+        <Route
+          path='/why-exhibit'
+          element={
+            <>
+              <WhyExhibit />
+            </>
+          }
+        />
+        <Route
+          path='/exhibitor-profile'
+          element={
+            <>
+              <ExhibitorProfile />
+            </>
+          }
+        />
+        <Route
+          path='/audience-groups'
+          element={
+            <>
+              <AudienceGroups />
+            </>
+          }
+        />
+        <Route
+          path='/products-category'
+          element={
+            <>
+              <ProductsCategory />
+            </>
+          }
+        />
+        <Route
+          path='/toolkit'
+          element={
+            <>
+              <Toolkit />
+            </>
+          }
+        />
+        <Route
+          path='/why-visit'
+          element={
+            <>
+              <WhyVisit />
             </>
           }
         />
