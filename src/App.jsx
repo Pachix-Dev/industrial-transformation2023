@@ -8,12 +8,16 @@ import { Home } from './components/Home/Home'
 import { Footer } from './components/Footer/Footer'
 import { AboutUs } from './components/AboutUS/AboutUs'
 import { Background } from './components/Background/Background'
-import { WhyExhibit } from './components/WhyExhibit/WhyExhibit'
-import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile'
-import { AudienceGroups } from './components/AudienceGroups/AudienceGroups'
-import { ProductsCategory } from './components/ProductsCategory/ProductsCategory'
-import { Toolkit } from './components/Toolkit/Toolkit'
+import { Contact } from './components/Contact/Contact'
 import { WhyVisit } from './components/WhyVisit/WhyVisit'
+import { VisitorProfle } from './components/VisitorProfile/VisitorProfile'
+import { GalleryPage } from './components/GalleryPage/GalleryPage'
+import { Container } from 'react-bootstrap'
+
+import { gallery2019, gallery2020, gallery2021, gallery2022 } from './components/constants_gallery'
+import { Gallery } from './components/Gallery/Gallery'
+import { DonwLoadLogos } from './components/DonwloadLogos/DonwLoadLogos'
+import { Toolkit } from './components/Toolkit/Toolkit'
 
 function App () {
   const { t } = useTranslation()
@@ -34,7 +38,7 @@ function App () {
           }
         />
         <Route
-          path='/about-us'
+          path='about-us'
           element={
             <>
               <AboutUs />
@@ -42,7 +46,7 @@ function App () {
           }
         />
         <Route
-          path='/background'
+          path='background'
           element={
             <>
               <Background />
@@ -50,51 +54,76 @@ function App () {
           }
         />
         <Route
-          path='/why-exhibit'
+          path='contact'
           element={
             <>
-              <WhyExhibit />
+              <Contact />
             </>
           }
         />
         <Route
-          path='/exhibitor-profile'
-          element={
-            <>
-              <ExhibitorProfile />
-            </>
-          }
-        />
-        <Route
-          path='/audience-groups'
-          element={
-            <>
-              <AudienceGroups />
-            </>
-          }
-        />
-        <Route
-          path='/products-category'
-          element={
-            <>
-              <ProductsCategory />
-            </>
-          }
-        />
-        <Route
-          path='/toolkit'
-          element={
-            <>
-              <Toolkit />
-            </>
-          }
-        />
-        <Route
-          path='/why-visit'
+          path='why-visit'
           element={
             <>
               <WhyVisit />
             </>
+          }
+        />
+        <Route
+          path='visitor-profile'
+          element={
+            <>
+              <VisitorProfle />
+            </>
+          }
+        />
+        <Route
+          path='toolkit'
+          element={
+            <Toolkit />
+          }
+        />
+        <Route path='gallery' element={<GalleryPage />} />
+        <Route
+          path='galery-itm-2019'
+          element={
+            <Container className='mt-5 mb-5'>
+              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2019</h1>
+              <Gallery galleryImgs={gallery2019} galleryName='gallery-itm-2019' />
+            </Container>
+          }
+        />
+        <Route
+          path='galery-itm-2020'
+          element={
+            <Container className='mt-5 mb-5'>
+              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2020</h1>
+              <Gallery galleryImgs={gallery2020} galleryName='gallery-itm-2020' />
+            </Container>
+          }
+        />
+        <Route
+          path='galery-itm-2021'
+          element={
+            <Container className='mt-5 mb-5'>
+              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2021</h1>
+              <Gallery galleryImgs={gallery2021} galleryName='gallery-itm-2021' />
+            </Container>
+          }
+        />
+        <Route
+          path='galery-itm-2022'
+          element={
+            <Container className='mt-5 mb-5'>
+              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2022</h1>
+              <Gallery galleryImgs={gallery2022} galleryName='gallery-itm-2022' />
+            </Container>
+          }
+        />
+        <Route
+          path='donwload-logos'
+          element={
+            <DonwLoadLogos />
           }
         />
       </Routes>

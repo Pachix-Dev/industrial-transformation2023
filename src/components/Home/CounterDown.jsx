@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { Container } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 
 export function CounterDown () {
@@ -38,17 +38,25 @@ export function CounterDown () {
     }
 
     timerComponents.push(
-      <span key={interval}>
-        {timeLeft[interval]} {interval}{' '}
-      </span>
+      <Col md={3} xs={6} key={interval}>
+        <div className='timer-numbers'>
+          <span>{timeLeft[interval]}</span>
+        </div>
+        <p className='timer-text'>
+          {interval === 'days' ? t('home.days') : ''}
+          {interval === 'hours' ? t('home.hours') : ''}
+          {interval === 'minutes' ? t('home.minutes') : ''}
+          {interval === 'seconds' ? t('home.seconds') : ''}
+        </p>
+      </Col>
     )
   })
   return (
     <Container className='mt-5 mb-5 text-center'>
-      <h1>Industrial Tranformation {year} Countdown</h1>
-      <p className='pb-3'>
+      <h1 className='fw-bold' style={{ color: '#e8001e' }}>Industrial Tranformation {year}</h1>
+      <Row className='counterdown-timer pb-3'>
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
-      </p>
+      </Row>
       <a className='home-register' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>{t('home.registro_itm_2023')}</a>
     </Container>
   )

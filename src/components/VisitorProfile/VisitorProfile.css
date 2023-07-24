@@ -1,0 +1,14 @@
+.visitorprofile-parallax {
+    background: url('/bgVisitorProfile.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.visitorprofile-parallax-two {
+    background: url('/bgVisitorProfile2.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    min-height: 500px;
+}

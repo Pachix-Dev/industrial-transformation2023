@@ -1,3 +1,31 @@
-.lg-react-element{
-    column-count: 3;    
+.lg-react-element {
+    column-count: 3;
+}
+
+.gallery-item {
+    cursor: pointer;
+}
+
+.gallery .pagination {
+    justify-content: end;
+}
+
+.pagination>li>a {
+    background-color: white;
+    color: black;
+}
+
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination>.active>span {
+    color: white;
+    background-color: #e8001e !Important;
+    border: solid 1px black !Important;
 }

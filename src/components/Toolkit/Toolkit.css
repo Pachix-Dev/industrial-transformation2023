@@ -1,8 +1,9 @@
-.title-toolkit{
-    font-weight: 700;
-    color: #e00d1b;
+.lg-react-element {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 
-.toolkit-gallery{
-    height: 800px;
+.lg-react-element a {
+    text-decoration: none;
+    color: gray;
 }
