@@ -18,6 +18,10 @@ import { gallery2019, gallery2020, gallery2021, gallery2022 } from './components
 import { Gallery } from './components/Gallery/Gallery'
 import { DonwLoadLogos } from './components/DonwloadLogos/DonwLoadLogos'
 import { Toolkit } from './components/Toolkit/Toolkit'
+import { WhyExhibit } from './components/WhyExhibit/WhyExhibit'
+import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile'
+import { AudienceGroups } from './components/AudienceGroups/AudienceGroups'
+import { ProductsCategory } from './components/ProductsCategory/ProductsCategory'
 
 function App () {
   const { t } = useTranslation()
@@ -66,6 +70,38 @@ function App () {
           element={
             <>
               <WhyVisit />
+            </>
+          }
+        />
+        <Route
+          path='why-exibit'
+          element={
+            <>
+              <WhyExhibit />
+            </>
+          }
+        />
+        <Route
+          path='exibitor-profile'
+          element={
+            <>
+              <ExhibitorProfile />
+            </>
+          }
+        />
+        <Route
+          path='key-audience-groups'
+          element={
+            <>
+              <AudienceGroups />
+            </>
+          }
+        />
+        <Route
+          path='products-category'
+          element={
+            <>
+              <ProductsCategory />
             </>
           }
         />

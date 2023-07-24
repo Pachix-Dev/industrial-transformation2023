@@ -46,8 +46,8 @@ export function Menu () {
 
                   <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount>
                     <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
-                    <NavDropdown.Item href='#action/3.2' onClick={handleClose}>{t('menu.exhibitors_2')}</NavDropdown.Item>
-                    <NavDropdown.Item href='#action/3.2' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to='/why-exibit' onClick={handleClose}>{t('menu.exhibitors_2')}</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
 
                     <NavDropdown.Item
                       href={i18n.language === 'en'
@@ -97,13 +97,18 @@ export function Menu () {
                     </NavDropdown.Item>
 
                     <NavDropdown.Item
-                      href='#action/3.2'
+                      as={Link}
+                      to='key-audience-groups'
                       onClick={handleClose}
                     >
                       {t('menu.exhibitors_8')}
                     </NavDropdown.Item>
 
-                    <NavDropdown.Item href='#action/3.2' onClick={handleClose}>{t('menu.exhibitors_9')}
+                    <NavDropdown.Item
+                      as={Link}
+                      to='products-category'
+                      onClick={handleClose}
+                    >{t('menu.exhibitors_9')}
                     </NavDropdown.Item>
                     <NavDropdown.Item
                       as={Link}
