@@ -8,65 +8,19 @@ const galleryHome = [
 ]
 
 const gallery2019 = [
-  '/gallery/2019/itmgalery-2019.webp',
-  '/gallery/home/homegaleria2022_2.webp',
-  '/gallery/home/homegaleria2022_3.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/2019/itmgalery-2019.webp',
-  '/gallery/home/homegaleria2022_2.webp',
-  '/gallery/home/homegaleria2022_3.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp'
+  '/gallery/2019/itmgalery-2019.webp'
 
 ]
 
 const gallery2020 = [
-  '/gallery/home/homegaleria2022_1.webp',
-  '/gallery/home/homegaleria2022_2.webp',
-  '/gallery/home/homegaleria2022_3.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp'
+  '/gallery/2020/itmgalery-2020.webp'
 ]
 
 const gallery2021 = [
-  '/gallery/home/homegaleria2022_1.webp',
-  '/gallery/home/homegaleria2022_2.webp',
-  '/gallery/home/homegaleria2022_3.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp'
+  '/gallery/2021/itmgalery-2021.webp'
 ]
 const gallery2022 = [
-  '/gallery/home/homegaleria2022_1.webp',
-  '/gallery/home/homegaleria2022_2.webp',
-  '/gallery/home/homegaleria2022_3.webp',
-  '/gallery/home/homegaleria2022_4.webp',
-  '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp'
+  '/gallery/2022/itmgalery-2022.webp'
 ]
 
 const toolkit = [

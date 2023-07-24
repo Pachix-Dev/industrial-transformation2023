@@ -24,10 +24,6 @@ export function Gallery (props) {
     setActivePage(page)
   }
 
-  const onInit = () => {
-    console.log('lightGallery has been initialized')
-  }
-
   return (
     <>
       {
@@ -60,13 +56,12 @@ export function Gallery (props) {
       }
 
       <LightGallery
-        onInit={onInit}
         speed={500}
         plugins={[lgThumbnail, lgZoom]}
       >
         {currentItems.map((img, index) => {
           return (
-            <a
+            <div
               key={index}
               data-src={img}
               className='gallery-item'
@@ -78,7 +73,7 @@ export function Gallery (props) {
                 loading='lazy'
               />
               {props?.toolkitNamesImg && <p className='text-center'>{props?.toolkitNamesImg[index]}</p>}
-            </a>
+            </div>
           )
         })}
       </LightGallery>
