@@ -20,7 +20,6 @@ jobs:
         server: ftp.industrialtransformation.mx
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/
-        path: './dist'
+        server-dir: /public_html/        
         publish_dir: ./dist
         exclude: |        
