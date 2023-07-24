@@ -54,7 +54,7 @@
 }
 
 .home-contactos {
-    background-image: url('bgcontactos.webp');
+    background-image: url('/bgcontactos.webp');
     background-size: cover;
     color: white;
 }
