@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/newsletter/",
+    "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -33,5 +33,6 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/standard/eslintrc.json"
-  }
+  },
+  "homepage": "https://industrialtransformation.mx"
 }
