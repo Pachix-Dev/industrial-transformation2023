@@ -52,8 +52,7 @@ export function CounterDown () {
     )
   })
   return (
-    <Container className='mt-5 mb-5 text-center home-counterdown-timer'>
-
+    <Container className='mt-2 mb-5 text-center home-counterdown-timer'>
       <Row className='counterdown-timer pb-3'>
         {timerComponents.length ? timerComponents : <span>Time's up!</span>}
       </Row>

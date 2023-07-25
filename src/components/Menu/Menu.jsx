@@ -19,7 +19,7 @@ export function Menu () {
   return (
     <>
 
-      <Container fluid className='mt-2'>
+      <Container fluid className='mt-2 menu-wrapper-main'>
         <div className='language-option'>
           <img src={iconworld} width={19} height={19} alt='languages-world' />
           <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'grey' : '' }}>Es</button>

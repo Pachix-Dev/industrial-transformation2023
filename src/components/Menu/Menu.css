@@ -1,3 +1,7 @@
+.menu-wrapper-main{
+    position: absolute;
+    z-index: 9;
+}
 .nav-item:hover .dropdown-menu {
     display: block !important;
     color: #919191;
@@ -34,12 +38,12 @@
 
 
 .menu-itm {
-    background-color: black;
+    background-color: transparent;
     text-transform: uppercase;
 }
 
 .menu-itm .nav-link {
-    color: #e8001e;
+    color: white;
 }
 
 .menu-itm .nav-link:hover {
@@ -109,6 +113,7 @@
     background-color: transparent;
     border: none;
     font-weight: bold;
+    color: white;
 }
 
 @media (max-width: 991px) {}

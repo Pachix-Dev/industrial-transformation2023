@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel'
-import slideITM from '../../assets/Banners-ITM-ESP-1.webp'
 import bjsxaerospace from '../../assets/bjxareospace.webp'
 import futuristic from '../../assets/ITM-FUTURISTIC-MINDS.webp'
 
@@ -7,13 +6,6 @@ export function Slider () {
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
-        <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src={slideITM}
-            alt='Banner-ITM-2023'
-          />
-        </Carousel.Item>
         <Carousel.Item>
           <video
             autoPlay
