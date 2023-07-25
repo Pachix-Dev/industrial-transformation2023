@@ -1,26 +1,49 @@
 import Carousel from 'react-bootstrap/Carousel'
 import bjsxaerospace from '../../assets/bjxareospace.webp'
 import futuristic from '../../assets/ITM-FUTURISTIC-MINDS.webp'
-
+import ReactPlayer from 'react-player'
+import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
+import posterMtech from '../../assets/PosterMtech.webp'
+import posterOktober from '../../assets/PosterOktober.webp'
 export function Slider () {
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
         <Carousel.Item>
-          <video
-            autoPlay
-            muted loop
+          <ReactPlayer
             src='/STARTUP-PITCH-ITM-2023.webm'
-            className='w-100'
+            width='100%'
+            height='auto'
+            playing // Autoplay
+            loop
+            muted
+            playsinline
+            config={{
+              file: {
+                attributes: {
+                  poster: posterStartupPitch
+                }
+              }
+            }}
           />
         </Carousel.Item>
         <Carousel.Item>
           <a href='https://hfmexico.mx/MTech/' target='_blank' aria-label='Read more about MTECH' rel='noreferrer'>
-            <video
-              autoPlay
-              muted loop
+            <ReactPlayer
               src='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
-              className='w-100'
+              width='100%'
+              height='auto'
+              playing // Autoplay
+              loop
+              muted
+              playsinline
+              config={{
+                file: {
+                  attributes: {
+                    poster: posterMtech
+                  }
+                }
+              }}
             />
           </a>
         </Carousel.Item>
@@ -39,11 +62,21 @@ export function Slider () {
           />
         </Carousel.Item>
         <Carousel.Item>
-          <video
-            autoPlay
-            muted loop
+          <ReactPlayer
             src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
-            className='w-100'
+            width='100%'
+            height='auto'
+            playing // Autoplay
+            loop
+            muted
+            playsinline
+            config={{
+              file: {
+                attributes: {
+                  poster: posterOktober
+                }
+              }
+            }}
           />
         </Carousel.Item>
       </Carousel>
