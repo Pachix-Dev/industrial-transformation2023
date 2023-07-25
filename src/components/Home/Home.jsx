@@ -56,16 +56,17 @@ export function Home () {
         <div className='position-absolute top-0'>
           <video
             autoPlay
-            muted loop
+            loop
+            muted
+            playsInline
             src='/VIDEO COUNTDOWN ITM 2023.webm'
             alt='Startup-Pitch-2023'
-            className='vh-100'
           />
         </div>
       </div>
       <Slider />
       <Container className='home mt-5'>
-        <h3>{t('home.highlights_ITM2022')}</h3>
+        <h2>{t('home.highlights_ITM2022')}</h2>
         <Row>
           <Col md={8} className='mx-auto'>
             <Ratio aspectRatio='16x9' className='mt-5'>
