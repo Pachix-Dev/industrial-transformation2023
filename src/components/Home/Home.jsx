@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { CounterDown } from './CounterDown'
 import './Home.css'
 import { Slider } from './Slider'
-import { Col, Container, Ratio, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import schneider from '../../assets/logoSchneider.webp'
 import mitsubishi from '../../assets/mitsubishi.webp'
 import siemens from '../../assets/siemens.webp'
@@ -48,10 +48,13 @@ import { Gallery } from '../Gallery/Gallery'
 import { Contacts } from '../Contacts'
 
 import ReactPlayer from 'react-player'
+
 import postervideo from '../../assets/posterVideo.webp'
+import { VideoPLayerYoutube } from './VideoPlayerYotube'
 
 export function Home () {
   const { t } = useTranslation()
+
   return (
     <>
 
@@ -81,20 +84,7 @@ export function Home () {
         <h2>{t('home.highlights_ITM2022')}</h2>
         <Row>
           <Col md={8} className='mx-auto'>
-            <Ratio aspectRatio='16x9' className='mt-5'>
-              <ReactPlayer
-                url='https://www.youtube.com/watch?v=_API66_gvnk'
-                width='100%'
-                height='100%'
-                playing={false} // Autoplay
-                config={{
-                  youtube: {
-                    playerVars: { showinfo: 1 }
-                  }
-                }}
-              />
-
-            </Ratio>
+            <VideoPLayerYoutube />
           </Col>
         </Row>
 
