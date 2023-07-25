@@ -96,7 +96,7 @@ export function Home () {
 
         <h3 className='mt-5 mb-5'>{t('home.digital')}</h3>
         <Row>
-          <Col md={4}>
+          <Col md={4} className='mx-auto'>
             <img src={Beckhoff} className='w-100' loading='lazy' alt='Beckhoff_NAT' />
           </Col>
         </Row>
