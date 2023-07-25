@@ -84,7 +84,7 @@ export function Home () {
         <h2>{t('home.highlights_ITM2022')}</h2>
         <Row>
           <Col md={8} className='mx-auto'>
-            <VideoPLayerYoutube />
+            <VideoPLayerYoutube videoId='_API66_gvnk' />
           </Col>
         </Row>
 

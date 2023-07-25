@@ -8,15 +8,20 @@ export function VideoPLayerYoutube ({ videoId }) {
     setPlayerReady(true)
   }
   return (
-    <div>
+    <>
       {playerReady
         ? null
         : (
-          <img src='https://i.ytimg.com/vi/_API66_gvnk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDogQyh_MA8=&rs=AOn4CLAhmL3Y-oXBuLxsUuUyYi0sgnCcXA' alt='Video Poster' />
+          <img
+            src='https://i.ytimg.com/vi/_API66_gvnk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGDogQyh_MA8=&rs=AOn4CLAhmL3Y-oXBuLxsUuUyYi0sgnCcXA' alt='Video Poster'
+            className='w-100'
+          />
           )}
       <YouTube
         videoId={videoId}
         opts={{
+          height: '300px',
+          width: '100%',
           playerVars: {
             autoplay: 0, // Autoplay the video
             controls: 1, // Show video player controls
@@ -28,6 +33,6 @@ export function VideoPLayerYoutube ({ videoId }) {
         }}
         onReady={onReady}
       />
-    </div>
+    </>
   )
 }

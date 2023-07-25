@@ -13,7 +13,7 @@ export function Contacts ({ children }) {
       <Container>
         <Row>
           <Col md className='text-center'>
-            <img src={eder} alt='Eder Rangel' height={150} />
+            <img src={eder} alt='Eder Rangel' height={150} loading='lazy' />
             <h4>{t('home.contact_mexico_latam')}</h4>
             <p>
               Eder Raúl Rangel Déziga<br />
@@ -22,7 +22,7 @@ export function Contacts ({ children }) {
             <a href='mailto:eder.rangel@hfmexico.com'>eder.rangel@hfmexico.com</a>
           </Col>
           <Col md className='text-center'>
-            <img src={simone} alt='Simone Robering' width={150} />
+            <img src={simone} alt='Simone Robering' width={150} loading='lazy' />
             <h4>{t('home.contact_international')}</h4>
             <p>
               Simone Robering<br />
@@ -31,7 +31,7 @@ export function Contacts ({ children }) {
             <a href='mailto:simone.roberin@hfmexico.com'>simone.roberin@hfmexico.com</a>
           </Col>
           <Col md className='text-center'>
-            <img src={imke} alt='Imke Selle' width={150} />
+            <img src={imke} alt='Imke Selle' width={150} loading='lazy' />
             <h4>{t('home.contact_international')}</h4>
             <p>
               Imke Selle<br />
