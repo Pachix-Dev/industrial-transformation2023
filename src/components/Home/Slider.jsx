@@ -5,27 +5,31 @@ import ReactPlayer from 'react-player'
 import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import posterMtech from '../../assets/PosterMtech.webp'
 import posterOktober from '../../assets/PosterOktober.webp'
+import { Link } from 'react-router-dom'
 export function Slider () {
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
+
         <Carousel.Item>
-          <ReactPlayer
-            url='/STARTUP-PITCH-ITM-2023.webm'
-            width='100%'
-            height='auto'
-            playing // Autoplay
-            loop
-            muted
-            playsinline
-            config={{
-              file: {
-                attributes: {
-                  poster: posterStartupPitch
+          <Link to='/startup-pitch'>
+            <ReactPlayer
+              url='/STARTUP-PITCH-ITM-2023.webm'
+              width='100%'
+              height='auto'
+              playing // Autoplay
+              loop
+              muted
+              playsinline
+              config={{
+                file: {
+                  attributes: {
+                    poster: posterStartupPitch
+                  }
                 }
-              }
-            }}
-          />
+              }}
+            />
+          </Link>
         </Carousel.Item>
         <Carousel.Item>
           <a href='https://hfmexico.mx/MTech/' target='_blank' aria-label='Read more about MTECH' rel='noreferrer'>
