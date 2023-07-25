@@ -47,6 +47,8 @@ import { galleryHome } from '../constants_gallery'
 import { Gallery } from '../Gallery/Gallery'
 import { Contacts } from '../Contacts'
 
+import postervideo from '../../assets/posterVideo.webp'
+
 export function Home () {
   const { t } = useTranslation()
   return (
@@ -56,12 +58,9 @@ export function Home () {
         <CounterDown />
         <div className='position-absolute top-0'>
           <video
-            autoPlay
-            loop
-            muted
-            playsInline
+            muted loop autoPlay playsInline
             src='/VIDEO COUNTDOWN ITM 2023.webm'
-            alt='Startup-Pitch-2023'
+            poster={postervideo}
           />
         </div>
       </div>

@@ -11,17 +11,15 @@ export function Slider () {
             autoPlay
             muted loop
             src='/STARTUP-PITCH-ITM-2023.webm'
-            alt='Startup-Pitch-2023'
             className='w-100'
           />
         </Carousel.Item>
         <Carousel.Item>
-          <a href='https://hfmexico.mx/MTech/' target='_blank' rel='noreferrer'>
+          <a href='https://hfmexico.mx/MTech/' target='_blank' aria-label='Read more about MTECH' rel='noreferrer'>
             <video
               autoPlay
               muted loop
               src='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
-              alt='Startup-Pitch-2023'
               className='w-100'
             />
           </a>
@@ -45,7 +43,6 @@ export function Slider () {
             autoPlay
             muted loop
             src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
-            alt='Startup-Pitch-2023'
             className='w-100'
           />
         </Carousel.Item>
