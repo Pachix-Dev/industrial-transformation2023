@@ -41,6 +41,7 @@ import globalindustries from '../../assets/globalindustries.webp'
 import revistaconsultoria from '../../assets/revistaconsultoria.webp'
 import revistapreferencia from '../../assets/revistapreferencia.webp'
 import dpl from '../../assets/dpl.webp'
+import Beckhoff from '../../assets/Beckhoff.webp'
 
 import { galleryHome } from '../constants_gallery'
 import { Gallery } from '../Gallery/Gallery'
@@ -90,6 +91,13 @@ export function Home () {
           </Col>
           <Col md={4}>
             <img src={siemens} className='w-100' loading='lazy' alt='siemens' />
+          </Col>
+        </Row>
+
+        <h3 className='mt-5 mb-5'>{t('home.digital')}</h3>
+        <Row>
+          <Col md={4}>
+            <img src={Beckhoff} className='w-100' loading='lazy' alt='Beckhoff_NAT' />
           </Col>
         </Row>
 
