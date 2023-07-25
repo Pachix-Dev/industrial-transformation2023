@@ -22,7 +22,8 @@ import { WhyExhibit } from './components/WhyExhibit/WhyExhibit'
 import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile'
 import { AudienceGroups } from './components/AudienceGroups/AudienceGroups'
 import { ProductsCategory } from './components/ProductsCategory/ProductsCategory'
-import ReactGA from 'react-ga'
+import ReactGA from 'react-ga4'
+
 import './assets/fonts/stylesheet.css'
 import { useEffect } from 'react'
 const TRACKING_ID = 'G-V191B7FQL7'
@@ -30,8 +31,9 @@ ReactGA.initialize(TRACKING_ID)
 
 function App () {
   const { t } = useTranslation()
+
   useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search)
+    ReactGA.send(window.location.pathname + window.location.search)
   }, [])
   return (
     <>
