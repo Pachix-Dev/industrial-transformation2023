@@ -22,7 +22,9 @@ export function Menu () {
     <>
       <Navbar className={`mt-2 text-uppercase text-center ${location.pathname === '/' ? 'menu-itm-home' : 'menu-itm'}`} expand='lg'>
         <Container>
-          <Navbar.Brand as={Link} to='/'><img src={logoITM} width={160} height={120} alt='ITM-2023' /></Navbar.Brand>
+          <Navbar.Brand as={Link} to='/'>
+            <img src={logoITM} width={160} height={120} alt='ITM-2023' />
+          </Navbar.Brand>
           <Navbar.Toggle onClick={handleShow} />
           <Navbar.Offcanvas
             id='offcanvasMenuweb'

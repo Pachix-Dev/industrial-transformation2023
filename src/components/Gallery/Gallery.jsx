@@ -10,16 +10,13 @@ import { Pagination, Row } from 'react-bootstrap'
 
 export function Gallery (props) {
   const itemsPerPage = 12
-  const [activePage, setActivePage] = useState(1)
 
-  // Calculate total number of pages
+  const [activePage, setActivePage] = useState(1)
   const totalPages = Math.ceil(props?.galleryImgs?.length / itemsPerPage)
-  // Get current page items
   const indexOfLastItem = activePage * itemsPerPage
   const indexOfFirstItem = indexOfLastItem - itemsPerPage
   const currentItems = props?.galleryImgs?.slice(indexOfFirstItem, indexOfLastItem)
 
-  // Handle pagination click
   const handlePageChange = (page) => {
     setActivePage(page)
   }

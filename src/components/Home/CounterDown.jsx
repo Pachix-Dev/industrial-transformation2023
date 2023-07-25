@@ -12,7 +12,7 @@ export function CounterDown () {
     return (
       <Container className='mt-2 mb-5 text-center home-counterdown-timer'>
         <Row className='counterdown-timer pb-3'>
-          <Col md={3} xs={6}>
+          <Col md={3} sm={3} xs={6}>
             <div className='timer-numbers'>
               <span>{days}</span>
             </div>
@@ -20,7 +20,7 @@ export function CounterDown () {
               {t('home.days')}
             </p>
           </Col>
-          <Col md={3} xs={6}>
+          <Col md={3} sm={3} xs={6}>
             <div className='timer-numbers'>
               <span>{hours}</span>
             </div>
@@ -28,7 +28,7 @@ export function CounterDown () {
               {t('home.hours')}
             </p>
           </Col>
-          <Col md={3} xs={6}>
+          <Col md={3} sm={3} xs={6}>
             <div className='timer-numbers'>
               <span>{minutes}</span>
             </div>
@@ -36,7 +36,7 @@ export function CounterDown () {
               {t('home.minutes')}
             </p>
           </Col>
-          <Col md={3} xs={6}>
+          <Col md={3} sm={3} xs={6}>
             <div className='timer-numbers'>
               <span>{seconds}</span>
             </div>

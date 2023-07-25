@@ -1,7 +1,4 @@
 import { useTranslation } from 'react-i18next'
-import { CounterDown } from './CounterDown'
-import './Home.css'
-
 import { Col, Container, Row } from 'react-bootstrap'
 import schneider from '../../assets/logoSchneider.webp'
 import mitsubishi from '../../assets/mitsubishi.webp'
@@ -42,15 +39,16 @@ import revistaconsultoria from '../../assets/revistaconsultoria.webp'
 import revistapreferencia from '../../assets/revistapreferencia.webp'
 import dpl from '../../assets/dpl.webp'
 import Beckhoff from '../../assets/Beckhoff.webp'
+import postervideo from '../../assets/posterVideo.webp'
+import posterYotube from '../../assets/posterYoutube.webp'
 
+import { CounterDown } from './CounterDown'
+import { Slider } from './Slider'
 import { galleryHome } from '../constants_gallery'
 import { Gallery } from '../Gallery/Gallery'
 import { Contacts } from '../Contacts'
 
-import postervideo from '../../assets/posterVideo.webp'
-import posterYotube from '../../assets/posterYoutube.webp'
-import { Slider } from './Slider'
-
+import './Home.css'
 export function Home () {
   const { t } = useTranslation()
   return (
