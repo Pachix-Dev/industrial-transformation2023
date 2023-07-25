@@ -1,7 +1,7 @@
 import ReactPlayer from 'react-player'
 import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import { Accordion, Col, Container, Row } from 'react-bootstrap'
-import logojetro from '../../assets/jetro.webp'
+
 import './StartupPitch.css'
 export function StartupPitch () {
   return (
@@ -26,7 +26,7 @@ export function StartupPitch () {
           />
         </div>
         <p className='mt-5'>
-          Te invitamos a presentar tus soluciones en Industrial Transformation México 2022 en nuestra segunda edición del Startup Pitch. Participa y sé uno de los cuatro finalistas que presente ante inversionistas y miembros del jurado en ITM, que tendrá lugar del 5 al 7 de octubre de 2022 en Poliforum León, Guanajuato. Para ser parte del Startup Pitch @ITM2022 sigue los siguientes pasos y envía tu expediente a más tardar el 29 de julio del presente año.
+          Te invitamos a presentar tus soluciones en Industrial Transformation México 2023 en nuestra segunda edición del Startup Pitch. Participa y sé uno de los cuatro finalistas que presente ante inversionistas y miembros del jurado en ITM, que tendrá lugar del 4 – 6 de octubre, 2023 en Poliforum León, Guanajuato. Para ser parte del Startup Pitch @ITM2022 sigue los siguientes pasos y envía tu expediente a más tardar el 21 de julio del presente año.
         </p>
         <div className='startup-links-first'>
           <a href='#beneficios'>
@@ -44,7 +44,9 @@ export function StartupPitch () {
               Etapas del Concurso
             </div>
             <p className='mt-4'>Publicación de la Convocatoria<br />
+              Sesiones informativas<br />
               Cierre de Convocatoria<br />
+
               Publicación de emprendedor seleccionados<br />
               Preparación de pitch y mentorías<br />
               Ensayos on stage @ITM<br />
@@ -55,17 +57,19 @@ export function StartupPitch () {
             <div className='header-startup'>
               Fecha
             </div>
-            <p className='mt-4'>8 de junio<br />
-              15 de agosto<br />
-              2 de septiembre<br />
-              5 a 30 de septiembre<br />
-              6 de octubre<br />
-              7 de octubre
+            <p className='mt-4'>
+              Junio 2023<br />
+              28 de junio y 26 de julio<br />
+              04 de agosto<br />
+              1 de septiembre<br />
+              Del 5 al 30 de septiembre<br />
+              05 de octubre<br />
+              06 de octubre<br />
             </p>
           </Col>
         </Row>
         <div className='wrapper-startup-links'>
-          <a className='startup-links' href='/files/CONVOCATORIA-STARTUP-PITCH-2022-1.pdf' target='_blank'>DESCARGA LA CONVOCATORIA</a>
+          <a className='startup-links' href='/files/CONVOCATORIA STARTUP PITCH 2023-new.pdf' target='_blank'>DESCARGA LA CONVOCATORIA</a>
 
           <a className='startup-links' href='https://forms.gle/5iHbJU7Yf1dMcusS9' target='_blank' rel='noreferrer'>ENVÍA TU EXPEDIENTE</a>
 
@@ -73,7 +77,7 @@ export function StartupPitch () {
 
           <a className='startup-links' href='/files/startupFAQS.pdf' target='_blank'>FAQS</a>
         </div>
-        <h1 className='fw-bold text-center mt-5'>Fecha límite de inscripción 15 de agosto de 2022</h1>
+        <h1 className='fw-bold text-center mt-5'>Fecha límite de inscripción 04 de agosto de 2023</h1>
         <p className='text-center'>¿Tienes alguna duda sobre el proceso? Contáctanos al
           correo <a href='mailto:eder.rangel@hfmexico.mx' target='_blank' rel='noreferrer'>eder.rangel@hfmexico.mx</a>
         </p>
@@ -92,31 +96,31 @@ export function StartupPitch () {
           <Accordion.Item eventKey='1'>
             <Accordion.Header>TIPO DE TECNOLOGÍA:</Accordion.Header>
             <Accordion.Body>
-              1. Data Analytics
-              2. Cloud Computing
-              3. Sensores
-              4. Internet de las Cosas
-              5. Inteligencia artificial
-              6. Realidad virtual o aumentada
+              1. Data Analytics<br />
+              2. Cloud Computing<br />
+              3. Sensores<br />
+              4. Internet de las Cosas<br />
+              5. Inteligencia artificial<br />
+              6. Realidad virtual o aumentada<br />
               7. Impresión 3D
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey='2'>
             <Accordion.Header>ÁREAS DE APLICACIÓN: </Accordion.Header>
             <Accordion.Body>
-              1. Fábrica digital
-              2. Automatización
-              3. Manufactura aditiva
+              1. Fábrica digital<br />
+              2. Automatización<br />
+              3. Manufactura aditiva<br />
               4. Automatización ambiental
             </Accordion.Body>
           </Accordion.Item>
-          <Accordion.Item eventKey='3'>
+          {/* <Accordion.Item eventKey='3'>
             <Accordion.Header>CATEGORÍA ESPECIAL RETO JETRO: VEHÍCULO CERO EMISIÓN</Accordion.Header>
             <Accordion.Body>
               <img src={logojetro} alt='JETRO' width={250} />
               Participa en esta categoría especial, la cual busca startups dentro de la cadena de suministro de vehículos de cero emisiones. En este sentido se buscan soluciones de vehículos eléctricos, enfocados a las partes, proveeduría, software y todo lo relacionado a este tipo de soluciones.
             </Accordion.Body>
-          </Accordion.Item>
+          </Accordion.Item> */}
         </Accordion>
       </Container>
       <section className='mt-5 bg-startup-participar'>
@@ -172,16 +176,21 @@ export function StartupPitch () {
           Identificación del representante legal.<br />
 
           RFC del representante legal.
+          <br />
+          <br />
+          Envía tu expediente a más tardar el 04 de agosto a través de la siguiente forma de Google.
+          Recuerda que, para poder completar tu aplicación a la presente convocatoria, deberás asegurarte de que el cuestionario esté completamente lleno con todos los requisitos.
+
         </p>
         <div id='beneficios'>
           <h4 className='text-danger fw-bold'>Beneficios</h4>
 
-          <p>Acceso a Industrial Transformation México 2022.<br /><br />
+          <p>Acceso a Industrial Transformation México 2023.<br /><br />
             Mentorías de preparación para presentación de Pitch.<br /><br />
-            Los proyectos seleccionados para la etapa final, podrán asistir al exclusivo evento de la Noche de Industriales el 4 de octubre en el marco de Industrial Transformation México 2022. (En caso de ser seleccionado, considera tu llegada para esta fecha).<br /><br />
-            Al proyecto seleccionado se le otorgará un stand para su participación en la Hannover Messe 2023 en Alemania en el área de Young Tech Enterprises.
+            Los proyectos seleccionados para la etapa final, podrán asistir al exclusivo evento de la Noche de Industriales el 3 de octubre en el marco de Industrial Transformation México 2023. (En caso de ser seleccionado, considera tu llegada para esta fecha).<br /><br />
+            Al proyecto seleccionado se le otorgará un stand para su participación en la Hannover Messe 2024 en Alemania en el área de Young Tech Enterprises.
           </p>
-          <div>
+          {/* <div>
             <img src={logojetro} alt='logo-jetro' width={250} />
             <h4 className='text-danger fw-bold'>Beneficios exclusivos del Reto Jetro
             </h4>
@@ -199,7 +208,7 @@ export function StartupPitch () {
                 Estos beneficios son únicamente para esta categoría, no aplican para las demás categorías.
               </li>
             </ul>
-          </div>
+        </div> */}
         </div>
       </Container>
       <section className='startup-expediente text-light'>
@@ -208,7 +217,7 @@ export function StartupPitch () {
           </h4>
           <br /><br />
           <a href='https://forms.gle/5iHbJU7Yf1dMcusS9' target='_blank' rel='noreferrer'>ENVÍA TU EXPEDIENTE</a>
-          <p className='mt-5 fw-bold fs-2'>Fecha límite de inscripción 15 de agosto de 2022
+          <p className='mt-5 fw-bold fs-2'>Fecha límite de inscripción 04 de agosto de 2023
           </p>
         </Container>
       </section>

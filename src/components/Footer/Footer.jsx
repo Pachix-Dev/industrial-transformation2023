@@ -66,7 +66,7 @@ export function Footer () {
           </div>
         </div>
         <div className='pt-5 pb-5'>
-          <a href='#'>{t('home.privacy_policy')}</a> | <a href='#'>{t('home.contact')}</a>
+          <a href='https://hfmexico.mx/aviso-de-privacidad/' target='_blank' rel='noreferrer'>{t('home.privacy_policy')}</a> | <a href='/contact'>{t('home.contact')}</a>
         </div>
       </Container>
     </footer>
