@@ -47,6 +47,7 @@ import { galleryHome } from '../constants_gallery'
 import { Gallery } from '../Gallery/Gallery'
 import { Contacts } from '../Contacts'
 
+import ReactPlayer from 'react-player'
 import postervideo from '../../assets/posterVideo.webp'
 
 export function Home () {
@@ -56,11 +57,22 @@ export function Home () {
 
       <div className='home-counter-video'>
         <CounterDown />
-        <div className='position-absolute top-0'>
-          <video
-            muted loop autoPlay playsInline
-            src='/VIDEO COUNTDOWN ITM 2023.webm'
-            poster={postervideo}
+        <div className='position-absolute top-0 w-100 h-100'>
+          <ReactPlayer
+            url='/VIDEO COUNTDOWN ITM 2023.webm'
+            width='100%'
+            height='auto'
+            playing // Autoplay
+            loop
+            muted
+            playsinline
+            config={{
+              file: {
+                attributes: {
+                  poster: postervideo
+                }
+              }
+            }}
           />
         </div>
       </div>
