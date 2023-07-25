@@ -59,7 +59,6 @@ export function Home () {
             muted loop
             src='/VIDEO COUNTDOWN ITM 2023.webm'
             alt='Startup-Pitch-2023'
-            className='vh-100'
           />
         </div>
       </div>

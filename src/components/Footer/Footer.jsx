@@ -58,7 +58,7 @@ export function Footer () {
         </Row>
         <div className='footer-language d-flex'>
           <strong>Italian German Exhibition Company</strong>
-          <div className='language-option ms-auto'>
+          <div className='language-option-footer ms-auto'>
             <img src={iconworld} width={19} height={19} alt='languages-world' />
             <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'grey' : '' }}>Es</button>
             /
