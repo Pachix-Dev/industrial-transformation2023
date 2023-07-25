@@ -11,7 +11,7 @@ export function Slider () {
       <Carousel fade interval={5000} controls={false}>
         <Carousel.Item>
           <ReactPlayer
-            src='/STARTUP-PITCH-ITM-2023.webm'
+            url='/STARTUP-PITCH-ITM-2023.webm'
             width='100%'
             height='auto'
             playing // Autoplay
@@ -30,7 +30,7 @@ export function Slider () {
         <Carousel.Item>
           <a href='https://hfmexico.mx/MTech/' target='_blank' aria-label='Read more about MTECH' rel='noreferrer'>
             <ReactPlayer
-              src='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
+              url='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
               width='100%'
               height='auto'
               playing // Autoplay
@@ -63,7 +63,7 @@ export function Slider () {
         </Carousel.Item>
         <Carousel.Item>
           <ReactPlayer
-            src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
+            url='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
             width='100%'
             height='auto'
             playing // Autoplay
