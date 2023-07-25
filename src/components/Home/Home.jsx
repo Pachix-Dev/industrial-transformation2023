@@ -57,6 +57,7 @@ export function Home () {
           <video
             autoPlay
             muted loop
+            playsInline
             src='/VIDEO COUNTDOWN ITM 2023.webm'
             alt='Startup-Pitch-2023'
           />

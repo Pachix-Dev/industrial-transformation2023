@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Routes, Route } from 'react-router'
+import { Routes, Route, useLocation } from 'react-router'
 import { Helmet } from 'react-helmet'
 import { Menu } from './components/Menu/Menu'
 import { Home } from './components/Home/Home'
@@ -31,10 +31,10 @@ ReactGA.initialize(TRACKING_ID)
 
 function App () {
   const { t } = useTranslation()
-
+  const location = useLocation()
   useEffect(() => {
-    ReactGA.send(window.location.pathname + window.location.search)
-  }, [])
+    ReactGA.send({ hitType: 'pageview', page: location.pathname, title: document.title })
+  }, [location])
   return (
     <>
       <Menu />
