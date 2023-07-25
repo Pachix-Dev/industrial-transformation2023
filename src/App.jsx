@@ -5,7 +5,7 @@ import { Routes, Route } from 'react-router'
 import { Helmet } from 'react-helmet'
 import { Menu } from './components/Menu/Menu'
 import { Home } from './components/Home/Home'
-import { Footer } from './components/Footer/Footer'
+
 import { AboutUs } from './components/AboutUS/AboutUs'
 import { Background } from './components/Background/Background'
 import { Contact } from './components/Contact/Contact'
@@ -26,6 +26,8 @@ import { ProductsCategory } from './components/ProductsCategory/ProductsCategory
 import './assets/fonts/stylesheet.css'
 import { useEffect } from 'react'
 import { initializeGA, logPageView } from './analytics'
+import { Footer } from './components/Footer/Footer'
+import { StartupPitch } from './components/StartupPitch/StartupPitch'
 
 function App () {
   const { t } = useTranslation()
@@ -226,6 +228,17 @@ function App () {
                 <title>ITM 2023 | Download Logos</title>
               </Helmet>
               <DonwLoadLogos />
+            </>
+          }
+        />
+        <Route
+          path='startup-pitch'
+          element={
+            <>
+              <Helmet>
+                <title>ITM 2023 | Download Logos</title>
+              </Helmet>
+              <StartupPitch />
             </>
           }
         />
