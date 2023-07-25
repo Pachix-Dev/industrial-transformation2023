@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { CounterDown } from './CounterDown'
 import './Home.css'
-import { Slider } from './Slider'
+
 import { Col, Container, Row } from 'react-bootstrap'
 import schneider from '../../assets/logoSchneider.webp'
 import mitsubishi from '../../assets/mitsubishi.webp'
@@ -47,44 +47,66 @@ import { galleryHome } from '../constants_gallery'
 import { Gallery } from '../Gallery/Gallery'
 import { Contacts } from '../Contacts'
 
-import ReactPlayer from 'react-player'
-
 import postervideo from '../../assets/posterVideo.webp'
-import { VideoPLayerYoutube } from './VideoPlayerYotube'
+import posterYotube from '../../assets/posterYoutube.webp'
+import { useEffect, useState } from 'react'
+import { Slider } from './Slider'
 
 export function Home () {
   const { t } = useTranslation()
 
+  const [allowVideo, setAllowVideo] = useState(false)
+  const [isVideoLoaded, setIsVideoLoaded] = useState(false)
+  useEffect(() => {
+    setAllowVideo(true)
+  }, [])
+
+  const videoLoaded = () => {
+    setIsVideoLoaded(true)
+  }
   return (
     <>
 
       <div className='home-counter-video'>
         <CounterDown />
         <div className='position-absolute top-0 w-100 h-100'>
-          <ReactPlayer
-            url='/VIDEO COUNTDOWN ITM 2023.webm'
-            width='100%'
-            height='100%'
-            playing // Autoplay
-            loop
-            muted
-            playsinline
-            config={{
-              file: {
-                attributes: {
-                  poster: postervideo
-                }
-              }
+          {allowVideo && (
+            <video
+              muted
+              loop
+              autoPlay
+              playsInline
+              onCanPlayThrough={videoLoaded}
+              className={`${isVideoLoaded ? 'show' : 'hide'}`}
+            >
+              <source
+                src='/VIDEO COUNTDOWN ITM 2023.webm'
+                type='video/webm'
+              />
+            </video>
+          )}
+          <div
+            style={{
+              backgroundImage:
+              `url(${postervideo})`
             }}
+            className={`fallback ${isVideoLoaded ? 'hide' : 'show'}`}
           />
         </div>
       </div>
-      <Slider />
+
       <Container className='home mt-5'>
+        <Slider />
+
         <h2>{t('home.highlights_ITM2022')}</h2>
         <Row>
           <Col md={8} className='mx-auto'>
-            <VideoPLayerYoutube videoId='_API66_gvnk' />
+            <a href='https://youtu.be/_API66_gvnk' target='_blank' rel='noreferrer'>
+              <img
+                src={posterYotube} alt='Video Poster'
+                className='w-100'
+              />
+            </a>
           </Col>
         </Row>
 
