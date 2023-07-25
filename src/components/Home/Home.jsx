@@ -83,7 +83,7 @@ export function Home () {
           <Col md={8} className='mx-auto'>
             <Ratio aspectRatio='16x9' className='mt-5'>
               <ReactPlayer
-                url='https://www.youtube-nocookie.com/embed/_API66_gvnk'
+                url='https://www.youtube.com/watch?v=_API66_gvnk'
                 width='100%'
                 height='100%'
                 playing={false} // Autoplay
