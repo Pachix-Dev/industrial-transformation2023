@@ -64,7 +64,7 @@ export function Home () {
       </div>
       <Slider />
       <Container className='home mt-5'>
-        <h3>{t('home.highlights_ITM2022')}</h3>
+        <h2>{t('home.highlights_ITM2022')}</h2>
         <Row>
           <Col md={8} className='mx-auto'>
             <Ratio aspectRatio='16x9' className='mt-5'>

@@ -60,9 +60,9 @@ export function Footer () {
           <strong>Italian German Exhibition Company</strong>
           <div className='language-option-footer ms-auto'>
             <img src={iconworld} width={19} height={19} alt='languages-world' />
-            <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'grey' : '' }}>Es</button>
+            <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'red' : '' }}>Es</button>
             /
-            <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'es' ? 'grey' : '' }}>En</button>
+            <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'es' ? 'red' : '' }}>En</button>
           </div>
         </div>
         <div className='pt-5 pb-5'>
