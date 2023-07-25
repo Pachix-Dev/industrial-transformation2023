@@ -61,7 +61,7 @@ export function Home () {
           <ReactPlayer
             url='/VIDEO COUNTDOWN ITM 2023.webm'
             width='100%'
-            height='auto'
+            height='100%'
             playing // Autoplay
             loop
             muted
