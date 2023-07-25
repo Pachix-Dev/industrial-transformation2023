@@ -55,6 +55,9 @@ function App () {
           path='about-us'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | About Us</title>
+              </Helmet>
               <AboutUs />
             </>
           }
@@ -63,6 +66,9 @@ function App () {
           path='background'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Background</title>
+              </Helmet>
               <Background />
             </>
           }
@@ -71,6 +77,9 @@ function App () {
           path='contact'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Contact</title>
+              </Helmet>
               <Contact />
             </>
           }
@@ -79,6 +88,9 @@ function App () {
           path='why-visit'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Why visit</title>
+              </Helmet>
               <WhyVisit />
             </>
           }
@@ -87,6 +99,9 @@ function App () {
           path='why-exibit'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Why Exibit</title>
+              </Helmet>
               <WhyExhibit />
             </>
           }
@@ -95,6 +110,9 @@ function App () {
           path='exibitor-profile'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Exibitor Profile</title>
+              </Helmet>
               <ExhibitorProfile />
             </>
           }
@@ -103,6 +121,9 @@ function App () {
           path='key-audience-groups'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Key Audience Groups</title>
+              </Helmet>
               <AudienceGroups />
             </>
           }
@@ -111,6 +132,9 @@ function App () {
           path='products-category'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Products Category</title>
+              </Helmet>
               <ProductsCategory />
             </>
           }
@@ -119,6 +143,9 @@ function App () {
           path='visitor-profile'
           element={
             <>
+              <Helmet>
+                <title>ITM 2023 | Visitor Profile</title>
+              </Helmet>
               <VisitorProfle />
             </>
           }
@@ -126,50 +153,80 @@ function App () {
         <Route
           path='toolkit'
           element={
-            <Toolkit />
+            <>
+              <Helmet>
+                <title>ITM 2023 | Toolkit</title>
+              </Helmet>
+              <Toolkit />
+            </>
           }
         />
         <Route path='gallery' element={<GalleryPage />} />
         <Route
           path='galery-itm-2019'
           element={
-            <Container className='mt-5 mb-5'>
-              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2019</h1>
-              <Gallery galleryImgs={gallery2019} galleryName='gallery-itm-2019' />
-            </Container>
+            <>
+              <Helmet>
+                <title>ITM 2023 | Galery ITM 2019</title>
+              </Helmet>
+              <Container className='mt-5 mb-5'>
+                <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2019</h1>
+                <Gallery galleryImgs={gallery2019} galleryName='gallery-itm-2019' />
+              </Container>
+            </>
           }
         />
         <Route
           path='galery-itm-2020'
           element={
-            <Container className='mt-5 mb-5'>
-              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2020</h1>
-              <Gallery galleryImgs={gallery2020} galleryName='gallery-itm-2020' />
-            </Container>
+            <>
+              <Helmet>
+                <title>ITM 2023 | Galery ITM 2020</title>
+              </Helmet>
+              <Container className='mt-5 mb-5'>
+                <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2020</h1>
+                <Gallery galleryImgs={gallery2020} galleryName='gallery-itm-2020' />
+              </Container>
+            </>
           }
         />
         <Route
           path='galery-itm-2021'
           element={
-            <Container className='mt-5 mb-5'>
-              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2021</h1>
-              <Gallery galleryImgs={gallery2021} galleryName='gallery-itm-2021' />
-            </Container>
+            <>
+              <Helmet>
+                <title>ITM 2023 | Galery ITM 2021</title>
+              </Helmet>
+              <Container className='mt-5 mb-5'>
+                <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2021</h1>
+                <Gallery galleryImgs={gallery2021} galleryName='gallery-itm-2021' />
+              </Container>
+            </>
           }
         />
         <Route
           path='galery-itm-2022'
           element={
-            <Container className='mt-5 mb-5'>
-              <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2022</h1>
-              <Gallery galleryImgs={gallery2022} galleryName='gallery-itm-2022' />
-            </Container>
+            <>
+              <Helmet>
+                <title>ITM 2023 | Galery ITM 2022</title>
+              </Helmet>
+              <Container className='mt-5 mb-5'>
+                <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2022</h1>
+                <Gallery galleryImgs={gallery2022} galleryName='gallery-itm-2022' />
+              </Container>
+            </>
           }
         />
         <Route
           path='donwload-logos'
           element={
-            <DonwLoadLogos />
+            <>
+              <Helmet>
+                <title>ITM 2023 | Download Logos</title>
+              </Helmet>
+              <DonwLoadLogos />
+            </>
           }
         />
       </Routes>

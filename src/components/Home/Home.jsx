@@ -56,7 +56,8 @@ export function Home () {
         <div className='position-absolute top-0'>
           <video
             autoPlay
-            muted loop
+            loop
+            muted
             playsInline
             src='/VIDEO COUNTDOWN ITM 2023.webm'
             alt='Startup-Pitch-2023'
