@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { Routes, Route, useLocation } from 'react-router'
+import { Routes, Route } from 'react-router'
 import { Helmet } from 'react-helmet'
 import { Menu } from './components/Menu/Menu'
 import { Home } from './components/Home/Home'
@@ -22,19 +22,19 @@ import { WhyExhibit } from './components/WhyExhibit/WhyExhibit'
 import { ExhibitorProfile } from './components/ExhibitorProfile/ExhibitorProfile'
 import { AudienceGroups } from './components/AudienceGroups/AudienceGroups'
 import { ProductsCategory } from './components/ProductsCategory/ProductsCategory'
-import ReactGA from 'react-ga4'
 
 import './assets/fonts/stylesheet.css'
 import { useEffect } from 'react'
-const TRACKING_ID = 'G-V191B7FQL7'
-ReactGA.initialize(TRACKING_ID)
+import { initializeGA, logPageView } from './analytics'
 
 function App () {
   const { t } = useTranslation()
-  const location = useLocation()
+
   useEffect(() => {
-    ReactGA.send({ hitType: 'pageview', page: location.pathname, title: document.title })
-  }, [location])
+    initializeGA()
+    logPageView()
+  }, [])
+
   return (
     <>
       <Menu />
