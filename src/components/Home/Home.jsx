@@ -49,56 +49,35 @@ import { Contacts } from '../Contacts'
 
 import postervideo from '../../assets/posterVideo.webp'
 import posterYotube from '../../assets/posterYoutube.webp'
-import { useEffect, useState } from 'react'
 import { Slider } from './Slider'
 
 export function Home () {
   const { t } = useTranslation()
 
-  const [allowVideo, setAllowVideo] = useState(false)
-  const [isVideoLoaded, setIsVideoLoaded] = useState(false)
-  useEffect(() => {
-    setAllowVideo(true)
-  }, [])
-
-  const videoLoaded = () => {
-    setIsVideoLoaded(true)
-  }
   return (
     <>
-
       <div className='home-counter-video'>
         <CounterDown />
         <div className='position-absolute top-0 w-100 h-100'>
-          {allowVideo && (
-            <video
-              muted
-              loop
-              autoPlay
-              playsInline
-              onCanPlayThrough={videoLoaded}
-              className={`${isVideoLoaded ? 'show' : 'hide'}`}
-            >
-              <source
-                src='/VIDEO COUNTDOWN ITM 2023.webm'
-                type='video/webm'
-              />
-            </video>
-          )}
-          <div
-            style={{
-              backgroundImage:
-              `url(${postervideo})`
-            }}
-            className={`fallback ${isVideoLoaded ? 'hide' : 'show'}`}
-          />
+          <video
+            muted
+            loop
+            autoPlay
+            playsInline
+            poster={postervideo}
+          >
+            <source
+              src='/VIDEO COUNTDOWN ITM 2023.webm'
+              type='video/webm'
+            />
+          </video>
         </div>
       </div>
 
       <Container className='home mt-5'>
         <Slider />
 
-        <h2>{t('home.highlights_ITM2022')}</h2>
+        <h2 className='mt-5'>{t('home.highlights_ITM2022')}</h2>
         <Row>
           <Col md={8} className='mx-auto'>
             <a href='https://youtu.be/_API66_gvnk' target='_blank' rel='noreferrer'>

@@ -49,12 +49,7 @@ h3 {
     text-shadow: 4px 4px 8px black;
 }
 
-/*.counterdown-timer>:last-child .timer-numbers>:last-child {
-    transform: translate(-50%, -50%);
-    transition: all 1.5s ease-in-out;
-    animation-delay: 0.2s;
-    animation: letteranim 1s infinite ease;
-}*/
+
 
 .timer-numbers {
     color: white;
@@ -93,18 +88,6 @@ h3 {
 
 }
 
-
-@keyframes letteranim {
-    0% {
-        opacity: 0.5;
-        filter: blur(0.9rem);
-    }
-
-    100% {
-        opacity: 1;
-        filter: blur(0.1rem);
-    }
-}
 
 @media (width < 940px) {
     .home-counter-video video {
