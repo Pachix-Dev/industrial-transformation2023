@@ -53,7 +53,6 @@ import { Slider } from './Slider'
 
 export function Home () {
   const { t } = useTranslation()
-
   return (
     <>
       <div className='home-counter-video'>
