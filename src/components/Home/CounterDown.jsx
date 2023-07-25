@@ -46,7 +46,7 @@ export function CounterDown () {
           </Col>
 
         </Row>
-        <h1 className='fw-bold mb-5' style={{ color: 'white' }}>Days before ITM 2023</h1>
+        <h1 className='fw-bold mb-5 counterdown-title' style={{ color: 'white' }}> {t('home.titleCounter')}</h1>
         <a className='home-register' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>{t('home.registro_itm_2023')}</a>
       </Container>
     )
