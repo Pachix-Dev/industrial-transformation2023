@@ -82,12 +82,18 @@ export function Home () {
         <Row>
           <Col md={8} className='mx-auto'>
             <Ratio aspectRatio='16x9' className='mt-5'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/_API66_gvnk'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
+              <ReactPlayer
+                url='https://www.youtube-nocookie.com/embed/_API66_gvnk'
+                width='100%'
+                height='100%'
+                playing={false} // Autoplay
+                config={{
+                  youtube: {
+                    playerVars: { showinfo: 1 }
+                  }
+                }}
               />
+
             </Ratio>
           </Col>
         </Row>
