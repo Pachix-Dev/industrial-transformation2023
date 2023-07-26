@@ -1,9 +1,10 @@
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useTranslation } from 'react-i18next'
-import { useRef, useState } from 'react'
+import { Suspense, lazy, useRef, useState } from 'react'
 import axios from 'axios'
-import ReCAPTCHA from 'react-google-recaptcha'
+
+const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
 export function Subscribe () {
   const { t } = useTranslation()
@@ -50,11 +51,13 @@ export function Subscribe () {
           <Form.Label>{t('home.email')}</Form.Label>
           <Form.Control type='email' name='email' required />
         </Form.Group>
-        <ReCAPTCHA
-          sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
-          ref={captchaRef}
-          onChange={onChange}
-        />
+        <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
+          <ReCAPTCHA
+            sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
+            ref={captchaRef}
+            onChange={onChange}
+          />
+        </Suspense>
         {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
         <Button variant='dark' type='submit' className='mt-3'>
           {t('home.subscription')}
