@@ -1,4 +1,3 @@
-import ReactPlayer from 'react-player'
 import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import { Accordion, Col, Container, Row } from 'react-bootstrap'
 
@@ -8,22 +7,20 @@ export function StartupPitch () {
     <>
       <Container>
         <div className='position-relative mt-5'>
-          <ReactPlayer
-            url='/STARTUP-PITCH-ITM-2023.webm'
+          <video
             width='100%'
             height='auto'
-            playing // Autoplay
-            loop
             muted
-            playsinline
-            config={{
-              file: {
-                attributes: {
-                  poster: posterStartupPitch
-                }
-              }
-            }}
-          />
+            loop
+            autoPlay
+            playsInline
+            poster={posterStartupPitch}
+          >
+            <source
+              src='/STARTUP-PITCH-ITM-2023.webm'
+              type='video/webm'
+            />
+          </video>
         </div>
         <p className='mt-5'>
           Te invitamos a presentar tus soluciones en Industrial Transformation México 2023 en nuestra segunda edición del Startup Pitch. Participa y sé uno de los cuatro finalistas que presente ante inversionistas y miembros del jurado en ITM, que tendrá lugar del 4 – 6 de octubre, 2023 en Poliforum León, Guanajuato. Para ser parte del Startup Pitch @ITM2022 sigue los siguientes pasos y envía tu expediente a más tardar el 21 de julio del presente año.
