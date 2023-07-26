@@ -5,12 +5,12 @@ import ReactPlayer from 'react-player'
 import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import posterMtech from '../../assets/PosterMtech.webp'
 import posterOktober from '../../assets/PosterOktober.webp'
+import bannerCanieti from '../../assets/banner-itm-canieti.webp'
 import { Link } from 'react-router-dom'
 export function Slider () {
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
-
         <Carousel.Item>
           <Link to='/startup-pitch' aria-label='read more about Startup Pitch 2023'>
             <ReactPlayer
@@ -48,6 +48,15 @@ export function Slider () {
                   }
                 }
               }}
+            />
+          </a>
+        </Carousel.Item>
+        <Carousel.Item>
+          <a href='https://canietimediahouse.com/premios-tic-e-itzamna-2023/' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src={bannerCanieti}
+              alt='CANIETI'
             />
           </a>
         </Carousel.Item>

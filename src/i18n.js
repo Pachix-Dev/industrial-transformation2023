@@ -8,12 +8,9 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    fallbackLng: 'es',
+    fallbackLng: 'en', // Fallback language if the user's language is not available.
     interpolation: {
-      escapeValue: false
-    },
-    backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json'
+      escapeValue: false // React already escapes variables.
     }
   })
 

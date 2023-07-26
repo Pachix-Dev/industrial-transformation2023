@@ -72,8 +72,6 @@ export function Home () {
       </div>
 
       <Container className='home mt-5'>
-
-        <p className='text-center'><a className='home-register' href='https://canietimediahouse.com/premios-tic-e-itzamna-2023/' target='_blank' rel='noreferrer'>{t('home.button')}</a></p>
         <Slider />
 
         <h2 className='mt-5'>{t('home.highlights_ITM2022')}</h2>
