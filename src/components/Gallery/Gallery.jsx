@@ -6,7 +6,7 @@ import lgThumbnail from 'lightgallery/plugins/thumbnail'
 import lgZoom from 'lightgallery/plugins/zoom'
 import './Gallery.css'
 import { useState } from 'react'
-import { Pagination, Row } from 'react-bootstrap'
+import { Pagination } from 'react-bootstrap'
 
 export function Gallery (props) {
   const itemsPerPage = 12
@@ -25,31 +25,43 @@ export function Gallery (props) {
     <>
       {
         totalPages > 1 &&
-          <Row className='gallery mt-4'>
+          <div className='gallery mt-4'>
             <Pagination>
               <Pagination.First onClick={() => handlePageChange(1)} />
               <Pagination.Prev
                 onClick={() => handlePageChange(activePage - 1)}
                 disabled={activePage === 1}
               />
-              {activePage > 1 && <Pagination.Ellipsis />}
-              {Array.from({ length: totalPages }).map((_, index) => (
-                <Pagination.Item
-                  key={index}
-                  active={index + 1 === activePage}
-                  onClick={() => handlePageChange(index + 1)}
-                >
-                  {index + 1}
+              {activePage > 3 && <Pagination.Ellipsis />}
+              {activePage > 2 && (
+                <Pagination.Item onClick={() => handlePageChange(activePage - 2)}>
+                  {activePage - 2}
                 </Pagination.Item>
-              ))}
-              {activePage < totalPages && <Pagination.Ellipsis />}
+              )}
+              {activePage > 1 && (
+                <Pagination.Item onClick={() => handlePageChange(activePage - 1)}>
+                  {activePage - 1}
+                </Pagination.Item>
+              )}
+              <Pagination.Item active>{activePage}</Pagination.Item>
+              {activePage < totalPages && (
+                <Pagination.Item onClick={() => handlePageChange(activePage + 1)}>
+                  {activePage + 1}
+                </Pagination.Item>
+              )}
+              {activePage < totalPages - 1 && (
+                <Pagination.Item onClick={() => handlePageChange(activePage + 2)}>
+                  {activePage + 2}
+                </Pagination.Item>
+              )}
+              {activePage < totalPages - 2 && <Pagination.Ellipsis />}
               <Pagination.Next
                 onClick={() => handlePageChange(activePage + 1)}
                 disabled={activePage === totalPages}
               />
               <Pagination.Last onClick={() => handlePageChange(totalPages)} />
             </Pagination>
-          </Row>
+          </div>
       }
 
       <LightGallery
@@ -77,32 +89,45 @@ export function Gallery (props) {
 
       {
         totalPages > 1 &&
-          <Row className='gallery mt-4'>
+          <div className='gallery mt-4'>
             <Pagination>
               <Pagination.First onClick={() => handlePageChange(1)} />
               <Pagination.Prev
                 onClick={() => handlePageChange(activePage - 1)}
                 disabled={activePage === 1}
               />
-              {activePage > 1 && <Pagination.Ellipsis />}
-              {Array.from({ length: totalPages }).map((_, index) => (
-                <Pagination.Item
-                  key={index}
-                  active={index + 1 === activePage}
-                  onClick={() => handlePageChange(index + 1)}
-                >
-                  {index + 1}
+              {activePage > 3 && <Pagination.Ellipsis />}
+              {activePage > 2 && (
+                <Pagination.Item onClick={() => handlePageChange(activePage - 2)}>
+                  {activePage - 2}
                 </Pagination.Item>
-              ))}
-              {activePage < totalPages && <Pagination.Ellipsis />}
+              )}
+              {activePage > 1 && (
+                <Pagination.Item onClick={() => handlePageChange(activePage - 1)}>
+                  {activePage - 1}
+                </Pagination.Item>
+              )}
+              <Pagination.Item active>{activePage}</Pagination.Item>
+              {activePage < totalPages && (
+                <Pagination.Item onClick={() => handlePageChange(activePage + 1)}>
+                  {activePage + 1}
+                </Pagination.Item>
+              )}
+              {activePage < totalPages - 1 && (
+                <Pagination.Item onClick={() => handlePageChange(activePage + 2)}>
+                  {activePage + 2}
+                </Pagination.Item>
+              )}
+              {activePage < totalPages - 2 && <Pagination.Ellipsis />}
               <Pagination.Next
                 onClick={() => handlePageChange(activePage + 1)}
                 disabled={activePage === totalPages}
               />
               <Pagination.Last onClick={() => handlePageChange(totalPages)} />
             </Pagination>
-          </Row>
+          </div>
       }
+
     </>
   )
 }

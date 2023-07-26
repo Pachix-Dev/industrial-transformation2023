@@ -2,10 +2,7 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useTranslation } from 'react-i18next'
 import { Suspense, lazy, useRef, useState } from 'react'
-import axios from 'axios'
-
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
-
 export function Subscribe () {
   const { t } = useTranslation()
   const captchaRef = useRef()
@@ -25,10 +22,21 @@ export function Subscribe () {
       captchaRef.current.reset()
       setCaptcha(false)
       const formData = Object.fromEntries(new window.FormData(event.target))
+      const requestOptions = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ token, formData })
+      }
+
       try {
-        const res = await axios.post('https://industrialtransformation.mx/newsletter/recaptchaValidator.php', { token, formData })
-        console.log(res)
-        if (res.data?.status || res.data === '23000') {
+        const res = await fetch(
+          'https://industrialtransformation.mx/newsletter/recaptchaValidator.php',
+          requestOptions
+        )
+        const data = await res.json()
+        if (data?.status === true || data === '23000') {
           setMessage('Your are subscribe now!!')
         } else {
           setMessage('Sorry we couldn\'t verify you are not robot try again...')

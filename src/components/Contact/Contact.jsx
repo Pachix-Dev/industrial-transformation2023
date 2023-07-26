@@ -3,7 +3,6 @@ import Form from 'react-bootstrap/Form'
 import { useTranslation } from 'react-i18next'
 import { Contacts } from '../Contacts'
 import { useRef, useState } from 'react'
-import axios from 'axios'
 import ReCAPTCHA from 'react-google-recaptcha'
 import { Container } from 'react-bootstrap'
 export function Contact () {
@@ -25,9 +24,20 @@ export function Contact () {
       captchaRef.current.reset()
       setCaptcha(false)
       const formData = Object.fromEntries(new window.FormData(event.target))
+      const requestOptions = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ token, formData })
+      }
       try {
-        const res = await axios.post('https://industrialtransformation.mx/newsletter/contact.php', { token, formData })
-        if (res.data.status) {
+        const res = await fetch(
+          'https://industrialtransformation.mx/newsletter/contact.php',
+          requestOptions
+        )
+        const data = await res.json()
+        if (data.status) {
           setMessage('Message send successfully!!')
         } else {
           setMessage('Sorry we couldn\'t verify you are not robot try again...')
