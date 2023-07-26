@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel'
-import bjsxaerospace from '../../assets/bjxareospace.webp'
 import futuristic from '../../assets/ITM-FUTURISTIC-MINDS.webp'
 import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import posterMtech from '../../assets/PosterMtech.webp'
@@ -58,7 +57,7 @@ export function Slider () {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src={bjsxaerospace}
+            src='/bjxareospace.webp'
             alt='BJX-AEROSPACE-SUMMIT-4.0-2023'
           />
         </Carousel.Item>
