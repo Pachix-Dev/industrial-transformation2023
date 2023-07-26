@@ -2,10 +2,9 @@ import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
 import { useTranslation } from 'react-i18next'
 import { Contacts } from '../Contacts'
-import { useRef, useState } from 'react'
-import axios from 'axios'
-import ReCAPTCHA from 'react-google-recaptcha'
+import { Suspense, lazy, useRef, useState } from 'react'
 import { Container } from 'react-bootstrap'
+const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 export function Contact () {
   const { t } = useTranslation()
   const captchaRef = useRef()
@@ -25,9 +24,20 @@ export function Contact () {
       captchaRef.current.reset()
       setCaptcha(false)
       const formData = Object.fromEntries(new window.FormData(event.target))
+      const requestOptions = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ token, formData })
+      }
       try {
-        const res = await axios.post('https://industrialtransformation.mx/newsletter/contact.php', { token, formData })
-        if (res.data.status) {
+        const res = await fetch(
+          'https://industrialtransformation.mx/newsletter/contact.php',
+          requestOptions
+        )
+        const data = await res.json()
+        if (data.status) {
           setMessage('Message send successfully!!')
         } else {
           setMessage('Sorry we couldn\'t verify you are not robot try again...')
@@ -62,11 +72,13 @@ export function Contact () {
             <Form.Label>{t('contactForm.message')}</Form.Label>
             <Form.Control type='text-area' name='message' required />
           </Form.Group>
-          <ReCAPTCHA
-            sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
-            ref={captchaRef}
-            onChange={onChange}
-          />
+          <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
+            <ReCAPTCHA
+              sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
+              ref={captchaRef}
+              onChange={onChange}
+            />
+          </Suspense>
           {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
           <Button variant='dark' type='submit' className='mt-3'>
             {t('contactForm.send')}

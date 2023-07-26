@@ -1,4 +1,3 @@
-import ReactPlayer from 'react-player'
 import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import { Accordion, Col, Container, Row } from 'react-bootstrap'
 
@@ -10,22 +9,20 @@ export function StartupPitch () {
     <>
       <Container>
         <div className='position-relative mt-5'>
-          <ReactPlayer
-            url='/STARTUP-PITCH-ITM-2023.webm'
+          <video
             width='100%'
             height='auto'
-            playing // Autoplay
-            loop
             muted
-            playsinline
-            config={{
-              file: {
-                attributes: {
-                  poster: posterStartupPitch
-                }
-              }
-            }}
-          />
+            loop
+            autoPlay
+            playsInline
+            poster={posterStartupPitch}
+          >
+            <source
+              src='/STARTUP-PITCH-ITM-2023.webm'
+              type='video/webm'
+            />
+          </video>
         </div>
         <p className='mt-5'>{t('startup.description_1')}</p>
         <div className='startup-links-first'>
