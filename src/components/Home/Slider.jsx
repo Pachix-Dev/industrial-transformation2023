@@ -12,7 +12,7 @@ export function Slider () {
       <Carousel fade interval={5000} controls={false}>
 
         <Carousel.Item>
-          <Link to='/startup-pitch'>
+          <Link to='/startup-pitch' aria-label='read more about Startup Pitch 2023'>
             <ReactPlayer
               url='/STARTUP-PITCH-ITM-2023.webm'
               width='100%'
