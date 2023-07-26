@@ -3,7 +3,9 @@ import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import { Accordion, Col, Container, Row } from 'react-bootstrap'
 
 import './StartupPitch.css'
+import { useTranslation } from 'react-i18next'
 export function StartupPitch () {
+  const { t } = useTranslation()
   return (
     <>
       <Container>
@@ -25,12 +27,10 @@ export function StartupPitch () {
             }}
           />
         </div>
-        <p className='mt-5'>
-          Te invitamos a presentar tus soluciones en Industrial Transformation México 2023 en nuestra segunda edición del Startup Pitch. Participa y sé uno de los cuatro finalistas que presente ante inversionistas y miembros del jurado en ITM, que tendrá lugar del 4 – 6 de octubre, 2023 en Poliforum León, Guanajuato. Para ser parte del Startup Pitch @ITM2022 sigue los siguientes pasos y envía tu expediente a más tardar el 21 de julio del presente año.
-        </p>
+        <p className='mt-5'>{t('startup.description_1')}</p>
         <div className='startup-links-first'>
           <a href='#beneficios'>
-            Beneficios
+            {t('startup.linkButton')}
           </a>
         </div>
         <div className='startup-links-first'>
@@ -40,78 +40,72 @@ export function StartupPitch () {
         </div>
         <Row className='mt-5'>
           <Col md>
-            <div className='header-startup'>
-              Etapas del Concurso
-            </div>
-            <p className='mt-4'>Publicación de la Convocatoria<br />
-              Sesiones informativas<br />
-              Cierre de Convocatoria<br />
-
-              Publicación de emprendedor seleccionados<br />
-              Preparación de pitch y mentorías<br />
-              Ensayos on stage @ITM<br />
-              Startup Pitch – Demo Day
+            <div className='header-startup'>{t('startup.element_1.title')}</div>
+            <p className='mt-4'>{t('startup.element_1.description_1')}<br />
+              {t('startup.element_1.description_2')}<br />
+              {t('startup.element_1.description_3')}<br />
+              {t('startup.element_1.description_4')}<br />
+              {t('startup.element_1.description_5')}<br />
+              {t('startup.element_1.description_6')}<br />
+              {t('startup.element_1.description_7')}
             </p>
           </Col>
           <Col md>
-            <div className='header-startup'>
-              Fecha
-            </div>
+            <div className='header-startup'>{t('startup.element_2.title')}</div>
             <p className='mt-4'>
-              Junio 2023<br />
-              28 de junio y 26 de julio<br />
-              04 de agosto<br />
-              1 de septiembre<br />
-              Del 5 al 30 de septiembre<br />
-              05 de octubre<br />
-              06 de octubre<br />
+              {t('startup.element_2.description_1')}<br />
+              {t('startup.element_2.description_2')}<br />
+              {t('startup.element_2.description_3')}<br />
+              {t('startup.element_2.description_4')}<br />
+              {t('startup.element_2.description_5')}<br />
+              {t('startup.element_2.description_6')}<br />
+              {t('startup.element_2.description_7')}<br />
             </p>
           </Col>
         </Row>
         <div className='wrapper-startup-links'>
-          <a className='startup-links' href='/files/CONVOCATORIA STARTUP PITCH 2023-new.pdf' target='_blank'>DESCARGA LA CONVOCATORIA</a>
+          <a className='startup-links' href='/files/CONVOCATORIA STARTUP PITCH 2023-new.pdf' target='_blank'>{t('startup.button_1')}</a>
 
-          <a className='startup-links' href='https://forms.gle/5iHbJU7Yf1dMcusS9' target='_blank' rel='noreferrer'>ENVÍA TU EXPEDIENTE</a>
+          <a className='startup-links' href='https://forms.gle/5iHbJU7Yf1dMcusS9' target='_blank' rel='noreferrer'>{t('startup.button_2')}</a>
 
-          <a className='startup-links' href='/files/startup-AVISOS-DE-PRIVACIDAD.pdf' target='_blank'>AVISOS DE PRIVACIDAD</a>
+          <a className='startup-links' href='/files/startup-AVISOS-DE-PRIVACIDAD.pdf' target='_blank'>{t('startup.button_3')}</a>
 
-          <a className='startup-links' href='/files/startupFAQS.pdf' target='_blank'>FAQS</a>
+          <a className='startup-links' href='/files/startupFAQS.pdf' target='_blank'>FAQ</a>
         </div>
-        <h1 className='fw-bold text-center mt-5'>Fecha límite de inscripción 04 de agosto de 2023</h1>
-        <p className='text-center'>¿Tienes alguna duda sobre el proceso? Contáctanos al
-          correo <a href='mailto:eder.rangel@hfmexico.mx' target='_blank' rel='noreferrer'>eder.rangel@hfmexico.mx</a>
+        <h1 className='fw-bold text-center mt-5'>{t('startup.title_1')}</h1>
+        <p className='text-center'>{t('startup.contacto')}<a href='mailto:eder.rangel@hfmexico.mx' target='_blank' rel='noreferrer'>eder.rangel@hfmexico.mx</a>
         </p>
-        <h4 className='mt-5 mb-5 text-danger'>Participa en alguna de las siguientes categorías:</h4>
+        <h4 className='mt-5 mb-5 text-danger'>{t('startup.titleCategory')}</h4>
 
         <Accordion defaultActiveKey='0'>
           <Accordion.Item eventKey='0'>
-            <Accordion.Header>ÁREAS DE ENFOQUE</Accordion.Header>
+            <Accordion.Header>{t('startup.category_1.title')}</Accordion.Header>
             <Accordion.Body>
-              1. AI & Machine Learning<br />
-              2. Descarbonización<br />
-              3. Economía Circular<br />
-              4. Logística 4.0
+              {t('startup.category_1.item_1')}<br />
+              {t('startup.category_1.item_2')}<br />
+              {t('startup.category_1.item_3')}<br />
+              {t('startup.category_1.item_4')}
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey='1'>
-            <Accordion.Header>TIPO DE TECNOLOGÍA:</Accordion.Header>
+            <Accordion.Header>{t('startup.category_2.title')}</Accordion.Header>
             <Accordion.Body>
-              1. Data Analytics<br />
-              2. Cloud Computing<br />
-              3. Sensores<br />
-              4. Internet de las Cosas<br />
-              5. Inteligencia artificial<br />
-              6. Realidad virtual o aumentada<br />
-              7. Impresión 3D
+              {t('startup.category_2.item_1')}<br />
+              {t('startup.category_2.item_2')}<br />
+              {t('startup.category_2.item_3')}<br />
+              {t('startup.category_2.item_4')}<br />
+              {t('startup.category_2.item_5')}<br />
+              {t('startup.category_2.item_6')}<br />
+              {t('startup.category_2.item_7')}
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey='2'>
-            <Accordion.Header>ÁREAS DE APLICACIÓN: </Accordion.Header>
+            <Accordion.Header>{t('startup.category_3.title')}</Accordion.Header>
             <Accordion.Body>
-              1. Fábrica digital<br />
-              2. Automatización<br />
-              3. Manufactura aditiva<br />
-              4. Automatización ambiental
+              {t('startup.category_3.item_1')}<br />
+              {t('startup.category_3.item_2')}<br />
+              {t('startup.category_3.item_3')}<br />
+              {t('startup.category_3.item_4')}
             </Accordion.Body>
           </Accordion.Item>
           {/* <Accordion.Item eventKey='3'>
@@ -125,70 +119,46 @@ export function StartupPitch () {
       </Container>
       <section className='mt-5 bg-startup-participar'>
         <Container>
-          <h4 className='fw-bold'>Elige participar en alguna de las siguientes etapas de emprendimiento:</h4>
+          <h4 className='fw-bold'>{t('startup.businessTitle')}</h4>
           <p>
-            Seed:<br /><br />
-
-            Cuenta con un producto mínimo viable en el mercado, con clientes que comienzan a tener crecimiento (poder demostrar tu tracción de datos). Se cuentan con ventas iniciales. Aquí el foco principal es en la iteración y desarrollo del producto, crecer en usuarios y retención de clientes. Lo ideal es que tenga un inversionista institucional pero no es requerido.<br /><br />
-
-            Serie A:<br /><br />
-
-            Contar con un proyecto de ventas de entre 1 y 2.5 millones de pesos anuales. Cuentas con un producto que encaja en el mercado, deseas tener un escalamiento comercial. Cuenta con equipo de ventas y estás iniciando la creación de un equipo enfocado al cliente para el aumento de ventas y retención del cliente.
+            {t('startup.stage_1.title')}<br /><br />
+            {t('startup.stage_1.description')}<br /><br />
+            {t('startup.stage_2.title')}<br /><br />
+            {t('startup.stage_2.description')}
           </p>
         </Container>
       </section>
       <Container className='mt-5'>
-        <h4 className='fw-bold text-danger'>Prepara tu expediente con los siguientes requisitos:</h4>
-
+        <h4 className='fw-bold text-danger'>{t('startup.requirements.title')}</h4>
         <ul>
-          <li>Descripción de tu proyecto en máximo una cuartilla en formato Word o PDF, donde señales claramente la categoría, áreas de aplicación y etapa del emprendimiento a la que estás aplicando.</li>
-          <li>
-            Documento en Word o PDF la valuación de proyecto.
-          </li>
-          <li>
-            Pitch inicial de 3 minutos en formato de video mp4 o mov.
-          </li>
-          <li>
-            Semblanza o CV de quienes conforman el equipo de trabajo.
-          </li>
-          <li>
-            Cuestionario de postulación que se encuentra en nuestro sitio web.
-          </li>
-          <li>
-            Expediente administrativo.
-          </li>
+          <li>{t('startup.requirements.item_1')}</li>
+          <li>{t('startup.requirements.item_2')}</li>
+          <li>{t('startup.requirements.item_3')}</li>
+          <li>{t('startup.requirements.item_4')}</li>
+          <li>{t('startup.requirements.item_5')}</li>
+          <li>{t('startup.requirements.item_6')}</li>
         </ul>
         <p>
-          <strong>Persona Física:</strong><br />
+          <strong>{t('startup.physicalPerson.title')}</strong><br />
+          {t('startup.physicalPerson.item_1')}<br />
+          {t('startup.physicalPerson.item_2')}<br />
+          {t('startup.physicalPerson.item_3')}<br />
 
-          Identificación del representante legal.<br />
-
-          RFC del representante legal.<br />
-
-          Comprobante de domicilio.<br />
-
-          <strong>Persona Moral:</strong><br />
-
-          Acta constitutiva (en caso de aplicar).<br />
-
-          Comprobante de domicilio de la empresa.<br />
-
-          Identificación del representante legal.<br />
-
-          RFC del representante legal.
+          <strong>{t('startup.moralPerson.title')}</strong><br />
+          {t('startup.moralPerson.item_1')}<br />
+          {t('startup.moralPerson.item_2')}<br />
+          {t('startup.moralPerson.item_3')}<br />
+          {t('startup.moralPerson.item_4')}
           <br />
           <br />
-          Envía tu expediente a más tardar el 04 de agosto a través de la siguiente forma de Google.
-          Recuerda que, para poder completar tu aplicación a la presente convocatoria, deberás asegurarte de que el cuestionario esté completamente lleno con todos los requisitos.
-
+          {t('startup.conditionText')}
         </p>
         <div id='beneficios'>
-          <h4 className='text-danger fw-bold'>Beneficios</h4>
-
-          <p>Acceso a Industrial Transformation México 2023.<br /><br />
-            Mentorías de preparación para presentación de Pitch.<br /><br />
-            Los proyectos seleccionados para la etapa final, podrán asistir al exclusivo evento de la Noche de Industriales el 3 de octubre en el marco de Industrial Transformation México 2023. (En caso de ser seleccionado, considera tu llegada para esta fecha).<br /><br />
-            Al proyecto seleccionado se le otorgará un stand para su participación en la Hannover Messe 2024 en Alemania en el área de Young Tech Enterprises.
+          <h4 className='text-danger fw-bold'>{t('startup.benefits.title')}</h4>
+          <p>{t('startup.benefits.item_1')}<br /><br />
+            {t('startup.benefits.item_2')}<br /><br />
+            {t('startup.benefits.item_3')}<br /><br />
+            {t('startup.benefits.item_4')}
           </p>
           {/* <div>
             <img src={logojetro} alt='logo-jetro' width={250} />
@@ -213,12 +183,10 @@ export function StartupPitch () {
       </Container>
       <section className='startup-expediente text-light'>
         <Container>
-          <h4>¿Tienes alguna duda sobre el proceso? Contáctanos al correo eder.rangel@hfmexico.mx
-          </h4>
+          <h4>{t('startup.titleDoubt')}</h4>
           <br /><br />
-          <a href='https://forms.gle/5iHbJU7Yf1dMcusS9' target='_blank' rel='noreferrer'>ENVÍA TU EXPEDIENTE</a>
-          <p className='mt-5 fw-bold fs-2'>Fecha límite de inscripción 04 de agosto de 2023
-          </p>
+          <a href='https://forms.gle/5iHbJU7Yf1dMcusS9' target='_blank' rel='noreferrer'>{t('startup.fileButton')}</a>
+          <p className='mt-5 fw-bold fs-2'>{t('startup.deadline')}</p>
         </Container>
       </section>
     </>

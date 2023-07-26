@@ -275,5 +275,102 @@
         "year_3": "2021",
         "year_4": "2022"
     },
-    "downloadlogos": "DOWNLOAD LOGOS"
+    "downloadlogos": "DOWNLOAD LOGOS",
+    "startup": {
+        "description_1": "We invite you to present your solutions at Industrial Transformation Mexico 2023 in our second edition of the Startup Pitch. Participate and be one of the four finalists presented before investors and jury members at ITM, which will take place from October 4 - 6, 2023 in Poliforum León, Guanajuato. To be part of the Startup Pitch @ITM2022 follow the steps below and submit your file by July 21 of this year." ,
+        "linkButton":"Benefits",
+        "element_1":{
+            "title" : "Stages of the Competition",
+            "description_1":"Publication of the Notice",
+            "description_2":"Information Sessions",
+            "description_3":"Closing of the Call",
+            "description_4":"Publication of Selected Entrepreneurs",
+            "description_5":"Pitch Preparation and Mentoring",
+            "description_6":"Ensayos on stage @ITM",
+            "description_7":"Startup Pitch – Demo Day"
+        },
+        "element_2":{
+            "title" : "Date",
+            "description_1":"June 2023",
+            "description_2":"June 28 and July 26",
+            "description_3":"August 04",
+            "description_4":"September 01",
+            "description_5":"September 5 to 30",
+            "description_6":"October 05",
+            "description_7":"October 06"
+        },
+        "button_1":"DOWNLOAD THE CALL",
+        "button_2":"SEND YOUR FILE",
+        "button_3":"PRIVACY NOTICE",
+        "button_4":"FAQS",
+        "title_1": "Deadline for registration August 04, 2023",
+        "contacto" : "¿Do you have any questions about the process? Contact us at ",
+        "titleCategory":"Participate in one of the following categories:",
+        "category_1":{
+            "title":"FOCUS AREAS",
+            "item_1":"1. AI & Machine Learning",
+            "item_2":"2. Decarbonization",
+            "item_3":"3. Circular Economy",
+            "item_4":"4. Logistics 4.0"
+        },
+        "category_2":{
+            "title":"TYPE OF TECHNOLOGY",
+            "item_1":"1. Data Analytics",
+            "item_2":"2. Cloud Computing",
+            "item_3":"3. Sensors",
+            "item_4":"4. Internet of Things",
+            "item_5":"5. Artificial intelligence",
+            "item_6":"6. Virtual or augmented reality",
+            "item_7":"7. 3D Printing"
+        },
+        "category_3":{
+            "title":"APPLICATION AREAS",
+            "item_1":"1. Digital Factory",
+            "item_2":"2. Automation",
+            "item_3":"3. Additive Manufacturing",
+            "item_4":"4. Environmental Automation"
+        },
+        "businessTitle" : "Choose to participate in one of the following stages of entrepreneurship:",
+        "stage_1":{
+            "title": "Seed:",
+            "description": "You have a minimum viable product in the market, with customers that are starting to grow (being able to demonstrate your data traction). You have initial sales. Here the main focus is on product iteration and development, user growth and customer retention. Ideally you should have an institutional investor but it is not required."
+        },
+        "stage_2":{
+            "title": "Serie A:",
+            "description": "Have a sales project of between 1 and 2.5 million pesos per year. You have a product that fits in the market, you want to have a commercial scaling. You have a sales team and you are initiating the creation of a customer focused team to increase sales and customer retention."
+        },
+        "requirements":{
+            "title":"Prepare your file with the following requirements:",
+            "item_1": "Description of your project in a maximum of one page in Word or PDF format, clearly indicating the category, areas of application and stage of the venture to which you are applying.",
+            "item_2": "Word or PDF document of the project valuation.",
+            "item_3": "Initial 3-minute pitch in mp4 or mov video format.",
+            "item_4": "Resume or CV of the members of the work team.",
+            "item_5": "Application questionnaire found on our website.",
+            "item_6": "Administrative File."
+        },
+        "physicalPerson":{
+            "title": "Individual:",
+            "item_1": "Identification of the legal representative.",
+            "item_2": "RFC of the legal representative.",
+            "item_3": "Proof of address."
+        },
+        "moralPerson":{
+            "title": "Moral Person:",
+            "item_1": "Articles of Incorporation (if applicable).",
+            "item_2": "Proof of address of the company.",
+            "item_3": "Identification of the legal representative.",
+            "item_4": "RFC of the legal representative."
+        },
+        "conditionText":"Send your file no later than August 4th through the following Google form. Remember that, in order to complete your application to this call for applications, you must make sure that the questionnaire is completely filled out with all the requirements.",
+        "benefits":{
+            "title": "Benefits",
+            "item_1": "Access to Industrial Transformation Mexico 2023.",
+            "item_2": "Pitch presentation preparation mentoring.",
+            "item_3": "The projects selected for the final stage will be able to attend the exclusive Industrial Night event on October 3 during Industrial Transformation Mexico 2023. (In case you are selected, please consider your arrival for this date).",
+            "item_4": "The selected project will be awarded a booth for its participation at Hannover Messe 2024 in Germany in the Young Tech Enterprises area."
+        },
+        "titleDoubt": "Do you have any questions about the process? Contact us at eder.rangel@hfmexico.mx",
+        "fileButton": "SEND FILE",
+        "deadline":"Deadline for registration August 04, 2023"
+    }
 }

@@ -279,5 +279,101 @@
         "year_3": "2021",
         "year_4": "2022"
     },
-    "downloadlogos": "DESCARGA DE LOGOTIPOS"
+    "downloadlogos": "DESCARGA DE LOGOTIPOS",
+    "startup": {
+        "description_1": "Te invitamos a presentar tus soluciones en Industrial Transformation México 2023 en nuestra segunda edición del Startup Pitch. Participa y sé uno de los cuatro finalistas que presente ante inversionistas y miembros del jurado en ITM, que tendrá lugar del 4 – 6 de octubre, 2023 en Poliforum León, Guanajuato. Para ser parte del Startup Pitch @ITM2022 sigue los siguientes pasos y envía tu expediente a más tardar el 21 de julio del presente año." ,
+        "linkButton":"Beneficios",
+        "element_1":{
+            "title" : "Etapas del Concurso",
+            "description_1":"Publicación de la Convocatoria",
+            "description_2":"Sesiones informativas",
+            "description_3":"Cierre de Convocatoria",
+            "description_4":"Publicación de emprendedor seleccionados",
+            "description_5":"Preparación de pitch y mentorías",
+            "description_6":"Ensayos on stage @ITM",
+            "description_7":"Startup Pitch – Demo Day"
+        },
+        "element_2":{
+            "title" : "Fecha",
+            "description_1":"Junio 2023",
+            "description_2":"28 de junio y 26 de julio",
+            "description_3":"04 de agosto",
+            "description_4":"01 de septiembre",
+            "description_5":"Del 5 al 30 de septiembre",
+            "description_6":"05 de octubre",
+            "description_7":"06 de octubre"
+        },
+        "button_1":"DESCARGA LA CONVOCATORIA",
+        "button_2":"ENVÍA TU EXPEDIENTE",
+        "button_3":"AVISO DE PRIVACIDAD",
+        "title_1": "Fecha límite de inscripción 04 de agosto de 2023",
+        "contacto" : "¿Tienes alguna duda sobre el proceso? Contáctanos al correo ",
+        "titleCategory":"Participa en alguna de las siguientes categorías:",
+        "category_1":{
+            "title":"ÁREAS DE ENFOQUE",
+            "item_1":"1. AI & Machine Learning",
+            "item_2":"2. Descarbonización",
+            "item_3":"3. Economía Circular",
+            "item_4":"4. Logística 4.0"
+        },
+        "category_2":{
+            "title":"TIPO DE TECNOLOGÍA",
+            "item_1":"1. Data Analytics",
+            "item_2":"2. Cloud Computing",
+            "item_3":"3. Sensores",
+            "item_4":"4. Internet de las Cosas",
+            "item_5":"5. Inteligencia artificial",
+            "item_6":"6. Realidad virtual o aumentada",
+            "item_7":"7. Impresión 3D"
+        },
+        "category_3":{
+            "title":"ÁREAS DE APLICACIÓN",
+            "item_1":"1. Fábrica digital",
+            "item_2":"2. Automatización",
+            "item_3":"3. Manufactura aditiva",
+            "item_4":"4. Automatización ambiental"
+        },
+        "businessTitle" : "Elige participar en alguna de las siguientes etapas de emprendimiento:",
+        "stage_1":{
+            "title": "Seed:",
+            "description": "Cuenta con un producto mínimo viable en el mercado, con clientes que comienzan a tener crecimiento (poder demostrar tu tracción de datos). Se cuentan con ventas iniciales. Aquí el foco principal es en la iteración y desarrollo del producto, crecer en usuarios y retención de clientes. Lo ideal es que tenga un inversionista institucional pero no es requerido."
+        },
+        "stage_2":{
+            "title": "Serie A:",
+            "description": "Contar con un proyecto de ventas de entre 1 y 2.5 millones de pesos anuales. Cuentas con un producto que encaja en el mercado, deseas tener un escalamiento comercial. Cuenta con equipo de ventas y estás iniciando la creación de un equipo enfocado al cliente para el aumento de ventas y retención del cliente."
+        },
+        "requirements":{
+            "title":"Prepara tu expediente con los siguientes requisitos:",
+            "item_1": "Descripción de tu proyecto en máximo una cuartilla en formato Word o PDF, donde señales claramente la categoría, áreas de aplicación y etapa del emprendimiento a la que estás aplicando.",
+            "item_2": "Documento en Word o PDF la valuación de proyecto.",
+            "item_3": "Pitch inicial de 3 minutos en formato de video mp4 o mov.",
+            "item_4": "Semblanza o CV de quienes conforman el equipo de trabajo.",
+            "item_5": "Cuestionario de postulación que se encuentra en nuestro sitio web.",
+            "item_6": "Expediente administrativo."
+        },
+        "physicalPerson":{
+            "title": "Persona Física:",
+            "item_1": "Identificación del representante legal.",
+            "item_2": "RFC del representante legal.",
+            "item_3": "Comprobante de domicilio."
+        },
+        "moralPerson":{
+            "title": "Persona Moral:",
+            "item_1": "Acta constitutiva (en caso de aplicar).",
+            "item_2": "Comprobante de domicilio de la empresa.",
+            "item_3": "Identificación del representante legal.",
+            "item_4": "RFC del representante legal."
+        },
+        "conditionText":"Envía tu expediente a más tardar el 04 de agosto a través de la siguiente formulario de Google. Recuerda que, para poder completar tu aplicación a la presente convocatoria, deberás asegurarte de que el cuestionario esté completamente lleno con todos los requisitos.",
+        "benefits":{
+            "title": "Beneficios",
+            "item_1": "Acceso a Industrial Transformation México 2023.",
+            "item_2": "Mentorías de preparación para presentación de Pitch.",
+            "item_3": "Los proyectos seleccionados para la etapa final, podrán asistir al exclusivo evento de la Noche de Industriales el 3 de octubre en el marco de Industrial Transformation México 2023. (En caso de ser seleccionado, considera tu llegada para esta fecha).",
+            "item_4": "Al proyecto seleccionado se le otorgará un stand para su participación en la Hannover Messe 2024 en Alemania en el área de Young Tech Enterprises."
+        },
+        "titleDoubt": "¿Tienes alguna duda sobre el proceso? Contáctanos al correo eder.rangel@hfmexico.mx",
+        "fileButton": "ENVÍA EXPEDIENTE",
+        "deadline":"Fecha límite de inscripción 04 de agosto de 2023"
+    }
 }
