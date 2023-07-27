@@ -7,6 +7,8 @@ import { Gallery } from '../Gallery/Gallery'
 import { Contacts } from '../Contacts'
 
 import './Home.css'
+import { Logos } from './Logos'
+import { logos } from '../constans_logos'
 export function Home () {
   const { t } = useTranslation()
   return (
@@ -29,9 +31,8 @@ export function Home () {
         </div>
       </div>
 
-      <Container className='home mt-5'>
+      <Container className='home mt-5 pb-4'>
         <Slider />
-
         <h2 className='mt-5'>{t('home.highlights_ITM2022')}</h2>
         <Row>
           <Col md={8} className='mx-auto'>
@@ -43,175 +44,18 @@ export function Home () {
             </a>
           </Col>
         </Row>
+        <Logos titulo='home.sponsors' logos={logos.platinumSponsors} />
+        <Logos titulo='home.digital' logos={logos.digitalOpening} />
+        <Logos titulo='home.gold_sponsors' logos={logos.goldSponsors} />
+        <Logos titulo='home.silver_sponsor' logos={logos.silverSponsor} />
+        <Logos titulo='home.content_partners' logos={logos.contentPartners} />
+        <Logos titulo='home.industry_partners' logos={logos.industryPartners} />
+        <Logos titulo='home.strategic_allies' logos={logos.strategicAllies} />
+        <Logos titulo='home.broadcasting' logos={logos.broadcasting} />
+        <Logos titulo='home.platinum_media' logos={logos.platinumMedia} />
+        <Logos titulo='home.gold_media_partners' logos={logos.goldMediaPartners} />
+        <Logos titulo='home.silver_media_partners' logos={logos.silverMediaPartners} />
 
-        <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
-        <Row>
-          <Col md={4}>
-            <img src='/logoSchneider.webp' className='w-100' loading='lazy' alt='schneider' />
-          </Col>
-          <Col md={4}>
-            <img src='/mitsubishi.webp' className='w-100' loading='lazy' alt='mitsubishi' />
-          </Col>
-          <Col md={4}>
-            <img src='/siemens.webp' className='w-100' loading='lazy' alt='siemens' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.digital')}</h3>
-        <Row>
-          <Col md={4} className='mx-auto'>
-            <img src='/Beckhoff.webp' className='w-100' loading='lazy' alt='Beckhoff_NAT' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.gold_sponsors')}</h3>
-        <Row>
-          <Col md={2} className='mx-auto'>
-            <img src='/ciscopartner.webp' className='w-100' loading='lazy' alt='cisco' />
-          </Col>
-          <Col md={2} className='mx-auto'>
-            <img src='/roue.webp' className='w-100' loading='lazy' alt='roue' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.silver_sponsor')}</h3>
-        <Row>
-          <Col md={3} className='mx-auto'>
-            <img src='/nokia.webp' className='w-100' loading='lazy' alt='nokia' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.content_partners')}</h3>
-        <Row>
-          <Col md={3} className='mx-auto'>
-            <img src='/ientc.webp' className='w-100' loading='lazy' alt='ientc' />
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <img src='/kaeser.webp' className='w-100' loading='lazy' alt='kaeser' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.industry_partners')}</h3>
-        <Row>
-          <Col md={3} className='mx-auto'>
-            <img src='/concamin.webp' className='w-100' loading='lazy' alt='concamin' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.strategic_allies')}</h3>
-        <Row>
-          <Col md={3} className='mx-auto'>
-            <img src='/A3.webp' className='w-100' loading='lazy' alt='A3' />
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <img src='/ahk.webp' className='w-100' loading='lazy' alt='ahk' />
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <img src='/canieti.webp' className='w-100' loading='lazy' alt='canieti' />
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <img src='/giz.webp' className='w-100' loading='lazy' alt='giz' />
-          </Col>
-        </Row>
-
-        <Row>
-          <Col md className='mx-auto'>
-            <img src='/gto200.webp' className='w-100' loading='lazy' alt='gto200' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/dual.webp' className='w-100' loading='lazy' alt='dual' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/kas.webp' className='w-100' loading='lazy' alt='kas' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/pagsid.webp' className='w-100' loading='lazy' alt='pagsid' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/onudi.webp' className='w-100' loading='lazy' alt='onudi' />
-          </Col>
-        </Row>
-
-        <Row>
-          <Col md className='mx-auto'>
-            <img src='/enpact.webp' className='w-100' loading='lazy' alt='enpact' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/cancham.webp' className='w-100' loading='lazy' alt='cancham' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/camaraSuizo.webp' className='w-100' loading='lazy' alt='camarasuizo' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/80amsoc.webp' className='w-100' loading='lazy' alt='80 amsoc' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/cinvestav.webp' className='w-100' loading='lazy' alt='cinvestav' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.broadcasting')}</h3>
-        <Row>
-          <Col md={3} className='mx-auto'>
-            <img src='/grupomilenio.webp' className='w-100' loading='lazy' alt='grupo milenio' />
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <img src='/EFE.webp' className='w-100' loading='lazy' alt='EFE' />
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <img src='/heraldo.webp' className='w-100' loading='lazy' alt='el heraldo' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.platinum_media')}</h3>
-        <Row>
-          <Col md className='mx-auto'>
-            <img src='/cluster.webp' className='w-100' loading='lazy' alt='cluster industrial' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/cuatrocero.webp' className='w-100' loading='lazy' alt='cuatro cero' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/eleconomista.webp' className='w-100' loading='lazy' alt='el economista' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/mexicoindustry.webp' className='w-100' loading='lazy' alt='mexico industry' />
-          </Col>
-          <Col md className='mx-auto'>
-            <img src='/vanguardia.webp' className='w-100' loading='lazy' alt='vanguardia ' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.gold_media_partners')}</h3>
-        <Row>
-          <Col md={2} className='mx-auto'>
-            <img src='/am.webp' className='w-100' loading='lazy' alt='am' />
-          </Col>
-          <Col md={2} className='mx-auto'>
-            <img src='/directorioauto.webp' className='w-100' loading='lazy' alt='directorio automotriz' />
-          </Col>
-          <Col md={2} className='mx-auto'>
-            <img src='/globalenergy.webp' className='w-100' loading='lazy' alt='global energy' />
-          </Col>
-        </Row>
-        <Row>
-          <Col md={2} className='mx-auto'>
-            <img src='/globalindustries.webp' className='w-100' loading='lazy' alt='global industries' />
-          </Col>
-          <Col md={2} className='mx-auto'>
-            <img src='/revistaconsultoria.webp' className='w-100' loading='lazy' alt='revista consultoria' />
-          </Col>
-          <Col md={2} className='mx-auto'>
-            <img src='/revistapreferencia.webp' className='w-100' loading='lazy' alt='revista de preferencia' />
-          </Col>
-        </Row>
-
-        <h3 className='mt-5 mb-5'>{t('home.silver_media_partners')}</h3>
-        <Row className='mb-5'>
-          <Col md={3} className='mx-auto'>
-            <img src='/dpl.webp' className='w-100' loading='lazy' alt='dpl' />
-          </Col>
-        </Row>
       </Container>
       <section className='home-gallery'>
         <Container className='pt-4'>

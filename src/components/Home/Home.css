@@ -58,6 +58,17 @@ h3 {
     font-weight: bold;
     text-shadow: 4px 4px 10px black;
 }
+.home-wrapper-logos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, max(250px));
+    gap: 20px;    
+    justify-content: center;
+}
+.home-wrapper-logos > img{
+    width: 100%;
+    height: auto;
+}
+
 
 .home-gallery {
     background-color: black;

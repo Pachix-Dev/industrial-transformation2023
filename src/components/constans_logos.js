@@ -1,44 +1,64 @@
 const logos = {
-  schneider: '/logoSchneider.webp',
-  mitsubishi: '/mitsubishi.webp',
-  siemens: '/siemens.webp',
-  roue: '/roue.webp',
-  cisco: '/ciscopartner.webp',
-  nokia: '/nokia.webp',
-  ientc: '/ientc.webp',
-  kaeser: '/kaeser.webp',
-  concamin: '/concamin.webp',
-  A3: '/A3.webp',
-  ahk: '/ahk.webp',
-  canieti: '/canieti.webp',
-  giz: '/giz.webp',
-  gto200: '/gto200.webp',
-  dual: '/dual.webp',
-  kas: '/kas.webp',
-  pagsid: '/pagsid.webp',
-  onudi: '/onudi.webp',
-  enpact: '/enpact.webp',
-  cancham: '/cancham.webp',
-  camarasuizo: '/camaraSuizo.webp',
-  amsoc80: '/80amsoc.webp',
-  cinvestav: '/cinvestav.webp',
-  grupomilenio: '/grupomilenio.webp',
-  EFE: '/EFE.webp',
-  heraldo: '/heraldo.webp',
-  cluster: '/cluster.webp',
-  cuatrocero: '/cuatrocero.webp',
-  eleconomista: '/eleconomista.webp',
-  mexicoindustry: '/mexicoindustry.webp',
-  vanguardia: '/vanguardia.webp',
-  am: '/am.webp',
-  directorioauto: '/directorioauto.webp',
-  globalenergy: '/globalenergy.webp',
-  globalindustries: '/globalindustries.webp',
-  revistaconsultoria: '/revistaconsultoria.webp',
-  revistapreferencia: '/revistapreferencia.webp',
-  dpl: '/dpl.webp',
-  Beckhoff: '/Beckhoff.webp',
-  postervideo: '/posterVideo.webp',
-  posterYotube: '/posterYoutube.webp'
+  platinumSponsors: [
+    '/logoSchneider.webp',
+    '/mitsubishi.webp',
+    '/siemens.webp'
+  ],
+  digitalOpening: [
+    '/Beckhoff.webp'
+  ],
+  goldSponsors: [
+    '/ciscopartner.webp',
+    '/roue.webp'
+  ],
+  silverSponsor: [
+    '/nokia.webp'
+  ],
+  contentPartners: [
+    '/ientc.webp',
+    '/kaeser.webp'
+  ],
+  industryPartners: [
+    '/concamin.webp'
+  ],
+  strategicAllies: [
+    '/A3.webp',
+    '/ahk.webp',
+    '/canieti.webp',
+    '/giz.webp',
+    '/gto200.webp',
+    '/dual.webp',
+    '/kas.webp',
+    '/pagsid.webp',
+    '/onudi.webp',
+    '/enpact.webp',
+    '/cancham.webp',
+    '/camaraSuizo.webp',
+    '/80amsoc.webp',
+    '/cinvestav.webp'
+  ],
+  broadcasting: [
+    '/grupomilenio.webp',
+    '/EFE.webp',
+    '/heraldo.webp'
+  ],
+  platinumMedia: [
+    '/cluster.webp',
+    '/cuatrocero.webp',
+    '/eleconomista.webp',
+    '/mexicoindustry.webp',
+    '/vanguardia.webp'
+  ],
+  goldMediaPartners: [
+    '/am.webp',
+    '/directorioauto.webp',
+    '/globalenergy.webp',
+    '/globalindustries.webp',
+    '/revistaconsultoria.webp',
+    '/revistapreferencia.webp'
+  ],
+  silverMediaPartners: [
+    '/dpl.webp'
+  ]
 }
 export { logos }
