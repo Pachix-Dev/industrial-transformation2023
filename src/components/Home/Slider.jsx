@@ -1,9 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel'
-import futuristic from '../../assets/ITM-FUTURISTIC-MINDS.webp'
-import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
-import posterMtech from '../../assets/PosterMtech.webp'
-import posterOktober from '../../assets/PosterOktober.webp'
-import bannerCanieti from '../../assets/banner-itm-canieti.webp'
 import { Link } from 'react-router-dom'
 export function Slider () {
   return (
@@ -18,7 +13,7 @@ export function Slider () {
               loop
               autoPlay
               playsInline
-              poster={posterStartupPitch}
+              poster='/PosterStartupPitch.webp'
             >
               <source
                 src='/STARTUP-PITCH-ITM-2023.webm'
@@ -36,7 +31,7 @@ export function Slider () {
               loop
               autoPlay
               playsInline
-              poster={posterMtech}
+              poster='/PosterMtech.webp'
             >
               <source
                 src='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
@@ -49,7 +44,7 @@ export function Slider () {
           <a href='https://canietimediahouse.com/premios-tic-e-itzamna-2023/' target='_blank' rel='noreferrer'>
             <img
               className='d-block w-100'
-              src={bannerCanieti}
+              src='/banner-itm-canieti.webp'
               alt='CANIETI'
             />
           </a>
@@ -64,7 +59,7 @@ export function Slider () {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src={futuristic}
+            src='/ITM-FUTURISTIC-MINDS.webp'
             alt='ITM-FUTURISTIC-MINDS'
           />
         </Carousel.Item>
@@ -76,7 +71,7 @@ export function Slider () {
             loop
             autoPlay
             playsInline
-            poster={posterOktober}
+            poster='/PosterOktober.webp'
           >
             <source
               src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
