@@ -52,7 +52,7 @@ export function Slider () {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src='/bjxareospace.webp'
+            src='/bjxareospace.avif'
             alt='BJX-AEROSPACE-SUMMIT-4.0-2023'
           />
         </Carousel.Item>

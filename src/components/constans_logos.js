@@ -24,7 +24,7 @@ const logos = {
   strategicAllies: [
     '/A3.webp',
     '/ahk.webp',
-    '/canieti.webp',
+    '/canieti.avif',
     '/giz.webp',
     '/gto200.webp',
     '/dual.webp',
@@ -33,8 +33,8 @@ const logos = {
     '/onudi.webp',
     '/enpact.webp',
     '/cancham.webp',
-    '/camaraSuizo.webp',
-    '/80amsoc.webp',
+    '/camaraSuizo.avif',
+    '/80amsoc.avif',
     '/cinvestav.webp'
   ],
   broadcasting: [
