@@ -1,4 +1,3 @@
-import { logos } from '../../components/constans_logos'
 import { useTranslation } from 'react-i18next'
 import { Col, Container, Row } from 'react-bootstrap'
 import { CounterDown } from './CounterDown'
@@ -20,7 +19,7 @@ export function Home () {
             loop
             autoPlay
             playsInline
-            poster={logos.postervideo}
+            poster='/posterVideo.webp'
           >
             <source
               src='/VIDEO COUNTDOWN ITM 2023.webm'
@@ -38,7 +37,7 @@ export function Home () {
           <Col md={8} className='mx-auto'>
             <a href='https://youtu.be/_API66_gvnk' target='_blank' rel='noreferrer'>
               <img
-                src={logos.posterYotube} alt='Video Poster'
+                src='/posterYoutube.webp' alt='Video Poster'
                 className='w-100'
               />
             </a>
@@ -48,169 +47,169 @@ export function Home () {
         <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
         <Row>
           <Col md={4}>
-            <img src={logos.schneider} className='w-100' loading='lazy' alt='schneider' />
+            <img src='/logoSchneider.webp' className='w-100' loading='lazy' alt='schneider' />
           </Col>
           <Col md={4}>
-            <img src={logos.mitsubishi} className='w-100' loading='lazy' alt='mitsubishi' />
+            <img src='/mitsubishi.webp' className='w-100' loading='lazy' alt='mitsubishi' />
           </Col>
           <Col md={4}>
-            <img src={logos.siemens} className='w-100' loading='lazy' alt='siemens' />
+            <img src='/siemens.webp' className='w-100' loading='lazy' alt='siemens' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.digital')}</h3>
         <Row>
           <Col md={4} className='mx-auto'>
-            <img src={logos.Beckhoff} className='w-100' loading='lazy' alt='Beckhoff_NAT' />
+            <img src='/Beckhoff.webp' className='w-100' loading='lazy' alt='Beckhoff_NAT' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.gold_sponsors')}</h3>
         <Row>
           <Col md={2} className='mx-auto'>
-            <img src={logos.cisco} className='w-100' loading='lazy' alt='cisco' />
+            <img src='/ciscopartner.webp' className='w-100' loading='lazy' alt='cisco' />
           </Col>
           <Col md={2} className='mx-auto'>
-            <img src={logos.roue} className='w-100' loading='lazy' alt='roue' />
+            <img src='/roue.webp' className='w-100' loading='lazy' alt='roue' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.silver_sponsor')}</h3>
         <Row>
           <Col md={3} className='mx-auto'>
-            <img src={logos.nokia} className='w-100' loading='lazy' alt='nokia' />
+            <img src='/nokia.webp' className='w-100' loading='lazy' alt='nokia' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.content_partners')}</h3>
         <Row>
           <Col md={3} className='mx-auto'>
-            <img src={logos.ientc} className='w-100' loading='lazy' alt='ientc' />
+            <img src='/ientc.webp' className='w-100' loading='lazy' alt='ientc' />
           </Col>
           <Col md={3} className='mx-auto'>
-            <img src={logos.kaeser} className='w-100' loading='lazy' alt='kaeser' />
+            <img src='/kaeser.webp' className='w-100' loading='lazy' alt='kaeser' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.industry_partners')}</h3>
         <Row>
           <Col md={3} className='mx-auto'>
-            <img src={logos.concamin} className='w-100' loading='lazy' alt='concamin' />
+            <img src='/concamin.webp' className='w-100' loading='lazy' alt='concamin' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.strategic_allies')}</h3>
         <Row>
           <Col md={3} className='mx-auto'>
-            <img src={logos.A3} className='w-100' loading='lazy' alt='A3' />
+            <img src='/A3.webp' className='w-100' loading='lazy' alt='A3' />
           </Col>
           <Col md={3} className='mx-auto'>
-            <img src={logos.ahk} className='w-100' loading='lazy' alt='ahk' />
+            <img src='/ahk.webp' className='w-100' loading='lazy' alt='ahk' />
           </Col>
           <Col md={3} className='mx-auto'>
-            <img src={logos.canieti} className='w-100' loading='lazy' alt='canieti' />
+            <img src='/canieti.webp' className='w-100' loading='lazy' alt='canieti' />
           </Col>
           <Col md={3} className='mx-auto'>
-            <img src={logos.giz} className='w-100' loading='lazy' alt='giz' />
+            <img src='/giz.webp' className='w-100' loading='lazy' alt='giz' />
           </Col>
         </Row>
 
         <Row>
           <Col md className='mx-auto'>
-            <img src={logos.gto200} className='w-100' loading='lazy' alt='gto200' />
+            <img src='/gto200.webp' className='w-100' loading='lazy' alt='gto200' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.dual} className='w-100' loading='lazy' alt='dual' />
+            <img src='/dual.webp' className='w-100' loading='lazy' alt='dual' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.kas} className='w-100' loading='lazy' alt='kas' />
+            <img src='/kas.webp' className='w-100' loading='lazy' alt='kas' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.pagsid} className='w-100' loading='lazy' alt='pagsid' />
+            <img src='/pagsid.webp' className='w-100' loading='lazy' alt='pagsid' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.onudi} className='w-100' loading='lazy' alt='onudi' />
+            <img src='/onudi.webp' className='w-100' loading='lazy' alt='onudi' />
           </Col>
         </Row>
 
         <Row>
           <Col md className='mx-auto'>
-            <img src={logos.enpact} className='w-100' loading='lazy' alt='enpact' />
+            <img src='/enpact.webp' className='w-100' loading='lazy' alt='enpact' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.cancham} className='w-100' loading='lazy' alt='cancham' />
+            <img src='/cancham.webp' className='w-100' loading='lazy' alt='cancham' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.camarasuizo} className='w-100' loading='lazy' alt='camarasuizo' />
+            <img src='/camaraSuizo.webp' className='w-100' loading='lazy' alt='camarasuizo' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.amsoc80} className='w-100' loading='lazy' alt='80 amsoc' />
+            <img src='/80amsoc.webp' className='w-100' loading='lazy' alt='80 amsoc' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.cinvestav} className='w-100' loading='lazy' alt='cinvestav' />
+            <img src='/cinvestav.webp' className='w-100' loading='lazy' alt='cinvestav' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.broadcasting')}</h3>
         <Row>
           <Col md={3} className='mx-auto'>
-            <img src={logos.grupomilenio} className='w-100' loading='lazy' alt='grupo milenio' />
+            <img src='/grupomilenio.webp' className='w-100' loading='lazy' alt='grupo milenio' />
           </Col>
           <Col md={3} className='mx-auto'>
-            <img src={logos.EFE} className='w-100' loading='lazy' alt='EFE' />
+            <img src='/EFE.webp' className='w-100' loading='lazy' alt='EFE' />
           </Col>
           <Col md={3} className='mx-auto'>
-            <img src={logos.heraldo} className='w-100' loading='lazy' alt='el heraldo' />
+            <img src='/heraldo.webp' className='w-100' loading='lazy' alt='el heraldo' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.platinum_media')}</h3>
         <Row>
           <Col md className='mx-auto'>
-            <img src={logos.cluster} className='w-100' loading='lazy' alt='cluster industrial' />
+            <img src='/cluster.webp' className='w-100' loading='lazy' alt='cluster industrial' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.cuatrocero} className='w-100' loading='lazy' alt='cuatro cero' />
+            <img src='/cuatrocero.webp' className='w-100' loading='lazy' alt='cuatro cero' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.eleconomista} className='w-100' loading='lazy' alt='el economista' />
+            <img src='/eleconomista.webp' className='w-100' loading='lazy' alt='el economista' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.mexicoindustry} className='w-100' loading='lazy' alt='mexico industry' />
+            <img src='/mexicoindustry.webp' className='w-100' loading='lazy' alt='mexico industry' />
           </Col>
           <Col md className='mx-auto'>
-            <img src={logos.vanguardia} className='w-100' loading='lazy' alt='vanguardia ' />
+            <img src='/vanguardia.webp' className='w-100' loading='lazy' alt='vanguardia ' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.gold_media_partners')}</h3>
         <Row>
           <Col md={2} className='mx-auto'>
-            <img src={logos.am} className='w-100' loading='lazy' alt='am' />
+            <img src='/am.webp' className='w-100' loading='lazy' alt='am' />
           </Col>
           <Col md={2} className='mx-auto'>
-            <img src={logos.directorioauto} className='w-100' loading='lazy' alt='directorio automotriz' />
+            <img src='/directorioauto.webp' className='w-100' loading='lazy' alt='directorio automotriz' />
           </Col>
           <Col md={2} className='mx-auto'>
-            <img src={logos.globalenergy} className='w-100' loading='lazy' alt='global energy' />
+            <img src='/globalenergy.webp' className='w-100' loading='lazy' alt='global energy' />
           </Col>
         </Row>
         <Row>
           <Col md={2} className='mx-auto'>
-            <img src={logos.globalindustries} className='w-100' loading='lazy' alt='global industries' />
+            <img src='/globalindustries.webp' className='w-100' loading='lazy' alt='global industries' />
           </Col>
           <Col md={2} className='mx-auto'>
-            <img src={logos.revistaconsultoria} className='w-100' loading='lazy' alt='revista consultoria' />
+            <img src='/revistaconsultoria.webp' className='w-100' loading='lazy' alt='revista consultoria' />
           </Col>
           <Col md={2} className='mx-auto'>
-            <img src={logos.revistapreferencia} className='w-100' loading='lazy' alt='revista de preferencia' />
+            <img src='/revistapreferencia.webp' className='w-100' loading='lazy' alt='revista de preferencia' />
           </Col>
         </Row>
 
         <h3 className='mt-5 mb-5'>{t('home.silver_media_partners')}</h3>
         <Row className='mb-5'>
           <Col md={3} className='mx-auto'>
-            <img src={logos.dpl} className='w-100' loading='lazy' alt='dpl' />
+            <img src='/dpl.webp' className='w-100' loading='lazy' alt='dpl' />
           </Col>
         </Row>
       </Container>
