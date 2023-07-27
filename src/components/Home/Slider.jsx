@@ -31,7 +31,7 @@ export function Slider () {
               loop
               autoPlay
               playsInline
-              poster='/PosterMtech.webp'
+              poster='/PosterMtech.avif'
             >
               <source
                 src='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
