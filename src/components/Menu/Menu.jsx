@@ -82,15 +82,39 @@ export function Menu () {
                     {t('menu.exhibitors_6')}
                   </NavDropdown.Item>
 
+                  <NavDropdown.Divider />
+                  <p className='mt-2 p-2 mb-0'>{t('menu.exhibitors_7')}</p>
                   <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/SPONSORSHIPS-2023-ITM-ENG.pdf'
-                      : '#'}
+                      : '/files/PATRICINIOS 2023 ITM ESP.pdf'}
                     target='_blank'
                     onClick={handleClose}
                   >
-                    {t('menu.exhibitors_7')}
+                    {t('menu.exhibitors_7_1')}
                   </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/files/Patrocinio Keynote ITM 2023.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_7_2')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/files/Patrocinio Transformation ITM 2023.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_7_3')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/files/Patrocinios Noche de Industriales ITM 2023.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_7_4')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
 
                   <NavDropdown.Item
                     as={Link}

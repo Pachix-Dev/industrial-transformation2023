@@ -63,6 +63,7 @@ h3 {
     grid-template-columns: repeat(auto-fit, max(250px));
     gap: 20px;    
     justify-content: center;
+    align-items: center;
 }
 .home-wrapper-logos > img{
     width: 100%;
@@ -79,7 +80,10 @@ h3 {
     color: #e00d1b;
     text-align: center;
 }
-
+.exibitorSlider{
+    display: grid;
+    place-items: center;
+}
 .home-contactos {
     background-image: url('/bgcontactos.avif');
     background-size: cover;

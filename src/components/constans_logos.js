@@ -61,4 +61,28 @@ const logos = {
     '/dpl.webp'
   ]
 }
-export { logos }
+
+const exibitors = [
+  '/Beckhoff.webp',
+  '/ckd.avif',
+  '/dyce.avif',
+  '/EH.avif',
+  '/Finder.avif',
+  '/Fives.avif',
+  '/cleveland.avif',
+  '/Ikusi.avif',
+  '/logoinfo.avif',
+  '/kaeser.webp',
+  '/kloemecom.avif',
+  '/mitutoyo.avif',
+  '/monitor.avif',
+  '/mytec.avif',
+  '/polyworks.avif',
+  '/prensasCilindros.avif',
+  '/roue.webp',
+  '/siemens.webp',
+  '/WAGO-Logo.avif',
+  '/KAIZEN.avif'
+]
+
+export { logos, exibitors }

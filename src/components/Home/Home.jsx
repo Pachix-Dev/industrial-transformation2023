@@ -9,6 +9,7 @@ import { Contacts } from '../Contacts'
 import './Home.css'
 import { Logos } from './Logos'
 import { logos } from '../constans_logos'
+import { ExibitorSlide } from './ExibitorSlide'
 export function Home () {
   const { t } = useTranslation()
   return (
@@ -44,6 +45,8 @@ export function Home () {
             </a>
           </Col>
         </Row>
+        <h2 className='mt-5'>{t('menu.exhibitors')}</h2>
+        <ExibitorSlide />
         <Logos titulo='home.sponsors' logos={logos.platinumSponsors} />
         <Logos titulo='home.digital' logos={logos.digitalOpening} />
         <Logos titulo='home.gold_sponsors' logos={logos.goldSponsors} />
