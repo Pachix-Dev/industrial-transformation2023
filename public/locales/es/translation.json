@@ -380,5 +380,11 @@
         "titleDoubt": "¿Tienes alguna duda sobre el proceso? Contáctanos al correo eder.rangel@hfmexico.mx",
         "fileButton": "ENVÍA EXPEDIENTE",
         "deadline":"Fecha límite de inscripción 04 de agosto de 2023"
+    },
+    "program":{
+        "title": "PROGRAMA DE CONFERENCIAS",
+        "subtitle": "ITM RECOMIENDA",
+        "month":"de Octubre",
+        "titleprogram":"PROGRAMA COMPLETO "            
     }
 }

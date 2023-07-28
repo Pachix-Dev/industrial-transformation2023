@@ -24,6 +24,7 @@ import { useEffect } from 'react'
 import { initializeGA, logPageView } from './analytics'
 import { Footer } from './components/Footer/Footer'
 import { StartupPitch } from './components/StartupPitch/StartupPitch'
+import { Program } from './components/Program/Program'
 
 function App () {
   const { t } = useTranslation()
@@ -235,6 +236,17 @@ function App () {
                 <title>ITM 2023 | Download Logos</title>
               </Helmet>
               <StartupPitch />
+            </>
+          }
+        />
+        <Route
+          path='program'
+          element={
+            <>
+              <Helmet>
+                <title>ITM 2023 | Program</title>
+              </Helmet>
+              <Program />
             </>
           }
         />

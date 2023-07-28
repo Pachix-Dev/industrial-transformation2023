@@ -1,0 +1,37 @@
+.program-videobg{
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.program-wrapper-speakers:hover img{
+  box-shadow: -10px -8px 3px #e8001e;
+}
+.program-wrapper-speakers{
+  cursor: pointer;
+}
+.program-dates button{
+  background-color: #1a1919;
+  text-decoration: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: center;
+  border-radius: 10px;
+}
+.program-dates{
+  background-image: url('/bgprogram.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.program-date-item{
+  background-color: #e8001e;
+  margin-bottom:10px;
+  border-radius: 10px;
+  color: white;
+  padding: 10px;
+  justify-content:space-evenly
+}
