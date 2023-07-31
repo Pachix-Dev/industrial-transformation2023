@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> features/programa
 on:
   push:
     branches:
