@@ -5,11 +5,14 @@ export function Logos (props) {
   return (
     <>
       <h3 className='mt-5 mb-5'>{t(props?.titulo)}</h3>
+      {props?.first && <p className='text-center'><img src={props?.first} loading='lazy' alt='EFE' width={200} /></p>}
       <div className='home-wrapper-logos'>
         {
          props?.logos.map((logo, index) => {
            return (
-             <img key={index} src={logo} loading='lazy' alt={logo} />
+             <a key={index} href=''>
+               <img src={logo} loading='lazy' alt={logo} width={200} />
+             </a>
            )
          })
         }

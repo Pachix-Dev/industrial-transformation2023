@@ -377,5 +377,11 @@
         "titleDoubt": "Do you have any questions about the process? Contact us at eder.rangel@hfmexico.mx",
         "fileButton": "SEND FILE",
         "deadline":"Deadline for registration August 04, 2023"
+    },
+    "program":{
+        "title": "PROGRAMA DE CONFERENCIAS",
+        "subtitle": "ITM RECOMIENDA",
+        "month":"de Octubre",
+        "titleprogram":"FULL PROGRAM "            
     }
 }
