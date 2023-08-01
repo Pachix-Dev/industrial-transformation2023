@@ -12,17 +12,17 @@ export function Dates () {
     <Container className='program-dates mt-5 mb-5'>
       <Row>
         <Col className='text-center'>
-          <button onClick={() => setProgram(programITM.oct_4)}>
+          <button style={{ backgroundColor: program === programITM.oct_4 ? '#e8001e' : '' }} onClick={() => setProgram(programITM.oct_4)}>
             4 {t('program.month')}
           </button>
         </Col>
         <Col className='text-center'>
-          <button onClick={() => setProgram(programITM.oct_5)}>
+          <button style={{ backgroundColor: program === programITM.oct_5 ? '#e8001e' : '' }} onClick={() => setProgram(programITM.oct_5)}>
             5 {t('program.month')}
           </button>
         </Col>
         <Col className='text-center'>
-          <button onClick={() => setProgram(programITM.oct_6)}>
+          <button style={{ backgroundColor: program === programITM.oct_6 ? '#e8001e' : '' }} onClick={() => setProgram(programITM.oct_6)}>
             6 {t('program.month')}
           </button>
         </Col>
