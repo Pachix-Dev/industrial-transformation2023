@@ -206,6 +206,11 @@ export function Home () {
         </p>
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
+            <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
+              <img src='/globalindustries.webp' width={200} loading='lazy' alt='vanguardia ' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.clusterindustrial.com.mx/' target='_blank' rel='noreferrer'>
               <img src='/cluster.webp' width={200} loading='lazy' alt='cluster industrial' />
             </a>
@@ -221,7 +226,11 @@ export function Home () {
               <img src='/eleconomista.webp' width={200} loading='lazy' alt='el economista' />
             </a>
           </Col>
-
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
+              <img src='/dpl.webp' width={200} loading='lazy' alt='dpl' />
+            </a>
+          </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://mexicoindustry.com/' target='_blank' rel='noreferrer'>
               <img src='/mexicoindustry.webp' width={200} loading='lazy' alt='mexico industry' />
@@ -244,11 +253,7 @@ export function Home () {
               <img src='/directorioauto.webp' width={200} loading='lazy' alt='Directorio automotriz ' />
             </a>
           </Col>
-          <Col md={3} className='mx-auto'>
-            <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
-              <img src='/globalindustries.webp' width={200} loading='lazy' alt='vanguardia ' />
-            </a>
-          </Col>
+
           <Col md={3} className='mx-auto'>
             <a href='https://cuatro-cero.mx/' target='_blank' rel='noreferrer'>
               <img src='/cuatrocero.webp' width={200} loading='lazy' alt='cuatro cero' />
@@ -265,11 +270,6 @@ export function Home () {
             </a>
           </Col>
 
-          <Col md={3} className='mx-auto my-auto'>
-            <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
-              <img src='/dpl.webp' width={200} loading='lazy' alt='dpl' />
-            </a>
-          </Col>
         </Row>
 
       </Container>
