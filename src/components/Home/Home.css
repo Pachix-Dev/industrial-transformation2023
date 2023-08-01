@@ -85,7 +85,7 @@ h3 {
     place-items: center;
 }
 .home-contactos {
-    background-image: url('/bgcontactos.avif');
+    background-image: url('/bgcontactos.webp');
     background-size: cover;
     color: white;
 }
