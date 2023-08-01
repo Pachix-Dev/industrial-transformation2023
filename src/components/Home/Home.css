@@ -49,23 +49,26 @@ h3 {
     text-shadow: 4px 4px 8px black;
 }
 
-.counterdown-title{
+.counterdown-title {
     text-shadow: 4px 4px 10px black;
 }
+
 .timer-numbers {
     color: white;
     font-size: 8em;
     font-weight: bold;
     text-shadow: 4px 4px 10px black;
 }
-.home-wrapper-logos{
+
+.home-wrapper-logos {
     display: grid;
     grid-template-columns: repeat(auto-fit, max(250px));
-    gap: 20px;    
+    gap: 20px;
     justify-content: center;
     align-items: center;
 }
-.home-wrapper-logos > img{
+
+.home-wrapper-logos>img {
     width: 200px;
     height: auto;
 }
@@ -80,10 +83,12 @@ h3 {
     color: #e00d1b;
     text-align: center;
 }
-.exibitorSlider{
+
+.exibitorSlider {
     display: grid;
     place-items: center;
 }
+
 .home-contactos {
     background-image: url('/bgcontactos.webp');
     background-size: cover;
@@ -121,4 +126,11 @@ h3 {
         top: -40%;
     }
 
+}
+
+@media (max-width: 425px) {
+
+    .home-digital-logo {
+        width: 100%;
+    }
 }

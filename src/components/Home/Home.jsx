@@ -68,7 +68,7 @@ export function Home () {
         <h3 className='mt-5 mb-5'>{t('home.digital')}</h3>
         <p className='text-center'>
           <a href='hhttps://www.beckhoff.com/es-mx/' target='_blank' rel='noreferrer'>
-            <img src='/Beckhoff.webp' loading='lazy' alt='BecjHoff' width={300} />
+            <img className='home-digital-logo' src='/Beckhoff.webp' loading='lazy' alt='BecjHoff' width={400} />
           </a>
         </p>
 
@@ -76,12 +76,12 @@ export function Home () {
         <Row className='text-center'>
           <Col md className='mx-auto'>
             <a href='https://www.cisco.com/c/es_mx/index.html' target='_blank' rel='noreferrer'>
-              <img src='/ciscopartner.webp' width={250} loading='lazy' alt='cisco' />
+              <img src='/ciscopartner.webp' width={200} loading='lazy' alt='cisco' />
             </a>
           </Col>
           <Col md className='mx-auto'>
             <a href='https://www.roue.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/roue.webp' width={250} loading='lazy' alt='roue' />
+              <img src='/roue.webp' width={200} loading='lazy' alt='roue' />
             </a>
           </Col>
         </Row>
@@ -119,86 +119,81 @@ export function Home () {
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
             <a href='https://www.a3mexico.com.mx/a3' target='_blank' rel='noreferrer'>
-              <img src='/A3.webp' width={250} loading='lazy' alt='A3' />
+              <img src='/A3.webp' width={200} loading='lazy' alt='A3' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://mexiko.ahk.de/es/' target='_blank' rel='noreferrer'>
-              <img src='/ahk.webp' width={250} loading='lazy' alt='ahk' />
+              <img src='/ahk.webp' width={200} loading='lazy' alt='ahk' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://www.canieti.org/inicio.aspx' target='_blank' rel='noreferrer'>
-              <img src='/canieti.webp' width={250} loading='lazy' alt='canieti' />
+              <img src='/canieti.webp' width={200} loading='lazy' alt='canieti' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
-              <img src='/giz.webp' width={250} loading='lazy' alt='giz' />
+              <img src='/giz.webp' width={200} loading='lazy' alt='giz' />
             </a>
           </Col>
         </Row>
 
         <Row className='text-center'>
-
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.gobiernoabiertogto.org.mx/' target='_blank' rel='noreferrer'>
-              <img src='/gto200.webp' width={250} loading='lazy' alt='gto200' />
+              <img src='/gto200.webp' width={200} loading='lazy' alt='gto200' />
             </a>
           </Col>
 
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://aedual.mx/' target='_blank' rel='noreferrer'>
-              <img src='/dual.webp' width={250} loading='lazy' alt='dual' />
+              <img src='/dual.webp' width={200} loading='lazy' alt='dual' />
             </a>
           </Col>
 
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.kas.de/es/web/mexiko' target='_blank' rel='noreferrer'>
-              <img src='/kas.webp' width={250} loading='lazy' alt='kas' />
+              <img src='/kas.webp' width={200} loading='lazy' alt='kas' />
             </a>
           </Col>
 
-          <Col md className='mx-auto'>
-            <img src='/pagsid.webp' width={250} loading='lazy' alt='pagsid' />
+          <Col md={3} className='mx-auto'>
+            <img src='/pagsid.webp' width={200} loading='lazy' alt='pagsid' />
           </Col>
 
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.gob.mx/semarnat/acciones-y-programas/organizacion-de-las-naciones-unidas-para-el-desarrollo-industrial-onudi' target='_blank' rel='noreferrer'>
-              <img src='/onudi.webp' width={250} loading='lazy' alt='onudi' />
+              <img src='/onudi.webp' width={200} loading='lazy' alt='onudi' />
             </a>
           </Col>
-        </Row>
-
-        <Row className='text-center'>
-
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://enpact.org/' target='_blank' rel='noreferrer'>
-              <img src='/enpact.webp' width={250} loading='lazy' alt='enpact' />
+              <img src='/enpact.webp' width={200} loading='lazy' alt='enpact' />
             </a>
           </Col>
 
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.canchammx.com/' target='_blank' rel='noreferrer'>
-              <img src='/cancham.webp' width={250} loading='lazy' alt='cancham' />
+              <img src='/cancham.webp' width={200} loading='lazy' alt='cancham' />
             </a>
           </Col>
 
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://swisscham.mx/' target='_blank' rel='noreferrer'>
-              <img src='/camaraSuizo.webp' width={250} loading='lazy' alt='camarasuizo' />
+              <img src='/camaraSuizo.webp' width={200} loading='lazy' alt='camarasuizo' />
             </a>
           </Col>
 
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://amsoc.mx/es/inicio/' target='_blank' rel='noreferrer'>
-              <img src='/80amsoc.webp' width={250} loading='lazy' alt='80 amsoc' />
+              <img src='/80amsoc.webp' width={200} loading='lazy' alt='80 amsoc' />
             </a>
           </Col>
 
-          <Col md className='mx-auto'>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.cinvestav.mx/' target='_blank' rel='noreferrer'>
-              <img src='/cinvestav.webp' width={250} loading='lazy' alt='cinvestav' />
+              <img src='/cinvestav.webp' width={200} loading='lazy' alt='cinvestav' />
             </a>
           </Col>
         </Row>
@@ -212,42 +207,42 @@ export function Home () {
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
             <a href='https://www.clusterindustrial.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/cluster.webp' width={250} loading='lazy' alt='cluster industrial' />
+              <img src='/cluster.webp' width={200} loading='lazy' alt='cluster industrial' />
             </a>
           </Col>
 
           <Col md={3} className='mx-auto'>
             <a href='https://cuatro-cero.mx/' target='_blank' rel='noreferrer'>
-              <img src='/cuatrocero.webp' width={250} loading='lazy' alt='cuatro cero' />
+              <img src='/cuatrocero.webp' width={200} loading='lazy' alt='cuatro cero' />
             </a>
           </Col>
 
           <Col md={3} className='mx-auto'>
             <a href='https://www.eleconomista.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/eleconomista.webp' width={250} loading='lazy' alt='el economista' />
+              <img src='/eleconomista.webp' width={200} loading='lazy' alt='el economista' />
             </a>
           </Col>
 
           <Col md={3} className='mx-auto'>
             <a href='https://mexicoindustry.com/' target='_blank' rel='noreferrer'>
-              <img src='/mexicoindustry.webp' width={250} loading='lazy' alt='mexico industry' />
+              <img src='/mexicoindustry.webp' width={200} loading='lazy' alt='mexico industry' />
             </a>
           </Col>
 
           <Col md={3} className='mx-auto'>
             <a href='https://www.vanguardia-industrial.net/' target='_blank' rel='noreferrer'>
-              <img src='/vanguardia.webp' width={250} loading='lazy' alt='vanguardia ' />
+              <img src='/vanguardia.webp' width={200} loading='lazy' alt='vanguardia ' />
             </a>
           </Col>
 
           <Col md={3} className='mx-auto'>
             <a href='https://www.am.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/am.webp' width={250} loading='lazy' alt='AM ' />
+              <img src='/am.webp' width={200} loading='lazy' alt='AM ' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://www.directorioautomotriz.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/directorioauto.webp' width={250} loading='lazy' alt='Directorio automotriz ' />
+              <img src='/directorioauto.webp' width={200} loading='lazy' alt='Directorio automotriz ' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
@@ -257,23 +252,23 @@ export function Home () {
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
-              <img src='/globalindustries.webp' width={250} loading='lazy' alt='vanguardia ' />
+              <img src='/globalindustries.webp' width={200} loading='lazy' alt='vanguardia ' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://revistaconsultoria.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/revistaconsultoria.webp' width={250} loading='lazy' alt='vanguardia ' />
+              <img src='/revistaconsultoria.webp' width={200} loading='lazy' alt='vanguardia ' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='http://www.revistadp.com/' target='_blank' rel='noreferrer'>
-              <img src='/revistapreferencia.webp' width={250} loading='lazy' alt='vanguardia ' />
+              <img src='/revistapreferencia.webp' width={200} loading='lazy' alt='vanguardia ' />
             </a>
           </Col>
 
-          <Col md={3} className='mx-auto'>
+          <Col md={3} className='mx-auto my-auto'>
             <a href='https://dplnews.com/' target='_blank' rel='noreferrer'>
-              <img src='/dpl.webp' className='w-100' loading='lazy' alt='dpl' />
+              <img src='/dpl.webp' width={200} loading='lazy' alt='dpl' />
             </a>
           </Col>
         </Row>

@@ -31,10 +31,10 @@ export function Slider () {
               loop
               autoPlay
               playsInline
-              poster='/PosterMtech.avif'
+              poster='/PosterMtech.webp'
             >
               <source
-                src='/KV-ITM-MTECH-2023-2500-×-1040-px.webm'
+                src='/KV-ITM-MTECH-2023.webm'
                 type='video/webm'
               />
             </video>
@@ -52,7 +52,7 @@ export function Slider () {
         <Carousel.Item>
           <img
             className='d-block w-100'
-            src='/bjxareospace.avif'
+            src='/bjxareospace.webp'
             alt='BJX-AEROSPACE-SUMMIT-4.0-2023'
           />
         </Carousel.Item>
@@ -61,6 +61,13 @@ export function Slider () {
             className='d-block w-100'
             src='/ITM-FUTURISTIC-MINDS.webp'
             alt='ITM-FUTURISTIC-MINDS'
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className='d-block w-100'
+            src='/ITM-mujeres.webp'
+            alt='ITM-MUJERES'
           />
         </Carousel.Item>
         <Carousel.Item>

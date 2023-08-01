@@ -22,15 +22,15 @@ const ExibitorSlide = () => {
   return (
     <Carousel
       responsive={responsive}
-      showDots
-      arrows={false}
+      showDots={false}
+      arrows
       infinite
       autoPlay
       autoPlaySpeed={3000}
     >
       {exibitors.map((image, index) => (
         <div key={index} className='exibitorSlider text-center h-100'>
-          <img src={image} width={250} alt={`Exibitor ${index + 1}`} />
+          <img src={image} width={200} alt={`Exibitor ${index + 1}`} />
         </div>
       ))}
     </Carousel>
