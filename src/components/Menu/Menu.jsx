@@ -35,12 +35,12 @@ export function Menu () {
             <Offcanvas.Header closeButton onClick={handleClose} />
             <Offcanvas.Body className='ms-auto'>
               <Nav>
-                <NavDropdown title={t('menu.about_us')} renderMenuOnMount>
+                <NavDropdown title={t('menu.about_us')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.about_1')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/background' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount>
+                <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/why-exibit' onClick={handleClose}>{t('menu.exhibitors_2')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
@@ -136,7 +136,7 @@ export function Menu () {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.visitors')} renderMenuOnMount>
+                <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item
                     as={Link} to='/why-visit'
                     onClick={handleClose}
@@ -167,7 +167,7 @@ export function Menu () {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.past_events')} renderMenuOnMount>
+                <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
                   <p className='p-2 mb-0'>{t('menu.itm2022')}</p>
 
                   <NavDropdown.Item
@@ -263,7 +263,7 @@ export function Menu () {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.media_hub')} renderMenuOnMount>
+                <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>
                   <NavDropdown.Item
                     href='https://cuatro-cero.mx/'
                     target='_blank'

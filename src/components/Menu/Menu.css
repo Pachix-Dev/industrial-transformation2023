@@ -1,3 +1,7 @@
+.nav-link.disabled {
+    color: white;
+}
+
 .nav-item:hover .dropdown-menu {
     display: block !important;
     color: #919191;
