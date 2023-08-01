@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { Col, Container, Row } from 'react-bootstrap'
-import { CounterDown } from './CounterDown'
+import { CounterDown2 } from './CounterDown2'
 import { Slider } from './Slider'
 import { galleryHome } from '../constants_gallery'
 import { Gallery } from '../Gallery/Gallery'
@@ -14,7 +14,7 @@ export function Home () {
   return (
     <>
       <div className='home-counter-video'>
-        <CounterDown />
+        <CounterDown2 />
         <div className='position-absolute top-0 w-100 h-100'>
           <video
             muted

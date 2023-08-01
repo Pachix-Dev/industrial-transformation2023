@@ -10,45 +10,34 @@ export function CounterDown () {
     return <span>Time's up!</span>
   } else {
     return (
-      <Container className='mt-2 mb-5 text-center home-counterdown-timer'>
-        <Row className='counterdown-timer pb-3'>
-          <Col md={3} sm={3} xs={6}>
-            <div className='timer-numbers'>
-              <span>{days}</span>
+      <Container className='mt-2 mb-3 text-center home-counterdown-timer'>
+        <Row className='pb-3'>
+          <Col md={6} className='text-light'>
+            <h1>JOIN THE ITM</h1>
+            <div className='d-flex' style={{ gap: '20px' }}>
+              <p>
+                {t('home.days')}<br />
+                <span>{days}</span>
+              </p>
+              <p>
+                {t('home.hours')}<br />
+                <span>{hours}</span>
+              </p>
+              <p>
+                {t('home.minutes')}<br />
+                <span>{minutes}</span>
+              </p>
+              <p>
+                {t('home.seconds')}<br />
+                <span>{seconds}</span>
+              </p>
             </div>
-            <p className='timer-text'>
-              {t('home.days')}
-            </p>
-          </Col>
-          <Col md={3} sm={3} xs={6}>
-            <div className='timer-numbers'>
-              <span>{hours}</span>
-            </div>
-            <p className='timer-text'>
-              {t('home.hours')}
-            </p>
-          </Col>
-          <Col md={3} sm={3} xs={6}>
-            <div className='timer-numbers'>
-              <span>{minutes}</span>
-            </div>
-            <p className='timer-text'>
-              {t('home.minutes')}
-            </p>
-          </Col>
-          <Col md={3} sm={3} xs={6}>
-            <div className='timer-numbers'>
-              <span>{seconds}</span>
-            </div>
-            <p className='timer-text'>
-              {t('home.seconds')}
-            </p>
-          </Col>
 
+            <h1 className='fw-bold mb-5 counterdown-title' style={{ color: 'white' }}> {t('home.titleCounter')}</h1>
+            <a className='home-register' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>{t('home.registro_itm_2023')}</a>
+            <p className='text-light mt-5 mb-0'>{t('home.leyend')}</p>
+          </Col>
         </Row>
-        <h1 className='fw-bold mb-5 counterdown-title' style={{ color: 'white' }}> {t('home.titleCounter')}</h1>
-        <a className='home-register' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>{t('home.registro_itm_2023')}</a>
-        <p className='text-light mt-5'>{t('home.leyend')}</p>
 
       </Container>
     )

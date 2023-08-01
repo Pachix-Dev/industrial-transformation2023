@@ -12,6 +12,18 @@ const programITM = {
       {
         hour: '12:00 hrs',
         name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '10:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '11:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '12:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
       }
     ],
     stage_2: [
@@ -26,9 +38,33 @@ const programITM = {
       {
         hour: '12:00 hrs',
         name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '10:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '11:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '12:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
       }
     ],
     stage_3: [
+      {
+        hour: '10:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '11:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '12:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
       {
         hour: '10:00 hrs',
         name: 'CEREMONIA DE APERTURA'
@@ -56,9 +92,33 @@ const programITM = {
       {
         hour: '10:00 hrs',
         name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '08:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '09:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '10:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
       }
     ],
     stage_2: [
+      {
+        hour: '11:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '12:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '13:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
       {
         hour: '11:00 hrs',
         name: 'CEREMONIA DE APERTURA'
@@ -100,6 +160,18 @@ const programITM = {
       {
         hour: '12:00 hrs',
         name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '11:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '12:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '13:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
       }
     ],
     stage_2: [
@@ -113,6 +185,18 @@ const programITM = {
       },
       {
         hour: '15:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '11:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '12:00 hrs',
+        name: 'CEREMONIA DE APERTURA'
+      },
+      {
+        hour: '13:00 hrs',
         name: 'CEREMONIA DE APERTURA'
       }
     ],

@@ -19,7 +19,7 @@ h3 {
     top: 0;
     height: 100vh;
     display: grid;
-    place-items: end;
+    place-items: center;
     overflow: hidden;
 }
 
@@ -32,6 +32,10 @@ h3 {
 .home-counterdown-timer {
     position: relative;
     z-index: 5;
+}
+
+.counterdown-timer {
+    gap: 40px;
 }
 
 .counterdown-timer div {
@@ -55,7 +59,7 @@ h3 {
 
 .timer-numbers {
     color: white;
-    font-size: 8em;
+    font-size: 10em;
     font-weight: bold;
     text-shadow: 4px 4px 10px black;
 }
@@ -121,16 +125,36 @@ h3 {
         line-height: 1;
     }
 
-    .counterdown-timer p {
-        font-size: 15px;
-        top: -40%;
+    .home-counter-video {
+        place-items: center;
     }
-
 }
 
 @media (max-width: 425px) {
+    .timer-numbers {
+        font-size: 3em;
+        line-height: 1;
+    }
+
+    .counterdown-timer {
+        gap: 30px;
+    }
+
+    .counterdown-timer p {
+        font-size: 15px;
+        top: 0;
+        margin: 0;
+    }
 
     .home-digital-logo {
         width: 100%;
+    }
+
+
+}
+
+@media (max-width: 375px) {
+    .counterdown-timer {
+        gap: 10px;
     }
 }
