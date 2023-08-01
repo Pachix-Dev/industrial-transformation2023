@@ -210,10 +210,9 @@ export function Home () {
               <img src='/cluster.webp' width={200} loading='lazy' alt='cluster industrial' />
             </a>
           </Col>
-
-          <Col md={3} className='mx-auto'>
-            <a href='https://cuatro-cero.mx/' target='_blank' rel='noreferrer'>
-              <img src='/cuatrocero.webp' width={200} loading='lazy' alt='cuatro cero' />
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://airtradeworld.com/' target='_blank' rel='noreferrer'>
+              <img src='/ATW.webp' width={150} loading='lazy' alt='cluster industrial' />
             </a>
           </Col>
 
@@ -246,13 +245,13 @@ export function Home () {
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
-            <a href='https://globalenergy.mx/' target='_blank' rel='noreferrer'>
-              <img src='/globalenergy.webp' width={200} loading='lazy' alt='vanguardia ' />
+            <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
+              <img src='/globalindustries.webp' width={200} loading='lazy' alt='vanguardia ' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
-            <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
-              <img src='/globalindustries.webp' width={200} loading='lazy' alt='vanguardia ' />
+            <a href='https://cuatro-cero.mx/' target='_blank' rel='noreferrer'>
+              <img src='/cuatrocero.webp' width={200} loading='lazy' alt='cuatro cero' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
@@ -277,7 +276,7 @@ export function Home () {
       <section className='home-gallery'>
         <Container className='pt-4'>
           <h3>{t('home.galery2022')}</h3>
-          <Gallery galleryImgs={galleryHome} galleryName='gallery-home' />
+          <Gallery galleryImgs={galleryHome} galleryName='Noche industrial' />
           <div className='pb-5 pt-5'>
             <a href='/gallery' className='home-gallery-seemore'> VER MÁS</a>
           </div>

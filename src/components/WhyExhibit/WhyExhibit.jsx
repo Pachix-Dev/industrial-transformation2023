@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import './WhyExhibit.css'
 import { Col, Row } from 'react-bootstrap'
+import { ExhibitorProfile } from '../ExhibitorProfile/ExhibitorProfile'
 
 export function WhyExhibit () {
   const { t } = useTranslation()
@@ -72,6 +73,7 @@ export function WhyExhibit () {
           <div className='container-exhibitor' />
         </Col>
       </Row>
+      <ExhibitorProfile />
     </>
   )
 }

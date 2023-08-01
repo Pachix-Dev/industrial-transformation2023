@@ -38,12 +38,33 @@ export function Menu () {
                 <NavDropdown title={t('menu.about_us')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.about_1')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/background' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='key-audience-groups'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_8')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
-                  <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/why-exibit' onClick={handleClose}>{t('menu.exhibitors_2')}</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/why-exibit'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_2')}
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Item
+                    as={Link}
+                    to='products-category'
+                    onClick={handleClose}
+                  >{t('menu.exhibitors_9')}
+                  </NavDropdown.Item>
+
+                  {/* <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item> */}
 
                   <NavDropdown.Item
                     href={i18n.language === 'en'
@@ -70,6 +91,13 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_5')}
+                  </NavDropdown.Item>
+
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/toolkit'
+                    onClick={handleClose}
+                  >{t('menu.exhibitors_10')}
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
@@ -111,28 +139,6 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_7_4')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-
-                  <NavDropdown.Item
-                    as={Link}
-                    to='key-audience-groups'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_8')}
-                  </NavDropdown.Item>
-
-                  <NavDropdown.Item
-                    as={Link}
-                    to='products-category'
-                    onClick={handleClose}
-                  >{t('menu.exhibitors_9')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    as={Link}
-                    to='/toolkit'
-                    onClick={handleClose}
-                  >{t('menu.exhibitors_10')}
                   </NavDropdown.Item>
                 </NavDropdown>
 

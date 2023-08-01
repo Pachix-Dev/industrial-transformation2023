@@ -170,7 +170,7 @@ function App () {
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2019</h1>
-                <Gallery galleryImgs={gallery2019} galleryName='gallery-itm-2019' />
+                <Gallery galleryImgs={gallery2019} galleryName='Gallery ITM 2019' />
               </Container>
             </>
           }
@@ -184,7 +184,7 @@ function App () {
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2020</h1>
-                <Gallery galleryImgs={gallery2020} galleryName='gallery-itm-2020' />
+                <Gallery galleryImgs={gallery2020} galleryName='Gallery ITM 2020' />
               </Container>
             </>
           }
@@ -198,7 +198,7 @@ function App () {
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2021</h1>
-                <Gallery galleryImgs={gallery2021} galleryName='gallery-itm-2021' />
+                <Gallery galleryImgs={gallery2021} galleryName='Gallery ITM 2021' />
               </Container>
             </>
           }
@@ -212,7 +212,7 @@ function App () {
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2022</h1>
-                <Gallery galleryImgs={gallery2022} galleryName='gallery-itm-2022' />
+                <Gallery galleryImgs={gallery2022} galleryName='Gallery ITM 2022' />
               </Container>
             </>
           }

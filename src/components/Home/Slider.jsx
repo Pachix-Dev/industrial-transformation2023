@@ -1,25 +1,62 @@
+import { useEffect, useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
+import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+
 export function Slider () {
+  const { i18n } = useTranslation()
+  const [stateVideo, setStateVideo] = useState(i18n.language)
+
+  const handleLanguageChange = () => {
+    // Your state update logic here
+    // For example, resetting the count to 0
+    setStateVideo(i18n.language)
+  }
+
+  useEffect(() => {
+    // Add event listener for language change
+    i18n.on('languageChanged', handleLanguageChange)
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      i18n.off('languageChanged', handleLanguageChange)
+    }
+  }, [])
+
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
         <Carousel.Item>
           <Link to='/startup-pitch' aria-label='read more about Startup Pitch 2023'>
-            <video
-              width='100%'
-              height='auto'
-              muted
-              loop
-              autoPlay
-              playsInline
-              poster='/PosterStartupPitch.webp'
-            >
-              <source
-                src='/STARTUP-PITCH-ITM-2023.webm'
-                type='video/webm'
-              />
-            </video>
+            {stateVideo === 'en'
+              ? <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  poster='/PosterStartupPitch.webp'
+                >
+                <source
+                  src='/STARTUP PITCH ENG.webm'
+                  type='video/webm'
+                />
+                </video>
+              : <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  poster='/PosterStartupPitch.webp'
+                >
+                <source
+                  src='/STARTUP-PITCH-ITM-2023.webm'
+                  type='video/webm'
+                />
+                </video>}
           </Link>
         </Carousel.Item>
         <Carousel.Item>

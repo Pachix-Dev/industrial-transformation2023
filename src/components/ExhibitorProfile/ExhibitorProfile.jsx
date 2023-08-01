@@ -5,7 +5,7 @@ export function ExhibitorProfile () {
   const { t } = useTranslation()
   return (
     <>
-      <Row className='m-0 my-5'>
+      <Row className='m-0'>
         <Col className='p-0'>
           <div className='container-parallax pt-5 pb-5'>
             <div className='cont-text'>
