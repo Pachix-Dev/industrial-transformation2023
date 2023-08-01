@@ -8,7 +8,7 @@ export function Footer () {
   const { t, i18n } = useTranslation()
   return (
     <footer>
-      <img src='/plecaITM.avif' className='w-100' alt='ITM 2023' />
+      <img src='/plecaITM.webp' className='w-100' alt='ITM 2023' />
       <div className='footer-socialmedia mt-5'>
         <a href='https://www.facebook.com/Indtransmex/' target='_blank' rel='noreferrer'>
           <svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
