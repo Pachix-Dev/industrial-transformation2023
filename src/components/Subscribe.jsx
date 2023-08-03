@@ -32,7 +32,7 @@ export function Subscribe () {
 
       try {
         const res = await fetch(
-          'https://industrialtransformation.mx/newsletter/recaptchaValidator.php',
+          'https://industrialtransformation.mx/newsletter/index.php',
           requestOptions
         )
         const data = await res.json()

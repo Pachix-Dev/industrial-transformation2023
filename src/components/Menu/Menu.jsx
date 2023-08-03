@@ -78,7 +78,9 @@ export function Menu () {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href='/files/ESP-MANUAL-ITM-2023_compressed.pdf'
+                    href={i18n.language === 'en'
+                      ? '/files/MANUAL ITM_INGLES.pdf'
+                      : '/files/MANUAL_ITM_ESP.pdf'}
                     target='_blank'
                     onClick={handleClose}
                   >
