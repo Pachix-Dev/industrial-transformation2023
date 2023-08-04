@@ -278,7 +278,7 @@ export function Home () {
           <h3>{t('home.galery2022')}</h3>
           <Gallery galleryImgs={galleryHome} galleryName='Noche industrial' />
           <div className='pb-5 pt-5'>
-            <a href='/gallery' className='home-gallery-seemore'> VER MÁS</a>
+            <a href='/gallery' className='home-gallery-seemore'> {t('home.learn_more')}</a>
           </div>
         </Container>
       </section>

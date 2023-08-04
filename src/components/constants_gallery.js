@@ -4,7 +4,9 @@ const galleryHome = [
   '/gallery/home/homegaleria2022_3.webp',
   '/gallery/home/homegaleria2022_4.webp',
   '/gallery/home/homegaleria2022_5.webp',
-  '/gallery/home/homegaleria2022_6.webp'
+  '/gallery/home/homegaleria2022_6.webp',
+  '/gallery/2022/digital_skills_1.webp',
+  '/gallery/2022/futuristic_17.webp'
 ]
 
 const gallery2019 = [

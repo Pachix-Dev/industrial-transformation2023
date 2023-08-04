@@ -1,4 +1,4 @@
-import { Col, Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { useCountdown } from '../hooks/useCountDown'
 
@@ -46,7 +46,7 @@ export function CounterDown2 () {
           {t('home.titleCounter')}
         </h1>
         <p className='m-0'>
-          <small className='text-light mt-3 mb-0'>{t('home.leyend')}</small><br /><br />
+          <small className='text-light mt-3 mb-0' dangerouslySetInnerHTML={{ __html: t('home.leyend') }} /><br /><br />
           <a className='home-register' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>
             {t('home.registro_itm_2023')}
           </a>

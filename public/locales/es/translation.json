@@ -20,7 +20,7 @@
         "exhibitors_9": "Categoría de Productos",
         "exhibitors_10": "Toolkit 2023",
         "visitors": "Visitantes",
-        "visitors_1": "Por qué visitar",
+        "visitors_1": "¿POR QUÉ VISITARNOS?",
         "visitors_2": "Perfil del visitante",
         "visitors_3": "Tarifas especiales para hoteles",
         "visitors_4": "Convenio United Airlines",
@@ -42,7 +42,7 @@
         "itm2019_3": "Informe de resultados itm 2019",
         "media_hub": "Centro de Medios",
         "media_hub_1": "Cuatro cero",
-        "media_hub_2": "Galeria",
+        "media_hub_2": "Galería",
         "media_hub_3": "Descargar Logotipos"
     },
     "contactForm": {
@@ -60,14 +60,14 @@
         }
     },
     "home": {
-        "days": "dias",
+        "days": "días",
         "hours": "horas",
         "minutes": "minutos",
         "seconds": "segundos",
-        "titleCounter": "4 al 6 de Octubre ITM 2023",
+        "titleCounter": "ITM 2023 del 4 al 6 de octubre",
         "button": "Premios TIC E ITZAMNÁ",
-        "leyend": "* Entrada gratuita con pre-registro hasta el 29 de Septiembre del 2023",
-        "registro_itm_2023": "Registrate gratis",
+        "leyend": "Entrada <strong>gratuita</strong> con pre-registro hasta el 29 de Septiembre del 2023",
+        "registro_itm_2023": "Regístrate gratis",
         "highlights_ITM2022": "Lo mejor de Industrial Transformation México 2022",
         "sponsors": "Patrocinadores Platino",
         "digital": "Patrocinador de Experiencia Digital",
@@ -93,8 +93,8 @@
     },
     "aboutPage": {
         "title": "ACERCA DE ITM",
-        "description_1": "Los avances tecnológicos están redefiniendo los procesos de fabricación, las instalaciones de producción y diseño, los sistemas de distribución y las cadenas globales de suministro. Las empresas de la región reconocen que los modelos comerciales actuales ya no son sostenibles, por lo que ha llegado el momento de que las empresas comiencen, aumenten y mantengan su adopción de los procesos y soluciones de la Industria 4.0. Industrial Transformation MEXICO consiste en una feria que contiene un área de exposición, conferencias y un amplio programa educativo, todo esto unido por los temas generales de transformación digital en México y fabricación inteligente. El área de exposición presenta ocho categorías principales: Institutos de Investigación, Automatización y Robotización, Fábrica Inteligente, Manufactura Aditiva, Logística Inteligente, Soluciones de Energía, Máquina y Herramienta y Gobierno así como áreas para demostraciones en vivo y consultas individuales.",
-        "description_2": "“HANNOVER MESSE es la mayor exposición mundial de tecnología industrial y plataforma líder para la Industria 4.0. Durante la última década, hemos introducido estratégicamente la marca en mercados de todo el mundo en vías de crecimiento. México impresionó a la industria global como país invitado de honor en HANNOVER MESSE 2018. Es el momento de traer a México un evento HANNOVER MESSE, el cual está hecho a medida al auge del sector industrial que vive México”, dijo Jochen Köckler, CEO de Deutsche Messe AG. “Industrial Transformation MEXICO combina las tecnologías y las soluciones industriales de líderes, con un programa de educación y una red contacto completo. Compradores de México y países vecinos, ahora tienen un evento que proporciona todas las herramientas e información que necesitan para digitalizar sus fábricas y plantas “.Industrial Transformation MEXICO será un evento interesante e inclusivo en el que las partes interesadas y los grupos objetivo se reunirán para crear redes y oportunidades de transferencia de conocimientos para el éxito empresarial."
+        "description_1": "Los avances tecnológicos están redefiniendo los procesos de fabricación, las instalaciones de producción y diseño, los sistemas de distribución y las cadenas globales de suministro. Las empresas de la región reconocen que los modelos comerciales actuales ya no son sostenibles, lo que los impulsa a comenzar, aumentar y mantener su adopción de los procesos y soluciones de la Industria 4.0. INDUSTRIAL TRANSFORMATION MEXICO, se ha convertido en la feria líder del sector al englobar un área de exposición, conferencias y un amplio programa educativo; todo esto unido por los temas generales de transformación digital en México y la fabricación inteligente. El área de exposición presenta ocho categorías principales: Institutos de Investigación, Automatización y Robotización, Fábrica Inteligente, Manufactura Aditiva, Logística Inteligente, Soluciones de Energía, Máquina y Herramienta y Gobierno, así como áreas para demostraciones en vivo y consultas individuales.",
+        "description_2": "“<strong>HANNOVER MESSE </strong>es la mayor exposición mundial de tecnología industrial y plataforma líder para la Industria 4.0. Durante la última década, hemos introducido estratégicamente la marca en mercados de todo el mundo en vías de crecimiento. México impresionó a la industria global como país invitado de honor en <strong>Hannover Messe 2018</strong>. Es el momento de traer a México un evento <strong>Hannover Messe</strong>, el cual está hecho a medida al auge del sector industrial que vive México”, dijo Jochen Köckler, CEO de Deutsche Messe AG.</br></br> Industrial Transformation Mexico combina las principales tecnologías y las soluciones industriales líderes, con un programa de educación y una red de contacto completo. Compradores de México y países vecinos, ahora tienen un evento que proporciona todas las herramientas e información que necesitan para digitalizar sus fábricas y plantas. <strong>Industrial Transformation Mexico</strong> es un evento interesante e inclusivo en el que los actores clave y los grupos objetivo se reúnen para crear redes y oportunidades de intercambio de conocimientos para el éxito empresarial."
     },
     "background": {
         "title": "México - País invitado de honor en la HANNOVER MESSE 2018",

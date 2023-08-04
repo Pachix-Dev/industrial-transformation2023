@@ -13,14 +13,14 @@ export function AboutUs () {
         </Col>
         <Col md className='p-0'>
           <div className='about-description'>
-            <p>{t('aboutPage.description_1')}</p>
+            <p dangerouslySetInnerHTML={{ __html: t('aboutPage.description_1') }} />
           </div>
         </Col>
       </Row>
       <Row className='m-0'>
         <Col md className='p-0'>
           <div className='about-description'>
-            <p>{t('aboutPage.description_2')}</p>
+            <p dangerouslySetInnerHTML={{ __html: t('aboutPage.description_2') }} />
           </div>
 
         </Col>

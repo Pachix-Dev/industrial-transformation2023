@@ -64,9 +64,9 @@
         "hours": "hours",
         "minutes": "minutes",
         "seconds": "seconds",
-        "titleCounter": "October 4 - 6 ITM 2023",
+        "titleCounter": "ITM 2023 october 4 - 6 ",
         "button": "TIC & ITZAMNÁ Awards",
-        "leyend": "* Free admission with pre-registration until September 29, 2023.",
+        "leyend": "<strong>Free</strong> admission with pre-registration until September 29, 2023.",
         "registro_itm_2023": "Register Now",
         "highlights_ITM2022": "The highlights of Industrial Transformation Mexico 2022",
         "sponsors": "Platinum sponsors",
@@ -81,7 +81,7 @@
         "gold_media_partners": "Gold Media Partners",
         "silver_media_partners": "Silver Media Partners",
         "galery2022": "GALLERY 2022",
-        "learn_more": "LEARN MORE",
+        "learn_more": "EXPLORE MORE",
         "contact_mexico_latam": "Contact Mexico & Latin America",
         "contact_international": "Contact International",
         "sales_contact": "Sales Contact",
@@ -93,8 +93,8 @@
     },
     "aboutPage": {
         "title": "ABOUT US ITM",
-        "description_1": "Technological advancements are redefining manufacturing processes, design & production facilities, distribution systems and global supply chains. Manufacturers and businesses in the region recognize that current business models are no longer sustainable. The time has come for companies to start, scale and sustain their adoption of Industry 4.0 processes and solutions Industrial Transformation MEXICO consists of a tradeshow, conference and educational program tied together by the overarching themes of smart manufacturing and digital transformation in Mexico. The exhibit program features eight main display categories – Research Institutions, Automation, Robotation and Motion, Digital Factory, Additive Manufacturing, Smart Logistics, Power Solutions, Metalworking and Government– as well as areas for live demonstrations and one-on-one consultations.",
-        "description_2": "“HANNOVER MESSE is the world’s biggest show for industrial technology and the leading platform for Industry 4.0. During the past decade, we have strategically introduced the brand to growing markets around the world. Mexico impressed the global industry as Partner Country at HANNOVER MESSE 2018. Now is the time to bring to Mexico a HANNOVER MESSE event that is custom-made for Mexico’s booming industrial sector,” said Jochen Köckler, CEO of Deutsche Messe AG. “Industrial Transformation MEXICO packages the leading industrial technologies and solutions with a top-notch education and networking program. Visitors from Mexico and neighboring countries now have a single event that provides all the tools and information they need to digitalize their factories and plants.”Industrial Transformation MEXICO will be an engaging and inclusive event where stakeholders and targeted audience groups convene for networking and knowledge transfer opportunities for business success."
+        "description_1": "Technological advances are redefining manufacturing processes, production and design facilities, distribution systems, and global supply chains. Companies in the region acknowledge that current business models are no longer sustainable, prompting them to embrace, enhance, and maintain the adoption of Industry 4.0 processes and solutions. INDUSTRIAL TRANSFORMATION MEXICO comprises an exhibition area, conferences, and a comprehensive educational program, all interconnected by the overarching themes of digital transformation in Mexico and smart manufacturing. The exhibition area features eight main categories: Research Institutes, Automation and Robotics, Smart Factory, Additive Manufacturing, Intelligent Logistics, Energy Solutions, Machinery and Tools, and Government, along with spaces for live demonstrations and individual consultations.",
+        "description_2": "“<strong>HANNOVER MESSE</strong> is the world’s biggest showcase for industrial technology and the leading platform for Industry 4.0. During the past decade, we have strategically introduced the brand to growing markets around the world. Mexico impressed the global industry as Partner Country at <strong>Hannover Messe 2018</strong>. Now is the time to bring to Mexico a <strong>Hannover Messe</strong> event that is custom-made for Mexico’s booming industrial sector”, said Jochen Köckler, CEO of Deutsche Messe AG.</br></br> <strong>Industrial Transformation Mexico</strong> packages the leading industrial technologies and solutions with a top-notch education and networking program. Visitors from Mexico and neighboring countries now have a single event that provides all the tools and information they need to digitalize their factories and plants. Industrial Transformation Mexico will be an engaging and inclusive event where stakeholders and targeted audience groups convene for networking and knowledge transfer opportunities for business success"
     },
     "background": {
         "title": "Mexico - Partner Country at HANNOVER MESSE 2018",

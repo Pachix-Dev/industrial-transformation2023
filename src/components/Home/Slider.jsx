@@ -8,21 +8,19 @@ export function Slider () {
   const [stateVideo, setStateVideo] = useState(i18n.language)
 
   const handleLanguageChange = () => {
-    // Your state update logic here
-    // For example, resetting the count to 0
+    console.log('cambio de idioma')
     setStateVideo(i18n.language)
   }
 
   useEffect(() => {
-    // Add event listener for language change
     i18n.on('languageChanged', handleLanguageChange)
 
-    // Clean up the event listener when the component unmounts
     return () => {
       i18n.off('languageChanged', handleLanguageChange)
     }
   }, [])
 
+  console.log(stateVideo)
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
@@ -37,12 +35,8 @@ export function Slider () {
                   autoPlay
                   playsInline
                   poster='/PosterStartupPitch.webp'
-                >
-                <source
                   src='/STARTUP PITCH ENG.webm'
-                  type='video/webm'
                 />
-                </video>
               : <video
                   width='100%'
                   height='auto'
@@ -51,30 +45,35 @@ export function Slider () {
                   autoPlay
                   playsInline
                   poster='/PosterStartupPitch.webp'
-                >
-                <source
                   src='/STARTUP-PITCH-ITM-2023.webm'
-                  type='video/webm'
-                />
-                </video>}
+                />}
           </Link>
         </Carousel.Item>
         <Carousel.Item>
           <a href='https://hfmexico.mx/MTech/' target='_blank' aria-label='Read more about MTECH' rel='noreferrer'>
-            <video
-              width='100%'
-              height='auto'
-              muted
-              loop
-              autoPlay
-              playsInline
-              poster='/PosterMtech.webp'
-            >
-              <source
-                src='/KV-ITM-MTECH-2023.webm'
-                type='video/webm'
-              />
-            </video>
+            {
+              stateVideo === 'en'
+                ? <video
+                    width='100%'
+                    height='auto'
+                    muted
+                    loop
+                    autoPlay
+                    playsInline
+                    poster='/PosterStartupPitch.webp'
+                    src='/M-TECH ENG.webm'
+                  />
+                : <video
+                    width='100%'
+                    height='auto'
+                    muted
+                    loop
+                    autoPlay
+                    playsInline
+                    poster='/PosterStartupPitch.webp'
+                    src='/KV-ITM-MTECH-2023.webm'
+                  />
+            }
           </a>
         </Carousel.Item>
         <Carousel.Item>
@@ -94,11 +93,19 @@ export function Slider () {
           />
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='/ITM-FUTURISTIC-MINDS.webp'
-            alt='ITM-FUTURISTIC-MINDS'
-          />
+          {
+            stateVideo === 'en'
+              ? <img
+                  className='d-block w-100'
+                  src='/FUTURISTIC MINDS ENG.webp'
+                  alt='ITM-FUTURISTIC-MINDS'
+                />
+              : <img
+                  className='d-block w-100'
+                  src='/ITM-FUTURISTIC-MINDS.webp'
+                  alt='ITM-FUTURISTIC-MINDS'
+                />
+          }
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -108,20 +115,29 @@ export function Slider () {
           />
         </Carousel.Item>
         <Carousel.Item>
-          <video
-            width='100%'
-            height='auto'
-            muted
-            loop
-            autoPlay
-            playsInline
-            poster='/PosterOktober.webp'
-          >
-            <source
-              src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
-              type='video/webm'
-            />
-          </video>
+          {
+            stateVideo === 'en'
+              ? <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  poster='/PosterOktober.webp'
+                  src='/OKTOBERFESTENG.webm'
+                />
+              : <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  poster='/PosterOktober.webp'
+                  src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
+                />
+          }
         </Carousel.Item>
       </Carousel>
     </div>
