@@ -68,8 +68,8 @@ export function Menu () {
 
                   <NavDropdown.Item
                     href={i18n.language === 'en'
-                      ? '/files/Factsheet 2023 ITM ENG  170723_compressed.pdf'
-                      : '/files/Factsheet-2023-ITM-ESP-170723_compressed.pdf'}
+                      ? '/files/Factsheet_ITM2023_ENG_compressed.pdf'
+                      : '/files/Factsheet_ITM2023_ESP_compressed.pdf'}
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -79,7 +79,7 @@ export function Menu () {
 
                   <NavDropdown.Item
                     href={i18n.language === 'en'
-                      ? '/files/MANUAL ITM_INGLES.pdf'
+                      ? '/files/MANUAL_ITM_INGLES.pdf'
                       : '/files/MANUAL_ITM_ESP.pdf'}
                     target='_blank'
                     onClick={handleClose}
@@ -88,7 +88,7 @@ export function Menu () {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href='/files/Floorplan-ITM-2023-17072023.pdf'
+                    href='/files/FloorplanITM2023.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -136,7 +136,7 @@ export function Menu () {
                     {t('menu.exhibitors_7_3')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/Patrocinios Noche de Industriales ITM 2023.pdf'
+                    href='/files/Patrocinios Noche de Industriales ITM 2023vf.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -247,20 +247,6 @@ export function Menu () {
 
                   <p className='mt-2 p-2 mb-0'>{t('menu.itm2019')}</p>
                   <NavDropdown.Item
-                    href='/files/ESP-DirectorioDigital-ITM-2019.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.itm2019_1')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href='/files/ESP-Passport-ITM-2019pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.itm2019_2')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/After-Show-report-bis-carta-2019.pdf'
                       : '/files/After-Show-Report-Esp-2019.pdf'}
@@ -269,6 +255,21 @@ export function Menu () {
                   >
                     {t('menu.itm2019_3')}
                   </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/files/ESP-DirectorioDigital-ITM-2019.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.itm2019_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href='/files/ESP-Passport-ITM-2019.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.itm2019_2')}
+                  </NavDropdown.Item>
+
                 </NavDropdown>
 
                 <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>

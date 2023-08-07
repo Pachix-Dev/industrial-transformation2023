@@ -25,18 +25,18 @@
         "visitors_3": "special hotel rates",
         "visitors_4": "united airlines agreement",
         "past_events": "past events",
-        "itm2022": "itm2022",
-        "itm2022_1": "ITM results 2022",
+        "itm2022": "itm 2022",
+        "itm2022_1": "after show report 2022",
         "itm2022_2": "exhibitors directory 2022",
-        "itm2022_3": "Pasaport ITM 2022",
-        "itm2021": "itm2021",
-        "itm2021_1": "ITM results 2022",
+        "itm2022_3": "Passport ITM 2022",
+        "itm2021": "itm 2021",
+        "itm2021_1": "after show report 2021",
         "itm2021_2": "exhibitors directory 2021",
-        "itm2021_3": "Pasaport ITM 2023",
-        "itm2020": "itm2020",
-        "itm2020_1": "itm directory  2020",
+        "itm2021_3": "Passport ITM 2021",
+        "itm2020": "itm 2020",
+        "itm2020_1": "exhibitors directory  2020",
         "itm2020_2": "passport itm 2020",
-        "itm2019": "itm2019",
+        "itm2019": "itm 2019",
         "itm2019_1": "exhibitors directory 2019",
         "itm2019_2": "passport itm 2019",
         "itm2019_3": "after show report 2019",
@@ -95,7 +95,7 @@
     "aboutPage": {
         "title": "ABOUT US ITM",
         "description_1": "Technological advances are redefining manufacturing processes, production and design facilities, distribution systems, and global supply chains. Companies in the region acknowledge that current business models are no longer sustainable, prompting them to embrace, enhance, and maintain the adoption of Industry 4.0 processes and solutions. INDUSTRIAL TRANSFORMATION MEXICO comprises an exhibition area, conferences, and a comprehensive educational program, all interconnected by the overarching themes of digital transformation in Mexico and smart manufacturing. The exhibition area features eight main categories: Research Institutes, Automation and Robotics, Smart Factory, Additive Manufacturing, Intelligent Logistics, Energy Solutions, Machinery and Tools, and Government, along with spaces for live demonstrations and individual consultations.",
-        "description_2": "“<strong>HANNOVER MESSE</strong> is the world’s biggest showcase for industrial technology and the leading platform for Industry 4.0. During the past decade, we have strategically introduced the brand to growing markets around the world. Mexico impressed the global industry as Partner Country at <strong>Hannover Messe 2018</strong>. Now is the time to bring to Mexico a <strong>Hannover Messe</strong> event that is custom-made for Mexico’s booming industrial sector”, said Jochen Köckler, CEO of Deutsche Messe AG.</br></br> <strong>Industrial Transformation Mexico</strong> packages the leading industrial technologies and solutions with a top-notch education and networking program. Visitors from Mexico and neighboring countries now have a single event that provides all the tools and information they need to digitalize their factories and plants. Industrial Transformation Mexico will be an engaging and inclusive event where stakeholders and targeted audience groups convene for networking and knowledge transfer opportunities for business success"
+        "description_2": "“<strong>HANNOVER MESSE</strong> is the world’s biggest showcase for industrial technology and the leading platform for Industry 4.0. During the past decade, we have strategically introduced the brand to growing markets around the world. Mexico impressed the global industry as Partner Country at <strong>Hannover Messe 2018</strong>. Now is the time to bring to Mexico a <strong>Hannover Messe</strong> event that is custom-made for Mexico’s booming industrial sector”, said Jochen Köckler, CEO of Deutsche Messe AG.</br></br> <strong>Industrial Transformation Mexico</strong> packages the leading industrial technologies and solutions with a top-notch education and networking program. Visitors from Mexico and neighboring countries now have a single event that provides all the tools and information they need to digitalize their factories and plants. Industrial Transformation Mexico will be an engaging and inclusive event where stakeholders and targeted audience groups convene for networking and knowledge transfer opportunities for business success."
     },
     "background": {
         "title": "Mexico - Partner Country at HANNOVER MESSE 2018",
@@ -113,11 +113,11 @@
     "profile": {
         "title": "EXHIBITOR PROFILE",
         "countries": "(Comprising Mexico, USA, Canada, Europe, Asia)",
-        "description": "Exhibitor Types: Solutions providers, technology providers, industrial companies, component manufacturers, software companies, manufacturing solutions suppliers, service companies, training and certification companies, institutes of higher learning, research institutions, consultancies, start-ups etc."
+        "description": "Exhibitor Types: Solutions providers, technology providers, industrial companies, component manufacturers, software companies, manufacturing solutions suppliers, service companies, training and certification companies, institutes of higher learning, research institutions, consultancies, start ups, etc."
     },
     "audience": {
         "title": "WHAT TYPE OF AUDIENCE WILL ATTEND?",
-        "description": "ndustrial Transformation MEXICO takes advantage of  network synergies to bring together stakeholders and audience groups from every point along the industrial value chain. This provides opportunities for intensive networking, global knowledge transfer and new business."
+        "description": "Industrial Transformation MEXICO takes advantage of  network synergies to bring together stakeholders and audience groups from every point along the industrial value chain. This provides opportunities for intensive networking, global knowledge transfer and new business."
     },
     "productsCategory": {
         "title": "PRODUCT CATEGORIES:",
@@ -265,7 +265,7 @@
             "title": "Job levels",
             "item_1": "Senior management, consultants, decision makers, department heads, engineers, factory planners, procurement managers, system managers, traders.",
             "item_2": "Regions:",
-            "item_3": "Mexico, Central America, South America"
+            "item_3": "Mexico, Central America, South America."
         }
     },
     "directory": {

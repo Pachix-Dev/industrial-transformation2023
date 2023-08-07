@@ -34,12 +34,12 @@
         "itm2021_2": "Directorio de expositores 2021",
         "itm2021_3": "Pasaporte ITM 2021",
         "itm2020": "itm 2020",
-        "itm2020_1": "Directorio digital itm 2020",
+        "itm2020_1": "Directorio de expositores 2020",
         "itm2020_2": "Pasaporte itm 2020",
         "itm2019": "itm 2019",
         "itm2019_1": "Directorio de expositores 2019",
         "itm2019_2": "Pasaporte itm 2019",
-        "itm2019_3": "Informe de resultados itm 2019",
+        "itm2019_3": "itm resultados itm 2019",
         "media_hub": "Centro de Medios",
         "media_hub_1": "Cuatro cero",
         "media_hub_2": "Galería",
@@ -263,14 +263,9 @@
         },
         "buyers": {
             "title": "Perfil de los compradores",
-            "item_1": "Directivos",
-            "item_2": "Consultores",
-            "item_3": "Tomadores de decisiones",
-            "item_4": "Líderes de departamento",
-            "item_5": "Ingenieros",
-            "item_6": "Planificadores de planta",
-            "item_7": "Directores de compra",
-            "item_8": "Directores administrativos"
+            "item_1": "Altos directivos, consultores, responsables de la toma de decisiones, jefes de departamento, ingenieros, planificadores de fábricas, responsables de compras, gestores de sistemas, comerciantes.",
+            "item_2": "Regiones:",
+            "item_3": "México, América Central, América del Sur."
         }
     },
     "directory": {
