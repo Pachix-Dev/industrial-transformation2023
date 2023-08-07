@@ -36,6 +36,7 @@
         "itm2020": "itm 2020",
         "itm2020_1": "exhibitors directory  2020",
         "itm2020_2": "passport itm 2020",
+        "itm2020_3": "after show report 2020",
         "itm2019": "itm 2019",
         "itm2019_1": "exhibitors directory 2019",
         "itm2019_2": "passport itm 2019",
@@ -66,7 +67,7 @@
         "seconds": "seconds",
         "titleCounter": "4 - 6 October 2023 | ITM",
         "button": "TIC & ITZAMNÁ Awards",
-        "leyend": "<strong>Free admission</strong>  with pre-registration until September 29, 2023 cost from September 30 onwards $300 MXN",
+        "leyend": "<strong>FREE ADMISSION</strong>  with pre-registration until September 29, 2023 cost from September 30 onwards $300 MXN",
         "registro_itm_2023": "Register Now",
         "dateEvent": "wednesday, thursday and friday hours from 9:00 am to 6:00 pm",
         "highlights_ITM2022": "The highlights of Industrial Transformation Mexico 2022",
@@ -284,7 +285,7 @@
     },
     "downloadlogos": "DOWNLOAD LOGOS",
     "startup": {
-        "description_1": "We invite you to present your solutions at Industrial Transformation Mexico 2023 in our second edition of the Startup Pitch. Participate and be one of the four finalists presented before investors and jury members at ITM, which will take place from October 4 - 6, 2023 in Poliforum León, Guanajuato. To be part of the Startup Pitch @ITM2022 follow the steps below and submit your file by July 21 of this year.",
+        "description_1": "We invite you to present your solutions at Industrial Transformation Mexico 2023 in our third edition of the Startup Pitch. Participate and be one of the finalists to present to investors and jury members at ITM, which will take place from October 4-6, 2023 at Poliforum León, Guanajuato. To be part of the Startup Pitch @ITM2023 follow the steps below and send your file no later than August 25 of this year.",
         "linkButton": "Benefits",
         "element_1": {
             "title": "Stages of the Competition",
@@ -299,8 +300,8 @@
         "element_2": {
             "title": "Date",
             "description_1": "June 2023",
-            "description_2": "June 28 and July 26",
-            "description_3": "August 04",
+            "description_2": "August 14 and August 17",
+            "description_3": "August 25",
             "description_4": "September 01",
             "description_5": "September 5 to 30",
             "description_6": "October 05",
@@ -310,7 +311,7 @@
         "button_2": "SEND YOUR FILE",
         "button_3": "PRIVACY NOTICE",
         "button_4": "FAQS",
-        "title_1": "Deadline for registration August 04, 2023",
+        "title_1": "Deadline for registration August 25, 2023",
         "contacto": "¿Do you have any questions about the process? Contact us at ",
         "titleCategory": "Participate in one of the following categories:",
         "category_1": {
@@ -335,7 +336,8 @@
             "item_1": "1. Digital Factory",
             "item_2": "2. Automation",
             "item_3": "3. Additive Manufacturing",
-            "item_4": "4. Environmental Automation"
+            "item_4": "3. Software",
+            "item_5": "4. Environmental Automation"
         },
         "businessTitle": "Choose to participate in one of the following stages of entrepreneurship:",
         "stage_1": {
@@ -378,7 +380,7 @@
         },
         "titleDoubt": "Do you have any questions about the process? Contact us at eder.rangel@hfmexico.mx",
         "fileButton": "SEND FILE",
-        "deadline": "Deadline for registration August 04, 2023"
+        "deadline": "Deadline for registration August 25, 2023"
     },
     "program": {
         "title": "PROGRAMA DE CONFERENCIAS",

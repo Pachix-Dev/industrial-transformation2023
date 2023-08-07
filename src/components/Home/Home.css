@@ -120,7 +120,9 @@ h3 {
     font-weight: 500;
 
 }
-
+.counterdown-description{
+    font-size: 20px;
+}
 @media (width < 940px) {
     .home-counter-video video {
         height: 100vh;

@@ -8,7 +8,6 @@ export function Slider () {
   const [stateVideo, setStateVideo] = useState(i18n.language)
 
   const handleLanguageChange = () => {
-    console.log('cambio de idioma')
     setStateVideo(i18n.language)
   }
 
@@ -19,8 +18,6 @@ export function Slider () {
       i18n.off('languageChanged', handleLanguageChange)
     }
   }, [])
-
-  console.log(stateVideo)
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>

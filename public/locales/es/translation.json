@@ -33,9 +33,10 @@
         "itm2021_1": "itm resultados 2021",
         "itm2021_2": "Directorio de expositores 2021",
         "itm2021_3": "Pasaporte ITM 2021",
-        "itm2020": "itm 2020",
+        "itm2020": "itm 2020",        
         "itm2020_1": "Directorio de expositores 2020",
         "itm2020_2": "Pasaporte itm 2020",
+        "itm2020_3": "itm resultados 2020",
         "itm2019": "itm 2019",
         "itm2019_1": "Directorio de expositores 2019",
         "itm2019_2": "Pasaporte itm 2019",
@@ -68,7 +69,7 @@
         "button": "Premios TIC E ITZAMNÁ",
         "leyend": "Entrada <strong>gratuita</strong> con pre-registro hasta el 29 de septiembre del 2023 costo a partir de 30  de septiembre $300 MXN",
         "registro_itm_2023": "Regístrate gratis",
-        "dateEvent": "miercoles, jueves y viernes horario de 9:00 am a 6:00 pm",
+        "dateEvent": "miércoles, jueves y viernes | Horario de 9:00 am a 6:00 pm",
         "highlights_ITM2022": "Lo mejor de Industrial Transformation México 2022",
         "sponsors": "Patrocinadores Platino",
         "digital": "Patrocinador de Experiencia Digital",
@@ -284,7 +285,7 @@
     },
     "downloadlogos": "DESCARGA DE LOGOTIPOS",
     "startup": {
-        "description_1": "Te invitamos a presentar tus soluciones en Industrial Transformation México 2023 en nuestra segunda edición del Startup Pitch. Participa y sé uno de los cuatro finalistas que presente ante inversionistas y miembros del jurado en ITM, que tendrá lugar del 4 – 6 de octubre, 2023 en Poliforum León, Guanajuato. Para ser parte del Startup Pitch @ITM2022 sigue los siguientes pasos y envía tu expediente a más tardar el 21 de julio del presente año.",
+        "description_1": "Te invitamos a presentar tus soluciones en Industrial Transformation México 2023 en nuestra tercera edición del Startup Pitch. Participa y sé uno de los finalistas que se presente ante inversionistas y miembros del jurado en ITM, que tendrá lugar del 4 al 6 de octubre de 2023 en Poliforum León, Guanajuato. Para ser parte del Startup Pitch @ITM2023 sigue los siguientes pasos y envía tu expediente a más tardar el 25 de agosto del presente año.",
         "linkButton": "Beneficios",
         "element_1": {
             "title": "Etapas del Concurso",
@@ -299,8 +300,8 @@
         "element_2": {
             "title": "Fecha",
             "description_1": "Junio 2023",
-            "description_2": "28 de junio y 26 de julio",
-            "description_3": "04 de agosto",
+            "description_2": "14 agosto y 17 de agosto",
+            "description_3": "25 de agosto",
             "description_4": "01 de septiembre",
             "description_5": "Del 5 al 30 de septiembre",
             "description_6": "05 de octubre",
@@ -309,7 +310,7 @@
         "button_1": "DESCARGA LA CONVOCATORIA",
         "button_2": "ENVÍA TU EXPEDIENTE",
         "button_3": "AVISO DE PRIVACIDAD",
-        "title_1": "Fecha límite de inscripción 04 de agosto de 2023",
+        "title_1": "Fecha límite de inscripción 25 de agosto de 2023",
         "contacto": "¿Tienes alguna duda sobre el proceso? Contáctanos al correo ",
         "titleCategory": "Participa en alguna de las siguientes categorías:",
         "category_1": {
@@ -334,7 +335,8 @@
             "item_1": "1. Fábrica digital",
             "item_2": "2. Automatización",
             "item_3": "3. Manufactura aditiva",
-            "item_4": "4. Automatización ambiental"
+            "item_4": "3. Software",
+            "item_5": "4. Environmental Automation"
         },
         "businessTitle": "Elige participar en alguna de las siguientes etapas de emprendimiento:",
         "stage_1": {
@@ -373,11 +375,11 @@
             "item_1": "Acceso a Industrial Transformation México 2023.",
             "item_2": "Mentorías de preparación para presentación de Pitch.",
             "item_3": "Los proyectos seleccionados para la etapa final, podrán asistir al exclusivo evento de la Noche de Industriales el 3 de octubre en el marco de Industrial Transformation México 2023. (En caso de ser seleccionado, considera tu llegada para esta fecha).",
-            "item_4": "Al proyecto seleccionado se le otorgará un stand para su participación en la Hannover Messe 2024 en Alemania en el área de Young Tech Enterprises."
+            "item_4": "Al proyecto seleccionado se le otorgará un stand para su participación en la Hannover Messe 2024 en Alemania en el área de Startup Area."
         },
         "titleDoubt": "¿Tienes alguna duda sobre el proceso? Contáctanos al correo eder.rangel@hfmexico.mx",
         "fileButton": "ENVÍA EXPEDIENTE",
-        "deadline": "Fecha límite de inscripción 04 de agosto de 2023"
+        "deadline": "Fecha límite de inscripción 25 de agosto de 2023"
     },
     "program": {
         "title": "PROGRAMA DE CONFERENCIAS",

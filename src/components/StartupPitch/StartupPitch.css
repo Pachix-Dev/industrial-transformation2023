@@ -43,7 +43,8 @@
 .wrapper-startup-links{
     margin-top: 2em;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));    
+    text-align: center;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));    
     gap: 20px;
 }
 .startup-links-first{

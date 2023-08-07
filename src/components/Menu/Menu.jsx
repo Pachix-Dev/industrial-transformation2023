@@ -231,6 +231,15 @@ export function Menu () {
 
                   <p className='mt-2 p-2 mb-0'>{t('menu.itm2020')}</p>
                   <NavDropdown.Item
+                    href={i18n.language === 'en'
+                      ? '/files/Aftershow-report-ITM-2020.pdf'
+                      : '/files/Resultados-ITM-virtual-2020.pdf'}
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.itm2020_3')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
                     href='/files/ESP-DirectorioDigital-ITM-2020.pdf'
                     target='_blank'
                     onClick={handleClose}

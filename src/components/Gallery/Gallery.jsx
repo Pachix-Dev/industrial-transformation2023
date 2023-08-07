@@ -73,6 +73,7 @@ export function Gallery (props) {
             <div
               key={index}
               data-src={img}
+              data-sub-html=' '
               className='gallery-item'
             >
               <img

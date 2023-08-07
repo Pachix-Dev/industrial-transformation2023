@@ -65,9 +65,9 @@ export function StartupPitch () {
 
           <a className='startup-links' href='https://forms.gle/5iHbJU7Yf1dMcusS9' target='_blank' rel='noreferrer'>{t('startup.button_2')}</a>
 
-          <a className='startup-links' href='/files/startup-AVISOS-DE-PRIVACIDAD.pdf' target='_blank'>{t('startup.button_3')}</a>
+          <a className='startup-links' href='https://hfmexico.mx/aviso-de-privacidad/' target='_blank' rel='noreferrer'>{t('startup.button_3')}</a>
 
-          <a className='startup-links' href='/files/startupFAQS.pdf' target='_blank'>FAQ</a>
+          {/* <a className='startup-links' href='/files/startupFAQS.pdf' target='_blank'>FAQ</a> */}
         </div>
         <h1 className='fw-bold text-center mt-5'>{t('startup.title_1')}</h1>
         <p className='text-center'>{t('startup.contacto')}<a href='mailto:eder.rangel@hfmexico.mx' target='_blank' rel='noreferrer'>eder.rangel@hfmexico.mx</a>
@@ -102,7 +102,8 @@ export function StartupPitch () {
               {t('startup.category_3.item_1')}<br />
               {t('startup.category_3.item_2')}<br />
               {t('startup.category_3.item_3')}<br />
-              {t('startup.category_3.item_4')}
+              {t('startup.category_3.item_4')}<br />
+              {t('startup.category_3.item_5')}
             </Accordion.Body>
           </Accordion.Item>
           {/* <Accordion.Item eventKey='3'>
