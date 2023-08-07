@@ -14,6 +14,11 @@
 footer a {
     text-decoration: none;
     color: black;
+    font-weight: 700;
+}
+
+footer a:hover {
+    color: #e8001e;
 }
 
 .footer-language {

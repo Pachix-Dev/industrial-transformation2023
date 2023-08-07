@@ -7,6 +7,10 @@
     border-radius: 20px;
 }
 
+.home-register:hover {
+    background-color: black
+}
+
 .home>h2,
 h3 {
     color: #727272;
@@ -32,10 +36,13 @@ h3 {
 .home-counterdown-timer {
     position: relative;
     z-index: 5;
+    text-shadow: 4px 4px 8px black;
 }
 
 .counterdown-timer {
+    line-height: 0.9;
     gap: 40px;
+
 }
 
 .counterdown-timer div {
@@ -44,24 +51,25 @@ h3 {
 }
 
 .counterdown-timer p {
+    margin: 0;
     position: relative;
     top: -45%;
     font-size: 30px;
     font-weight: bold;
     color: #e8001e;
     text-transform: uppercase;
-    text-shadow: 4px 4px 8px black;
+
 }
 
 .counterdown-title {
-    text-shadow: 4px 4px 10px black;
+    color: #e8001e;
 }
 
 .timer-numbers {
+    text-align: center;
     color: white;
     font-size: 10em;
     font-weight: bold;
-    text-shadow: 4px 4px 10px black;
 }
 
 .home-wrapper-logos {

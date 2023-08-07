@@ -26,11 +26,11 @@
         "visitors_4": "united airlines agreement",
         "past_events": "past events",
         "itm2022": "itm2022",
-        "itm2022_1": "imt results 2022",
+        "itm2022_1": "ITM results 2022",
         "itm2022_2": "exhibitors directory 2022",
         "itm2022_3": "Pasaport ITM 2022",
         "itm2021": "itm2021",
-        "itm2021_1": "imt results 2022",
+        "itm2021_1": "ITM results 2022",
         "itm2021_2": "exhibitors directory 2021",
         "itm2021_3": "Pasaport ITM 2023",
         "itm2020": "itm2020",
@@ -64,10 +64,11 @@
         "hours": "hours",
         "minutes": "minutes",
         "seconds": "seconds",
-        "titleCounter": "ITM 2023 october 4 - 6 ",
+        "titleCounter": "4 - 6 October 2023 | ITM",
         "button": "TIC & ITZAMNÁ Awards",
-        "leyend": "<strong>Free</strong> admission with pre-registration until September 29, 2023.",
+        "leyend": "<strong>Free admission</strong>  with pre-registration until September 29, 2023 cost from September 30 onwards $300 MXN",
         "registro_itm_2023": "Register Now",
+        "dateEvent": "wednesday, thursday and friday hours from 9:00 am to 6:00 pm",
         "highlights_ITM2022": "The highlights of Industrial Transformation Mexico 2022",
         "sponsors": "Platinum sponsors",
         "digital": "Digital Opening Experience Sponsor",
@@ -89,7 +90,7 @@
         "contact": "Contact",
         "name": "Name",
         "email": "Email",
-        "subscription": "SUBSCRIPTION"
+        "subscription": "SUBSCRIBE"
     },
     "aboutPage": {
         "title": "ABOUT US ITM",
@@ -106,7 +107,8 @@
         "description_2": "Be part of the most relevant B2B business meeting of Industry 4.0 in Mexico and Latin America.",
         "description_3": "Learn about the latest trends, launches and innovations in Industry 4.0 globally.",
         "description_4": "Be part of the best international program of conferences and workshops focused on Industry 4.0 in the country.",
-        "description_5": "Connect with the most relevant network of professionals specialized in the sector in the country."
+        "description_5": "Connect with the most relevant network of professionals specialized in the sector in the country.",
+        "become_exhibitor": "If you want to be an exhibitor contact:"
     },
     "profile": {
         "title": "EXHIBITOR PROFILE",
@@ -230,7 +232,7 @@
         "toolkit_6": "ITM Promotional"
     },
     "visitorReasons": {
-        "title_1": "Why Visit",
+        "title_1": "Why visit",
         "title_2": "How to optimize production towards industry 4.0?",
         "description_1": "Only at ITM you will be able to find the answer.",
         "description_2": "Participate in top educational programs focused on featured industrial sectors and their given application",
@@ -256,7 +258,7 @@
             "item_9": "Mechanical & plant engineering",
             "item_10": "Packaging",
             "item_11": "Pharmaceutical & biotechnology",
-            "item_12": "Process industries (steel, (petro) chemical)",
+            "item_12": "Process industries (steel, petro chemical)",
             "item_13": "Systems integrators"
         },
         "buyers": {
@@ -383,5 +385,9 @@
         "subtitle": "ITM RECOMIENDA",
         "month": "October",
         "titleprogram": "FULL PROGRAM "
+    },
+    "footer": {
+        "dateFooter": "4 - 6 October 2023",
+        "suscribe": "Subscribe to our newsletter"
     }
 }

@@ -273,13 +273,6 @@ export function Menu () {
 
                 <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>
                   <NavDropdown.Item
-                    href='https://cuatro-cero.mx/'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.media_hub_1')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
                     as={Link}
                     to='/gallery'
                     onClick={handleClose}
@@ -293,8 +286,15 @@ export function Menu () {
                   >
                     {t('menu.media_hub_3')}
                   </NavDropdown.Item>
-
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/gallery'
+                    onClick={handleClose}
+                  >
+                    Roadshows
+                  </NavDropdown.Item>
                 </NavDropdown>
+                <Nav.Link href='https://cuatro-cero.mx/' target='_blank' onClick={handleClose}>Cuatro Cero</Nav.Link>
                 <Navbar.Text className='language-option'>
                   <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'white' : '' }}>Es</button>
                   /

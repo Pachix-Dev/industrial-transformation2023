@@ -1,10 +1,16 @@
 .nav-link.disabled {
     color: white;
+    pointer-events: all;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #e8001e !important;
 }
 
 .nav-item:hover .dropdown-menu {
     display: block !important;
-    color: #919191;    
+    color: #919191;
     margin: 0;
     border: none;
     border-radius: 0;
@@ -49,6 +55,7 @@
 
 .nav-link {
     color: white;
+    text-shadow: 4px 4px 6px black;
 }
 
 .nav-link:hover {

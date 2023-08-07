@@ -1,8 +1,8 @@
-.container-parallax{
+.container-parallax {
     background-image: url('../../assets/BanderaMexico.webp');
     background-size: cover;
     background-attachment: fixed;
-    background-position: center ;
+    background-position: center;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.cont-text{
+.cont-text {
     text-align: center;
     color: #fff;
     margin: 0px 15px;
@@ -21,17 +21,18 @@
     align-items: center;
 }
 
-.title-exhibitor{
+.title-exhibitor {
     font-size: 41px;
     font-weight: 750;
 }
 
-p{
-    justify-content: center;
-    font-size: 17px;
-}
 
-.border-bottom{
+
+.border-bottom {
     width: 45px;
     margin: 20px auto;
+}
+
+.exhibitor-description {
+    font-size: 19px;
 }

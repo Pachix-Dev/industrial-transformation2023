@@ -23,9 +23,11 @@ export function Footer () {
           </svg>
         </a>
         <a href='https://twitter.com/i/flow/login?redirect_after_login=%2FIndtransmex' target='_blank' rel='noreferrer'>
-          <svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+          <svg viewBox='0 0 24 24' aria-hidden='true'>
             <title>Twitter</title>
-            <path d='M21.543 7.104c.015.211.015.423.015.636 0 6.507-4.954 14.01-14.01 14.01v-.003A13.94 13.94 0 0 1 0 19.539a9.88 9.88 0 0 0 7.287-2.041 4.93 4.93 0 0 1-4.6-3.42 4.916 4.916 0 0 0 2.223-.084A4.926 4.926 0 0 1 .96 9.167v-.062a4.887 4.887 0 0 0 2.235.616A4.928 4.928 0 0 1 1.67 3.148 13.98 13.98 0 0 0 11.82 8.292a4.929 4.929 0 0 1 8.39-4.49 9.868 9.868 0 0 0 3.128-1.196 4.941 4.941 0 0 1-2.165 2.724A9.828 9.828 0 0 0 24 4.555a10.019 10.019 0 0 1-2.457 2.549z' />
+            <g>
+              <path d='M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z' />
+            </g>
           </svg>
         </a>
         <a href='https://www.instagram.com/industrial_transformation_mx/' target='_blank' rel='noreferrer'>
@@ -39,9 +41,9 @@ export function Footer () {
         <Row className='mt-5 mb-5'>
           <Col>
             <p><strong>Industrial Transformation México 2023</strong></p>
-            <p>4 – 6 de octubre, 2023<br />
+            <p>{t('footer.dateFooter')}<br />
               9:00am – 6:00pm<br />
-              Poliforum, León, Guanajuato
+              Poliforum León, Guanajuato
             </p>
           </Col>
           <Col>
@@ -52,6 +54,7 @@ export function Footer () {
             </p>
           </Col>
           <Col>
+            <p><strong>{t('footer.suscribe')}</strong></p>
             <Subscribe />
           </Col>
         </Row>

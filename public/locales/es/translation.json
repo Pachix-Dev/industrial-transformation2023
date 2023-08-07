@@ -64,10 +64,11 @@
         "hours": "horas",
         "minutes": "minutos",
         "seconds": "segundos",
-        "titleCounter": "ITM 2023 del 4 al 6 de octubre",
+        "titleCounter": "4 - 6 de octubre de 2023 | ITM",
         "button": "Premios TIC E ITZAMNÁ",
-        "leyend": "Entrada <strong>gratuita</strong> con pre-registro hasta el 29 de Septiembre del 2023",
+        "leyend": "Entrada <strong>gratuita</strong> con pre-registro hasta el 29 de septiembre del 2023 costo a partir de 30  de septiembre $300 MXN",
         "registro_itm_2023": "Regístrate gratis",
+        "dateEvent": "miercoles, jueves y viernes horario de 9:00 am a 6:00 pm",
         "highlights_ITM2022": "Lo mejor de Industrial Transformation México 2022",
         "sponsors": "Patrocinadores Platino",
         "digital": "Patrocinador de Experiencia Digital",
@@ -106,7 +107,8 @@
         "description_2": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina",
         "description_3": "Conoce las últimas tendencias, lanzamientos e innovaciones en la Industria 4.0 a nivel global.",
         "description_4": "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país.",
-        "description_5": "Vincúlate con la red de profesionales especializados en el sector más relevante del país."
+        "description_5": "Vincúlate con la red de profesionales especializados en el sector más relevante del país.",
+        "become_exhibitor": "Si quieres ser expositor contactate con:"
     },
     "profile": {
         "title": "Perfil de Expositor",
@@ -118,7 +120,7 @@
         "description": "Industrial Transformation MEXICO aprovecha las sinergias de la red para reunir a las partes interesadas y grupos de audiencia de todos los puntos a lo largo de la cadena de valor industrial. Esto brinda oportunidades para un networking intensivo, transferencia de conocimiento global y nuevos negocios."
     },
     "productsCategory": {
-        "title": "Categoria de Productos",
+        "title": "Categoría de Productos",
         "machine": {
             "machine_title": "Máquinas-Herramientas",
             "machine_1": "Procesamiento de láminas de metal",
@@ -230,7 +232,7 @@
         "toolkit_6": "Promocional ITM"
     },
     "visitorReasons": {
-        "title_1": "Por qué Visitar",
+        "title_1": "Por qué visitar",
         "title_2": "¿Cómo optimizar la producción con la industria 4.0?",
         "description_1": "En ITM podrás encontrar la respuesta.",
         "description_2": "Participar en los mejores programas educativos enfocados a sectores industriales y su aplicación.",
@@ -239,7 +241,8 @@
         "description_5": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina.",
         "description_6": "Vincúlate con la red de profesionales especializados en el sector más relevante del país.",
         "description_7": "Conoce las últimas tendencias, lanzamientos e innovaciones en Industria 4.0 a nivel global.",
-        "description_8": "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país."
+        "description_8": "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país.",
+        "description_9": "Visite un programa internacional de conferencias y talleres de alta calidad."
     },
     "visitorProfile": {
         "industry": {
@@ -255,7 +258,7 @@
             "item_9": "Ingeniería de plantas y mecánica",
             "item_10": "Embalaje",
             "item_11": "Biotecnología y farmacéutica",
-            "item_12": "Procesos industriales (acero, (petróleo) y químico)",
+            "item_12": "Procesos industriales (acero, petróleo y químico)",
             "item_13": "Sistemas integradores"
         },
         "buyers": {
@@ -386,5 +389,9 @@
         "subtitle": "ITM RECOMIENDA",
         "month": "de Octubre",
         "titleprogram": "PROGRAMA COMPLETO "
+    },
+    "footer": {
+        "dateFooter": "4 - 6 de octubre de 2023",
+        "suscribe": "Susbribite a nuestro boletin"
     }
 }
