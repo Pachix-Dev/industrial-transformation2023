@@ -53,7 +53,6 @@ export function Subscribe () {
     }
   }
 
-  console.log(stateLang)
   return (
     <>
       <Form id='form-newsletter' onSubmit={handleSubmit}>
@@ -76,7 +75,7 @@ export function Subscribe () {
                   onChange={onChange}
                   hl='en'
                 />
-              </>
+                </>
               : <ReCAPTCHA
                   sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
                   ref={captchaRef}
