@@ -79,8 +79,8 @@ export function Menu () {
 
                   <NavDropdown.Item
                     href={i18n.language === 'en'
-                      ? '/files/MANUAL_ITM_INGLES.pdf'
-                      : '/files/MANUAL_ITM_ESP.pdf'}
+                      ? '/files/MANUAL_ITM_INGLES_23_08_01.pdf'
+                      : '/files/MANUAL_ITM_23_08_01.pdf'}
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -120,7 +120,7 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_7_1')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item>topicseng
                   <NavDropdown.Item
                     href='/files/Patrocinio Keynote ITM 2023.pdf'
                     target='_blank'
