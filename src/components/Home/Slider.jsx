@@ -18,7 +18,7 @@ export function Slider () {
                   autoPlay
                   playsInline
                   poster='/PosterStartupPitch.webp'
-                  src='/STARTUP PITCH ENG.webm'
+                  src='/STARTUP PITCH ENG_1.webm'
                 />
               : <video
                   width='100%'
@@ -28,7 +28,7 @@ export function Slider () {
                   autoPlay
                   playsInline
                   poster='/PosterStartupPitch.webp'
-                  src='/STARTUP-PITCH-ITM-2023.webm'
+                  src='/STARTUP-PITCH-ITM-2023_1.webm'
                 />}
           </Link>
         </Carousel.Item>
@@ -44,7 +44,7 @@ export function Slider () {
                     autoPlay
                     playsInline
                     poster='/PosterStartupPitch.webp'
-                    src='/M-TECH ENG.webm'
+                    src='/M-TECH ENG_1.webm'
                   />
                 : <video
                     width='100%'
@@ -54,7 +54,7 @@ export function Slider () {
                     autoPlay
                     playsInline
                     poster='/PosterStartupPitch.webp'
-                    src='/KV-ITM-MTECH-2023.webm'
+                    src='/KV-ITM-MTECH-2023_1.webm'
                   />
             }
           </a>
@@ -80,12 +80,12 @@ export function Slider () {
             stateLang === 'en'
               ? <img
                   className='d-block w-100'
-                  src='/FUTURISTIC MINDS ENG.webp'
+                  src='/FUTURISTIC MINDS ENG_1.webp'
                   alt='ITM-FUTURISTIC-MINDS'
                 />
               : <img
                   className='d-block w-100'
-                  src='/ITM-FUTURISTIC-MINDS.webp'
+                  src='/ITM-FUTURISTIC-MINDS_1.webp'
                   alt='ITM-FUTURISTIC-MINDS'
                 />
           }
