@@ -39,21 +39,26 @@ export function Footer () {
       </div>
       <Container>
         <Row className='mt-5 mb-5'>
-          <Col>
-            <p><strong>Industrial Transformation México 2023</strong></p>
-            <p>{t('footer.dateFooter')}<br />
-              9:00am – 6:00pm<br />
-              Poliforum León, Guanajuato
-            </p>
+          <Col md={8}>
+            <div className='footer-wrapper-info-contact'>
+              <div className='w-100'>
+                <p><strong>Industrial Transformation México 2023</strong></p>
+                <p>{t('footer.dateFooter')}<br />
+                  9:00 am – 6:00 pm<br />
+                  <svg width={18} viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'><g id='SVGRepo_bgCarrier' strokeWidth='0' /><g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round' /><g id='SVGRepo_iconCarrier'> <path d='M12 21C15.5 17.4 19 14.1764 19 10.2C19 6.22355 15.866 3 12 3C8.13401 3 5 6.22355 5 10.2C5 14.1764 8.5 17.4 12 21Z' stroke='#000000' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' /> <path d='M12 13C13.6569 13 15 11.6569 15 10C15 8.34315 13.6569 7 12 7C10.3431 7 9 8.34315 9 10C9 11.6569 10.3431 13 12 13Z' stroke='#000000' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round' /> </g></svg> Poliforum León, Guanajuato
+                </p>
+              </div>
+              <div className='w-100'>
+                <p><strong>{t('home.sales_contact')}</strong></p>
+                <p>Eder Raúl Rangel Déziga<br />
+                  Tel: +52 (55) 7028-3335 ext. 809<br />
+                  <a href='mailto:eder.rangel@hfmexico.mx'>eder.rangel@hfmexico.mx</a>
+                </p>
+              </div>
+            </div>
+            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.859950910688!2d-101.654688!3d21.113962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe571ff11b0d%3A0x6d9c73bfdbbd1fc8!2sPoliforum%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1691442801832!5m2!1ses!2smx' width='100%' height={220} loading='lazy' referrerPolicy='no-referrer-when-downgrade' />
           </Col>
-          <Col>
-            <p><strong>{t('home.sales_contact')}</strong></p>
-            <p>Eder Raúl Rangel Déziga<br />
-              Tel: +52 (55) 7028-3335 ext. 809<br />
-              eder.rangel@hfmexico.mx
-            </p>
-          </Col>
-          <Col>
+          <Col md={4}>
             <p><strong>{t('footer.suscribe')}</strong></p>
             <Subscribe />
           </Col>

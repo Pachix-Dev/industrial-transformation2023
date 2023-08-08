@@ -1,29 +1,15 @@
-import { useEffect, useState } from 'react'
 import Carousel from 'react-bootstrap/Carousel'
-import { useTranslation } from 'react-i18next'
 import { Link } from 'react-router-dom'
+import { useLanguage } from '../hooks/useLanguage'
 
 export function Slider () {
-  const { i18n } = useTranslation()
-  const [stateVideo, setStateVideo] = useState(i18n.language)
-
-  const handleLanguageChange = () => {
-    setStateVideo(i18n.language)
-  }
-
-  useEffect(() => {
-    i18n.on('languageChanged', handleLanguageChange)
-
-    return () => {
-      i18n.off('languageChanged', handleLanguageChange)
-    }
-  }, [])
+  const { stateLang } = useLanguage()
   return (
     <div className='position-relative mt-5'>
       <Carousel fade interval={5000} controls={false}>
         <Carousel.Item>
           <Link to='/startup-pitch' aria-label='read more about Startup Pitch 2023'>
-            {stateVideo === 'en'
+            {stateLang === 'en'
               ? <video
                   width='100%'
                   height='auto'
@@ -49,7 +35,7 @@ export function Slider () {
         <Carousel.Item>
           <a href='https://hfmexico.mx/MTech/' target='_blank' aria-label='Read more about MTECH' rel='noreferrer'>
             {
-              stateVideo === 'en'
+              stateLang === 'en'
                 ? <video
                     width='100%'
                     height='auto'
@@ -91,7 +77,7 @@ export function Slider () {
         </Carousel.Item>
         <Carousel.Item>
           {
-            stateVideo === 'en'
+            stateLang === 'en'
               ? <img
                   className='d-block w-100'
                   src='/FUTURISTIC MINDS ENG.webp'
@@ -113,7 +99,7 @@ export function Slider () {
         </Carousel.Item>
         <Carousel.Item>
           {
-            stateVideo === 'en'
+            stateLang === 'en'
               ? <video
                   width='100%'
                   height='auto'
