@@ -9,8 +9,10 @@ import { Contacts } from '../Contacts'
 import './Home.css'
 
 import { ExibitorSlide } from './ExibitorSlide'
+import { useLanguage } from '../hooks/useLanguage'
 export function Home () {
   const { t } = useTranslation()
+  const { stateLang } = useLanguage()
   return (
     <>
       <div className='home-counter-video'>
@@ -37,12 +39,22 @@ export function Home () {
         <Row className='text-center'>
           <Col md={8} className='mx-auto'>
             <Ratio aspectRatio='16x9'>
-              <iframe
-                src='https://www.youtube-nocookie.com/embed/6_H5V9p5UZA'
-                title='YouTube video player'
-                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                allowFullScreen
-              />
+              {
+                stateLang === 'en'
+                  ? <iframe
+                      src='https://www.youtube-nocookie.com/embed/rj6ubgIR6Do'
+                      title='YouTube video player'
+                      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                      allowFullScreen
+                    />
+                  : <iframe
+                      src='https://www.youtube-nocookie.com/embed/6_H5V9p5UZA'
+                      title='YouTube video player'
+                      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                      allowFullScreen
+                    />
+              }
+
             </Ratio>
           </Col>
         </Row>
