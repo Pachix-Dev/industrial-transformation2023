@@ -298,7 +298,7 @@ export function Menu () {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
-                    to='/gallery'
+                    to='/roadshows'
                     onClick={handleClose}
                   >
                     Roadshows

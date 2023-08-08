@@ -91,11 +91,20 @@ export function Slider () {
           }
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='/ITM-mujeres.webp'
-            alt='ITM-MUJERES'
-          />
+          {
+            stateLang === 'en'
+              ? <img
+                  className='d-block w-100'
+                  src='/ITMujeres_ENG.webp'
+                  alt='ITM-MUJERES'
+                />
+              : <img
+                  className='d-block w-100'
+                  src='/ITMujeres.webp'
+                  alt='ITM-MUJERES'
+                />
+          }
+
         </Carousel.Item>
         <Carousel.Item>
           {

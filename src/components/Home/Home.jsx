@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import { CounterDown2 } from './CounterDown2'
 import { Slider } from './Slider'
 import { galleryHome } from '../constants_gallery'
@@ -36,12 +36,14 @@ export function Home () {
         <h2 className='mt-5'>{t('home.highlights_ITM2022')}</h2>
         <Row className='text-center'>
           <Col md={8} className='mx-auto'>
-            <a href='https://youtu.be/_API66_gvnk' target='_blank' rel='noreferrer'>
-              <img
-                src='/posterYoutube.webp' alt='Video Poster'
-                className='w-100'
+            <Ratio aspectRatio='16x9'>
+              <iframe
+                src='https://www.youtube-nocookie.com/embed/6_H5V9p5UZA'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+                allowFullScreen
               />
-            </a>
+            </Ratio>
           </Col>
         </Row>
         <h2 className='mt-5'>{t('menu.exhibitors')}</h2>

@@ -14,3 +14,16 @@
     margin: 0px auto;
     min-height: 480px;
 }
+
+.background-wrapper-stadistic strong{
+    font-size: 70px;
+    color: #e00d1b;
+}
+.background-wrapper-stadistic h2{
+    font-weight: bold;
+    color: #e00d1b;
+}
+.background-wrapper-stadistic p{
+    text-align: center;
+    font-size: 30px;
+}

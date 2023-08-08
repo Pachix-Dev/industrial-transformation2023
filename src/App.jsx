@@ -25,6 +25,7 @@ import { initializeGA, logPageView } from './analytics'
 import { Footer } from './components/Footer/Footer'
 import { StartupPitch } from './components/StartupPitch/StartupPitch'
 import { Program } from './components/Program/Program'
+import { Roadshows } from './components/Roadshows/Roadshows'
 
 function App () {
   const { t } = useTranslation()
@@ -247,6 +248,17 @@ function App () {
                 <title>ITM 2023 | Program</title>
               </Helmet>
               <Program />
+            </>
+          }
+        />
+        <Route
+          path='roadshows'
+          element={
+            <>
+              <Helmet>
+                <title>ITM 2023 | Roadshows</title>
+              </Helmet>
+              <Roadshows />
             </>
           }
         />

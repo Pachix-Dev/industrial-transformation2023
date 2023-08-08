@@ -40,6 +40,9 @@ export function CounterDown2 () {
         </div>
 
         <div className='pt-5'>
+          <h1 className='mb-0 fw-bold text-light'>
+            {t('home.titleITM')}
+          </h1>
           <h1 className='mb-0 fw-bold counterdown-title'>
             {t('home.titleCounter')}
           </h1>

@@ -65,12 +65,13 @@
         "hours": "hours",
         "minutes": "minutes",
         "seconds": "seconds",
-        "titleCounter": "4 - 6 October 2023 | ITM",
+        "titleITM": "ITM LET'S CREATE THE INDUSTRY OF TOMORROW",       
+        "titleCounter": "4 - 6 October 2023",
         "button": "TIC & ITZAMNÁ Awards",
         "leyend": "<strong>FREE ADMISSION</strong>  with pre-registration until September 29, 2023 cost from September 30 onwards $300 MXN",
         "registro_itm_2023": "Register Now",
         "dateEvent": "wednesday, thursday and friday | Hours from 9:00 am to 6:00 pm",
-        "highlights_ITM2022": "The highlights of Industrial Transformation Mexico 2022",
+        "highlights_ITM2022": "Industrial Transformation Mexico 2023",
         "sponsors": "Platinum sponsors",
         "digital": "Digital Opening Experience Sponsor",
         "gold_sponsors": "Gold sponsors",
@@ -100,7 +101,12 @@
     },
     "background": {
         "title": "Mexico - Partner Country at HANNOVER MESSE 2018",
-        "description_1": "With over 172 exhibitors and over 3,400 net sqm Mexico´s participation as Partner Country at HANNOVER MESSE 2018 was an overwhelming success and laid the groundwork for new business opportunities. Satellite pavilions in segments as Research & Technology, Industrial Supply, Digital Factory, Industrial Automation, Motion & Drive as well as CeMAT were proof of the enormous Industry 4.0 potential that is currently developing in Mexico."
+        "description_1": "With over 172 exhibitors and over 3,400 net sqm Mexico´s participation as Partner Country at HANNOVER MESSE 2018 was an overwhelming success and laid the groundwork for new business opportunities. Satellite pavilions in segments as Research & Technology, Industrial Supply, Digital Factory, Industrial Automation, Motion & Drive as well as CeMAT were proof of the enormous Industry 4.0 potential that is currently developing in Mexico.",
+        "stadistic_1": "Over <br /><strong>172</strong><br />exhibitors",
+        "stadistic_2": "<strong>3,445</strong><br />m<sup>2</sup> of exhibition area",
+        "stadistic_3": "High Rank <br>Delegation",
+        "stadistic_3_1": "The President of the United Mexican States, 4 Federal Secretaries, 11 Governors and directors of leading Mexican companies, chambers and associations.",
+        "stadistic_4": "<strong>2,500</strong><br />visitors from Mexico"
     },
     "exhibitorReasons": {
         "title": "Why Exhibit",

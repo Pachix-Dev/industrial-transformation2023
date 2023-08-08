@@ -65,12 +65,13 @@
         "hours": "horas",
         "minutes": "minutos",
         "seconds": "segundos",
-        "titleCounter": "4 - 6 de octubre de 2023 | ITM",
+        "titleITM": "ITM CREEMOS LA INDUSTRIA DEL MAÑANA",
+        "titleCounter": "4 - 6 de octubre de 2023",
         "button": "Premios TIC E ITZAMNÁ",
         "leyend": "Entrada <strong>gratuita</strong> con pre-registro hasta el 29 de septiembre del 2023 costo a partir de 30  de septiembre $300 MXN",
         "registro_itm_2023": "Regístrate gratis",
         "dateEvent": "miércoles, jueves y viernes | Horario de 9:00 am a 6:00 pm",
-        "highlights_ITM2022": "Lo mejor de Industrial Transformation México 2022",
+        "highlights_ITM2022": "Industrial Transformation México 2023",
         "sponsors": "Patrocinadores Platino",
         "digital": "Patrocinador de Experiencia Digital",
         "gold_sponsors": "Patrocinadores Oro",
@@ -100,7 +101,12 @@
     },
     "background": {
         "title": "México - País invitado de honor en la HANNOVER MESSE 2018",
-        "description_1": "Con más de 172 expositores y más de 3,400 metros cuadrados, la participación de México como País invitado en HANNOVER MESSE 2018 fue un éxito rotundo y sentó las bases para nuevas oportunidades de negocios. Los pabellones pertenecientes a segmentos como: “Research & Technology”, “Industrial Supply”, “Digital Factory”, “Integrated Automation, Motion & Drive”, así como CeMAT, fueron una prueba del enorme potencial de la Industria 4.0 que se está desarrollando actualmente en México."
+        "description_1": "Con más de 172 expositores y más de 3,400 metros cuadrados, la participación de México como País invitado en HANNOVER MESSE 2018 fue un éxito rotundo y sentó las bases para nuevas oportunidades de negocios. Los pabellones pertenecientes a segmentos como: “Research & Technology”, “Industrial Supply”, “Digital Factory”, “Integrated Automation, Motion & Drive”, así como CeMAT, fueron una prueba del enorme potencial de la Industria 4.0 que se está desarrollando actualmente en México.",
+        "stadistic_1": "Más de <br /><strong>172</strong><br />expositores",
+        "stadistic_2": "<strong>3,445</strong><br />m<sup>2</sup> de exposición",
+        "stadistic_3": "Delegación de <br />Alto Rango",
+        "stadistic_3_1": "El presidente de los Estados Unidos Mexicanos, 4 Secretarios Federales, 11 Gobernadores y directores de empresas líderes mexicanas, cámaras y asociaciones.",
+        "stadistic_4": "<strong>2,500</strong><br />visitantes mexicanos"
     },
     "exhibitorReasons": {
         "title": "Por qué participar",
