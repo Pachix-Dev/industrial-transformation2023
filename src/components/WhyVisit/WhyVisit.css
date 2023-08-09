@@ -13,5 +13,5 @@
 }
 
 .whyvisit-list {
-    list-style-image: url("/redbullet.webp");
+    list-style: none;
 }

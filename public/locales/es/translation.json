@@ -109,6 +109,7 @@
         "stadistic_4": "<strong>2,500</strong><br />visitantes mexicanos"
     },
     "exhibitorReasons": {
+        "newDesc":"Forma parte de Industrial Transformation MEXICO, la feria de tecnología de la Industria 4.0 referente en México y Latinoamérica. Aprovecha la oportunidad para adquirir un stand o ser patrocinador en la quinta edición del encuentro de negocios en materia de transformación hacia la producción inteligente, sustentable y digital.<br><br>La oportunidad de contribuir al futuro 4.0 con ITM está más cerca que nunca.",
         "title": "Por qué participar",
         "description_1": "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
         "description_2": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina",
@@ -240,10 +241,9 @@
     },
     "visitorReasons": {
         "title_1": "Por qué visitar",
-        "title_2": "¿Cómo optimizar la producción con la industria 4.0?",
-        "description_1": "En ITM podrás encontrar la respuesta.",
-        "description_2": "Participar en los mejores programas educativos enfocados a sectores industriales y su aplicación.",
-        "description_3": "Líderes internacionales del mercado muestran un completo conocimiento de la tecnología de automatización, fabricación inteligente, soluciones de logística inteligente y digital.",
+        "title_2": "¿Por qué debes visitar Industrial Transformation MEXICO?",
+        "description_1": "ITM es la Feria Líder de la Industria 4.0 en México y América Latina. Este gran evento es una plataforma donde los tomadores de decisiones a nivel global muestran, exploran y dan a conocer las nuevas tecnologías de automatización, fabricación inteligente, soluciones de logística inteligente y digital.",
+        "description_2": "No dejes pasar la oportunidad y participa en los mejores programas educativos enfocados a sectores industriales y su aplicación, además de aprovechar el espacio de intercambio de negocios.",        
         "description_4": "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
         "description_5": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina.",
         "description_6": "Vincúlate con la red de profesionales especializados en el sector más relevante del país.",

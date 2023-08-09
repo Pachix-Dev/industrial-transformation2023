@@ -11,15 +11,10 @@ export function WhyExhibit () {
         <Col md className='p-0'>
           <div className='exhibit-parallax'>
             <div className='container-text px-4'>
+              <h1 className='pt-5 title-reasons'>{t('exhibitorReasons.title')}</h1>
+              <p className='pt-5' dangerouslySetInnerHTML={{ __html: t('exhibitorReasons.newDesc') }} />
               <ul className='list-unstyled list-reasons'>
-                <li>
-                  <svg className='m-0 p-1' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                    <g id='SVGRepo_bgCarrier' strokeWidth='0' />
-                    <g id='SVGRepo_tracerCarrier' strokeLinecap='round' strokeLinejoin='round' />
-                    <g id='SVGRepo_iconCarrier'> <path fillRule='evenodd' clipule='evenodd' d='M17.0303 8.78039L8.99993 16.8107L5.4696 13.2804L6.53026 12.2197L8.99993 14.6894L15.9696 7.71973L17.0303 8.78039Z' fill='#ffffff' /> </g>
-                  </svg>
-                  <h3 className='title-reasons'>{t('exhibitorReasons.title')}</h3>
-                </li>
+
                 <li>
                   <svg viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg' strokeWidth='3' stroke='#ffffff' fill='none'>
                     <g id='SVGRepo_bgCarrier' strokeWidth='0' />

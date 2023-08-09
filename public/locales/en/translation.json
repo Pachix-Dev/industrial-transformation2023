@@ -109,6 +109,7 @@
         "stadistic_4": "<strong>2,500</strong><br />visitors from Mexico"
     },
     "exhibitorReasons": {
+        "newDesc":"Be part of Industrial Transformation MEXICO, the benchmark Industry 4.0 technology fair in Mexico and Latin America. Take the opportunity to purchase a booth or become a sponsor at the fifth edition of the business meeting on the transformation towards intelligent, sustainable and digital production.<br><br>The opportunity to contribute to the future 4.0 with ITM is closer than ever.",
         "title": "Why Exhibit",
         "description_1": "Generate business with a specialized network of suppliers and leading Industry 4.0 companies from more than 10 countries.",
         "description_2": "Be part of the most relevant B2B business meeting of Industry 4.0 in Mexico and Latin America.",
@@ -240,10 +241,9 @@
     },
     "visitorReasons": {
         "title_1": "Why visit",
-        "title_2": "How to optimize production towards industry 4.0?",
-        "description_1": "Only at ITM you will be able to find the answer.",
-        "description_2": "Participate in top educational programs focused on featured industrial sectors and their given application",
-        "description_3": "International market leaders showcasing a complete bandwidth of automation technology, smart manufacturing, digital and smart logistics solutions",
+        "title_2": "Why should you visit Industrial Transformation MEXICO?",
+        "description_1": "ITM is the Leading Industry 4.0 Trade Show in Mexico and Latin America. This great event is a platform where global decision makers showcase, explore and showcase new technologies in automation, smart manufacturing, smart logistics and digital solutions.",
+        "description_2": "Do not miss the opportunity and participate in the best educational programs focused on industrial sectors and their application, in addition to taking advantage of the business exchange space.",        
         "description_4": "Visit exhibitors showcasing their latest innovations and solutions on the show floor",
         "description_5": "Hear from industry experts who will share insight about industry 4.0 in Mexico",
         "description_6": "Network with an extensive alliance of business leaders and make new connections",
