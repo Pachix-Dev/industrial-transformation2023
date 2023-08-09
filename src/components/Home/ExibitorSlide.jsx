@@ -55,7 +55,7 @@ const ExibitorSlide = () => {
         <img src='/logoinfo.webp' width={200} alt='logoinfo' />
       </div>
       <div className='exibitorSlider text-center h-100'>
-        <img src='/kaeser.webp' width={200} alt='kaeser' />
+        <img src='/kaeser_1.webp' width={200} alt='kaeser' />
       </div>
       <div className='exibitorSlider text-center h-100'>
         <img src='/kloemecom.webp' width={200} alt='kloemecom' />

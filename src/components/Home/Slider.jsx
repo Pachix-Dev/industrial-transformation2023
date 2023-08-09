@@ -107,29 +107,29 @@ export function Slider () {
 
         </Carousel.Item>
         <Carousel.Item>
-          {
+          <a href='/files/folleto-itm-oktoberfest-2023.pdf' target='_blank' rel='noreferrer'>
             stateLang === 'en'
-              ? <video
-                  width='100%'
-                  height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  poster='/PosterOktober.webp'
-                  src='/OKTOBERFESTENG.webm'
-                />
-              : <video
-                  width='100%'
-                  height='auto'
-                  muted
-                  loop
-                  autoPlay
-                  playsInline
-                  poster='/PosterOktober.webp'
-                  src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
-                />
-          }
+            ? <video
+                width='100%'
+                height='auto'
+                muted
+                loop
+                autoPlay
+                playsInline
+                poster='/PosterOktober.webp'
+                src='/OKTOBERFESTENG.webm'
+              />
+            : <video
+                width='100%'
+                height='auto'
+                muted
+                loop
+                autoPlay
+                playsInline
+                poster='/PosterOktober.webp'
+                src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
+              />
+          </a>
         </Carousel.Item>
       </Carousel>
     </div>

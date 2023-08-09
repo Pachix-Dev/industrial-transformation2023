@@ -116,7 +116,7 @@ export function Home () {
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
-              <img src='/kaeser.webp' width={200} loading='lazy' alt='kaeser' />
+              <img src='/kaeser_1.webp' width={200} loading='lazy' alt='kaeser' />
             </a>
           </Col>
         </Row>
