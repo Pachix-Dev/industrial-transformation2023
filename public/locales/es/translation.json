@@ -322,9 +322,9 @@
         "category_1": {
             "title": "ÁREAS DE ENFOQUE",
             "item_1": "1. AI & Machine Learning",
-            "item_2": "2. Descarbonización",
-            "item_3": "3. Economía Circular",
-            "item_4": "4. Logística 4.0"
+            "item_2": "2. Economía Circular",
+            "item_3": "3. Logística 4.0",
+            "item_4": "4. Industria 4.0"
         },
         "category_2": {
             "title": "TIPO DE TECNOLOGÍA",
