@@ -1,28 +1,38 @@
-import posterStartupPitch from '../../assets/PosterStartupPitch.webp'
 import { Accordion, Col, Container, Row } from 'react-bootstrap'
 
 import './StartupPitch.css'
 import { useTranslation } from 'react-i18next'
+import { useLanguage } from '../hooks/useLanguage'
 export function StartupPitch () {
   const { t } = useTranslation()
+  const { stateLang } = useLanguage()
   return (
     <>
       <Container>
         <div className='position-relative mt-5'>
-          <video
-            width='100%'
-            height='auto'
-            muted
-            loop
-            autoPlay
-            playsInline
-            poster={posterStartupPitch}
-          >
-            <source
-              src='/STARTUP-PITCH-ITM-2023.webm'
-              type='video/webm'
-            />
-          </video>
+          {
+            stateLang === 'en'
+              ? <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  poster='/PosterStartupPitch.webp'
+                  src='/STARTUP PITCH ENG_1.webm'
+                />
+              : <video
+                  width='100%'
+                  height='auto'
+                  muted
+                  loop
+                  autoPlay
+                  playsInline
+                  poster='/PosterStartupPitch.webp'
+                  src='/STARTUP-PITCH-ITM-2023_1.webm'
+                />
+            }
         </div>
         <p className='mt-5'>{t('startup.description_1')}</p>
         <div className='startup-links-first'>
