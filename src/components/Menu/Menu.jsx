@@ -120,7 +120,7 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_7_1')}
-                  </NavDropdown.Item>topicseng
+                  </NavDropdown.Item>
                   <NavDropdown.Item
                     href='/files/Patrocinio Keynote ITM 2023.pdf'
                     target='_blank'

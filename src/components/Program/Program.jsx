@@ -35,7 +35,6 @@ export function Program () {
             <h1 className='text-light fw-font'>{t('program.title')}</h1>
             <h5 className='text-light'>{t('program.subtitle')}</h5>
           </Container>
-
           <Container>
             <Carousel
               responsive={responsive}
