@@ -68,8 +68,8 @@ export function Menu () {
 
                   <NavDropdown.Item
                     href={i18n.language === 'en'
-                      ? '/files/Factsheet_ITM2023_ENG_compressed.pdf'
-                      : '/files/Factsheet_ITM2023_ESP_compressed.pdf'}
+                      ? '/files/Factsheet_ITM2023_ENG_compressed_v3.pdf'
+                      : '/files/Factsheet_ITM2023_ESP_compressed_V3.pdf'}
                     target='_blank'
                     onClick={handleClose}
                   >
