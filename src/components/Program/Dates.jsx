@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Col, Container, Row, Tab, Tabs } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { programITM } from '../constans_program'
 
@@ -9,7 +9,7 @@ export function Dates () {
 
   console.log(program)
   return (
-    <Container className='program-dates mt-5 mb-5'>
+    <Container className='mt-5 mb-5'>
       <Row>
         <Col className='text-center'>
           <button style={{ backgroundColor: program === programITM.oct_4 ? '#e8001e' : '' }} onClick={() => setProgram(programITM.oct_4)}>
@@ -27,16 +27,17 @@ export function Dates () {
           </button>
         </Col>
       </Row>
-
-      <Row className='mt-5'>
-        <Col md>
-          <h4 className='text-center'>Stage 1</h4>
+      <Tabs
+        defaultActiveKey='profile'
+        id='uncontrolled-tab-example'
+        className='mb-3 border-0'
+      >
+        <Tab eventKey='home' title='Stage 1'>
           {program?.stage_1.map((conference, index) => {
             return (
               <div key={index} className='program-date-item d-flex align-items-center'>
                 <div className='text-start'>
-                  <p>Mier<br />
-                    26<br />
+                  <p>Mier 26 <br />
                     {conference.hour}
                   </p>
                 </div>
@@ -46,15 +47,13 @@ export function Dates () {
               </div>
             )
           })}
-        </Col>
-        <Col md>
-          <h4 className='text-center'>Stage 2</h4>
+        </Tab>
+        <Tab eventKey='profile' title='Stage 2'>
           {program?.stage_2.map((conference, index) => {
             return (
               <div key={index} className='program-date-item d-flex align-items-center'>
                 <div className='text-start'>
-                  Jue<br />
-                  26<br />
+                  Jue  26 <br />
                   {conference.hour}
                 </div>
                 <div>
@@ -63,15 +62,13 @@ export function Dates () {
               </div>
             )
           })}
-        </Col>
-        <Col md>
-          <h4 className='text-center'>Stage 3</h4>
+        </Tab>
+        <Tab eventKey='contact' title='Stage 3'>
           {program?.stage_3.map((conference, index) => {
             return (
               <div key={index} className='program-date-item d-flex align-items-center'>
                 <div>
-                  Vier<br />
-                  26<br />
+                  Vier 26<br />
                   {conference.hour}
                 </div>
                 <div className='text-center'>
@@ -80,9 +77,8 @@ export function Dates () {
               </div>
             )
           })}
-        </Col>
-      </Row>
-
+        </Tab>
+      </Tabs>
     </Container>
   )
 }

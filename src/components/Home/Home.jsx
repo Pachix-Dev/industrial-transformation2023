@@ -98,6 +98,11 @@ export function Home () {
               <img src='/roue.webp' width={180} loading='lazy' alt='roue' />
             </a>
           </Col>
+          <Col md className='my-auto'>
+            <a href='https://www.ikusi.com/mx/' target='_blank' rel='noreferrer'>
+              <img src='/Ikusi.webp' width={180} loading='lazy' alt='Ikusi' />
+            </a>
+          </Col>
         </Row>
         <h3 className='mt-5 mb-5'>{t('home.silver_sponsor')}</h3>
         <Row className='text-center'>

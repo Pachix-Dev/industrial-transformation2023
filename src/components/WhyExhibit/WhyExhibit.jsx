@@ -13,7 +13,6 @@ export function WhyExhibit () {
             <h1 className='pt-5 title-reasons'>{t('exhibitorReasons.title')}</h1>
             <p className='pt-5' dangerouslySetInnerHTML={{ __html: t('exhibitorReasons.newDesc') }} />
             <ul className='list-unstyled list-reasons'>
-
               <li>
                 <svg viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg' strokeWidth='3' stroke='#ffffff' fill='none'>
                   <g id='SVGRepo_bgCarrier' strokeWidth='0' />

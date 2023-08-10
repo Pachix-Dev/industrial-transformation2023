@@ -1,19 +1,7 @@
-.program-videobg{
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
 .program-wrapper{
   background: #200122;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right,#200122, #6f0000);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #200122, #6f0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
 }
 .program-wrapper-speakers{
   overflow: hidden;
@@ -44,11 +32,16 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
-.program-date-item{
-  background-color: #e8001e;
-  margin-bottom:10px;
-  border-radius: 10px;
+.program-date-item{  
+  margin-bottom:10px;  
   color: white;
   padding: 10px;
-  justify-content:space-evenly
+  gap: 150px;
+  border-bottom: solid 2px #8799c5;
+}
+.program-dates h4{
+  color: white;
+}
+.program-dates .nav-tabs .nav-link.active{
+  background-color: #e8001e;
 }

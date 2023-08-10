@@ -29,41 +29,37 @@ export function Program () {
 
   return (
     <>
-      <div className='program-wrapper position-relative vh-100 d-flex justify-content-center align-items-center '>
-        <div className='w-100'>
-          <Container>
-            <h1 className='text-light fw-font'>{t('program.title')}</h1>
-            <h5 className='text-light'>{t('program.subtitle')}</h5>
-          </Container>
-          <Container>
-            <Carousel
-              responsive={responsive}
-              showDots={false}
-              arrows
-              infinite
-              autoPlay
-              autoPlaySpeed={3000}
-            >
-              {speakers.map((image, index) => (
-                <div key={index} className='program-wrapper-speakers text-center h-100'>
-                  <img src={image.img} width={200} alt={`Exibitor ${index + 1}`} />
-                  <p className=' mt-2 text-light'>
-                    {image.conference}<br />
-                    {image.name}<br />
-                    {image.company}
-                  </p>
-                </div>
-              ))}
-            </Carousel>
-          </Container>
+      <div className='program-wrapper'>
+        <Container className='pt-5'>
+          <h1 className='text-light fw-font'>{t('program.title')}</h1>
+          <h5 className='text-light'>{t('program.subtitle')}</h5>
+        </Container>
+        <div className='program-dates mt-5 pt-5'>
+          <Dates />
         </div>
+        <Container>
+          <Carousel
+            responsive={responsive}
+            showDots={false}
+            arrows
+            infinite
+            autoPlay
+            autoPlaySpeed={3000}
+          >
+            {speakers.map((image, index) => (
+              <div key={index} className='program-wrapper-speakers text-center h-100'>
+                <img src={image.img} width={200} alt={`Exibitor ${index + 1}`} />
+                <p className=' mt-2 text-light'>
+                  {image.conference}<br />
+                  {image.name}<br />
+                  {image.company}
+                </p>
+              </div>
+            ))}
+          </Carousel>
+        </Container>
       </div>
-      <div className='mt-5' style={{ backgroundColor: '#e8001e' }}>
-        <h3 className='text-light'>{t('program.titleprogram')}</h3>
-      </div>
-      <div className='program-dates'>
-        <Dates />
-      </div>
+
     </>
   )
 }

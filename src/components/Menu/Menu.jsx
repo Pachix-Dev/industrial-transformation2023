@@ -20,7 +20,7 @@ export function Menu () {
   const handleClose = () => setShow(false)
   return (
     <>
-      <Navbar className={`mt-2 text-uppercase text-center ${location.pathname === '/' || location.pathname === '/program' ? 'menu-itm-home' : 'menu-itm'}`} expand='lg'>
+      <Navbar className={`text-uppercase text-center ${location.pathname === '/' ? 'menu-itm-home' : 'menu-itm'}`} expand='lg'>
         <Container>
           <Navbar.Brand as={Link} to='/'>
             <img src={logoITM} width={160} height={120} alt='ITM-2023' />
@@ -156,6 +156,15 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.visitors_2')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href={i18n.language === 'en'
+                      ? '/files/HIGHLIGHTS INDUSTRIAL TRANSFORMATION MÉXICO 2023.pdf'
+                      : '/files/HITOS INDUSTRIAL TRANSFORMATION MÉXICO 2023.pdf'}
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.visitors_2_1')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     href={i18n.language === 'en'
