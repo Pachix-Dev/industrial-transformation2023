@@ -157,7 +157,8 @@ export function Menu () {
                   >
                     {t('menu.visitors_2')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/*
+                    <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/HIGHLIGHTS INDUSTRIAL TRANSFORMATION MÉXICO 2023.pdf'
                       : '/files/HITOS INDUSTRIAL TRANSFORMATION MÉXICO 2023.pdf'}
@@ -166,6 +167,7 @@ export function Menu () {
                   >
                     {t('menu.visitors_2_1')}
                   </NavDropdown.Item>
+                  */}
                   <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/SPECIAL-RATES-ITM-2023-ENG.pdf'

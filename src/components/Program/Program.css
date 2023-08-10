@@ -37,11 +37,21 @@
   color: white;
   padding: 10px;
   gap: 150px;
-  border-bottom: solid 2px #8799c5;
+  border-bottom: solid 2px #ffffff;
 }
 .program-dates h4{
   color: white;
 }
 .program-dates .nav-tabs .nav-link.active{
   background-color: #e8001e;
+}
+.program-wrapper-speakers{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: relative;
+  gap: 20px;
+}
+.info_speakers{
+  position: absolute;
+  bottom: 0;
 }

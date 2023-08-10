@@ -37,26 +37,24 @@ export function Program () {
         <div className='program-dates mt-5 pt-5'>
           <Dates />
         </div>
-        <Container>
-          <Carousel
-            responsive={responsive}
-            showDots={false}
-            arrows
-            infinite
-            autoPlay
-            autoPlaySpeed={3000}
-          >
+        <Container className='pt-5'>
+          <h1 className='mt-5 text-light'>SPEAKERS</h1>
+          <p className='text-light'>Get inspired by our amazing speakers on 04-06 october</p>
+          <div className='mt-5 program-wrapper-speakers'>
             {speakers.map((image, index) => (
-              <div key={index} className='program-wrapper-speakers text-center h-100'>
+              <div key={index} className='speaker-item text-center h-100'>
                 <img src={image.img} width={200} alt={`Exibitor ${index + 1}`} />
-                <p className=' mt-2 text-light'>
-                  {image.conference}<br />
-                  {image.name}<br />
-                  {image.company}
-                </p>
+                <div className='info_speakers'>
+                  <p className=' mt-2 text-light'>
+                    {image.conference}<br />
+                    {image.name}<br />
+                    {image.company}
+                  </p>
+                </div>
               </div>
             ))}
-          </Carousel>
+            <div />
+          </div>
         </Container>
       </div>
 

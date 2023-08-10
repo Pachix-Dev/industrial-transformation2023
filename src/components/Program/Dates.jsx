@@ -28,21 +28,23 @@ export function Dates () {
         </Col>
       </Row>
       <Tabs
-        defaultActiveKey='profile'
+        defaultActiveKey='home'
         id='uncontrolled-tab-example'
-        className='mb-3 border-0'
+        className='mt-5 mb-3 border-0'
       >
         <Tab eventKey='home' title='Stage 1'>
           {program?.stage_1.map((conference, index) => {
             return (
               <div key={index} className='program-date-item d-flex align-items-center'>
                 <div className='text-start'>
-                  <p>Mier 26 <br />
+                  <p>Mier 04 <br />
                     {conference.hour}
                   </p>
                 </div>
                 <div>
-                  {conference.name}
+                  <h2>{conference.name_speaker}</h2>
+                  <small>{conference.rol}</small>
+                  <p>{conference.name}</p>
                 </div>
               </div>
             )

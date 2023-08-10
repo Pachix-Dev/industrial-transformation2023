@@ -1,8 +1,8 @@
 const speakers = [
   {
-    conference: 'NOMBRE CONFERENCIA',
-    name: 'NOMBRE DE CONFERENCISTA',
-    company: 'EMPRESA',
+    conference: 'How Qatar Airways is using AWS to transform the travel experience',
+    name: 'Guillaume Halleux',
+    company: 'Amazon program manager',
     img: '/speaker.avif'
   },
   {

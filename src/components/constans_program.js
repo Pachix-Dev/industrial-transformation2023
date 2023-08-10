@@ -3,53 +3,83 @@ const programITM = {
     stage_1: [
       {
         hour: '10:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Guillaume Halleux',
+        rol: 'Amazon program manager',
+        name: 'How Qatar Airways is using AWS to transform the travel experience'
       },
       {
         hour: '11:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '12:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '10:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '11:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '12:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
+      },
+      {
+        hour: '18:00 hrs',
+        name_speaker: 'Closing party',
+        rol: 'Ceo Samsung',
+        name: 'Coctel'
       }
     ],
     stage_2: [
       {
         hour: '10:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '11:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '12:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '10:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '11:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       },
       {
         hour: '12:00 hrs',
-        name: 'CEREMONIA DE APERTURA'
+        name_speaker: 'Reji John',
+        rol: 'Ceo Samsung',
+        name: 'How Drones can improve our business'
       }
     ],
     stage_3: [
