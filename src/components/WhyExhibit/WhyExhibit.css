@@ -2,11 +2,12 @@
     background-image: url('../../assets/black_exhibitor.webp');
     background-size: cover;
     height: 100%;
-    background-attachment: fixed;
-    background-position: -480px;
+    background-attachment: fixed;    
     background-repeat: no-repeat;
 }
-
+.exhibit-parallax p{
+    font-size: 20px;
+}
 .container-text {
     height: 100%;
     color: #fff;

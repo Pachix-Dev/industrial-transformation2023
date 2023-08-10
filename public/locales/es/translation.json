@@ -110,7 +110,7 @@
     },
     "exhibitorReasons": {
         "newDesc":"Forma parte de Industrial Transformation MEXICO, la feria de tecnología de la Industria 4.0 referente en México y Latinoamérica. Aprovecha la oportunidad para adquirir un stand o ser patrocinador en la quinta edición del encuentro de negocios en materia de transformación hacia la producción inteligente, sustentable y digital.<br><br>La oportunidad de contribuir al futuro 4.0 con ITM está más cerca que nunca.",
-        "title": "Por qué participar",
+        "title": "¿Por qué participar?",
         "description_1": "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
         "description_2": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina",
         "description_3": "Conoce las últimas tendencias, lanzamientos e innovaciones en la Industria 4.0 a nivel global.",
@@ -389,7 +389,7 @@
     },
     "program": {
         "title": "PROGRAMA DE CONFERENCIAS",
-        "subtitle": "ITM RECOMIENDA",
+        "subtitle": "Descubra las próximas charlas inspiradoras.",
         "month": "de Octubre",
         "titleprogram": "PROGRAMA COMPLETO "
     },

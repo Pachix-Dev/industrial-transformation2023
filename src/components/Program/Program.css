@@ -8,12 +8,29 @@
   height: 100%;
   object-fit: cover;
 }
-.program-wrapper-speakers:hover img{
-  box-shadow: -10px -8px 3px #e8001e;
+.program-wrapper{
+  background: #200122;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right,#200122, #6f0000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #200122, #6f0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
 .program-wrapper-speakers{
-  cursor: pointer;
+  overflow: hidden;
+  display: block;
 }
+.program-wrapper-speakers >img:hover{
+  box-shadow: -10px -8px 3px #e8001e;
+  transform: scale(1.1);
+  transition: all .5s ease-in;
+  object-fit: cover;
+}
+.program-wrapper-speakers img{
+  cursor: pointer;
+  
+  transition: all .5s ease-out;; 
+}
+
 .program-dates button{
   background-color: #1a1919;
   text-decoration: none;

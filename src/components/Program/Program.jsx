@@ -29,27 +29,13 @@ export function Program () {
 
   return (
     <>
-      <div className='position-relative vh-100 d-flex justify-content-center align-items-end  text-center '>
-        <video
-          className='program-videobg'
-          muted
-          loop
-          autoPlay
-          playsInline
-          poster='/posterVideo.webp'
-        >
-          <source
-            src='/VIDEO PROGRAMA DE CONFERENCIAS.webm'
-            type='video/webm'
-          />
-        </video>
+      <div className='program-wrapper position-relative vh-100 d-flex justify-content-center align-items-center '>
         <div className='w-100'>
           <Container>
             <h1 className='text-light fw-font'>{t('program.title')}</h1>
+            <h5 className='text-light'>{t('program.subtitle')}</h5>
           </Container>
-          <div className='bg-light'>
-            <h2 className='fw-bold'>{t('program.subtitle')}</h2>
-          </div>
+
           <Container>
             <Carousel
               responsive={responsive}
