@@ -7,7 +7,6 @@ export function WhyExhibit () {
   const { t } = useTranslation()
   return (
     <>
-
       <div className='exhibit-parallax'>
         <Container>
           <div className='container-text px-4'>
