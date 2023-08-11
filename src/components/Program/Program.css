@@ -7,16 +7,10 @@
   overflow: hidden;
   display: block;
 }
-.program-wrapper-speakers >img:hover{
-  box-shadow: -10px -8px 3px #e8001e;
-  transform: scale(1.1);
-  transition: all .5s ease-in;
-  object-fit: cover;
-}
+
 .program-wrapper-speakers img{
-  cursor: pointer;
-  
-  transition: all .5s ease-out;; 
+  cursor: pointer;  
+  transition: all .5s ease-out;
 }
 
 .program-dates button{
@@ -46,12 +40,29 @@
   background-color: #e8001e;
 }
 .program-wrapper-speakers{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  column-count:3;
+  column-gap:1.5em
+}
+.speaker-item{
   position: relative;
-  gap: 20px;
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+.speaker-item img{
+  filter: grayscale(100%);
+  cursor: pointer;  
+  transition: all .3s ease-out;
+}
+.speaker-item:hover img{
+  filter: grayscale(0%);
+  box-shadow: -10px -8px 3px #e8001e;
+  transform: scale(1.1);
+  transition: all .3s ease-in;
+  object-fit: cover;
 }
 .info_speakers{
   position: absolute;
-  bottom: 0;
+  width: 100%;
+  bottom: 20px;
+  color: white;
 }

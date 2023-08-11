@@ -17,7 +17,7 @@ export function Slider () {
                   loop
                   autoPlay
                   playsInline
-                  poster='/PosterStartupPitch.webp'
+                  poster='/startpitchENG.webp'
                   src='/STARTUP PITCH ENG_1.webm'
                 />
               : <video
@@ -27,7 +27,7 @@ export function Slider () {
                   loop
                   autoPlay
                   playsInline
-                  poster='/PosterStartupPitch.webp'
+                  poster='/startpitchESP.webp'
                   src='/STARTUP-PITCH-ITM-2023_1.webm'
                 />}
           </Link>
@@ -43,7 +43,7 @@ export function Slider () {
                     loop
                     autoPlay
                     playsInline
-                    poster='/PosterStartupPitch.webp'
+                    poster='/MtechENG.webp'
                     src='/M-TECH ENG_1.webm'
                   />
                 : <video
@@ -53,7 +53,7 @@ export function Slider () {
                     loop
                     autoPlay
                     playsInline
-                    poster='/PosterStartupPitch.webp'
+                    poster='/MtechESP.webp'
                     src='/KV-ITM-MTECH-2023_1.webm'
                   />
             }
@@ -117,7 +117,7 @@ export function Slider () {
                   loop
                   autoPlay
                   playsInline
-                  poster='/PosterOktober.webp'
+                  poster='/octokerfestENG.webp'
                   src='/OKTOBERFESTENG.webm'
                 />
               : <video
@@ -127,7 +127,7 @@ export function Slider () {
                   loop
                   autoPlay
                   playsInline
-                  poster='/PosterOktober.webp'
+                  poster='/octokerfestESP.webp'
                   src='/KV-OKTOBERFEST-ITM-2023-2500-×-1040-px-1.webm'
                 />
             }
