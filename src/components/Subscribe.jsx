@@ -4,6 +4,7 @@ import { useLanguage } from './hooks/useLanguage'
 import { useTranslation } from 'react-i18next'
 
 import { Suspense, lazy, useRef, useState } from 'react'
+import { Col, Row } from 'react-bootstrap'
 const ReCAPTCHA = lazy(() => import('react-google-recaptcha'))
 
 export function Subscribe () {
@@ -54,18 +55,19 @@ export function Subscribe () {
   }
 
   return (
-    <>
-      <Form id='form-newsletter' onSubmit={handleSubmit}>
-        <Form.Group className='mb-3' controlId='formBasicPassword'>
-          <Form.Label style={{ color: 'white' }}>{t('home.name')}</Form.Label>
-          <Form.Control type='text' name='name' required />
-        </Form.Group>
-        <Form.Group className='mb-3' controlId='formBasicEmail'>
-          <Form.Label style={{ color: 'white' }}>{t('home.email')}</Form.Label>
-          <Form.Control type='email' name='email' required />
-        </Form.Group>
-        <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
-          {
+    <Row>
+      <Col className='mx-auto' md={6}>
+        <Form id='form-newsletter' onSubmit={handleSubmit}>
+          <Form.Group className='mb-3' controlId='formBasicPassword'>
+            <Form.Label style={{ color: 'white' }}>{t('home.name')}</Form.Label>
+            <Form.Control type='text' name='name' required />
+          </Form.Group>
+          <Form.Group className='mb-3' controlId='formBasicEmail'>
+            <Form.Label style={{ color: 'white' }}>{t('home.email')}</Form.Label>
+            <Form.Control type='email' name='email' required />
+          </Form.Group>
+          <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
+            {
             stateLang === 'en'
               ? <>
                 <p className='d-none'>hola</p>
@@ -84,12 +86,13 @@ export function Subscribe () {
                 />
 
               }
-        </Suspense>
-        {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
-        <Button variant='dark' type='submit' className='mt-3'>
-          {t('home.subscription')}
-        </Button>
-      </Form>
-    </>
+          </Suspense>
+          {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
+          <Button variant='dark' type='submit' className='mt-3'>
+            {t('home.subscription')}
+          </Button>
+        </Form>
+      </Col>
+    </Row>
   )
 }
