@@ -14,6 +14,13 @@ export function Home () {
   const { stateLang } = useLanguage()
   return (
     <>
+      <div className='home-newsletter'>
+        <a href='#newsletter'>
+          <svg width={30} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='currentColor' class='w-6 h-6'>
+            <path stroke-linecap='round' stroke-linejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
+          </svg> <strong>{t('footer.suscribe')}</strong>
+        </a>
+      </div>
       <div className='home-counter-video'>
         <CounterDown2 />
         <div className='position-absolute top-0 w-100 h-100'>
@@ -291,7 +298,7 @@ export function Home () {
         </Row>
 
       </Container>
-      <section className='home-gallery'>
+      <section className='home-gallery' id='newsletter'>
         <Container className='pt-5 pb-5'>
           <h3><strong>{t('footer.suscribe')}</strong></h3>
           <Subscribe />

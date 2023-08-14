@@ -9,7 +9,9 @@
 
 .whyvisit-list {
     list-style: none;
+    padding-left: 0;
 }
 .whyvisit-list li{
-    display: flex;
+   padding: 5px;
+   padding-left: 0;
 }

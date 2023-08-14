@@ -151,13 +151,13 @@ export function Menu () {
                   >
                     {t('menu.visitors_1')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     as={Link} to='/visitor-profile'
                     onClick={handleClose}
                   >
                     {t('menu.visitors_2')}
                   </NavDropdown.Item>
-                  {/*
+
                     <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/HIGHLIGHTS INDUSTRIAL TRANSFORMATION MÉXICO 2023.pdf'

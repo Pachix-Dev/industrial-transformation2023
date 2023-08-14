@@ -128,6 +128,27 @@ h3 {
 .carousel-indicators [data-bs-target]{
     background-color:black;
 }
+.home-newsletter{
+    position: fixed;
+    right: -220px;
+    top: 15%;
+    z-index: 999;
+    width: auto;
+    background-color: black;
+    border-radius: 10px;    
+    padding: 10px;
+    transition: transform 0.9s ease-in-out;
+    
+}
+.home-newsletter a{
+    text-decoration: none;
+    color: white;
+}
+.home-newsletter:hover{
+    cursor: pointer;
+    transform: translateX(-220px);
+}
+
 @media (width < 940px) {
     .home-counter-video video {
         height: 100vh;
