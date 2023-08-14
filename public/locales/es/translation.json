@@ -245,11 +245,11 @@
         "title_2": "¿Por qué debes visitar Industrial Transformation MEXICO?",
         "description_1": "ITM es la Feria Líder de la Industria 4.0 en México y América Latina. Este gran evento es una plataforma donde los tomadores de decisiones a nivel global muestran, exploran y dan a conocer las nuevas tecnologías de automatización, fabricación inteligente, soluciones de logística inteligente y digital.",
         "description_2": "No dejes pasar la oportunidad y participa en los mejores programas educativos enfocados a sectores industriales y su aplicación, además de aprovechar el espacio de intercambio de negocios.",        
-        "description_4": "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
-        "description_5": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina.",
-        "description_6": "Vincúlate con la red de profesionales especializados en el sector más relevante del país.",
-        "description_7": "Conoce las últimas tendencias, lanzamientos e innovaciones en Industria 4.0 a nivel global.",
-        "description_8": "Sé parte del mejor programa internacional de conferencias y talleres enfocado en la Industria 4.0 del país.",
+        "description_4": "Comience la transformación digital de su empresa.",
+        "description_5": "Optimice sus procesos y resultados, genere ahorros e incremente sus ventas.",
+        "description_6": "Aumente su competitividad y eficiencia operativa.",
+        "description_7": "Expanda su red de negocios.",
+        "description_8": "Tome la delantera en los negocios del futuro.",
         "description_9": "Visite un programa internacional de conferencias y talleres de alta calidad."
     },
     "visitorProfile": {
@@ -396,6 +396,6 @@
     },
     "footer": {
         "dateFooter": "4 - 6 de octubre de 2023",
-        "suscribe": "Susbribite a nuestro boletin"
+        "suscribe": "Susbríbete a nuestro boletín"
     }
 }
