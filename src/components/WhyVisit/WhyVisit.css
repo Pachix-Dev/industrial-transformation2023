@@ -5,13 +5,11 @@
     background-position: left;
     color: white;
 }
-.whyvisit-bg2{
-    background: url("/bgwhyvisit2.webp");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: left;
-}
+
 
 .whyvisit-list {
     list-style: none;
+}
+.whyvisit-list li{
+    display: flex;
 }

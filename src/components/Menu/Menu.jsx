@@ -34,7 +34,7 @@ export function Menu () {
           >
             <Offcanvas.Header closeButton onClick={handleClose} />
             <Offcanvas.Body className='ms-auto'>
-              <Nav>
+              <Nav className='align-items-center'>
                 <NavDropdown title={t('menu.about_us')} renderMenuOnMount disabled>
                   <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.about_1')}</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='/background' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
@@ -317,11 +317,15 @@ export function Menu () {
                 </NavDropdown>
                 <Nav.Link href='https://cuatro-cero.mx/' target='_blank' onClick={handleClose}>Cuatro Cero</Nav.Link>
                 <Navbar.Text className='language-option'>
+                  <img src={iconworld} width={19} height={19} alt='languages-world' />
                   <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'white' : '' }}>Es</button>
                   /
                   <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'es' ? 'white' : '' }}>En</button>
-                  <img src={iconworld} width={19} height={19} alt='languages-world' />
+
                 </Navbar.Text>
+                <Nav.Link href='https://rai.eventonline.mx/' target='_blank' onClick={handleClose}>
+                  <img src='/raiLogo.webp' width={120} alt='RAI' />
+                </Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

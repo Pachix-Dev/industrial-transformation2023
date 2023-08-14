@@ -41,10 +41,13 @@ export function Dates () {
                     {conference.hour}
                   </p>
                 </div>
-                <div>
-                  <h2>{conference.name_speaker}</h2>
-                  <small>{conference.rol}</small>
-                  <p>{conference.name}</p>
+                <div className='d-flex align-items-center'>
+                  <img src='/speaker.webp' width={100} className='rounded-circle me-4' alt='speaker' />
+                  <div>
+                    <h2>{conference.name_speaker}</h2>
+                    <small>{conference.rol}</small>
+                    <p>{conference.name}</p>
+                  </div>
                 </div>
               </div>
             )

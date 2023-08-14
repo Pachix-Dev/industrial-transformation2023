@@ -2,7 +2,6 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import iconworld from '../../assets/MundoITM.webp'
-import { Subscribe } from '../Subscribe'
 
 export function Footer () {
   const { t, i18n } = useTranslation()
@@ -40,6 +39,10 @@ export function Footer () {
       <Container>
         <Row className='mt-5 mb-5'>
           <Col md={8}>
+
+            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.859950910688!2d-101.654688!3d21.113962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe571ff11b0d%3A0x6d9c73bfdbbd1fc8!2sPoliforum%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1691442801832!5m2!1ses!2smx' width='100%' height={260} loading='lazy' referrerPolicy='no-referrer-when-downgrade' />
+          </Col>
+          <Col md={4}>
             <div className='footer-wrapper-info-contact'>
               <div className='w-100'>
                 <p><strong>Industrial Transformation México 2023</strong></p>
@@ -56,11 +59,6 @@ export function Footer () {
                 </p>
               </div>
             </div>
-            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.859950910688!2d-101.654688!3d21.113962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe571ff11b0d%3A0x6d9c73bfdbbd1fc8!2sPoliforum%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1691442801832!5m2!1ses!2smx' width='100%' height={220} loading='lazy' referrerPolicy='no-referrer-when-downgrade' />
-          </Col>
-          <Col md={4}>
-            <p><strong>{t('footer.suscribe')}</strong></p>
-            <Subscribe />
           </Col>
         </Row>
         <div className='footer-language d-flex'>

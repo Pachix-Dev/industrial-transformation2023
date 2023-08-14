@@ -7,7 +7,10 @@
   overflow: hidden;
   display: block;
 }
-
+.program-wrapper-speakers button{
+  background-color: transparent;
+  border: none;
+}
 .program-wrapper-speakers img{
   cursor: pointer;  
   transition: all .5s ease-out;
@@ -29,7 +32,7 @@
 .program-date-item{  
   margin-bottom:10px;  
   color: white;
-  padding: 10px;
+  padding: 30px 0;
   gap: 150px;
   border-bottom: solid 2px #ffffff;
 }
@@ -63,6 +66,8 @@
 .info_speakers{
   position: absolute;
   width: 100%;
-  bottom: 20px;
+  padding: 20px;
+  bottom: 0;
   color: white;
+  background: linear-gradient( to top, black, transparent );
 }

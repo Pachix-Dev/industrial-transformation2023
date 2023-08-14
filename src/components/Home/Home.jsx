@@ -2,14 +2,13 @@ import { useTranslation } from 'react-i18next'
 import { Col, Container, Ratio, Row } from 'react-bootstrap'
 import { CounterDown2 } from './CounterDown2'
 import { Slider } from './Slider'
-import { galleryHome } from '../constants_gallery'
-import { Gallery } from '../Gallery/Gallery'
 import { Contacts } from '../Contacts'
 
 import './Home.css'
 
 import { ExibitorSlide } from './ExibitorSlide'
 import { useLanguage } from '../hooks/useLanguage'
+import { Subscribe } from '../Subscribe'
 export function Home () {
   const { t } = useTranslation()
   const { stateLang } = useLanguage()
@@ -293,12 +292,9 @@ export function Home () {
 
       </Container>
       <section className='home-gallery'>
-        <Container className='pt-4'>
-          <h3>{t('home.galery2022')}</h3>
-          <Gallery galleryImgs={galleryHome} galleryName='Noche industrial' />
-          <div className='pb-5 pt-5'>
-            <a href='/gallery' className='home-gallery-seemore'> {t('home.learn_more')}</a>
-          </div>
+        <Container className='pt-5 pb-5'>
+          <h3><strong>{t('footer.suscribe')}</strong></h3>
+          <Subscribe />
         </Container>
       </section>
       <Contacts />

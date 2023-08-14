@@ -8,7 +8,7 @@ export function Contacts ({ children }) {
   const { t } = useTranslation()
 
   return (
-    <section className='home-contactos pt-5 pb-5 mt-5'>
+    <section className='home-contactos pt-5 pb-5'>
       {children}
       <Container>
         <Row>

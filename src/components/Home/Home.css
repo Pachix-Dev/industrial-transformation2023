@@ -87,8 +87,7 @@ h3 {
 
 
 .home-gallery {
-    background-color: black;
-    text-align: center;
+    background-color: black;    
 }
 
 .home-gallery h3 {
@@ -122,6 +121,12 @@ h3 {
 }
 .counterdown-description{
     font-size: 20px;
+}
+.carousel-indicators{
+    bottom: -33px;
+}
+.carousel-indicators [data-bs-target]{
+    background-color:black;
 }
 @media (width < 940px) {
     .home-counter-video video {
