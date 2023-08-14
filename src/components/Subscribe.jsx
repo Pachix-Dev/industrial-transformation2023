@@ -57,11 +57,11 @@ export function Subscribe () {
     <>
       <Form id='form-newsletter' onSubmit={handleSubmit}>
         <Form.Group className='mb-3' controlId='formBasicPassword'>
-          <Form.Label>{t('home.name')}</Form.Label>
+          <Form.Label style={{ color: 'white' }}>{t('home.name')}</Form.Label>
           <Form.Control type='text' name='name' required />
         </Form.Group>
         <Form.Group className='mb-3' controlId='formBasicEmail'>
-          <Form.Label>{t('home.email')}</Form.Label>
+          <Form.Label style={{ color: 'white' }}>{t('home.email')}</Form.Label>
           <Form.Control type='email' name='email' required />
         </Form.Group>
         <Suspense fallback={<div>Loading reCAPTCHA...</div>}>
@@ -75,7 +75,7 @@ export function Subscribe () {
                   onChange={onChange}
                   hl='en'
                 />
-                </>
+              </>
               : <ReCAPTCHA
                   sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
                   ref={captchaRef}
