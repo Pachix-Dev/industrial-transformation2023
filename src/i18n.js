@@ -11,6 +11,12 @@ i18n
     fallbackLng: 'en', // Fallback language if the user's language is not available.
     interpolation: {
       escapeValue: false // React already escapes variables.
+    },
+    backend: {
+      loadPath: '/locales/{{lng}}/translation.json',
+      requestOptions: {
+        cache: 'no-store'
+      }
     }
   })
 
