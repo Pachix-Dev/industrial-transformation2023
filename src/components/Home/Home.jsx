@@ -231,8 +231,18 @@ export function Home () {
         </p>
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
+            <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
+              <img src='/heraldo.webp' width={200} loading='lazy' alt='Heraldo' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
+            <a href='https://globalenergy.mx/' target='_blank' rel='noreferrer'>
+              <img src='/globalenergy.webp' width={200} loading='lazy' alt='GlobalEnergy' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
             <a href='https://globalindustries.mx/' target='_blank' rel='noreferrer'>
-              <img src='/globalindustries.webp' width={200} loading='lazy' alt='vanguardia ' />
+              <img src='/globalindustries.webp' width={200} loading='lazy' alt='Global industries ' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
@@ -242,7 +252,7 @@ export function Home () {
           </Col>
           <Col md={3} className='mx-auto my-auto'>
             <a href='https://airtradeworld.com/' target='_blank' rel='noreferrer'>
-              <img src='/ATW.webp' width={150} loading='lazy' alt='cluster industrial' />
+              <img src='/ATW.webp' width={150} loading='lazy' alt='ATW' />
             </a>
           </Col>
 
