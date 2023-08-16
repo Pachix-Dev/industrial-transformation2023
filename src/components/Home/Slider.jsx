@@ -80,12 +80,12 @@ export function Slider () {
             stateLang === 'en'
               ? <img
                   className='d-block w-100'
-                  src='/FUTURISTIC MINDS ENG_1.webp'
+                  src='/FUTURISTIC MINDS ARTE ACTUALIZADO EN.webp'
                   alt='ITM-FUTURISTIC-MINDS'
                 />
               : <img
                   className='d-block w-100'
-                  src='/ITM-FUTURISTIC-MINDS_1.webp'
+                  src='/FUTURISTIC MINDS ARTE ACTUALIZADO.webp'
                   alt='ITM-FUTURISTIC-MINDS'
                 />
           }
