@@ -58,6 +58,7 @@ export function Menu () {
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     href='/files/Empresas ITM2023.pdf'
+                    target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_2_1')}
