@@ -28,7 +28,7 @@ export function Contacts ({ children }) {
               Simone Robering<br />
               Tel. +49 511 89 33128
             </p>
-            <a href='mailto:simone.roberin@hfmexico.com'>simone.roberin@hfmexico.com</a>
+            <a href='mailto:simone.Robering@messe.de'>simone.Robering@messe.de</a>
           </Col>
           <Col md className='text-center'>
             <img src={imke} alt='Imke Selle' width={150} loading='lazy' />
@@ -37,7 +37,7 @@ export function Contacts ({ children }) {
               Imke Selle<br />
               Tel. +49 511 89 31423
             </p>
-            <a href='mailto:imke.selle@hfmexico.com'>imke.selle@hfmexico.com</a>
+            <a href='mailto:imke.selle@messe.de'>imke.selle@messe.de</a>
           </Col>
         </Row>
       </Container>
