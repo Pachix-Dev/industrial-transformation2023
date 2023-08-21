@@ -63,7 +63,7 @@ export function Slider () {
           <a href='https://canietimediahouse.com/premios-tic-e-itzamna-2023/' target='_blank' rel='noreferrer'>
             <img
               className='d-block w-100'
-              src='/banner-itm-canieti.webp'
+              src='/Banner Premios TICN.webp'
               alt='CANIETI'
             />
           </a>
