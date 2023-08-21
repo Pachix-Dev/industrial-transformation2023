@@ -102,13 +102,6 @@ export function Menu () {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    as={Link}
-                    to='/toolkit'
-                    onClick={handleClose}
-                  >{t('menu.exhibitors_10')}
-                  </NavDropdown.Item>
-
-                  <NavDropdown.Item
                     href='/files/CONTRACT-ITM-2023.pdf'
                     target='_blank'
                     onClick={handleClose}
@@ -305,6 +298,12 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.media_hub_2')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/toolkit'
+                    onClick={handleClose}
+                  >{t('menu.exhibitors_10')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
