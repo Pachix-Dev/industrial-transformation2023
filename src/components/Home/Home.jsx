@@ -266,6 +266,11 @@ export function Home () {
               <img src='/dpl.webp' width={200} loading='lazy' alt='dpl' />
             </a>
           </Col>
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://energyandcommerce.com.mx/' target='_blank' rel='noreferrer'>
+              <img src='/Energy-Commerce.webp' width={200} loading='lazy' alt='energy commerce' />
+            </a>
+          </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://mexicoindustry.com/' target='_blank' rel='noreferrer'>
               <img src='/mexicoindustry.webp' width={200} loading='lazy' alt='mexico industry' />
