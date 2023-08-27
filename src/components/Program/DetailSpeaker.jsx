@@ -1,7 +1,9 @@
-import Button from 'react-bootstrap/Button'
+import { Col, Row } from 'react-bootstrap'
 import Modal from 'react-bootstrap/Modal'
+import { useTranslation } from 'react-i18next'
 
 export function DetailSpeaker (props) {
+  const { t } = useTranslation()
   return (
     <Modal
       {...props}
@@ -11,20 +13,24 @@ export function DetailSpeaker (props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id='contained-modal-title-vcenter'>
-          Modal heading
+          <h4>{props?.speaker.conference}</h4>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <h4>Centered Modal</h4>
-        <p>
-          Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-          dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-          consectetur ac, vestibulum at eros.
-        </p>
+        <Row>
+          <Col md={4}>
+            <img src={props?.speaker.img} className='w-100' />
+          </Col>
+          <Col md={8}>
+            <h4>{t('program.about')}</h4>
+            <p>
+              {props?.speaker.sketch}
+            </p>
+          </Col>
+        </Row>
+
       </Modal.Body>
-      <Modal.Footer>
-        <Button onClick={props.onHide}>Close</Button>
-      </Modal.Footer>
+      <Modal.Footer />
     </Modal>
   )
 }

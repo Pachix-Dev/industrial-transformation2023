@@ -1,25 +1,32 @@
-.program-wrapper{
-  background: #200122;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right,#200122, #6f0000);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #200122, #6f0000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+.program-wrapper {
+  background: #200122;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #200122, #6f0000);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #200122, #6f0000);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.program-wrapper h1{
+
+.program-wrapper h1 {
   font-size: 3em;
 }
-.program-wrapper-speakers{
+
+.program-wrapper-speakers {
   overflow: hidden;
   display: block;
 }
-.program-wrapper-speakers button{
+
+.program-wrapper-speakers button {
   background-color: transparent;
   border: none;
 }
-.program-wrapper-speakers img{
-  cursor: pointer;  
+
+.program-wrapper-speakers img {
+  cursor: pointer;
   transition: all .5s ease-out;
 }
 
-.program-dates button{
+.program-dates button {
   background-color: #1a1919;
   text-decoration: none;
   color: white;
@@ -27,50 +34,80 @@
   text-align: center;
   border-radius: 10px;
 }
-.program-dates{
-  background-image: url('/bgprogram.avif');
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.program-date-item{  
-  margin-bottom:10px;  
+
+
+
+.program-date-item {
+  margin-bottom: 10px;
   color: white;
   padding: 30px 0;
   gap: 150px;
   border-bottom: solid 2px #ffffff;
 }
-.program-dates h4{
+
+.program-dates a>strong {
+  font-size: 1.125rem;
+  line-height: 1;
+  letter-spacing: 0.7px;
+}
+
+.program-dates a>span {
+  margin-top: 0.5rem;
+  color: rgb(202, 205, 207);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.program-dates h4 {
   color: white;
 }
-.program-dates .nav-tabs .nav-link.active{
+
+.program-date-avatar {
+  transition: .3s ease-in-out;
+  object-fit: cover;
+  object-position: top;
+}
+
+.program-date-avatar:hover {
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #000, 0 0 0 2px #54c8fa, 0 0 22px 0 #54c8fa;
+}
+
+.program-dates .nav-tabs .nav-link.active {
   background-color: #e8001e;
 }
-.program-wrapper-speakers{
-  column-count:3;
-  column-gap:1.5em
+
+.program-wrapper-speakers {
+  column-count: 3;
+  column-gap: 1.5em
 }
-.speaker-item{
+
+.speaker-item {
   position: relative;
   margin: 0 0 1.5em;
   overflow: hidden;
 }
-.speaker-item img{
+
+.speaker-item img {
   filter: grayscale(100%);
-  cursor: pointer;  
+  cursor: pointer;
   transition: all .3s ease-out;
+  object-fit: cover;
+  transition: all .3s ease-in;
 }
-.speaker-item:hover img{
+
+.speaker-item:hover img {
   filter: grayscale(0%);
   box-shadow: -10px -8px 3px #e8001e;
   transform: scale(1.1);
-  transition: all .3s ease-in;
-  object-fit: cover;
+  object-position: top;
 }
-.info_speakers{
+
+.info_speakers {
   position: absolute;
   width: 100%;
-  padding: 20px;
+  padding: 5px 10px;
   bottom: 0;
   color: white;
-  background: linear-gradient( to top, black, transparent );
+  background: linear-gradient(to top, black, transparent);
 }

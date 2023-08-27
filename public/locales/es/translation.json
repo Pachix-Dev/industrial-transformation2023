@@ -35,7 +35,7 @@
         "itm2021_1": "itm resultados 2021",
         "itm2021_2": "Directorio de expositores 2021",
         "itm2021_3": "Pasaporte ITM 2021",
-        "itm2020": "itm 2020",        
+        "itm2020": "itm 2020",
         "itm2020_1": "Directorio de expositores 2020",
         "itm2020_2": "Pasaporte itm 2020",
         "itm2020_3": "itm resultados 2020",
@@ -111,7 +111,7 @@
         "stadistic_4": "<strong>2,500</strong><br />visitantes mexicanos"
     },
     "exhibitorReasons": {
-        "newDesc":"Forma parte de Industrial Transformation MEXICO, la feria de tecnología de la Industria 4.0 referente en México y Latinoamérica. Aprovecha la oportunidad para adquirir un stand o ser patrocinador en la quinta edición del encuentro de negocios en materia de transformación hacia la producción inteligente, sustentable y digital.<br><br>La oportunidad de contribuir al futuro 4.0 con ITM está más cerca que nunca.",
+        "newDesc": "Forma parte de Industrial Transformation MEXICO, la feria de tecnología de la Industria 4.0 referente en México y Latinoamérica. Aprovecha la oportunidad para adquirir un stand o ser patrocinador en la quinta edición del encuentro de negocios en materia de transformación hacia la producción inteligente, sustentable y digital.<br><br>La oportunidad de contribuir al futuro 4.0 con ITM está más cerca que nunca.",
         "title": "¿Por qué participar?",
         "description_1": "Genera negocios con una red especializada de proveedores y empresas líderes en la Industria 4.0 de más de 10 países.",
         "description_2": "Sé parte del encuentro de negocios B2B más relevante de la Industria 4.0 en México y América Latina",
@@ -245,7 +245,7 @@
         "title_1": "Por qué visitar",
         "title_2": "¿Por qué debes visitar Industrial Transformation MEXICO?",
         "description_1": "ITM es la Feria Líder de la Industria 4.0 en México y América Latina. Este gran evento es una plataforma donde los tomadores de decisiones a nivel global muestran, exploran y dan a conocer las nuevas tecnologías de automatización, fabricación inteligente, soluciones de logística inteligente y digital.",
-        "description_2": "No dejes pasar la oportunidad y participa en los mejores programas educativos enfocados a sectores industriales y su aplicación, además de aprovechar el espacio de intercambio de negocios.",        
+        "description_2": "No dejes pasar la oportunidad y participa en los mejores programas educativos enfocados a sectores industriales y su aplicación, además de aprovechar el espacio de intercambio de negocios.",
         "description_4": "Comience la transformación digital de su empresa.",
         "description_5": "Optimice sus procesos y resultados, genere ahorros e incremente sus ventas.",
         "description_6": "Aumente su competitividad y eficiencia operativa.",
@@ -392,8 +392,14 @@
     "program": {
         "title": "Programa de conferencias",
         "subtitle": "Construyamos la industria del mañana.",
+        "title_s": "Ponentes",
+        "subtitle_s": "Déjate inspirar por nuestros increíbles ponentes.",
+        "day": "Día",
         "month": "de Octubre",
-        "titleprogram": "PROGRAMA COMPLETO "
+        "day_1": "miercoles",
+        "day_2": "jueves",
+        "day_3": "viernes",
+        "about": "Acerca de"
     },
     "footer": {
         "dateFooter": "4 - 6 de octubre de 2023",
