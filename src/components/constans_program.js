@@ -4,65 +4,67 @@ const programITM = {
       {
         hour: '10:15 hrs',
         duration: '45 min',
-        name_speaker: 'Alejandro Preinfalk',
+        name: 'Alejandro Preinfalk',
         avatar: '/speakers/AlejandroPreinfalk.webp',
         rol: 'Presidente y CEO',
-        name: 'Metaverso Industrial: ¿realidad o ficción?'
+        conference: 'Metaverso Industrial: ¿realidad o ficción?',
+        resume: "Muchas personas asocian el término 'metaverso' con un colorido mundo virtual para el entretenimiento y las compras, sin embargo, el ‘metaverso industrial’ tiene el potencial de revolucionar el mundo real de maneras nunca vistas: al permitir que las fábricas, los edificios y las ciudades sean más eficientes y sostenibles. Todos los componentes básicos para el metaverso industrial ya están en su lugar, entonces, ¿qué nos falta para hacerlo una realidad?"
       },
       {
         hour: '11:00 hrs',
         duration: '60 min',
-        name_speaker: 'Panel de GIZ',
+        name: 'Panel de GIZ',
         avatar: '',
         rol: '',
-        name: 'Cinco Años de Industrial Transformation México: Un Impulso para el Desarrollo Económico Sustentable'
+        conference: 'Cinco Años de Industrial Transformation México: Un Impulso para el Desarrollo Económico Sustentable'
       },
       {
         hour: '12:45 hrs',
         duration: '45 min',
-        name_speaker: 'Abraham Vela | Fernanda Silva',
+        name: 'Abraham Vela | Fernanda Silva',
         avatar: '/speakers/AbrahamVela.webp',
         avatar2: '/speakers/MariaFernandaSilva.webp',
         rol: 'Offer Marketing Manager | Sales Manager',
-        name: 'Digitalización y automatización para una industria sostenible'
+        conference: 'Digitalización y automatización para una industria sostenible',
+        resume: 'La combinación de tecnologías digitales y automatización están impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
       }
     ],
     stage_2: [
       {
         hour: '10:00 hrs',
         duration: '45 min',
-        name_speaker: 'Astrid Enelda Gonzalez',
+        name: 'Astrid Enelda Gonzalez',
         avatar: '',
         rol: 'Chemical Industry Manager',
-        name: '¿Cómo la industria de Procesos se aprovecha del IIoT?'
+        conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?'
       },
       {
         hour: '15:00 hrs',
         duration: '45 min',
-        name_speaker: 'Roberto Tepoz | Eduardo Espino',
+        name: 'Roberto Tepoz | Eduardo Espino',
         avatar: '/speakers/RobertoTepoz.webp',
         avatar2: '/speakers/EduardoEspino.webp',
         rol: 'System & Architecture Senior Engineer | Software Sales Specialist',
-        name: 'Automatización del futuro: IEC 61499'
+        conference: 'Automatización del futuro: IEC 61499'
       },
       {
         hour: '15:45 hrs',
         duration: '45 min',
-        name_speaker: 'Javier de Jesús García',
+        name: 'Javier de Jesús García',
         avatar: '/speakers/JavierJesusGarcía.webp',
         rol: 'Offer Manager Digital Services MX & CAMt',
-        name: 'Desbloquea el potencial de los Servicios Digitales para la Indsutria 4.0'
+        conference: 'Desbloquea el potencial de los Servicios Digitales para la Indsutria 4.0'
       }
     ],
     stage_3: [
       {
         hour: '11:00 hrs',
         duration: '45 min',
-        name_speaker: 'Majo Jiménez | Juan Alberto López',
+        name: 'Majo Jiménez | Juan Alberto López',
         avatar: '/speakers/MajoJimenez.webp',
         avatar2: '/speakers/JuanAlbertoLopez.webp',
         rol: 'Business Development Manager',
-        name: 'Innovación en tecnologías de Media Tensión digitales y verdes para el Net Zero'
+        conference: 'Innovación en tecnologías de Media Tensión digitales y verdes para el Net Zero'
       }
     ]
   },
@@ -71,73 +73,73 @@ const programITM = {
       {
         hour: '13:00 hrs',
         duration: '45 min',
-        name_speaker: 'Monserrat Puebla | Iris Rodríguez',
+        name: 'Monserrat Puebla | Iris Rodríguez',
         avatar: '/speakers/MonserratPuebla.webp',
         avatar2: '/speakers/IrisRodriguez.webp',
         rol: 'Industrial Automation Business Developer Manager | Channel & Development Manager',
-        name: 'Equidad e innovación: el rol vital de la mujer en la industria'
+        conference: 'Equidad e innovación: el rol vital de la mujer en la industria'
       },
       {
         hour: '14:45 hrs',
         duration: '45 min',
-        name_speaker: 'Fernanda García Sánchez | Luis Téllez Live',
+        name: 'Fernanda García Sánchez | Luis Téllez Live',
         avatar: '/speakers/FernandaGarcia.webp',
         avatar2: '/speakers/LuisTellez.webp',
         rol: 'Coordinadora de Mujer en la Economía | Gerente de Proyectos de la Fundación Konrad Adenauer (KAS) México',
-        name: 'Mejores prácticas de inclusión de mujeres en las empresas'
+        conference: 'Mejores prácticas de inclusión de mujeres en las empresas'
       },
       {
         hour: '15:30 hrs',
         duration: '45 min',
-        name_speaker: 'Mitsubishi',
+        name: 'Mitsubishi',
         avatar: '',
         rol: '',
-        name: 'El talento no tiene género'
+        conference: 'El talento no tiene género'
       },
       {
         hour: '16:15 hrs',
         duration: '75 min',
-        name_speaker: 'Silvia Ortiz Ruiz',
+        name: 'Silvia Ortiz Ruiz',
         avatar: '/speakers/SilviaOrtizRuiz.webp',
         rol: 'Directora General de Vanguardia Industrial',
-        name: 'Manufactura con liderazgo Femenino'
+        conference: 'Manufactura con liderazgo Femenino'
       }
     ],
     stage_2: [
       {
         hour: '13:15 hrs',
         duration: '45 min',
-        name_speaker: 'Samuel Aceves | Luis Gerónimo Parilli',
+        name: 'Samuel Aceves | Luis Gerónimo Parilli',
         avatar: '/speakers/SamuelAceves.webp',
         avatar2: '/speakers/LuisParilli.webp',
         rol: 'Cybersecurity Leader Mexico & Central Americal | Digital Services Manager',
-        name: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas'
+        conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas'
       },
       {
         hour: '15:00 hrs',
         duration: '60 min',
-        name_speaker: 'Heiko Herden',
+        name: 'Heiko Herden',
         avatar: '',
         rol: 'Coordinador del proyecto VDMA y presidente del grupo de trabajo OPC UA para maquinaria',
-        name: 'Tres pilares de la Industria 4.0'
+        conference: 'Tres pilares de la Industria 4.0'
       },
       {
         hour: '17:15 hrs',
         duration: '45 min',
-        name_speaker: 'Sergio Gabriel Montes de Oca',
+        name: 'Sergio Gabriel Montes de Oca',
         avatar: '',
         rol: 'Services and Solutions Product Manager',
-        name: 'Gestión inteligente de redes de agua'
+        conference: 'Gestión inteligente de redes de agua'
       }
     ],
     stage_3: [
       {
         hour: '11:00 hrs',
         duration: '45 min',
-        name_speaker: 'Victor Bulnes',
+        name: 'Victor Bulnes',
         avatar: '/speakers/VictorBulnes.webp',
         rol: 'Product Application Engineer',
-        name: 'Reinventa la automatización industrial con EcoStruxure Automation Expert'
+        conference: 'Reinventa la automatización industrial con EcoStruxure Automation Expert'
       }
     ]
   },
@@ -149,29 +151,29 @@ const programITM = {
       {
         hour: '09:30 hrs',
         duration: '90 min',
-        name_speaker: 'Daniel Rozanes Valenzuela',
+        name: 'Daniel Rozanes Valenzuela',
         avatar: '',
         rol: 'Asesor Técnico',
-        name: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES'
+        conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES'
       },
       {
         hour: '12:00 hrs',
         duration: '45 min',
-        name_speaker: 'César Artega',
+        name: 'César Artega',
         avatar: '/speakers/CesarArteaga.webp',
         rol: 'UPS Business Developer',
-        name: 'Soluciones de misión de crítica para la Industrias actual y del futuro (3pH)'
+        conference: 'Soluciones de misión de crítica para la Industrias actual y del futuro (3pH)'
       }
     ],
     stage_3: [
       {
         hour: '11:00 hrs',
         duration: '45 min',
-        name_speaker: 'Abigail Carrillo | Virginia Guerere',
+        name: 'Abigail Carrillo | Virginia Guerere',
         avatar: '/speakers/AbigailCarrillo.webp',
         avatar2: '/speakers/VirginiaGuerere.webp',
         rol: 'Metering Business Developer | Buildings Automation Business Developer',
-        name: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales'
+        conference: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales'
       }
     ]
   }

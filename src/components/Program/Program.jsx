@@ -12,7 +12,7 @@ import { programITM } from '../constans_program'
 export function Program () {
   const { t } = useTranslation()
   const [modalShow, setModalShow] = useState(false)
-  const [program, setProgram] = useState(programITM.oct_4)
+  const [programs, setPrograms] = useState(programITM.oct_4)
   const [detailSpeaker, setDetailSpeaker] = useState({})
 
   const handleModal = (speaker) => {
@@ -30,19 +30,19 @@ export function Program () {
           <div className='program-dates mt-5'>
             <Nav variant='underline' defaultActiveKey='#day1'>
               <Nav.Item>
-                <Nav.Link href='#day1' onClick={() => setProgram(programITM.oct_4)}>
+                <Nav.Link href='#day1' onClick={() => setPrograms(programITM.oct_4)}>
                   <strong>{t('program.day')} 1</strong><br />
                   <span>{t('program.day_1')}, 4 {t('program.month')}</span>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href='#day2' onClick={() => setProgram(programITM.oct_5)}>
+                <Nav.Link href='#day2' onClick={() => setPrograms(programITM.oct_5)}>
                   <strong>{t('program.day')} 2</strong><br />
                   <span>{t('program.day_2')}, 5 {t('program.month')}</span>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href='#day3' onClick={() => setProgram(programITM.oct_6)}>
+                <Nav.Link href='#day3' onClick={() => setPrograms(programITM.oct_6)}>
                   <strong>{t('program.day')} 3</strong><br />
                   <span>{t('program.day_3')}, 6 {t('program.month')}</span>
                 </Nav.Link>
@@ -54,32 +54,32 @@ export function Program () {
               className='mt-5 mb-3 border-0'
             >
               <Tab eventKey='home' title='Education Area'>
-                {program?.stage_1.map((conference, index) => {
+                {programs?.stage_1.map((program, index) => {
                   return (
                     <div key={index} className='program-date-item d-flex align-items-center'>
                       <div style={{ width: '100px' }}>
                         <p>
-                          {conference.hour}<br /><br />
+                          {program.hour}<br /><br />
                           <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
                             <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' />
-                          </svg> {conference.duration}
+                          </svg> {program.duration}
                         </p>
                       </div>
                       <div className='d-flex align-items-center justify-content-between w-100'>
                         <div>
-                          <h2>{conference.name_speaker}</h2>
-                          <p>{conference.rol}</p>
-                          <h6>{conference.name}</h6>
+                          <h2>{program.name}</h2>
+                          <p>{program.rol}</p>
+                          <h6>{program.conference}</h6>
                         </div>
                         <div className='d-inline-flex'>
                           {
-                          conference.avatar === ''
+                          program.avatar === ''
                             ? ''
-                            : <img onClick={() => handleModal(conference)} src={conference.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : <img onClick={() => handleModal(program)} src={program.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                         }
                           {
-                          conference?.avatar2
-                            ? <img onClick={() => handleModal(conference)} src={conference?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                          program?.avatar2
+                            ? <img onClick={() => handleModal(program)} src={program?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                         }
                         </div>
@@ -89,32 +89,32 @@ export function Program () {
                 })}
               </Tab>
               <Tab eventKey='profile' title='Leaders of Tomorrow'>
-                {program?.stage_2.map((conference, index) => {
+                {programs?.stage_2.map((program, index) => {
                   return (
                     <div key={index} className='program-date-item d-flex align-items-center'>
                       <div style={{ width: '100px' }}>
                         <p>
-                          {conference.hour}<br /><br />
+                          {program.hour}<br /><br />
                           <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
                             <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' />
-                          </svg> {conference.duration}
+                          </svg> {program.duration}
                         </p>
                       </div>
                       <div className='d-flex align-items-center justify-content-between w-100'>
                         <div>
-                          <h2>{conference.name_speaker}</h2>
-                          <p>{conference.rol}</p>
-                          <h6>{conference.name}</h6>
+                          <h2>{program.name}</h2>
+                          <p>{program.rol}</p>
+                          <h6>{program.conference}</h6>
                         </div>
                         <div className='d-inline-flex'>
                           {
-                          conference.avatar === ''
+                          program.avatar === ''
                             ? ''
-                            : <img onClick={() => handleModal(conference)} src={conference.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : <img onClick={() => handleModal(program)} src={program.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                         }
                           {
-                          conference?.avatar2
-                            ? <img onClick={() => handleModal(conference)} src={conference?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                          program?.avatar2
+                            ? <img onClick={() => handleModal(program)} src={program?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                         }
                         </div>
@@ -124,32 +124,32 @@ export function Program () {
                 })}
               </Tab>
               <Tab eventKey='contact' title='Transformation Area'>
-                {program?.stage_3.map((conference, index) => {
+                {programs?.stage_3.map((program, index) => {
                   return (
                     <div key={index} className='program-date-item d-flex align-items-center'>
                       <div style={{ width: '100px' }}>
                         <p>
-                          {conference.hour}<br /><br />
+                          {program.hour}<br /><br />
                           <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
                             <path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' />
-                          </svg> {conference.duration}
+                          </svg> {program.duration}
                         </p>
                       </div>
                       <div className='d-flex align-items-center justify-content-between w-100'>
                         <div>
-                          <h2>{conference.name_speaker}</h2>
-                          <p>{conference.rol}</p>
-                          <h6>{conference.name}</h6>
+                          <h2>{program.name}</h2>
+                          <p>{program.rol}</p>
+                          <h6>{program.conference}</h6>
                         </div>
                         <div className='d-inline-flex'>
                           {
-                          conference.avatar === ''
+                          program.avatar === ''
                             ? ''
-                            : <img onClick={() => handleModal(conference)} src={conference.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : <img onClick={() => handleModal(program)} src={program.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                         }
                           {
-                          conference?.avatar2
-                            ? <img onClick={() => handleModal(conference)} src={conference?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                          program?.avatar2
+                            ? <img onClick={() => handleModal(program)} src={program?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                         }
                         </div>
@@ -167,7 +167,7 @@ export function Program () {
             {speakers.map((speaker, index) => (
               <button key={index} onClick={() => handleModal(speaker)}>
                 <div className='speaker-item h-100'>
-                  <img src={speaker.img} width={300} height={300} alt={speaker.name} />
+                  <img src={speaker.avatar} width={300} height={300} alt={speaker.name} />
                   <div className='info_speakers'>
                     <h2>{speaker.name}</h2>
                     <p className='m-0'>{speaker.rol}</p>

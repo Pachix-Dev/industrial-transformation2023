@@ -13,18 +13,17 @@ export function DetailSpeaker (props) {
     >
       <Modal.Header closeButton>
         <Modal.Title id='contained-modal-title-vcenter'>
-          <h4>{props?.speaker.conference}</h4>
+          <h5>{props?.speaker.conference}</h5>
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Row>
-          <Col md={4}>
-            <img src={props?.speaker.img} className='w-100' />
+          <Col md={4} className='my-auto'>
+            <img src={props?.speaker.avatar} className='w-100' />
           </Col>
-          <Col md={8}>
-            <h4>{t('program.about')}</h4>
+          <Col md={8} className='my-auto'>
             <p>
-              {props?.speaker.sketch}
+              {props?.speaker.sketch || props?.speaker.resume}
             </p>
           </Col>
         </Row>
