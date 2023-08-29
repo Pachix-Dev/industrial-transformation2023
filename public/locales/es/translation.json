@@ -399,8 +399,9 @@
         "day_1": "miercoles",
         "day_2": "jueves",
         "day_3": "viernes",
-        "stages":"Escenarios",
-        "about": "Acerca de"
+        "stages": "Escenarios",
+        "about": "Acerca de",
+        "speech": "Ponencia"
     },
     "footer": {
         "dateFooter": "4 - 6 de octubre de 2023",

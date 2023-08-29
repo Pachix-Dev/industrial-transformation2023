@@ -1,5 +1,6 @@
 const speakers = [
   {
+    id: 1,
     conference: 'Metaverso Industrial: ¿realidad o ficción?',
     name: 'Alejandro Preinfalk',
     company: 'Siemens Mexico, Centroamérica y el Caribe',
@@ -8,6 +9,7 @@ const speakers = [
     sketch: 'Alejandro cuenta con una amplia trayectoria de más de 30 años en Siemens a nivel global. Ha desempeñado diversos cargos directivos en Costa Rica, Alemania, Rusia, Guatemala y México.  Es Ingeniero Eléctrico, graduado en la Universidad de Costa Rica con cursos realizados en Harvard, MIT, Standford y la Universidad de Michigan. Es presidente de la Comisión México 4.0: Innovación y Digitalización Industrial de CONCAMIN (Confederación de Cámaras Industriales de los Estados Unidos Mexicanos), presidente de la Cámara Mexico Alemana de Comercio e Industria CAMEXA (Cámara Mexico Alemana de Comercio e Industria), Miembro del Consejo de Empresas Globales CEG (Consejo Empresas lobales), mentor de Endeavor, panelista y miembro del consejo de Lateinamerika Verein (Asociación para América Latina). Actualmente es el CEO y Presidente de Siemens México, Centroamérica y el Caribe, nombrado el 1 de julio de 2020; además de esta posición es el Vicepresidente Ejecutivo de Digital Industries.'
   },
   {
+    id: 2,
     conference: 'Digitalización y automatización para una industria sostenible',
     name: 'Abraham Vela',
     company: 'Schneider Electric',
@@ -16,6 +18,7 @@ const speakers = [
     sketch: 'Profesional experto en negocios con más de 8 años de experiencia en la industria eléctrica. Trabajando día a día para mejorar el futuro de nuestro mundo construyendo un uso sostenible y eficiente de la energía que nos permita combatir el cambio climático. Promotor del desarrollo de las personas a través de un alto desempeño, apoyando la mejora de sus capacidades, gestionando la conciliación de la vida personal y laboral y mejorando la cultura organizacional.'
   },
   {
+    id: 3,
     conference: 'Digitalización y automatización para una industria sostenible',
     name: 'Fernanda Silva',
     company: 'Schneider Electric',
@@ -25,6 +28,7 @@ const speakers = [
     sketch: 'Actual líder del equipo de Ventas a Contratistas y Especificación de Schneider Electric a nivel nacional. Profesionista egresada del Tecnológico de Monterrey como Ingeniera Industrial y de Sistemas, con estudios de posgrado en Administración Financiera. Fernanda cuenta con una trayectoria dinámica y exitosa dentro de Schneider Electric, con 10 años de experiencia en Administración de Proyectos desde la concepción, ventas hasta la ejecución para la industria en segmentos de transporte, automotriz y edificios.'
   },
   {
+    id: 4,
     conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
     name: 'Monserrat Puebla',
     company: 'Schneider Electric',
@@ -34,6 +38,7 @@ const speakers = [
     sketch: 'Ingeniera en Comunicaciones y Electrónica con Especialidad en Control y Automatización, egresada de la ESIME Zacatenco IPN. Con 17 años de experiencia en diferentes áreas como Ingeniería de Aplicaciones y Servicios en la Industria del Petróleo y Gas, Desarrollo de Licitaciones para la Industria Privada, Mercadeo y Desarrollo de Negocios de Oferta de Automatización Industrial, actualmente es Gerente de Desarrollo de Negocios de Automatización Industrial en Schneider Electric México.'
   },
   {
+    id: 5,
     conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
     name: 'Iris Rodríguez',
     company: 'Schneider Electric',
@@ -43,6 +48,7 @@ const speakers = [
     sketch: 'Ingeniera en Mecatrónica egresada del Tecnológico de Monterrey con maestría en negocios internacionales de Hult International Business School, cuenta con más de 10 años de experiencia en automatización y gestión de proyectos. Actualmente, se desempeña como Gerente de Desarrollo de Negocios para Energía Digital en Schneider Electric México.'
   },
   {
+    id: 6,
     conference: 'Mejores prácticas de inclusión de mujeres en las empresas',
     name: 'Fernanda García Sánchez',
     company: 'Instituto Mexicano para la Competitividad',
@@ -52,6 +58,7 @@ const speakers = [
     sketch: 'Maestra en Políticas Públicas en la London School of Economics and Political Science (LSE), Politóloga del Instituto Tecnológico Autónomo de México (ITAM). Ha colaborado en el diseño y evaluación de políticas públicas, así como análisis legislativo y político-electoral para distintos sectores como derechos de propiedad intelectual y movilidad urbana. Actualmente colabora en el Instituto Mexicano para la Competitividad (IMCO), como Coordinadora de Mujer en la Economía en el área de Sociedad Incluyente, principalmente en temas de género y educación.'
   },
   {
+    id: 7,
     conference: 'Mejores prácticas de inclusión de mujeres en las empresas',
     name: 'Luis Téllez Live',
     company: 'Fundación Konrad Adenauer (KAS) México',
@@ -61,6 +68,7 @@ const speakers = [
     sketch: 'Maestro en Políticas Públicas por la Universidad de Erfurt, Alemania. Economista por la Universidad Nacional Autónoma de México (UNAM). Ha colaborado en centros de investigación como El Colegio de México y el Instituto de Investigaciones Económicas de la UNAM. Actualmente es responsable de los proyectos de política económica y social, desarrollo sustentable y economía social de mercado en las KAS México, además de ser parte del Comité Ejecutivo del Premio Alemán de Periodismo Walter Reuter.'
   },
   {
+    id: 8,
     conference: 'Manufactura con liderazgo Femenino',
     name: 'SILVIA ORTIZ RUIZ',
     company: 'Medio de comunicación digital B2B',
@@ -70,6 +78,7 @@ const speakers = [
     sketch: 'Silvia Ortiz, es directora y fundadora de la empresa de Comunicación y Relaciones Públicas, Strategic, Business Communication. Es directora general de Vanguardia Industrial, medio digital de comunicación B2B de manufactura con presencia nacional e internacional, creado hace más de 10 años. Es columnista en W radio, Tiene más de 20 años de experiencia en periodismo, en los ámbitos de política, negocios y manufactura. Ha trabajado en medios como Grupo Expansión, Radio Centro, El Universal, Proceso, El Día y W Noticias con Carmen Aristegui y Carlos Loret de Mola. Es conductora del Podcast de Vanguardia Industrial y condujo un programa especializado de la industria manufacturera en las estaciones de radio ABC y Heraldo.  Sus estudios profesionales los realizó en la UNAM y en el Tec de Monterrey. Ha sido conferencista con reconocimientos en la Cámara Nacional de Radio y Televisión (CIRT).'
   },
   {
+    id: 9,
     conference: 'Automatización del futuro: IEC 61499',
     name: 'Roberto Tepoz',
     company: 'Schneider Electric',
@@ -79,6 +88,7 @@ const speakers = [
     sketch: 'Ingeniero Mecánico Eléctrico graduado del Instituto Tecnológico y de Estudios Superiores de Monterrey con un Master en Industria 4.0 y Automatización de Procesos por la Universidad Politécnica de Catalunya. Cuenta con certificaciones de Green Belt Six Sigma, Cyberseguridad - ISA, Telecomunicaciones, entro otras.'
   },
   {
+    id: 10,
     conference: 'Automatización del futuro: IEC 61499',
     name: 'Eduardo Espino',
     company: 'Schneider Electric',
@@ -88,6 +98,7 @@ const speakers = [
     sketch: 'Ingeniero Industrial Mecánico por la Universidad del Valle de México, con Maestría en Tecnologías de la Información y la Comunicación; consultor certificado con más de 20 años de experiencia en la asesoría, implementación y soporte de soluciones basadas en software para las áreas de Producción y Mantenimiento. Apasionado de la tecnología y su impacto en la sociedad. En la actualidad trabaja como el especialista de software de AVEVA y ProLeiT dentro de la unidad de negocios de Industrial Automatization para Schneider Electric México.'
   },
   {
+    id: 11,
     conference: 'Desbloquea el potencial de los Servicios Digitales para la Indsutria 4.0',
     name: 'Javier de Jesús García',
     company: 'Schneider Electric',
@@ -97,6 +108,7 @@ const speakers = [
     sketch: 'Ing. Eléctrico Electrónico por parte de la UNAM, con más de 10 años de experiencia en rubros como calidad de la energía, manejo de energía, sistemas de medición y monitoreo. Se ha desempeñado en áreas como desarrollo de negocios, marketing y ventas. Actualmente es responsable del desarrollo de oferta de Servicios Digitales para México y Centroamérica.'
   },
   {
+    id: 12,
     conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas',
     name: 'Samuel Aceves',
     company: 'Schneider Electric',
@@ -106,6 +118,7 @@ const speakers = [
     sketch: 'Ingeniero Industrial y de Sistemas con Diplomado en Dirección Estratégica de Negocios con más de 13 años de experiencia en empresas transnacionales en México, Estados Unidos y Canadá en campos de aplicación como Ciberseguridad Industrial en múltiples segmentos de aplicación'
   },
   {
+    id: 13,
     conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas',
     name: 'Luis Gerónimo Parilli',
     company: 'Schneider Electric',
@@ -115,6 +128,7 @@ const speakers = [
     sketch: 'Ingeniero Industrial, MBA con amplia trayectoria profesional en la gestión y administración de contratos de Ingeniería, operación y mantenimiento. Impulsador de negocios relacionados con productos y servicios, logrando que las empresas sean ambientalmente responsables (ahorro de energía, ahorro de agua y reciclaje de materiales) con más de 18 años de experiencia en empresas nacionales e internacionales. Actualmente se desempeña como Digital Services Manager para Schneider Electric Mexico y CAM.'
   },
   {
+    id: 14,
     conference: 'Soluciones de misión de crítica para la Industrias actual y del futuro (3pH)',
     name: 'César Arteaga',
     company: 'Schneider Electric',
@@ -124,6 +138,7 @@ const speakers = [
     sketch: 'Product Manager con más de 10 años de experiencia exitosa demostrada en Ventas, Mercadotecnia e Ingeniería con experiencia internacional y multicultural como líder en estrategia de desarrollo de México con Francia, Italia y Estados Unidos. Cuenta con habilidades para Análisis de Mercados, Análisis de Datos, Desarrollo de Productos, Creación y Desarrollo de Nuevas Empresas, Negociaciones, Desarrollo de Estrategias B2B y B2C.'
   },
   {
+    id: 15,
     conference: 'Innovación en tecnologías de Media Tensión digitales y verdes para el Net Zero',
     name: 'Majo Jiménez',
     company: 'Schneider Electric',
@@ -133,6 +148,7 @@ const speakers = [
     sketch: 'María José Jiménez Ocampo se desempeña como Business Development Manager con especializad Medium Voltage Secondary Distribution en Schneider Electric. Es ingeniera industrial con más de 4 años de experiencia en manufactura, calidad, distribución eléctrica y desarrollo de negocio.'
   },
   {
+    id: 16,
     conference: 'Innovación en tecnologías de Media Tensión digitales y verdes para el Net Zero',
     name: 'Juan Alberto López',
     company: 'Schneider Electric',
@@ -142,6 +158,7 @@ const speakers = [
     sketch: 'Juan Alberto López Pérez es Business Development Manager para Medium Voltage Primary Distribution en Schneider Electric. Ingeniero Eléctrico con más 13 años de experiencia con equipos de Media Tensión en las áreas de Ingeniería y desarrollo de negocio.'
   },
   {
+    id: 17,
     conference: 'Reinventa la automatización industrial con EcoStruxure Automation Expert.',
     name: 'Victor Bulnes',
     company: 'Schneider Electric',
@@ -151,6 +168,7 @@ const speakers = [
     sketch: 'Con mas de 15 años de experiencia en el ramo eléctrico, de automatización y mantenimiento el Ing. Victor Bulnes es egresado de la Universidad Autónoma de Nuevo León como Ingeniero Mecánico Electricista, sus áreas de especialidad son: automatización, redes industriales, control eléctrico,  arranque motor, y distribución eléctrica. Victor es tu representante técnico en aplicaciones de producto,  especializado en : PLCs y HMIs. Anteriormente ocupo los cargos de Supervisor de Automatización para CCMs inteligentes e Ingeniero de Aplicaciones Senior dentro de la compañía  Schneider-Electric.'
   },
   {
+    id: 18,
     conference: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales',
     name: 'Abigail Carrillo',
     company: 'Schneider Electric',
@@ -160,6 +178,7 @@ const speakers = [
     sketch: 'Abigail Carrillo Lugo, ingeniera mecánica por la Escuela Superior de Ingeniería Mecánica y Eléctrica del Instituto Politécnico Nacional, con estudios en automatización industrial en la Universidad de Tecnología de Troyes, Francia. Actualmente es desarrolladora de negocios de equipos de medición de potencia, software de control, monitoreo y eficiencia energética para Schneider Electric Mexico.'
   },
   {
+    id: 19,
     conference: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales',
     name: 'Virginia Guerere',
     company: 'Schneider Electric',

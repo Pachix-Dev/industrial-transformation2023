@@ -400,8 +400,9 @@
         "day_1": "Wednesday",
         "day_2": "Thursday",
         "day_3": "Friday",
-        "stages":"Stages",
-        "about": "About"
+        "stages": "Stages",
+        "about": "About",
+        "speech": "Speech"
     },
     "footer": {
         "dateFooter": "4 - 6 October 2023",

@@ -1,6 +1,7 @@
 import { Container } from 'react-bootstrap'
 import { useTranslation } from 'react-i18next'
 import { useCountdown } from '../hooks/useCountDown'
+import { Link } from 'react-router-dom'
 
 export function CounterDown2 () {
   const { t } = useTranslation()
@@ -67,9 +68,12 @@ export function CounterDown2 () {
           </p>
 
           <div className='mt-5'>
-            <a className='home-register' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>
+            <a className='home-register me-3' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>
               {t('home.registro_itm_2023')}
-            </a><br /><br />
+            </a>
+            <Link className='home-register' to='/program'>
+              {t('program.title')}
+            </Link><br /><br />
             <p className='counterdown-description mt-3 text-light' dangerouslySetInnerHTML={{ __html: t('home.leyend') }} />
           </div>
         </div>
