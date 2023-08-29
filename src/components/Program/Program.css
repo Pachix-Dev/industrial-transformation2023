@@ -26,14 +26,7 @@
   transition: all .5s ease-out;
 }
 
-.program-dates button {
-  background-color: #1a1919;
-  text-decoration: none;
-  color: white;
-  padding: 10px 35px;
-  text-align: center;
-  border-radius: 10px;
-}
+
 
 .program-date-item {
   margin-bottom: 10px;
@@ -70,14 +63,70 @@
   cursor: pointer;
   box-shadow: 0 0 0 1px #000, 0 0 0 2px #54c8fa, 0 0 22px 0 #54c8fa;
 }
-
+.program-dates li{
+ padding: 0;
+}
+.program-dates .accordion-button:focus{
+  border: none;
+  box-shadow: none;
+}
+.program-dates .accordion-button:not(.collapsed){
+  background-color: transparent;
+  box-shadow: none;
+}
+.program-dates .accordion-item{
+  background-color: transparent;
+  border: none;
+}
+.program-dates .accordion-button{
+  display: inline;
+  padding: 0;
+}
+.program-dates button {  
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  padding: 10px 35px;
+  text-align: left;    
+}
 .program-dates .nav-tabs .nav-link.active {
   background-color: #e8001e;
 }
-
+.program-dates .accordion-body{
+  padding: 0; 
+  color: white;
+}
 .program-wrapper-speakers {
   column-count: 3;
   column-gap: 1.5em
+}
+.addCalendar.btn.show:focus-visible{
+  box-shadow: none;
+}
+.addCalendar button:hover{
+  opacity: 1;
+  background-color: transparent;
+  border: none;
+}
+.addCalendar button.btn.show{
+  background-color: transparent;
+  border: none;
+}
+.addCalendar button{ 
+  padding: 20px 20px;  
+  border: none;
+  background-color: transparent;
+  background-image: url('/addCalendar.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 2.125rem;
+  font-size: 0.875rem;
+  line-height: 1;
+  overflow: hidden;
+  opacity: 0.5;
+  cursor: pointer;
+  text-indent: -999em;
+  transition: opacity 0.15s ease 0s, border-color 0.15s ease 0s, box-shadow 0.15s ease 0s
 }
 
 .speaker-item {

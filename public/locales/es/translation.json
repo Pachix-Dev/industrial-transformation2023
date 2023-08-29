@@ -395,10 +395,11 @@
         "title_s": "Ponentes",
         "subtitle_s": "Déjate inspirar por nuestros increíbles ponentes.",
         "day": "Día",
-        "month": "de Octubre",
+        "month": "de octubre",
         "day_1": "miercoles",
         "day_2": "jueves",
         "day_3": "viernes",
+        "stages":"Escenarios",
         "about": "Acerca de"
     },
     "footer": {

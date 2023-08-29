@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import './Program.css'
-import { Container, Nav, Tab, Tabs } from 'react-bootstrap'
+import { Accordion, Container, Dropdown, Nav, Tab, Tabs } from 'react-bootstrap'
 
 import React, { useState } from 'react'
 import 'react-multi-carousel/lib/styles.css'
@@ -12,7 +12,7 @@ import { programITM } from '../constans_program'
 export function Program () {
   const { t } = useTranslation()
   const [modalShow, setModalShow] = useState(false)
-  const [programs, setPrograms] = useState(programITM.oct_4)
+  const [programs, setPrograms] = useState(programITM.stage_1)
   const [detailSpeaker, setDetailSpeaker] = useState({})
 
   const handleModal = (speaker) => {
@@ -24,37 +24,46 @@ export function Program () {
     <>
       <div className='program-wrapper'>
         <Container className='pt-5'>
-          <h1 className='text-light fw-font'>{t('program.title')}</h1>
+          <h1 className='text-light fw-font'>
+            {t('program.stages')}
+          </h1>
           <p className='text-light'>{t('program.subtitle')}</p>
-
           <div className='program-dates mt-5'>
-            <Nav variant='underline' defaultActiveKey='#day1'>
+            <Nav variant='tabs' defaultActiveKey='#day1'>
               <Nav.Item>
-                <Nav.Link href='#day1' onClick={() => setPrograms(programITM.oct_4)}>
-                  <strong>{t('program.day')} 1</strong><br />
-                  <span>{t('program.day_1')}, 4 {t('program.month')}</span>
+                <Nav.Link href='#day1' onClick={() => setPrograms(programITM.stage_1)}>
+                  <h4 className='text-light'>Education Area</h4>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href='#day2' onClick={() => setPrograms(programITM.oct_5)}>
-                  <strong>{t('program.day')} 2</strong><br />
-                  <span>{t('program.day_2')}, 5 {t('program.month')}</span>
+                <Nav.Link href='#day2' onClick={() => setPrograms(programITM.stage_2)}>
+                  <h4 className='text-light'>Leaders of Tomorrow</h4>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link href='#day3' onClick={() => setPrograms(programITM.oct_6)}>
-                  <strong>{t('program.day')} 3</strong><br />
-                  <span>{t('program.day_3')}, 6 {t('program.month')}</span>
+                <Nav.Link href='#day3' onClick={() => setPrograms(programITM.stage_3)}>
+                  <h4 className='text-light'>Transformation Area</h4>
                 </Nav.Link>
               </Nav.Item>
             </Nav>
+            <h2 className='text-light fw-font mt-5'>
+              {t('program.title')}
+            </h2>
             <Tabs
-              defaultActiveKey='home'
-              id='uncontrolled-tab-example'
-              className='mt-5 mb-3 border-0'
+              defaultActiveKey='day1'
+              id='fill-tab-example'
+              className='mb-3'
             >
-              <Tab eventKey='home' title='Education Area'>
-                {programs?.stage_1.map((program, index) => {
+              <Tab
+                eventKey='day1'
+                title={
+                  <>
+                    <strong>{t('program.day')} 1</strong><br />
+                    <span>{t('program.day_1')}, 4 {t('program.month')}</span>
+                  </>
+                }
+              >
+                {programs?.oct_4.map((program, index) => {
                   return (
                     <div key={index} className='program-date-item d-flex align-items-center'>
                       <div style={{ width: '100px' }}>
@@ -66,30 +75,60 @@ export function Program () {
                         </p>
                       </div>
                       <div className='d-flex align-items-center justify-content-between w-100'>
-                        <div>
-                          <h2>{program.name}</h2>
-                          <p>{program.rol}</p>
-                          <h6>{program.conference}</h6>
+                        <div className='w-100'>
+                          {program?.resume
+                            ? <Accordion>
+                              <Accordion.Item eventKey='0'>
+                                <Accordion.Header>
+                                  <h2>{program.name}</h2>
+                                  <p>{program.rol}</p>
+                                  <h6>{program.conference}</h6>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  {program.resume}
+                                </Accordion.Body>
+                              </Accordion.Item>
+                              </Accordion>
+                            : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
                         </div>
-                        <div className='d-inline-flex'>
-                          {
-                          program.avatar === ''
-                            ? ''
-                            : <img onClick={() => handleModal(program)} src={program.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
-                        }
-                          {
-                          program?.avatar2
-                            ? <img onClick={() => handleModal(program)} src={program?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
-                            : ''
-                        }
+                        <div>
+                          <Dropdown className='addCalendar'>
+                            <Dropdown.Toggle id='dropdown-basic' />
+                            <Dropdown.Menu>
+                              <Dropdown.Item target='_blank' rel='noopener noreferrer' tabindex='0' href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20230329T153000Z%0ADTEND:20230329T230000Z%0ASUMMARY:XDW%202023%0ADESCRIPTION:Signup%3A%20https%3A%2F%2Ftnw.to%2FXDW%5CnLocation%3A%20Veles%20e%20Vents%2C%20Edificio%20Veles%20e%20Vents%20La%20Marina%20de%2C%2046024%20Valencia%5Cn%5CnX.%20Design%20Week%20is%20an%20ultra-immersive%20gathering%20of%20tourism%20destination%20leaders%2C%20innovators%20and%20entrepreneurs%20from%20all%20over%20the%20world%20to%20explore%20today's%20shifts%20in%20tourism%2C%20with%20a%20focus%20on%20the%20visitor%20experience%2C%20immersive%20content%2C%20data%20and%20technology.%0AEND:VEVENT%0AEND:VCALENDAR%0A">
+                                Apple Calendar
+                              </Dropdown.Item>
+                              <Dropdown.Item target='_blank' rel='noopener noreferrer' tabindex='0' href={`https://calendar.google.com/calendar/render?action=TEMPLATE&amp;dates=20230329T153000Z%2F20230329T230000Z&amp;details=Signup%3A%20https%3A%2F%2Ftnw.to%2FXDW%0D%0ALocation%3A%20Veles%20e%20Vents%2C%20Edificio%20Veles%20e%20Vents%20La%20Marina%20de%2C%2046024%20Valencia%0D%0A%0D%0AX.%20Design%20Week%20is%20an%20ultra-immersive%20gathering%20of%20tourism%20destination%20leaders%2C%20innovators%20and%20entrepreneurs%20from%20all%20over%20the%20world%20to%20explore%20today%27s%20shifts%20in%20tourism%2C%20with%20a%20focus%20on%20the%20visitor%20experience%2C%20immersive%20content%2C%20data%20and%20technology.&amp;text=${decodeURI(program.conference)}`}>
+                                Google Calendar
+                              </Dropdown.Item>
+                              <Dropdown.Item target='_blank' rel='noopener noreferrer' tabindex='0' href='https://outlook.live.com/calendar/0/deeplink/compose?allday=false&amp;body=Signup%3A%20https%3A%2F%2Ftnw.to%2FXDW%0D%0ALocation%3A%20Veles%20e%20Vents%2C%20Edificio%20Veles%20e%20Vents%20La%20Marina%20de%2C%2046024%20Valencia%0D%0A%0D%0AX.%20Design%20Week%20is%20an%20ultra-immersive%20gathering%20of%20tourism%20destination%20leaders%2C%20innovators%20and%20entrepreneurs%20from%20all%20over%20the%20world%20to%20explore%20today%27s%20shifts%20in%20tourism%2C%20with%20a%20focus%20on%20the%20visitor%20experience%2C%20immersive%20content%2C%20data%20and%20technology.&amp;enddt=2023-03-29T23%3A00%3A00%2B00%3A00&amp;path=%2Fcalendar%2Faction%2Fcompose&amp;rru=addevent&amp;startdt=2023-03-29T15%3A30%3A00%2B00%3A00&amp;subject=XDW%202023'>
+                                Outlook
+                              </Dropdown.Item>
+                              <Dropdown.Item target='_blank' rel='noopener' tabindex='0' href='https://outlook.office.com/calendar/0/deeplink/compose?allday=false&amp;body=Signup%3A%20https%3A%2F%2Ftnw.to%2FXDW%0D%0ALocation%3A%20Veles%20e%20Vents%2C%20Edificio%20Veles%20e%20Vents%20La%20Marina%20de%2C%2046024%20Valencia%0D%0A%0D%0AX.%20Design%20Week%20is%20an%20ultra-immersive%20gathering%20of%20tourism%20destination%20leaders%2C%20innovators%20and%20entrepreneurs%20from%20all%20over%20the%20world%20to%20explore%20today%27s%20shifts%20in%20tourism%2C%20with%20a%20focus%20on%20the%20visitor%20experience%2C%20immersive%20content%2C%20data%20and%20technology.&amp;enddt=2023-03-29T23%3A00%3A00%2B00%3A00&amp;path=%2Fcalendar%2Faction%2Fcompose&amp;rru=addevent&amp;startdt=2023-03-29T15%3A30%3A00%2B00%3A00&amp;subject=XDW%202023'>
+                                Office 365
+                              </Dropdown.Item>
+                              <Dropdown.Item target='_blank' rel='noopener' tabindex='0' href='https://calendar.yahoo.com/?desc=Signup%3A%20https%3A%2F%2Ftnw.to%2FXDW%0D%0ALocation%3A%20Veles%20e%20Vents%2C%20Edificio%20Veles%20e%20Vents%20La%20Marina%20de%2C%2046024%20Valencia%0D%0A%0D%0AX.%20Design%20Week%20is%20an%20ultra-immersive%20gathering%20of%20tourism%20destination%20leaders%2C%20innovators%20and%20entrepreneurs%20from%20all%20over%20the%20world%20to%20explore%20today%27s%20shifts%20in%20tourism%2C%20with%20a%20focus%20on%20the%20visitor%20experience%2C%20immersive%20content%2C%20data%20and%20technology.&amp;dur=false&amp;et=20230329T230000Z&amp;st=20230329T153000Z&amp;title=XDW%202023&amp;v=60'>
+                                Yahoo
+                              </Dropdown.Item>
+                            </Dropdown.Menu>
+                          </Dropdown>
+
                         </div>
                       </div>
                     </div>
                   )
                 })}
               </Tab>
-              <Tab eventKey='profile' title='Leaders of Tomorrow'>
-                {programs?.stage_2.map((program, index) => {
+              <Tab
+                eventKey='day2'
+                title={
+                  <>
+                    <strong>{t('program.day')} 2</strong><br />
+                    <span>{t('program.day_2')}, 5 {t('program.month')}</span>
+                  </>
+                }
+              >
+                {programs?.oct_5.map((program, index) => {
                   return (
                     <div key={index} className='program-date-item d-flex align-items-center'>
                       <div style={{ width: '100px' }}>
@@ -101,30 +140,38 @@ export function Program () {
                         </p>
                       </div>
                       <div className='d-flex align-items-center justify-content-between w-100'>
-                        <div>
-                          <h2>{program.name}</h2>
-                          <p>{program.rol}</p>
-                          <h6>{program.conference}</h6>
+                        <div className='w-100'>
+                          {program?.resume
+                            ? <Accordion>
+                              <Accordion.Item eventKey={index}>
+                                <Accordion.Header>
+                                  <h2>{program.name}</h2>
+                                  <p>{program.rol}</p>
+                                  <h6>{program.conference}</h6>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  {program.resume}
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+                            : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
                         </div>
-                        <div className='d-inline-flex'>
-                          {
-                          program.avatar === ''
-                            ? ''
-                            : <img onClick={() => handleModal(program)} src={program.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
-                        }
-                          {
-                          program?.avatar2
-                            ? <img onClick={() => handleModal(program)} src={program?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
-                            : ''
-                        }
-                        </div>
+                        <div className='d-inline-flex' />
                       </div>
                     </div>
                   )
                 })}
               </Tab>
-              <Tab eventKey='contact' title='Transformation Area'>
-                {programs?.stage_3.map((program, index) => {
+              <Tab
+                eventKey='day3'
+                title={
+                  <>
+                    <strong>{t('program.day')} 3</strong><br />
+                    <span>{t('program.day_3')}, 6 {t('program.month')}</span>
+                  </>
+                }
+              >
+                {programs?.oct_6.map((program, index) => {
                   return (
                     <div key={index} className='program-date-item d-flex align-items-center'>
                       <div style={{ width: '100px' }}>
@@ -137,22 +184,22 @@ export function Program () {
                       </div>
                       <div className='d-flex align-items-center justify-content-between w-100'>
                         <div>
-                          <h2>{program.name}</h2>
-                          <p>{program.rol}</p>
-                          <h6>{program.conference}</h6>
+                          {program?.resume
+                            ? <Accordion>
+                              <Accordion.Item eventKey={index}>
+                                <Accordion.Header>
+                                  <h2>{program.name}</h2>
+                                  <p>{program.rol}</p>
+                                  <h6>{program.conference}</h6>
+                                </Accordion.Header>
+                                <Accordion.Body>
+                                  {program.resume}
+                                </Accordion.Body>
+                              </Accordion.Item>
+                            </Accordion>
+                            : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
                         </div>
-                        <div className='d-inline-flex'>
-                          {
-                          program.avatar === ''
-                            ? ''
-                            : <img onClick={() => handleModal(program)} src={program.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
-                        }
-                          {
-                          program?.avatar2
-                            ? <img onClick={() => handleModal(program)} src={program?.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
-                            : ''
-                        }
-                        </div>
+                        <div className='d-inline-flex' />
                       </div>
                     </div>
                   )
