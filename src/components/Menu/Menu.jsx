@@ -85,7 +85,7 @@ export function Menu () {
 
                   <NavDropdown.Item
                     href={i18n.language === 'en'
-                      ? '/files/MANUAL_ITM_INGLES_23_08_01.pdf'
+                      ? '/files/MANUAL-ITM_INGLES_23-08-29.pdf'
                       : '/files/MANUAL_ITM_23_08_01.pdf'}
                     target='_blank'
                     onClick={handleClose}
