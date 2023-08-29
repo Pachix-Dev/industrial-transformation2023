@@ -9,7 +9,7 @@ const programITM = {
         avatar: '/speakers/AlejandroPreinfalk.webp',
         rol: 'Presidente y CEO',
         conference: 'Metaverso Industrial: ¿realidad o ficción?',
-        resume: "Muchas personas asocian el término 'metaverso' con un colorido mundo virtual para el entretenimiento y las compras, sin embargo, el ‘metaverso industrial’ tiene el potencial de revolucionar el mundo real de maneras nunca vistas: al permitir que las fábricas, los edificios y las ciudades sean más eficientes y sostenibles. Todos los componentes básicos para el metaverso industrial ya están en su lugar, entonces, ¿qué nos falta para hacerlo una realidad?"
+        resume: "Muchas personas asocian el término 'metaverso' con un colorido mundo virtual para el entretenimiento y las compras, sin embargo, el ‘metaverso industrial’ tiene el potencial de revolucionar el mundo real de maneras nunca vistas: al permitir que las fábricas, los edificios y las ciudades sean más eficientes y sostenibles. Todos los componentes básicos para el metaverso industrial ya están en su lugar, entonces, ¿qué nos falta para hacerlo una realidad?."
       },
       {
         hour: '11:00 hrs',
