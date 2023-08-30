@@ -167,6 +167,10 @@ h3 {
 }
 
 @media (max-width: 425px) {
+    .home-register{
+        display: block;
+        margin-top: 15px;
+    }
     .timer-numbers {
         font-size: 3em;
         line-height: 1;
