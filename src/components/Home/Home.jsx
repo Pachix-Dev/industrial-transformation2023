@@ -87,7 +87,7 @@ export function Home () {
         </Row>
         <h3 className='mt-5 mb-3'>{t('home.digital')}</h3>
         <p className='text-center'>
-          <a href='hhttps://www.beckhoff.com/es-mx/' target='_blank' rel='noreferrer'>
+          <a href='https://www.beckhoff.com/es-mx/' target='_blank' rel='noreferrer'>
             <img className='home-digital-logo' src='/Beckhoff.webp' loading='lazy' alt='BecjHoff' width={400} />
           </a>
         </p>
