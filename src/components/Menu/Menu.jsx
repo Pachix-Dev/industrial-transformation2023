@@ -145,7 +145,9 @@ export function Menu () {
 
                 <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item
-                    as={Link} to='/why-visit'
+                    href={i18n.language === 'en'
+                      ? '/files/PasaporteITM2023IMPRESION(English).pdf'
+                      : '/files/PasaporteITM2023DigitalEspañol.pdf'}
                     onClick={handleClose}
                   >
                     {t('menu.visitors_0')}
