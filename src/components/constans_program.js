@@ -17,7 +17,7 @@ const programITM = {
         name: 'Panel de GIZ',
         avatar: '',
         rol: '',
-        conference: 'Cinco Años de Industrial Transformation México: Un Impulso para el Desarrollo Económico Sustentable'
+        conference: 'Cinco Años de Industrial Transformation Mexico: Un Impulso para el Desarrollo Económico Sustentable'
       },
       {
         hour: '12:45 hrs',
@@ -124,7 +124,7 @@ const programITM = {
         avatar: '/speakers/SamuelAceves.webp',
         id_s2: 13,
         avatar2: '/speakers/LuisParilli.webp',
-        rol: 'Cybersecurity Leader Mexico & Central Americal | Digital Services Manager',
+        rol: 'Cybersecurity Leader Mexico & Central America | Digital Services Manager',
         conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas',
         resume: 'La digitalización en las empresas e industria es fundamental, desde la optimización de procesos hasta la toma de decisiones basada en datos. Además, aprenderás cómo protegerte de los ataques cibernéticos y salvaguardar tus activos digitales con sólidas estrategias de ciberseguridad.'
       },
