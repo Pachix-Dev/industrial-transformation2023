@@ -72,7 +72,7 @@ const programITM = {
         id: 8,
         avatar: '/speakers/SilviaOrtizRuiz.webp',
         rol: 'Directora General de Vanguardia Industrial',
-        conference: 'Manufactura con liderazgo Femenino',
+        conference: 'Manufactura con Liderazgo Femenino',
         resume: 'Dar a conocer el libro: Manufactura con liderazgo femenino, una publicación con el sello de Vanguardia Industrial, que ofrece una semblanza de 15 mujeres que contribuyen al desarrollo y competitividad de la industria manufacturera. A través de un trabajo periodístico minucioso y de investigación, esta publicación, la primera en su tipo en México, aborda desde un ángulo personal y retrospectivo, la trayectoria de estas mujeres y su incursión en industrias donde los hombres son mayoría. En esta publicación exponen sus logros, fracasos y aprendizajes en este sector, en el que se demanda la proliferación de mujeres que contribuyan al desarrollo de la industria manufacturera. '
       }
     ],
@@ -85,7 +85,7 @@ const programITM = {
       {
         hour: '10:00 hrs',
         duration: '45 min',
-        name: 'Astrid Enelda Gonzalez',
+        name: 'Astrid Enelda González',
         avatar: '',
         rol: 'Chemical Industry Manager',
         conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?'
@@ -110,7 +110,7 @@ const programITM = {
         id: 11,
         avatar: '/speakers/JavierJesusGarcía.webp',
         rol: 'Offer Manager Digital Services MX & CAMt',
-        conference: 'Desbloquea el potencial de los Servicios Digitales para la Indsutria 4.0',
+        conference: 'Desbloquea el potencial de los Servicios Digitales para la Industria 4.0',
         resume: 'El monitoreo en tiempo real y el análisis avanzado de datos pueden optimizar la eficiencia operativa, prevenir fallas y maximizar la vida útil de los activos industriales. Descubre cómo los Servicios Digitales están revolucionando la forma en que las industrias operan y toman decisiones estratégicas.'
       }
 

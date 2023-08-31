@@ -112,7 +112,7 @@ const speakers = [
     conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas',
     name: 'Samuel Aceves',
     company: 'Schneider Electric',
-    rol: 'Cybersecurity Leader Mexico & Central Americal',
+    rol: 'Cybersecurity Leader Mexico & Central America',
     avatar: '/speakers/SamuelAceves.webp',
     resume: 'La digitalización en las empresas e industria es fundamental, desde la optimización de procesos hasta la toma de decisiones basada en datos. Además, aprenderás cómo protegerte de los ataques cibernéticos y salvaguardar tus activos digitales con sólidas estrategias de ciberseguridad.',
     sketch: 'Ingeniero Industrial y de Sistemas con Diplomado en Dirección Estratégica de Negocios con más de 13 años de experiencia en empresas transnacionales en México, Estados Unidos y Canadá en campos de aplicación como Ciberseguridad Industrial en múltiples segmentos de aplicación'
