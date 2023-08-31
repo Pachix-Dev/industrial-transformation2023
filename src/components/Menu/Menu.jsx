@@ -148,6 +148,7 @@ export function Menu () {
                     href={i18n.language === 'en'
                       ? '/files/PasaporteITM2023IMPRESION(English).pdf'
                       : '/files/PasaporteITM2023DigitalEspañol.pdf'}
+                    target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.visitors_0')}
