@@ -70,7 +70,7 @@ const speakers = [
   {
     id: 8,
     conference: 'Manufactura con liderazgo Femenino',
-    name: 'SILVIA ORTIZ RUIZ',
+    name: 'Silvia Ortiz Ruiz',
     company: 'Medio de comunicación digital B2B',
     rol: 'Directora General de Vanguardia Industrial',
     avatar: '/speakers/SilviaOrtizRuiz.webp',
