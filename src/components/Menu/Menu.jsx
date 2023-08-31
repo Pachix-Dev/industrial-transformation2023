@@ -148,6 +148,12 @@ export function Menu () {
                     as={Link} to='/why-visit'
                     onClick={handleClose}
                   >
+                    {t('menu.visitors_0')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link} to='/why-visit'
+                    onClick={handleClose}
+                  >
                     {t('menu.visitors_1')}
                   </NavDropdown.Item>
                   {/* <NavDropdown.Item
