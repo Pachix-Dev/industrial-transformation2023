@@ -3,7 +3,7 @@ const speakers = [
     id: 1,
     conference: 'Metaverso Industrial: ¿realidad o ficción?',
     name: 'Alejandro Preinfalk',
-    company: 'Siemens Mexico, Centroamérica y el Caribe',
+    company: 'Siemens México, Centroamérica y el Caribe',
     rol: 'Presidente y CEO',
     avatar: '/speakers/AlejandroPreinfalk.webp',
     sketch: 'Alejandro cuenta con una amplia trayectoria de más de 30 años en Siemens a nivel global. Ha desempeñado diversos cargos directivos en Costa Rica, Alemania, Rusia, Guatemala y México.  Es Ingeniero Eléctrico, graduado en la Universidad de Costa Rica con cursos realizados en Harvard, MIT, Stanford y la Universidad de Michigan. Es presidente de la Comisión México 4.0: Innovación y Digitalización Industrial de CONCAMIN (Confederación de Cámaras Industriales de los Estados Unidos Mexicanos), presidente de la Cámara Mexico Alemana de Comercio e Industria CAMEXA (Cámara Mexico Alemana de Comercio e Industria), Miembro del Consejo de Empresas Globales CEG (Consejo Empresas lobales), mentor de Endeavor, panelista y miembro del consejo de Lateinamerika Verein (Asociación para América Latina). Actualmente es el CEO y Presidente de Siemens México, Centroamérica y el Caribe, nombrado el 1 de julio de 2020; además de esta posición es el Vicepresidente Ejecutivo de Digital Industries.'
