@@ -76,7 +76,8 @@ export function Slider () {
           />
         </Carousel.Item>
         <Carousel.Item>
-          {
+          <a href='https://industrialtransformation.mx/futuristic-minds/' target='_blank' rel='noreferrer'>
+            {
             stateLang === 'en'
               ? <img
                   className='d-block w-100'
@@ -89,6 +90,7 @@ export function Slider () {
                   alt='ITM-FUTURISTIC-MINDS'
                 />
           }
+          </a>
         </Carousel.Item>
         <Carousel.Item>
           {
