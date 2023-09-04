@@ -6,7 +6,7 @@ export function Roadshows () {
       <h1 className='text-center fw-bold mt-5' style={{ color: '#e8001e' }}>Roadshows</h1>
 
       <Row className=' mt-5 mb-5'>
-        <Col md>
+        <Col md={6}>
           <Ratio aspectRatio='16x9'>
             <iframe
               src='https://www.youtube-nocookie.com/embed/XWI7TjUJu34'
@@ -17,7 +17,7 @@ export function Roadshows () {
           </Ratio>
           <h2>Roadshow: Manufactura avanzada e Industria 4.0</h2>
         </Col>
-        <Col md>
+        <Col md={6}>
           <Ratio aspectRatio='16x9'>
             <iframe
               src='https://www.youtube-nocookie.com/embed/-H5lngSiEpQ'
@@ -28,7 +28,7 @@ export function Roadshows () {
           </Ratio>
           <h2>Roadshow: Transformación Digital e Industria 4.0</h2>
         </Col>
-        <Col md>
+        <Col md={6}>
           <Ratio aspectRatio='16x9'>
             <iframe
               src='https://www.youtube-nocookie.com/embed/60GtP0vi2jw'
