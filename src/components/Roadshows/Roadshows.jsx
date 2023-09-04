@@ -37,7 +37,7 @@ export function Roadshows () {
               allowFullScreen
             />
           </Ratio>
-          <h2>Roadshow: Industria 4.0: Retos y oportunidades</h2>
+          <h2>Roadshow: Industria 4.0 Retos y oportunidades</h2>
         </Col>
       </Row>
 
