@@ -29,7 +29,7 @@ const programITM = {
         avatar2: '/speakers/MariaFernandaSilva.webp',
         rol: 'Offer Marketing Manager | Sales Manager',
         conference: 'Digitalización y automatización para una industria sostenible',
-        resume: 'La combinación de tecnologías digitales y automatización están impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
+        resume: 'a combinación de tecnologías digitales y automatización está impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
       }
     ],
     oct_5: [
@@ -43,7 +43,7 @@ const programITM = {
         avatar2: '/speakers/IrisRodriguez.webp',
         rol: 'Industrial Automation Business Developer Manager | Channel & Development Manager',
         conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
-        resume: 'Descubra cómo la diversidad de género impulsa la innovación y el crecimiento en el campo de la ingeniería, y cómo la inclusión de más mujeres en puestos técnicos y de liderazgo beneficia a toda la industria. A través de historias inspiradoras y experiencias personales, nuestros oradoras compartirán ideas y consejos sobre cómo superar los desafíos y lograr el éxito en un entorno tradicionalmente dominado por hombres.'
+        resume: 'Descubre cómo la diversidad de género impulsa la innovación y el crecimiento en el campo de la Ingeniería, y cómo la inclusión de más mujeres en puestos técnicos y de liderazgo beneficia a toda la industria. A través de historias inspiradoras y experiencias personales, nuestras oradoras compartirán ideas y consejos sobre cómo superar los desafíos y lograr el éxito en un entorno tradicionalmente dominado por hombres.'
       },
       {
         hour: '14:45 hrs',
@@ -73,7 +73,7 @@ const programITM = {
         avatar: '/speakers/SilviaOrtizRuiz.webp',
         rol: 'Directora General de Vanguardia Industrial',
         conference: 'Manufactura con Liderazgo Femenino',
-        resume: 'Dar a conocer el libro: Manufactura con liderazgo femenino, una publicación con el sello de Vanguardia Industrial, que ofrece una semblanza de 15 mujeres que contribuyen al desarrollo y competitividad de la industria manufacturera. A través de un trabajo periodístico minucioso y de investigación, esta publicación, la primera en su tipo en México, aborda desde un ángulo personal y retrospectivo, la trayectoria de estas mujeres y su incursión en industrias donde los hombres son mayoría. En esta publicación exponen sus logros, fracasos y aprendizajes en este sector, en el que se demanda la proliferación de mujeres que contribuyan al desarrollo de la industria manufacturera. '
+        resume: 'Presentación editorial del libro “Manufactura con Liderazgo Femenino”, una publicación con el sello de Vanguardia Industrial. Ofrece una semblanza de 15 mujeres que contribuyen al desarrollo y competitividad de la industria manufacturera. A través de un trabajo periodístico minucioso y de investigación, esta publicación, la primera en su tipo en México, aborda desde un ángulo personal y retrospectivo, la trayectoria de estas mujeres y su incursión en industrias donde los hombres son mayoría. En esta publicación exponen sus logros, fracasos y aprendizajes en este sector, en el cual se demanda la proliferación de mujeres que contribuyan al desarrollo de la industria manufacturera.'
       }
     ],
     oct_6: [
@@ -162,7 +162,7 @@ const programITM = {
         avatar: '/speakers/CesarArteaga.webp',
         rol: 'UPS Business Developer',
         conference: 'Soluciones de misión de crítica para la Industrias actual y del futuro (3pH)',
-        resume: 'Easy UPS proporciona estabilidad de energía con especificaciones eléctricas sólidas y rendimiento duradero para garantizar la continuidad de su negocio. De fácil instalación, rápida y sencilla. Operabilidad con una amplia ventana de temperatura de funcionamiento y sóldia protección contra sobrecargas, todo en un formato compacto, ligero y móvil.'
+        resume: 'Easy UPS proporciona estabilidad de energía con especificaciones eléctricas sólidas y rendimiento duradero para garantizar la continuidad de su negocio. De fácil instalación, rápida y sencilla. Operabilidad con una amplia ventana de temperatura de funcionamiento y sólida protección contra sobrecargas, todo en un formato compacto, ligero y móvil.'
       }
 
     ]
@@ -205,7 +205,7 @@ const programITM = {
         avatar2: '/speakers/VirginiaGuerere.webp',
         rol: 'Metering Business Developer | Buildings Automation Business Developer',
         conference: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales',
-        resume: '¿Innovacion sostenible, eficiente y accionable para tus edificaciones comerciales? La tecnología para ello ya existe. Descubre de la mano de nuestras expertas, Abigail Carrillo - Meetering Business Developer y Virginia Guerere - Building Automation Business Developer, todo lo que la digitalizacion, medicion y automatizacion de las edificaciones pueden brindarte. Hablamos desde ahorro de energia hasta ahorro operativo y de mantenimiento. Las instalaciones comerciales e industriales pueden ser eficientes al mismo tiempo que sostenibles.'
+        resume: '¿Innovación sostenible, eficiente y accionable para tus edificaciones comerciales? La tecnología para ello ya existe. Descubre de la mano de nuestras expertas, Abigail Carrillo -Metering Business Developer- y Virginia Guerere -Building Automation Business Developer-, todo lo que la digitalización, medición y automatización de las edificaciones pueden brindarte. Desde ahorro de energía hasta ahorro operativo y de mantenimiento, las instalaciones comerciales e industriales pueden ser eficientes al mismo tiempo que sostenibles.'
       }
     ]
   }

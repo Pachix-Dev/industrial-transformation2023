@@ -3,7 +3,7 @@ import Modal from 'react-bootstrap/Modal'
 import { useTranslation } from 'react-i18next'
 
 export function DetailSpeaker (props) {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   return (
     <Modal
       {...props}
@@ -30,7 +30,7 @@ export function DetailSpeaker (props) {
             <p>{props?.speaker?.conference}</p>
             <h5 className='fw-bold text-danger'>{t('program.about')}</h5>
             <p>
-              {props?.speaker?.sketch || props?.speaker?.resume}
+              {i18n.language === 'en' ? props?.speaker?.sketch_eng : props?.speaker?.sketch}
             </p>
           </Col>
         </Row>
