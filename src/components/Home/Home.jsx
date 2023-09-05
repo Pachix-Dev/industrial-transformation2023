@@ -94,14 +94,14 @@ export function Home () {
 
         <h3 className='mt-5 mb-5'>{t('home.gold_sponsors')}</h3>
         <Row className='text-center'>
-          <Col md className='mx-auto'>
+          <Col md className='mx-auto my-auto'>
             <a href='https://www.cisco.com/c/es_mx/index.html' target='_blank' rel='noreferrer'>
               <img src='/ciscopartner.webp' width={180} loading='lazy' alt='cisco' />
             </a>
           </Col>
           <Col md className='my-auto'>
             <a href='https://isat.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/isat.webp' width={180} loading='lazy' alt='isat' />
+              <img className='my-4' src='/isat.webp' width={180} loading='lazy' alt='isat' />
             </a>
           </Col>
           <Col md className='my-auto'>
@@ -109,7 +109,7 @@ export function Home () {
               <img src='/Ikusi.webp' width={180} loading='lazy' alt='ikusi' />
             </a>
           </Col>
-          <Col md className='mx-auto'>
+          <Col md className='mx-auto my-auto'>
             <a href='https://www.roue.com.mx/' target='_blank' rel='noreferrer'>
               <img src='/roue.webp' width={180} loading='lazy' alt='roue' />
             </a>
