@@ -99,14 +99,19 @@ export function Home () {
               <img src='/ciscopartner.webp' width={180} loading='lazy' alt='cisco' />
             </a>
           </Col>
-          <Col md className='mx-auto'>
-            <a href='https://www.roue.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/roue.webp' width={180} loading='lazy' alt='roue' />
+          <Col md className='my-auto'>
+            <a href='https://isat.com.mx/' target='_blank' rel='noreferrer'>
+              <img src='/isat.webp' width={180} loading='lazy' alt='isat' />
             </a>
           </Col>
           <Col md className='my-auto'>
             <a href='https://www.ikusi.com/mx/' target='_blank' rel='noreferrer'>
-              <img src='/Ikusi.webp' width={180} loading='lazy' alt='Ikusi' />
+              <img src='/Ikusi.webp' width={180} loading='lazy' alt='ikusi' />
+            </a>
+          </Col>
+          <Col md className='mx-auto'>
+            <a href='https://www.roue.com.mx/' target='_blank' rel='noreferrer'>
+              <img src='/roue.webp' width={180} loading='lazy' alt='roue' />
             </a>
           </Col>
         </Row>
@@ -128,6 +133,11 @@ export function Home () {
           <Col md={3} className='mx-auto'>
             <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
               <img src='/kaeser_1.webp' width={200} loading='lazy' alt='kaeser' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
+            <a href='https://hexagon.com/' target='_blank' rel='noreferrer'>
+              <img src='/hexagon.webp' width={200} loading='lazy' alt='hexagon' />
             </a>
           </Col>
         </Row>
