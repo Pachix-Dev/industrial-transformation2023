@@ -100,13 +100,13 @@ export function Home () {
             </a>
           </Col>
           <Col md className='my-auto'>
-            <a href='https://isat.com.mx/' target='_blank' rel='noreferrer'>
-              <img className='my-4' src='/isat.webp' width={180} loading='lazy' alt='isat' />
+            <a href='https://www.ikusi.com/mx/' target='_blank' rel='noreferrer'>
+              <img src='/Ikusi.webp' width={180} loading='lazy' alt='ikusi' />
             </a>
           </Col>
           <Col md className='my-auto'>
-            <a href='https://www.ikusi.com/mx/' target='_blank' rel='noreferrer'>
-              <img src='/Ikusi.webp' width={180} loading='lazy' alt='ikusi' />
+            <a href='https://isat.com.mx/' target='_blank' rel='noreferrer'>
+              <img className='my-4' src='/isat.webp' width={180} loading='lazy' alt='isat' />
             </a>
           </Col>
           <Col md className='mx-auto my-auto'>
@@ -125,19 +125,19 @@ export function Home () {
         </Row>
         <h3 className='mt-5 mb-5'>{t('home.content_partners')}</h3>
         <Row className='text-center'>
-          <Col md={3} className='mx-auto'>
-            <a href='https://ientc.com/' target='_blank' rel='noreferrer'>
-              <img src='/ientc.webp' width={200} loading='lazy' alt='ientc' />
-            </a>
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
-              <img src='/kaeser_1.webp' width={200} loading='lazy' alt='kaeser' />
-            </a>
-          </Col>
-          <Col md={3} className='mx-auto'>
+          <Col md={3} className='mx-auto my-auto'>
             <a href='https://hexagon.com/' target='_blank' rel='noreferrer'>
-              <img src='/hexagon.webp' width={200} loading='lazy' alt='hexagon' />
+              <img src='/hexagon.webp' width={290} loading='lazy' alt='hexagon' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://ientc.com/' target='_blank' rel='noreferrer'>
+              <img src='/ientc.webp' width={250} loading='lazy' alt='ientc' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
+              <img src='/kaeser_1.webp' width={250} loading='lazy' alt='kaeser' />
             </a>
           </Col>
         </Row>
