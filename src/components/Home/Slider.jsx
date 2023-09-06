@@ -18,7 +18,7 @@ export function Slider () {
                   autoPlay
                   playsInline
                   poster='/startpitchENG.webp'
-                  src='/STARTUP PITCH ENG_1.webm'
+                  src='/STARTUP-PITCH-ENG-FINAL.webm'
                 />
               : <video
                   width='100%'
@@ -28,7 +28,7 @@ export function Slider () {
                   autoPlay
                   playsInline
                   poster='/startpitchESP.webp'
-                  src='/STARTUP-PITCH-ITM-2023_1.webm'
+                  src='/STARTUP-PITCH-ESP-FINAL.webm'
                 />}
           </Link>
         </Carousel.Item>
