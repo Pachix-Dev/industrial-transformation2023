@@ -109,7 +109,7 @@ const programITM = {
         name: 'Javier de Jesús García',
         id: 11,
         avatar: '/speakers/JavierJesusGarcía.webp',
-        rol: 'Offer Manager Digital Services MX & CAMt',
+        rol: 'Offer Manager Digital Services MX & CAM',
         conference: 'Desbloquea el potencial de los Servicios Digitales para la Industria 4.0',
         resume: 'El monitoreo en tiempo real y el análisis avanzado de datos pueden optimizar la eficiencia operativa, prevenir fallas y maximizar la vida útil de los activos industriales. Descubre cómo los Servicios Digitales están revolucionando la forma en que las industrias operan y toman decisiones estratégicas.'
       }
@@ -161,7 +161,7 @@ const programITM = {
         id: 14,
         avatar: '/speakers/CesarArteaga.webp',
         rol: 'UPS Business Developer',
-        conference: 'Soluciones de misión de crítica para la Industrias actual y del futuro (3pH)',
+        conference: 'Soluciones de misión de crítica para la Industria actual y del futuro (3pH)',
         resume: 'Easy UPS proporciona estabilidad de energía con especificaciones eléctricas sólidas y rendimiento duradero para garantizar la continuidad de su negocio. De fácil instalación, rápida y sencilla. Operabilidad con una amplia ventana de temperatura de funcionamiento y sólida protección contra sobrecargas, todo en un formato compacto, ligero y móvil.'
       }
 
