@@ -20,7 +20,7 @@ export function StartupPitch () {
                   autoPlay
                   playsInline
                   poster='/PosterStartupPitch.webp'
-                  src='/STARTUP PITCH ENG_1.webm'
+                  src='/STARTUP-PITCH-ENG-FINAL.webm'
                 />
               : <video
                   width='100%'
@@ -29,10 +29,10 @@ export function StartupPitch () {
                   loop
                   autoPlay
                   playsInline
-                  poster='/PosterStartupPitch.webp'
-                  src='/STARTUP-PITCH-ITM-2023_1.webm'
+                  poster='/startpitchESP.webp'
+                  src='/STARTUP-PITCH-ESP-FINAL.webm'
                 />
-            }
+          }
         </div>
         <p className='mt-5'>{t('startup.description_1')}</p>
         <div className='startup-links-first'>
