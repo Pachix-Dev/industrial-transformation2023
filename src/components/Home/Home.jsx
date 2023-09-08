@@ -126,6 +126,11 @@ export function Home () {
         <h3 className='mt-5 mb-5'>{t('home.content_partners')}</h3>
         <Row className='text-center'>
           <Col md={3} className='mx-auto my-auto'>
+            <a href='https://claroty.com/' target='_blank' rel='noreferrer'>
+              <img src='/claroty.webp' width={290} loading='lazy' alt='claroty' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto my-auto'>
             <a href='https://hexagon.com/' target='_blank' rel='noreferrer'>
               <img src='/hexagon.webp' width={290} loading='lazy' alt='hexagon' />
             </a>
