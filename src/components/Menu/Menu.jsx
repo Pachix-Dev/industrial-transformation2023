@@ -57,7 +57,7 @@ export function Menu () {
                     {t('menu.exhibitors_2')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href='/files/Empresas ITM2023.pdf'
+                    href='/files/Empresas-ITM2023v2.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -94,7 +94,7 @@ export function Menu () {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href='/files/FloorplanITM-2023-25-08-2023.pdf'
+                    href='/files/FloorplanITM-2023-08-09-2023.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >

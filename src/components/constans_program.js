@@ -30,9 +30,29 @@ const programITM = {
         rol: 'Offer Marketing Manager | Sales Manager',
         conference: 'Digitalización y automatización para una industria sostenible',
         resume: 'a combinación de tecnologías digitales y automatización está impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
+      },
+      {
+        hour: '13:30 hrs',
+        duration: '60 min',
+        name: 'Jeff Burnstein',
+        id: 2,
+        avatar: '',
+        rol: 'A3 kenoyte',
+        conference: 'Improving manufacturing: industrial robots & AI',
+        resume: ''
       }
     ],
     oct_5: [
+      {
+        hour: '11:00 hrs',
+        duration: '60 min',
+        name: 'Takao Nakahata',
+        id: '',
+        avatar: '',
+        rol: 'Director General JETRO ',
+        conference: 'Oportunidades Industriales México - Japón',
+        resume: ''
+      },
       {
         hour: '13:00 hrs',
         duration: '45 min',
@@ -74,6 +94,16 @@ const programITM = {
         rol: 'Directora General de Vanguardia Industrial',
         conference: 'Manufactura con Liderazgo Femenino',
         resume: 'Presentación editorial del libro “Manufactura con Liderazgo Femenino”, una publicación con el sello de Vanguardia Industrial. Ofrece una semblanza de 15 mujeres que contribuyen al desarrollo y competitividad de la industria manufacturera. A través de un trabajo periodístico minucioso y de investigación, esta publicación, la primera en su tipo en México, aborda desde un ángulo personal y retrospectivo, la trayectoria de estas mujeres y su incursión en industrias donde los hombres son mayoría. En esta publicación exponen sus logros, fracasos y aprendizajes en este sector, en el cual se demanda la proliferación de mujeres que contribuyan al desarrollo de la industria manufacturera.'
+      },
+      {
+        hour: '17:30 hrs',
+        duration: '30 min',
+        name: '',
+        id: '',
+        avatar: '',
+        rol: '',
+        conference: 'Premiación M-Tech y clausura ITMujeres',
+        resume: ''
       }
     ],
     oct_6: [
