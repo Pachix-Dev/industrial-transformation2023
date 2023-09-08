@@ -107,7 +107,16 @@ const programITM = {
       }
     ],
     oct_6: [
-
+      {
+        hour: '13:30 hrs',
+        duration: '30 min',
+        name: 'Horacio Leal',
+        id: '',
+        avatar: '',
+        rol: 'Principal, Kearney',
+        conference: 'A Rewiring of Global Value Chains',
+        resume: ''
+      }
     ]
   },
   stage_2: {
@@ -116,9 +125,30 @@ const programITM = {
         hour: '10:00 hrs',
         duration: '45 min',
         name: 'Astrid Enelda González',
-        avatar: '',
+        avatar: '/speakers/AstridGonzalez.webp',
         rol: 'Chemical Industry Manager',
-        conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?'
+        conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?',
+        resume: 'Mayor tiempo productivo gracias al mantenimiento predictivo de la tecnología Heartbeat y un ecosistema en la nube (Netilion). Monitoree y mitigue los riesgos con tecnología de punta, alta seguridad y ciberseguridad.'
+
+      },
+      {
+        hour: '12:00 hrs',
+        duration: '45 min',
+        name: 'Iliana Vera',
+        avatar: '/speakers/ilianaVera.webp',
+        rol: 'General Manager at LAING Business Solutions',
+        conference: 'Leveraging Industry 4.0 and A.I. toward Zero-Downtime, Zero-Defects',
+        resume: 'Una disminución del tiempo de inactividad no planificado o unos pocos porcentajes de reducción de la chatarra pueden suponer millones de dólares de ahorro para los fabricantes. Esta presentación instruirá a los asistentes sobre los principios de la Industria 4.0 y analizará las "herramientas digitales del oficio" para hacer realidad la Industria 4.0 de forma sistemática, centrándose en el ROI de los casos empresariales, la conectividad en tiempo real y las tecnologías predictivas basadas en IA para el Mantenimiento 4.0 y la Calidad 4.0.'
+
+      },
+      {
+        hour: '13:00 hrs',
+        duration: '60 min',
+        name: 'Francisco Cervantes Díaz | Arturo Oropeza García | José Guillermo Zozaya Délano',
+        avatar: '/speakers/ArturoOropeza.webp',
+        rol: 'Presidente del Consejo Coordinador Empresarial | Presidente del Instituto para el Desarrollo Industrial y la Transformación Digital (INADI) | Presidente Ejecutivo de la Asociación Mexicana de la Industria Automotriz',
+        conference: 'El Nearshoring en el marco de la Política Industrial del siglo XXI',
+        resume: ''
 
       },
       {

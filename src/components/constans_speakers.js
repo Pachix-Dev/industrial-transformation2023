@@ -196,6 +196,16 @@ const speakers = [
     avatar: '/speakers/VirginiaGuerere.webp',
     sketch: 'Ingeniera Eléctrica egresada de la Universidad del Zulia, experta en habilitar la oferta y equipos de automatización de edificios, para el desarrollo del negocio de BMS (Buildings Management Systems) en México y Centroamérica.',
     sketch_eng: 'Electrical Engineer graduated from the University of Zulia, expert in enabling the supply and building automation equipment, for the development of the BMS (Buildings Management Systems) business in Mexico and Central America. '
+  },
+  {
+    id: 20,
+    conference: 'Leveraging Industry 4.0 and A.I. toward Zero-Downtime, Zero-Defects',
+    name: 'Iliana Vera',
+    company: 'Schneider Electric',
+    rol: 'General Manager at LAING Business Solutions',
+    avatar: '/speakers/ilianaVera.webp',
+    sketch: 'Iliana Vera es la Directora General de LAING Business Solutions. Aporta más de 20 años de experiencia en manufactura al servicio de empresas industriales como Magna y Nemak con soluciones de Industria 4.0. Iliana es también la Presidenta de la Cámara Canadiense de Coahuila. Es una defensora de los Negocios Internacionales y le apasiona ayudar a los fabricantes globales a impulsar la productividad en sus plantas y cadenas de suministro.',
+    sketch_eng: 'Iliana Vera is the General Manager at LAING Business Solutions. She brings over 20 years of manufacturing experience serving industrial companies like Magna and Nemak with Industry 4.0 solutions. Iliana is also the President of the Canadian Chamber of Coahuila. She is an International Business advocate and is passionate about helping global manufacturers drive productivity in their plants and supply chains. '
   }
 ]
 export { speakers }
