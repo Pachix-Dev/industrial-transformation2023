@@ -184,6 +184,19 @@ export function Home () {
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
+            <a href='https://www.canchammx.com/' target='_blank' rel='noreferrer'>
+              <img src='/cancham.webp' width={190} loading='lazy' alt='cancham' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
+            <a href='https://swisscham.mx/' target='_blank' rel='noreferrer'>
+              <img src='/camaraSuizo.webp' width={190} loading='lazy' alt='camarasuizo' />
+            </a>
+          </Col>
+        </Row>
+
+        <Row className='text-center'>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.gobiernoabiertogto.org.mx/' target='_blank' rel='noreferrer'>
               <img src='/gto200.webp' width={190} loading='lazy' alt='gto200' />
             </a>
@@ -215,19 +228,6 @@ export function Home () {
               <img src='/enpact.webp' width={190} loading='lazy' alt='enpact' />
             </a>
           </Col>
-
-          <Col md={3} className='mx-auto'>
-            <a href='https://www.canchammx.com/' target='_blank' rel='noreferrer'>
-              <img src='/cancham.webp' width={190} loading='lazy' alt='cancham' />
-            </a>
-          </Col>
-
-          <Col md={3} className='mx-auto'>
-            <a href='https://swisscham.mx/' target='_blank' rel='noreferrer'>
-              <img src='/camaraSuizo.webp' width={190} loading='lazy' alt='camarasuizo' />
-            </a>
-          </Col>
-
           <Col md={3} className='mx-auto'>
             <a href='https://amsoc.mx/es/inicio/' target='_blank' rel='noreferrer'>
               <img src='/80amsoc.webp' width={190} loading='lazy' alt='80 amsoc' />
