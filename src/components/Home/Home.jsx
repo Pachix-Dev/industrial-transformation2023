@@ -172,15 +172,15 @@ export function Home () {
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
-            <a href='https://www.franciamexico.com/' target='_blank' rel='noreferrer'>
-              <img src='/camara-france.webp' width={200} loading='lazy' alt='cci-france' />
+            <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
+              <img src='/giz.webp' width={190} loading='lazy' alt='giz' />
             </a>
           </Col>
         </Row>
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
-            <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
-              <img src='/giz.webp' width={190} loading='lazy' alt='giz' />
+            <a href='https://www.franciamexico.com/' target='_blank' rel='noreferrer'>
+              <img src='/camara-france.webp' width={200} loading='lazy' alt='cci-france' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
