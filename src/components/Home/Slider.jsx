@@ -135,6 +135,15 @@ export function Slider () {
             }
           </a>
         </Carousel.Item>
+        <Carousel.Item>
+          <a href='http://www.itmusicfest.com.mx/' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src='/BLACkEYEDPEAS.webp'
+              alt='black eyed peas'
+            />
+          </a>
+        </Carousel.Item>
       </Carousel>
     </div>
   )
