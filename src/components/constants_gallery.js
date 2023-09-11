@@ -309,20 +309,20 @@ const gallery2022 = [
 ]
 
 const toolkit = [
-  '/gallery/toolkit/bannerITM-toolkit1.webp',
-  '/gallery/toolkit/bannerITM-toolkit2.webp',
-  '/gallery/toolkit/bannerITM-toolkit3.webp',
-  '/gallery/toolkit/bannerITM-toolkit4.webp',
-  '/gallery/toolkit/bannerITM-toolkit5.webp',
-  '/gallery/toolkit/bannerITM-toolkit6.webp'
+  '/gallery/toolkit/Exhibitor-Banner-para-Doc.webp',
+  '/gallery/toolkit/Exhibitor-Encabezado-para-Twitter-de-viajes.webp',
+  '/gallery/toolkit/Exhibitor-Banner-horizontal.webp',
+  '/gallery/toolkit/Exhibitor-Post-para-Facebook-Horizontal.webp',
+  '/gallery/toolkit/Exhibitor-Foto-de-fondo-para-LinkedIn.webp',
+  '/gallery/toolkit/Exhibitor-Instagram-Story.webp'
 ]
 
 const toolkitNamesImg = [
-  'Banner 780 X 90 ITM',
-  'Banner Linkedin ITM',
-  'Banner Twitter ITM',
-  'Banner Facebook IMT',
-  'Banner Sitio Web ITM',
-  'Promotional ITM'
+  'Exhibitor Banner para Doc',
+  'Exhibitor Encabezado para Twitter de viajes',
+  'Exhibitor Banner horizontal',
+  'Exhibitor Post para Facebook Horizontal',
+  'Exhibitor Foto de fondo para LinkedIn',
+  'Exhibitor Instagram Story'
 ]
 export { galleryHome, gallery2019, gallery2020, gallery2021, gallery2022, toolkit, toolkitNamesImg }
