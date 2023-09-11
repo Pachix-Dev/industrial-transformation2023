@@ -94,18 +94,23 @@ export function Program () {
                                 {program.resume}
                               </Accordion.Body>
                             </Accordion.Item>
-                            </Accordion>
+                          </Accordion>
                           : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
                       </div>
                       <div className='d-inline-flex'>
                         {
                           program.avatar === ''
                             ? ''
-                            : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle program-date-avatar' alt='speaker' />
+                            : <img onClick={() => handleModal(program?.id)} src={program.avatar} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                           }
                         {
                           program?.avatar2
-                            ? <img onClick={() => handleModal(program?.id_s2)} src={program.avatar2} width={100} height={100} className='rounded-circle ms-2 program-date-avatar' alt='speaker' />
+                            ? <img onClick={() => handleModal(program?.id_s2)} src={program.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : ''
+                          }
+                        {
+                          program?.avatar3
+                            ? <img onClick={() => handleModal(program?.id_s3)} src={program.avatar3} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                           }
                       </div>
@@ -148,7 +153,7 @@ export function Program () {
                                   {program.resume}
                                 </Accordion.Body>
                               </Accordion.Item>
-                              </Accordion>
+                            </Accordion>
                             : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
                         </div>
                         <div className='d-inline-flex'>
@@ -202,7 +207,7 @@ export function Program () {
                                   {program.resume}
                                 </Accordion.Body>
                               </Accordion.Item>
-                              </Accordion>
+                            </Accordion>
                             : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
                         </div>
                         <div className='d-inline-flex'>

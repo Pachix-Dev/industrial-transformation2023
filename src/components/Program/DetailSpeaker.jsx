@@ -16,10 +16,10 @@ export function DetailSpeaker (props) {
         <Row>
           <Col md={4} className='my-auto'>
             <div className='position-relative'>
-              <img src={props?.speaker?.avatar} className='w-100' alt={props?.speaker.name} />
+              <img src={props?.speaker?.avatar} className='w-100' alt={props?.speaker?.name} />
               <div className='info_speakers'>
                 <h2>{props?.speaker?.name}</h2>
-                <p className='m-0'>{props?.speaker.rol}</p>
+                <p className='m-0'>{props?.speaker?.rol}</p>
                 <small>{props?.speaker?.company}</small>
               </div>
             </div>

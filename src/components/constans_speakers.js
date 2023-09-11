@@ -199,6 +199,16 @@ const speakers = [
   },
   {
     id: 20,
+    conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?',
+    name: 'Astrid Enelda Gonzalez Andrade',
+    company: 'Endress + Hauser Mexico',
+    rol: 'Chemical Industry Manager',
+    avatar: '/speakers/AstridGonzalez.webp',
+    sketch: 'Ingeniera en Electrónica y Comunicaciones por la Universidad Tecnológica de México. Con maestría en Domótica y Hogar Digital por la Universidad Politécnica de Madrid y un MBA por la Escuela Europea de Dirección de Empresas en Madrid, España. Con más de 10 años de experiencia en el sector de Automatización Industrial. Embajadora de la Tecnología de Diagnóstico, Verificación y Monitoreo HeartBeat Technology y del Ecosistema Digital en la Nube “Netilion”. Actualmente tomando el reto de desarrollar y crecer la participación de mercado en la Industria Química en México para equipos, servicios y soluciones de Endress + Hauser México.',
+    sketch_eng: ' '
+  },
+  {
+    id: 21,
     conference: 'Leveraging Industry 4.0 and A.I. toward Zero-Downtime, Zero-Defects',
     name: 'Iliana Vera',
     company: 'Schneider Electric',
@@ -206,6 +216,36 @@ const speakers = [
     avatar: '/speakers/ilianaVera.webp',
     sketch: 'Iliana Vera es la Directora General de LAING Business Solutions. Aporta más de 20 años de experiencia en manufactura al servicio de empresas industriales como Magna y Nemak con soluciones de Industria 4.0. Iliana es también la Presidenta de la Cámara Canadiense de Coahuila. Es una defensora de los Negocios Internacionales y le apasiona ayudar a los fabricantes globales a impulsar la productividad en sus plantas y cadenas de suministro.',
     sketch_eng: 'Iliana Vera is the General Manager at LAING Business Solutions. She brings over 20 years of manufacturing experience serving industrial companies like Magna and Nemak with Industry 4.0 solutions. Iliana is also the President of the Canadian Chamber of Coahuila. She is an International Business advocate and is passionate about helping global manufacturers drive productivity in their plants and supply chains. '
+  },
+  {
+    id: 22,
+    conference: 'El Nearshoring en el marco de la Política Industrial del siglo XXI',
+    name: 'Francisco Cervantes Díaz',
+    company: 'Consejo Coordinador Empresarial',
+    rol: 'Presidente',
+    avatar: '/speakers/franciscoCervantes.webp',
+    sketch: 'Empresario Mexicano, con más de 28 años de experiencia, con negocios en los ámbitos de la industria del plástico, materiales pétreos, sector inmobiliario y agropecuario, conjuntamente con su constante actividad    como representante del sector empresarial. Actualmente Presidente del Consejo Coordinador Empresarial (CCE). Su trayectoria profesional y su liderazgo empresarial, le ha llevado a presidir de 2018 a 2021, la Confederación de Cámaras Industriales de los Estados Unidos Mexicanos (CONCAMIN), impulsando una nueva Política Industrial, promoviendo activamente el Pacto Oaxaca y el Comité 2030 de la Industria Sostenible. Se ha desempeñado como representante del sector empresarial, destacando participación en los consejos de instituciones nacionales como Nafinsa, Bancomext, IMSS, Infonavit y Fonacot. Así mismo ha sido consejero de la Cumbre de Negocios y ha presidido la Cámara Regional de la Industria Arenera del Distrito Federal y del Estado de México, el Consejo de Cámaras y Asociaciones Empresariales del Estado de México (CONCAEM), el Consejo Empresarial Mexicano del Comercio Exterior, Inversión y Tecnología A.C. Estado de México (COMCE), el Patronato Pro Construcción de las Unidades Académicas de la Universidad del Estado de México, el Comité Bilateral México COSTA RICA, de Consejo Mexicano de Comercio Exterior, fue Vicepresidente del Patronato de la Sinfónica del Estado de México. Y expresidente de la Comisión de Infraestructura del Consejo Coordinador Empresarial (CCE).',
+    sketch_eng: ''
+  },
+  {
+    id: 23,
+    conference: 'El Nearshoring en el marco de la Política Industrial del siglo XXI',
+    name: 'Arturo Oropeza García',
+    company: 'Instituto para el Desarrollo Industrial y la Transformación Digital (INADI)',
+    rol: 'Presidente',
+    avatar: '/speakers/ArturoOropeza.webp',
+    sketch: 'Doctor en Derecho por la Universidad Nacional Autónoma de México (UNAM), e Investigador del Instituto de Investigaciones Jurídicas de la UNAM, así como Presidente del Instituto para el Desarrollo Industrial y la Transformación Digital (INADI). Es Investigador del Sistema Nacional de Investigadores (SNI) y Árbitro de Solución de Controversias por parte de Brasil dentro del mecanismo del Mercosur. Especialista en temas globales de integración y comercio internacional de Asia y América del Norte y América Latina. Ha sido conferencista y profesor invitado en diversas Universidades e instituciones de América del Norte, Asia, China, Latinoamérica, Europa y África, entre ellas: la Academia China de Ciencias Sociales de la Universidad de Beijing, China; Universidad de Bangalore, India; Universidad de Chuo, Japón; Universidad Soongsil, Corea del Sur; Universidad Autónoma de    Lisboa, Portugal; Universidad de Johannesburgo, Sudáfrica; la Secretaría Iberoamericana (SEGIB) en España; la Organización de los Estados Americanos (OEA), la Comisión Económica para América Latina y el Caribe (CEPAL), entre muchas otras.',
+    sketch_eng: ''
+  },
+  {
+    id: 24,
+    conference: 'El Nearshoring en el marco de la Política Industrial del siglo XXI',
+    name: 'José Guillermo Zozaya Délano',
+    company: 'Asociación Mexicana de la Industria Automotriz',
+    rol: 'Presidente Ejecutivo',
+    avatar: '/speakers/JoseZozaya.webp',
+    sketch: 'El Dr. Zozaya es Presidente Ejecutivo de la Asociación Mexicana de la Industria Automotriz a partir de Agosto del 2020. Fungió como Presidente, Gerente General y Representante Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM),empresa subsidiaria de Kansas City Southern (KCS) (NYSE: KSU), desde Abril del 2006 a Julio del 2020. Cuenta con más de 40 años de experiencia en relaciones gubernamentales, asuntos legales y asuntos internacionales, así como en fusiones y adquisiciones. Previo a ser Presidente Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM), fue Director Jurídico y de Relaciones Gubernamentales de ExxonMobil México, posición que ocupó durante nueve años. Tiene un Doctorado Honoris Causa otorgado por parte de la Academia Mexicana de Derecho Internacional y una Licenciatura en Derecho por la Universidad Iberoamericana. Realizó estudios avanzados en Derecho Corporativo y Competencia Económica en el Instituto Tecnológico Autónomo de México, cursó el programa ejecutivo de Administración de Empresas Internacionales en la Universidad Thunderbird en Arizona, el programa de gestión para abogados en la Universidad de Yale y el curso ejecutivo para miembros del consejo de administración en la Escuela de Negocios de Harvard. Fue también Presidente de la Asociación Mexicana de Ferrocarriles para el periodo 2020 – 2021; Vicepresidente de CONCAMIN desde 2018, miembro del Consejo de Administración de Afore Siglo XXI, de la empresa Ferrovalle y de Cumbre de Negocios. Desde el 24 de mayo de 2016, fue nombrado Presidente del Consejo Binacional de Directores de la US-Mexico Chamber of Commerce. Fue Presidente del Consejo Mexicano del Transporte (2014 – 2016), Vicepresidente del Consejo Ejecutivo de Empresas Globales (2010 – 2013), Presidente Nacional de la American Chamber durante dos periodos (2010 – 2012), es miembro del Patronato de la Orquesta Sinfónica del Estado de México y miembro del board de Fomento Educacional A.C.',
+    sketch_eng: ''
   }
 ]
 export { speakers }
