@@ -154,7 +154,6 @@ export function Home () {
             </a>
           </Col>
         </Row>
-
         <h3 className='mt-5 mb-5'>{t('home.strategic_allies')}</h3>
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
@@ -178,8 +177,12 @@ export function Home () {
             </a>
           </Col>
         </Row>
-
         <Row className='text-center'>
+          <Col md={3} className='mx-auto'>
+            <a href='https://www.franciamexico.com/' target='_blank' rel='noreferrer'>
+              <img src='/camara-france.webp' width={200} loading='lazy' alt='cci-france' />
+            </a>
+          </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://www.gobiernoabiertogto.org.mx/' target='_blank' rel='noreferrer'>
               <img src='/gto200.webp' width={190} loading='lazy' alt='gto200' />
