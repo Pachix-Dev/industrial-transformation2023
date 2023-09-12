@@ -66,12 +66,11 @@ export function Home () {
         </Row>
         <h2 className='mt-5'>{t('menu.exhibitors')}</h2>
         <ExibitorSlide />
-
         <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
         <Row className='text-center  pb-5'>
           <Col md={4}>
             <a href='https://www.se.com/mx/es/' target='_blank' rel='noreferrer'>
-              <img src='/logoSchneider.webp' width={250} loading='lazy' alt='schneider' />
+              <img src='/logoSchneider.webp' width={185} loading='lazy' alt='schneider' className='py-3' />
             </a>
           </Col>
           <Col md={4}>
