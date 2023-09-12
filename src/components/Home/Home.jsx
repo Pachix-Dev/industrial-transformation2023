@@ -75,12 +75,12 @@ export function Home () {
           </Col>
           <Col md={4}>
             <a href='https://mx.mitsubishielectric.com/fa/en' target='_blank' rel='noreferrer'>
-              <img src='/mitsubishi.webp' width={250} loading='lazy' alt='mitsubishi' />
+              <img src='/mitsubishi.webp' width={250} loading='lazy' alt='mitsubishi' className='py-3' />
             </a>
           </Col>
           <Col md={4}>
             <a href='https://new.siemens.com/mx/es.htm' target='_blank' rel='noreferrer'>
-              <img src='/siemens.webp' width={250} loading='lazy' alt='siemens' />
+              <img src='/siemens.webp' width={300} loading='lazy' alt='siemens' />
             </a>
           </Col>
         </Row>
@@ -178,24 +178,6 @@ export function Home () {
         </Row>
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
-            <a href='https://www.franciamexico.com/' target='_blank' rel='noreferrer'>
-              <img src='/camara-france.webp' width={200} loading='lazy' alt='cci-france' />
-            </a>
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <a href='https://www.canchammx.com/' target='_blank' rel='noreferrer'>
-              <img src='/cancham.webp' width={190} loading='lazy' alt='cancham' />
-            </a>
-          </Col>
-          <Col md={3} className='mx-auto'>
-            <a href='https://swisscham.mx/' target='_blank' rel='noreferrer'>
-              <img src='/camaraSuizo.webp' width={190} loading='lazy' alt='camarasuizo' />
-            </a>
-          </Col>
-        </Row>
-
-        <Row className='text-center'>
-          <Col md={3} className='mx-auto'>
             <a href='https://www.gobiernoabiertogto.org.mx/' target='_blank' rel='noreferrer'>
               <img src='/gto200.webp' width={190} loading='lazy' alt='gto200' />
             </a>
@@ -236,6 +218,23 @@ export function Home () {
           <Col md={3} className='mx-auto'>
             <a href='https://www.cinvestav.mx/' target='_blank' rel='noreferrer'>
               <img src='/cinvestav.webp' width={190} loading='lazy' alt='cinvestav' />
+            </a>
+          </Col>
+        </Row>
+        <Row className='text-center'>
+          <Col md={3} className='mx-auto'>
+            <a href='https://www.franciamexico.com/' target='_blank' rel='noreferrer'>
+              <img src='/camara-france.webp' width={200} loading='lazy' alt='cci-france' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
+            <a href='https://www.canchammx.com/' target='_blank' rel='noreferrer'>
+              <img src='/cancham.webp' width={190} loading='lazy' alt='cancham' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
+            <a href='https://swisscham.mx/' target='_blank' rel='noreferrer'>
+              <img src='/camaraSuizo.webp' width={190} loading='lazy' alt='camarasuizo' />
             </a>
           </Col>
         </Row>
