@@ -310,11 +310,11 @@ export function Home () {
           </Col>
 
           <Col md={3} className='mx-auto'>
-            <Col md={3} className='mx-auto'>
-              <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
-                <img src='/heraldo.webp' width={200} loading='lazy' alt='Heraldo' />
-              </a>
-            </Col>
+            <a href='https://heraldodemexico.com.mx/' target='_blank' rel='noreferrer'>
+              <img src='/heraldo.webp' width={200} loading='lazy' alt='Heraldo' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto'>
             <a href='https://www.am.com.mx/' target='_blank' rel='noreferrer'>
               <img src='/am.webp' width={200} loading='lazy' alt='AM ' />
             </a>
