@@ -69,11 +69,13 @@ export function Slider () {
           </a>
         </Carousel.Item>
         <Carousel.Item>
-          <img
-            className='d-block w-100'
-            src='/bjxareospace.webp'
-            alt='BJX-AEROSPACE-SUMMIT-4.0-2023'
-          />
+          <a href='https://www.bjxaerospace.org/' target='_blank' rel='noreferrer'>
+            <img
+              className='d-block w-100'
+              src='/bjxareospace.webp'
+              alt='BJX-AEROSPACE-SUMMIT-4.0-2023'
+            />
+          </a>
         </Carousel.Item>
         <Carousel.Item>
           <a href='https://industrialtransformation.mx/futuristic-minds/' target='_blank' rel='noreferrer'>
