@@ -261,7 +261,7 @@ const speakers = [
     id: 26,
     conference: 'Improving manufacturing: industrial robots & AI',
     name: 'Jeff Burnstein',
-    company: 'Cisco LATAM',
+    company: 'Association for Advancing Automation (A3)',
     rol: 'Presidente',
     avatar: '/speakers/JeffBurnstein.webp',
     sketch: 'Jeff Burnstein is President of the Association for Advancing Automation (A3), the leading North American trade group representing over 1160 global companies involved in robotics, artificial intelligence, vision, motion control and related automation technologies. Burnstein joined the association in 1983 and has held a variety of senior positions, culminating in his promotion to President in 2007.  He is a frequent commentator in the media, often discusses automation issues with policy makers, and regularly speaks at global conferences on issues such as global automation trends, the impact of automation on jobs and the future of automation beyond the factory floor. Burnstein also serves on the Executive Board of the International Federation of Robotics (IFR). He was recently honored with the Engelberger Award for Leadership, considered the “Nobel Prize of Robotics.”',
