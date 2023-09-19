@@ -72,7 +72,7 @@ export function Program () {
                 {programs?.oct_4.map((program, index) => {
                   return (
                     <div key={index} className='program-date-item'>
-                      <div style={{ width: '100px' }}>
+                      <div style={{ width: '200px' }}>
                         <p>
                           <strong>{program.hour}</strong><br />
                           <svg width={20} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor'>
@@ -97,7 +97,7 @@ export function Program () {
                           </Accordion>
                           : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
                       </div>
-                      <div className='d-inline-flex'>
+                      <div className='d-block text-end' style={{ width: '-webkit-fill-available' }}>
                         {
                           program.avatar === ''
                             ? ''
@@ -105,12 +105,22 @@ export function Program () {
                           }
                         {
                           program?.avatar2
-                            ? <img onClick={() => handleModal(program?.id_s2)} src={program.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            ? <img onClick={() => handleModal(program?.id_s2)} src={program.avatar2} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                           }
                         {
                           program?.avatar3
-                            ? <img onClick={() => handleModal(program?.id_s3)} src={program.avatar3} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            ? <img onClick={() => handleModal(program?.id_s3)} src={program.avatar3} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : ''
+                          }
+                        {
+                          program?.avatar4
+                            ? <img onClick={() => handleModal(program?.id_s4)} src={program.avatar4} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : ''
+                          }
+                        {
+                          program?.avatar5
+                            ? <img onClick={() => handleModal(program?.id_s5)} src={program.avatar5} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                           }
                       </div>
@@ -165,6 +175,16 @@ export function Program () {
                           {
                           program?.avatar2
                             ? <img onClick={() => handleModal(program?.id_s2)} src={program.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : ''
+                          }
+                          {
+                          program?.avatar3
+                            ? <img onClick={() => handleModal(program?.id_s3)} src={program.avatar3} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : ''
+                          }
+                          {
+                          program?.avatar4
+                            ? <img onClick={() => handleModal(program?.id_s4)} src={program.avatar4} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                           }
                         </div>

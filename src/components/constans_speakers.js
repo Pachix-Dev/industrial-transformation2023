@@ -246,6 +246,136 @@ const speakers = [
     avatar: '/speakers/JoseZozaya.webp',
     sketch: 'El Dr. Zozaya es Presidente Ejecutivo de la Asociación Mexicana de la Industria Automotriz a partir de Agosto del 2020. Fungió como Presidente, Gerente General y Representante Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM),empresa subsidiaria de Kansas City Southern (KCS) (NYSE: KSU), desde Abril del 2006 a Julio del 2020. Cuenta con más de 40 años de experiencia en relaciones gubernamentales, asuntos legales y asuntos internacionales, así como en fusiones y adquisiciones. Previo a ser Presidente Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM), fue Director Jurídico y de Relaciones Gubernamentales de ExxonMobil México, posición que ocupó durante nueve años. Tiene un Doctorado Honoris Causa otorgado por parte de la Academia Mexicana de Derecho Internacional y una Licenciatura en Derecho por la Universidad Iberoamericana. Realizó estudios avanzados en Derecho Corporativo y Competencia Económica en el Instituto Tecnológico Autónomo de México, cursó el programa ejecutivo de Administración de Empresas Internacionales en la Universidad Thunderbird en Arizona, el programa de gestión para abogados en la Universidad de Yale y el curso ejecutivo para miembros del consejo de administración en la Escuela de Negocios de Harvard. Fue también Presidente de la Asociación Mexicana de Ferrocarriles para el periodo 2020 – 2021; Vicepresidente de CONCAMIN desde 2018, miembro del Consejo de Administración de Afore Siglo XXI, de la empresa Ferrovalle y de Cumbre de Negocios. Desde el 24 de mayo de 2016, fue nombrado Presidente del Consejo Binacional de Directores de la US-Mexico Chamber of Commerce. Fue Presidente del Consejo Mexicano del Transporte (2014 – 2016), Vicepresidente del Consejo Ejecutivo de Empresas Globales (2010 – 2013), Presidente Nacional de la American Chamber durante dos periodos (2010 – 2012), es miembro del Patronato de la Orquesta Sinfónica del Estado de México y miembro del board de Fomento Educacional A.C.',
     sketch_eng: ''
+  },
+  {
+    id: 25,
+    conference: 'Ciberseguridad 4.0: Estrategia y Táctica desde la Trinchera',
+    name: 'Paco Bolaños',
+    company: 'Cisco LATAM',
+    rol: 'Arquitecto de IoT Transformación Digital',
+    avatar: '/speakers/pacoBolanos.webp',
+    sketch: 'Paco tiene 26 años de experiencia profesional en la industria de las telecomunicaciones y 23 años de experiencia en Cisco Systems, atendiendo sectores como Proveedores de Servicio, Sector Público, e Industriales, participando en el diseño y desarrollo de proyectos con cuentas estratégicas. Desde 2013 se desempeña como arquitecto para temas de Internet de las Cosas y Transformación Digital para Latinoamérica. Sus áreas de especialización incluyen: Internet de las cosas, Industria 4.0, Transformación digital, Diseño de redes, Ciberseguridad para sistemas de control industrial, Petróleo y Gas, Energía, Manufactura, y Minería. Es Ingeniero en Electrónica y Comunicaciones por el Instituto Politécnico Nacional de México, tiene una Micro Maestría en Liderazgo y Gestión de Negocios Globales por la Universidad Estatal de Arizona, Una Micromaestría en Sistemas de Información por la Universidad de Indiana, y un Certificado Profesional en Transformación Digital por parte del Instituto Tecnológico de Massachussets (MIT) y diversos diplomas por las universidades Harvard, Arizona y el Banco Interamericano de Desarrollo. También ha participado como ponente en los siguientes foros: IEEE ROC México, Cisco Live, Instituto Mexicano del Petróleo, Rockwell´s RSTech Ed, Tech de Monterrey, UANL, ITAM, Congreso Internacional de Innovación Tecnológica CIIT Perú, Cámara de Comercio Americana de México, Frost & Sullivan, Nuevo León 4.0, Industrial Transformation Mexico, e Innovation for Realization (I4R). También ha escrito diversos blogs y artículos técnicos sobre temas de su especialidad en medios como el periódico El Occidental, la revista Infochannel, RedesTI, y el periodico El Economista, entre otros.',
+    sketch_eng: ''
+  },
+  {
+    id: 26,
+    conference: 'Improving manufacturing: industrial robots & AI',
+    name: 'Jeff Burnstein',
+    company: 'Cisco LATAM',
+    rol: 'Presidente',
+    avatar: '/speakers/JeffBurnstein.webp',
+    sketch: 'Jeff Burnstein is President of the Association for Advancing Automation (A3), the leading North American trade group representing over 1160 global companies involved in robotics, artificial intelligence, vision, motion control and related automation technologies. Burnstein joined the association in 1983 and has held a variety of senior positions, culminating in his promotion to President in 2007.  He is a frequent commentator in the media, often discusses automation issues with policy makers, and regularly speaks at global conferences on issues such as global automation trends, the impact of automation on jobs and the future of automation beyond the factory floor. Burnstein also serves on the Executive Board of the International Federation of Robotics (IFR). He was recently honored with the Engelberger Award for Leadership, considered the “Nobel Prize of Robotics.”',
+    sketch_eng: ''
+  },
+  {
+    id: 27,
+    conference: 'A Rewiring of Global Value Chains',
+    name: 'Horacio Leal',
+    company: 'Kearney',
+    rol: 'Principal',
+    avatar: '/speakers/LealHoracio.webp',
+    sketch: 'Horacio is Principal at Kearney mostly involved in the Financial Services, Operations, and Government practices. He has +10 years of experience in management consulting, central & development banking, macroeconomic & industry policy. His client support has lied in areas including production & Industry 4.0 strategy, economic development, public finance management, and urban mobility. He has served clients in Mexico, Europe, South America, and the Middle East During 2018, Horacio was seconded by Kearney to the World Economic Forum, where he contributed to develop the institution’s agenda on the Future of Production in the context of the Fourth Industrial Revolution (4IR), working on a regional 4IR readiness approach and developing insights on digital platforms and business models Horacio holds a Master in Business Administration from MIT, a Master in Public Administration in International Development (MPA/ID) from Harvard University, a B.A. in Economics from ITAM and a B.Sc. in Applied Mathematics from ITAM.',
+    sketch_eng: ''
+  },
+  {
+    id: 28,
+    conference: 'Sistemas de Gestión de Datos para el Control y Automatización de Procesos Industriales',
+    name: 'Jason Deng',
+    company: 'HollySys',
+    rol: 'Principal',
+    avatar: '/speakers/jasonDeng.webp',
+    sketch: 'Especialista senior en soporte técnico de HollySys Automation. Más de 10 años de experiencia en soporte técnico de automatización.',
+    sketch_eng: 'Senior technical support specialist from HollySys Automation. More than 10 years of experience in automation technical support.'
+  },
+  {
+    id: 29,
+    conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
+    name: 'Valeria Rivera',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Directora de Comunicación y Desarrollo de Negocios',
+    avatar: '/speakers/VRivera.webp',
+    sketch: 'Valeria Rivera, directora de Comunicación y Desarrollo de Negocios, Siemens México, Centroamérica y el Caribe.',
+    sketch_eng: ''
+  },
+  {
+    id: 30,
+    conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
+    name: 'Roger Guerrero',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Head de Factory Automation and Motion Control',
+    avatar: '/speakers/RGuerrero.webp',
+    sketch: 'Roger Guerrero, Head de Factory Automation and Motion Control, Siemens México, Centroamérica y el Caribe.',
+    sketch_eng: ''
+  },
+  {
+    id: 31,
+    conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
+    name: 'Jair Mexia',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Head de Electrical Products',
+    avatar: '/speakers/JairMexia.webp',
+    sketch: 'Jair Mexia, Head de Electrical Products, Siemens México, Centroamérica y el Caribe.',
+    sketch_eng: ''
+  },
+  {
+    id: 32,
+    conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
+    name: 'Rodrigo Zavala',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Head de Process Automation',
+    avatar: '/speakers/RZavala.webp',
+    sketch: 'Rodrigo Zavala, Head de Process Automation, Siemens México, Centroamérica y el Caribe.',
+    sketch_eng: ''
+  },
+  {
+    id: 33,
+    conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
+    name: 'Gonzalo Matteoda',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Head de Customer Services',
+    avatar: '/speakers/Gmatteoda.webp',
+    sketch: 'Gonzalo Matteoda, Head de Customer Services, Siemens México, Centroamérica y el Caribe.',
+    sketch_eng: ''
+  },
+  {
+    id: 34,
+    conference: 'Tres pilares de la Industria 4.0',
+    name: 'Heiko Herden',
+    company: 'Grupo de trabajo OPC UA para maquinaria',
+    rol: 'Coordinador del proyecto VDMA y presidente del grupo de trabajo OPC UA para maquinaria',
+    avatar: '/speakers/HerdenHeiko.webp',
+    sketch: 'Responsable de la coordinación y el apoyo de unos 40 grupos de trabajo en el ámbito de la creación de “OPC UA Companion Specifications”. Jefe del grupo de armonización de OPC UA para Maquinaria, en el que se define la información básica para la comunicación de Industrie 4.0 a través de OPC UA para todo el ámbito de la ingeniería de maquinaria e instalaciones. Jefe del grupo de gestión del consumo de energía para la armonización de los datos de consumo de energía junto con PI y ODVA. Colaboración en el proyecto II4IP financiado por el Ministerio Federal de Economía y Protección del Clima de Alemania y participación en varios otros comités, por ejemplo, en la Asociación de Gemelos Digitales Industriales o con la Sociedad para la Cooperación Internacional.',
+    sketch_eng: ''
+  },
+  {
+    id: 35,
+    conference: 'Tres pilares de la Industria 4.0',
+    name: 'Ricardo Ibáñez',
+    company: 'Siemens Digital Industries',
+    rol: 'Project Management Officer',
+    avatar: '/speakers/ricardoIbanez.webp',
+    sketch: 'Ing. Ricardo Ibáñez, cuenta con más de 16 años de experiencia en la gestión de proyectos de automatización, transformación digital y ciberseguridad. Actualmente es titular de la Oficina de Proyectos (PMO) en Siemens Digital Industries donde es responsable del diseño e implementación de procesos y estrategias de Ciberseguridad Industrial alineados a los estándares internacionales y buenas prácticas de la Industria. Sus intereses giran en torno a brindar apoyo a las empresas en el desarrollo de estrategias de Transformación Digital y Ciberseguridad alineadas a sus objetivos y capacidades.',
+    sketch_eng: ''
+  },
+  {
+    id: 36,
+    conference: 'Tres pilares de la Industria 4.0',
+    name: 'Carlos Ramírez',
+    company: 'WAGO',
+    rol: 'Gerente Técnico',
+    avatar: '/speakers/JCRV.webp',
+    sketch: 'Carlos Ramirez, estudió la carrera de Ingeniería en Sistemas con especialidad en Automatización y Control. Desde 2009 colaboró con un distribuidor/integrador principalmente en el área de automatización y soporte. En 2015 se une a WAGO como gerente regional de la zona sureste, en 2016 inició actividades de soporte técnico de productos WAGO, especialmente en el área de Automatización, a nivel nacional como Ingeniero de Aplicaciones. En 2021 tomó el cargo de Gerente técnico, apoyando con el equipo, a usuarios internos y externos de WAGO en la preparación de su personal con capacitaciones, soporte, y selección de equipo para el desarrollo de sus aplicaciones en automatización. Actualmente se encuentra estudiando el diplomado "European Energy Manager".',
+    sketch_eng: ''
+  },
+  {
+    id: 37,
+    conference: 'Tres pilares de la Industria 4.0',
+    name: 'Lilia de Diego',
+    company: 'GIZ México',
+    rol: 'Asesora Técnica, GIZ México',
+    avatar: '/speakers/liliadeDiego.webp',
+    sketch: 'Es asesora técnica del Proyecto Global Infraestructura de la Calidad (GPQI) comisionado por el Ministerio Federal de Economía y Protección del Clima (BMWK) de Alemania para facilitar el Diálogo Mexicano – Alemán en Infraestructura de la Calidad. Desde hace seis años colabora en la Cooperación Técnica Alemana (GIZ) en México en donde trabaja en temas de ciberseguridad e Industria 4.0. Tiene más de diez años de experiencia en innovación e industria y tiene una especialidad en gobernanza global por el Instituto Alemán para el Desarrollo y la Sustentabilidad (IDOS), con sede en Bonn, Alemania. Lilia es internacionalista por la Universidad Nacional Autónoma de México y tiene una maestría en Estudios Regionales por el Instituto Mora.',
+    sketch_eng: ''
   }
 ]
 export { speakers }

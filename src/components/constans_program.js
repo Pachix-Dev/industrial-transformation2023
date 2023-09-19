@@ -1,16 +1,7 @@
 const programITM = {
   stage_1: {
     oct_4: [
-      {
-        hour: '10:15 hrs',
-        duration: '45 min',
-        name: 'Alejandro Preinfalk',
-        id: 1,
-        avatar: '/speakers/AlejandroPreinfalk.webp',
-        rol: 'Presidente y CEO',
-        conference: 'Metaverso Industrial: ¿realidad o ficción?',
-        resume: "Muchas personas asocian el término 'metaverso' con un colorido mundo virtual para el entretenimiento y las compras, sin embargo, el ‘metaverso industrial’ tiene el potencial de revolucionar el mundo real de maneras nunca vistas: al permitir que las fábricas, los edificios y las ciudades sean más eficientes y sostenibles. Todos los componentes básicos para el metaverso industrial ya están en su lugar, entonces, ¿qué nos falta para hacerlo una realidad?."
-      },
+
       {
         hour: '11:00 hrs',
         duration: '60 min',
@@ -35,10 +26,30 @@ const programITM = {
         hour: '13:30 hrs',
         duration: '60 min',
         name: 'Jeff Burnstein',
-        id: 2,
-        avatar: '',
-        rol: 'A3 kenoyte',
+        id: 26,
+        avatar: '/speakers/JeffBurnstein.webp',
+        rol: 'Presidente',
         conference: 'Improving manufacturing: industrial robots & AI',
+        resume: ''
+      },
+      {
+        hour: '14:30 hrs',
+        duration: '45 min',
+        name: 'Alejandro Preinfalk',
+        id: 1,
+        avatar: '/speakers/AlejandroPreinfalk.webp',
+        rol: 'Presidente y CEO',
+        conference: 'Metaverso Industrial: ¿realidad o ficción?',
+        resume: "Muchas personas asocian el término 'metaverso' con un colorido mundo virtual para el entretenimiento y las compras, sin embargo, el ‘metaverso industrial’ tiene el potencial de revolucionar el mundo real de maneras nunca vistas: al permitir que las fábricas, los edificios y las ciudades sean más eficientes y sostenibles. Todos los componentes básicos para el metaverso industrial ya están en su lugar, entonces, ¿qué nos falta para hacerlo una realidad?."
+      },
+      {
+        hour: '15:15 hrs',
+        duration: '45 min',
+        name: 'Paco Bolaños',
+        id: 25,
+        avatar: '/speakers/pacoBolanos.webp',
+        rol: 'Arquitecto de IoT Transformación Digital',
+        conference: 'Ciberseguridad 4.0: Estrategia y Táctica desde la Trinchera',
         resume: ''
       }
     ],
@@ -64,6 +75,18 @@ const programITM = {
         rol: 'Industrial Automation Business Developer Manager | Channel & Development Manager',
         conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
         resume: 'Descubre cómo la diversidad de género impulsa la innovación y el crecimiento en el campo de la Ingeniería, y cómo la inclusión de más mujeres en puestos técnicos y de liderazgo beneficia a toda la industria. A través de historias inspiradoras y experiencias personales, nuestras oradoras compartirán ideas y consejos sobre cómo superar los desafíos y lograr el éxito en un entorno tradicionalmente dominado por hombres.'
+      },
+      {
+        hour: '13:45 hrs',
+        duration: '60 min',
+        name: 'Panel: Siemens, Cisco, Nokia ',
+        id: '',
+        avatar: '',
+        id_s2: '',
+        avatar2: '',
+        rol: '',
+        conference: 'Industria 4.0: desde una perspectiva sustentable y humana',
+        resume: ''
       },
       {
         hour: '14:45 hrs',
@@ -111,27 +134,26 @@ const programITM = {
         hour: '13:30 hrs',
         duration: '30 min',
         name: 'Horacio Leal',
-        id: '',
-        avatar: '',
-        rol: 'Principal, Kearney',
+        id: 27,
+        avatar: '/speakers/LealHoracio.webp',
+        rol: 'Principal',
         conference: 'A Rewiring of Global Value Chains',
         resume: ''
+      },
+      {
+        hour: '15:00 hrs',
+        duration: '60 min',
+        name: 'Jason Deng',
+        id: 28,
+        avatar: '/speakers/jasonDeng.webp',
+        rol: 'Principal',
+        conference: 'Sistemas de Gestión de Datos para el Control y Automatización de Procesos Industriales',
+        resume: ' La conferencia muestra a los asistentes sistemas de última generación para llevar el control de procesos industriales, y aumentar así la eficiencia operativa, mediante el ahorro de costos de producción y tiempo, el aumento de la seguridad funcional de las plantas y cumplimiento de normativas fiscales, administrativas y ambientales'
       }
     ]
   },
   stage_2: {
     oct_4: [
-      {
-        hour: '10:00 hrs',
-        duration: '45 min',
-        name: 'Astrid Enelda González',
-        id: 20,
-        avatar: '/speakers/AstridGonzalez.webp',
-        rol: 'Chemical Industry Manager',
-        conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?',
-        resume: 'Mayor tiempo productivo gracias al mantenimiento predictivo de la tecnología Heartbeat y un ecosistema en la nube (Netilion). Monitoree y mitigue los riesgos con tecnología de punta, alta seguridad y ciberseguridad.'
-
-      },
       {
         hour: '12:00 hrs',
         duration: '45 min',
@@ -159,6 +181,17 @@ const programITM = {
 
       },
       {
+        hour: '14:00 hrs',
+        duration: '45 min',
+        name: 'Astrid Enelda González',
+        id: 20,
+        avatar: '/speakers/AstridGonzalez.webp',
+        rol: 'Chemical Industry Manager',
+        conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?',
+        resume: 'Mayor tiempo productivo gracias al mantenimiento predictivo de la tecnología Heartbeat y un ecosistema en la nube (Netilion). Monitoree y mitigue los riesgos con tecnología de punta, alta seguridad y ciberseguridad.'
+
+      },
+      {
         hour: '15:00 hrs',
         duration: '45 min',
         name: 'Roberto Tepoz | Eduardo Espino',
@@ -179,6 +212,24 @@ const programITM = {
         rol: 'Offer Manager Digital Services MX & CAM',
         conference: 'Desbloquea el potencial de los Servicios Digitales para la Industria 4.0',
         resume: 'El monitoreo en tiempo real y el análisis avanzado de datos pueden optimizar la eficiencia operativa, prevenir fallas y maximizar la vida útil de los activos industriales. Descubre cómo los Servicios Digitales están revolucionando la forma en que las industrias operan y toman decisiones estratégicas.'
+      },
+      {
+        hour: '16:30 hrs',
+        duration: '60 min',
+        name: 'Valeria Rivera | Roger Guerrero | Jair Mexia | Rodrigo Zavala | Gonzalo Matteoda',
+        id: 29,
+        id_s2: 30,
+        id_s3: 31,
+        id_s4: 32,
+        id_s5: 33,
+        avatar: '/speakers/VRivera.webp',
+        avatar2: '/speakers/RGuerrero.webp',
+        avatar3: '/speakers/JairMexia.webp',
+        avatar4: '/speakers/RZavala.webp',
+        avatar5: '/speakers/Gmatteoda.webp',
+        rol: 'Directora de Comunicación y Desarrollo de Negocios | Head de Factory Automation and Motion Control | Head de Electrical Products | Head de Process Automation | Head de Customer Services',
+        conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
+        resume: 'En este panel, expertos de sectores de automatización de procesos y fábricas; electrificación ciberseguridad y digitalización se reunirán para explorar cómo la transformación digital está desempeñando un papel fundamental en la promoción de la sostenibilidad. Se discutirán casos de éxito, estrategias innovadoras y las últimas tendencias en tecnología que están permitiendo a las empresas mejorar su eficiencia, reducir su huella ambiental y avanzar hacia prácticas sustentables.'
       }
 
     ],
@@ -198,10 +249,18 @@ const programITM = {
       {
         hour: '15:00 hrs',
         duration: '60 min',
-        name: 'Heiko Herden',
-        avatar: '',
-        rol: 'Coordinador del proyecto VDMA y presidente del grupo de trabajo OPC UA para maquinaria',
-        conference: 'Tres pilares de la Industria 4.0'
+        name: 'Heiko Herden | Ricardo Ibáñez | Carlos Ramírez | Lilia de Diego',
+        id: 34,
+        id_s2: 35,
+        id_s3: 36,
+        id_s4: 37,
+        avatar: '/speakers/HerdenHeiko.webp',
+        avatar2: '/speakers/ricardoIbanez.webp',
+        avatar3: '/speakers/JCRV.webp',
+        avatar4: '/speakers/liliadeDiego.webp',
+        rol: 'Coordinador del proyecto VDMA y presidente del grupo de trabajo OPC UA para maquinaria | Project Management Officer, Siemens Digital Industries | Gerente Técnico, WAGO | Asesora Técnica, GIZ México',
+        conference: 'Tres pilares de la Industria 4.0',
+        resume: 'Actualmente estamos frente a una transición en dos vertientes: hacia la digitalización y hacia una economía verde. ¿Cómo debería ser la industria 4.0 del futuro? En este panel se buscará transmitir a la audiencia tres pilares fundamentales de la Industria 4.0 para un óptimo desempeño de las soluciones tecnológicas y digitales y, que al mismo tiempo contribuyan con la transición hacía la economía verde. En este sentido, los pilares que serán abordados son la interoperabilidad, es decir la comunicación entre las máquinas, la ciberseguridad y la sustentabilidad.'
       },
       {
         hour: '17:15 hrs',
