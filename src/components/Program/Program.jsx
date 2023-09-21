@@ -156,7 +156,7 @@ export function Program () {
                               <Accordion.Item eventKey={index}>
                                 <Accordion.Header>
                                   <h2>{program.name}</h2>
-                                  <p>{program.rol}</p>
+                                  <p>{program.rol} <strong>{program?.company}</strong></p>
                                   <h6>{program.conference}</h6>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -164,7 +164,7 @@ export function Program () {
                                 </Accordion.Body>
                               </Accordion.Item>
                             </Accordion>
-                            : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
+                            : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                         </div>
                         <div className='d-inline-flex'>
                           {
@@ -220,7 +220,7 @@ export function Program () {
                               <Accordion.Item eventKey={index}>
                                 <Accordion.Header>
                                   <h2>{program.name}</h2>
-                                  <p>{program.rol}</p>
+                                  <p>{program.rol} <strong>{program?.company}</strong></p>
                                   <h6>{program.conference}</h6>
                                 </Accordion.Header>
                                 <Accordion.Body>
@@ -228,7 +228,7 @@ export function Program () {
                                 </Accordion.Body>
                               </Accordion.Item>
                             </Accordion>
-                            : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
+                            : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                         </div>
                         <div className='d-inline-flex'>
                           {
