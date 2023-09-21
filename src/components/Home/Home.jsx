@@ -111,12 +111,12 @@ export function Home () {
         </Row>
         <Row className='text-center'>
           <Col md className='my-auto'>
-            <a href='https://isat.com.mx/' target='_blank' rel='noreferrer'>
+            <a href='https://www.plannet.mx/' target='_blank' rel='noreferrer'>
               <img className='my-4' src='/planet.webp' width={250} loading='lazy' alt='planet' />
             </a>
           </Col>
           <Col md className='mx-auto my-auto'>
-            <a href='https://www.plannet.mx/' target='_blank' rel='noreferrer'>
+            <a href='https://www.roue.com.mx/' target='_blank' rel='noreferrer'>
               <img src='/roue.webp' width={220} loading='lazy' alt='roue' />
             </a>
           </Col>
