@@ -108,9 +108,16 @@ export function Home () {
               <img className='my-4' src='/isat.webp' width={180} loading='lazy' alt='isat' />
             </a>
           </Col>
+        </Row>
+        <Row className='text-center'>
+          <Col md className='my-auto'>
+            <a href='https://www.plannet.mx/' target='_blank' rel='noreferrer'>
+              <img className='my-4' src='/planet.webp' width={250} loading='lazy' alt='planet' />
+            </a>
+          </Col>
           <Col md className='mx-auto my-auto'>
             <a href='https://www.roue.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/roue.webp' width={180} loading='lazy' alt='roue' />
+              <img src='/roue.webp' width={220} loading='lazy' alt='roue' />
             </a>
           </Col>
         </Row>
@@ -139,9 +146,16 @@ export function Home () {
               <img src='/ientc.webp' width={250} loading='lazy' alt='ientc' />
             </a>
           </Col>
+        </Row>
+        <Row className='text-center'>
           <Col md={3} className='mx-auto my-auto'>
             <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
               <img src='/kaeser_1.webp' width={250} loading='lazy' alt='kaeser' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://www.boschrexroth.com/es/mx/' target='_blank' rel='noreferrer'>
+              <img src='/rexroth.webp' width={200} loading='lazy' alt='rexroth' />
             </a>
           </Col>
         </Row>
@@ -337,7 +351,6 @@ export function Home () {
               <img src='/revistapreferencia.webp' width={200} loading='lazy' alt='vanguardia ' />
             </a>
           </Col>
-
         </Row>
 
       </Container>
