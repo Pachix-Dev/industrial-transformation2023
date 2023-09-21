@@ -19,6 +19,7 @@ const programITM = {
         id_s2: 3,
         avatar2: '/speakers/MariaFernandaSilva.webp',
         rol: 'Offer Marketing Manager | Sales Manager',
+        company: '- Schneider Electric',
         conference: 'Digitalización y automatización para una industria sostenible',
         resume: 'a combinación de tecnologías digitales y automatización está impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
       },
@@ -29,6 +30,7 @@ const programITM = {
         id: 26,
         avatar: '/speakers/JeffBurnstein.webp',
         rol: 'Presidente',
+        company: '- Association for Advancing Automation (A3)',
         conference: 'Improving manufacturing: industrial robots & AI',
         resume: ''
       },
@@ -39,6 +41,7 @@ const programITM = {
         id: 1,
         avatar: '/speakers/AlejandroPreinfalk.webp',
         rol: 'Presidente y CEO',
+        company: '- Siemens México, Centroamérica y el Caribe',
         conference: 'Metaverso Industrial: ¿realidad o ficción?',
         resume: "Muchas personas asocian el término 'metaverso' con un colorido mundo virtual para el entretenimiento y las compras, sin embargo, el ‘metaverso industrial’ tiene el potencial de revolucionar el mundo real de maneras nunca vistas: al permitir que las fábricas, los edificios y las ciudades sean más eficientes y sostenibles. Todos los componentes básicos para el metaverso industrial ya están en su lugar, entonces, ¿qué nos falta para hacerlo una realidad?."
       },
@@ -49,6 +52,7 @@ const programITM = {
         id: 25,
         avatar: '/speakers/pacoBolanos.webp',
         rol: 'Arquitecto de IoT Transformación Digital',
+        company: '- Cisco LATAM',
         conference: 'Ciberseguridad 4.0: Estrategia y Táctica desde la Trinchera',
         resume: ''
       }
@@ -73,6 +77,7 @@ const programITM = {
         id_s2: 5,
         avatar2: '/speakers/IrisRodriguez.webp',
         rol: 'Industrial Automation Business Developer Manager | Channel & Development Manager',
+        company: '- Schneider Electric',
         conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
         resume: 'Descubre cómo la diversidad de género impulsa la innovación y el crecimiento en el campo de la Ingeniería, y cómo la inclusión de más mujeres en puestos técnicos y de liderazgo beneficia a toda la industria. A través de historias inspiradoras y experiencias personales, nuestras oradoras compartirán ideas y consejos sobre cómo superar los desafíos y lograr el éxito en un entorno tradicionalmente dominado por hombres.'
       },
@@ -97,6 +102,7 @@ const programITM = {
         id_s2: 7,
         avatar2: '/speakers/LuisTellez.webp',
         rol: 'Coordinadora de Mujer en la Economía | Gerente de Proyectos de la Fundación Konrad Adenauer (KAS) México',
+        company: '- Instituto Mexicano para la Competitividad | Fundación Konrad Adenauer (KAS) México',
         conference: 'Mejores prácticas de inclusión de mujeres en las empresas',
         resume: 'La promoción de la equidad de género dentro de las empresas cada vez va adquiriendo una mayor relevancia en México. Sin embargo, a pesar de los esfuerzos que se han hecho para atraer y retener el talento de las mujeres, siguen estando subrepresentadas al interior de las organizaciones, especialmente en los puestos de mayor nivel jerárquico. Para hacer frente a esta realidad y brindar propuestas de acción, la Fundación Konrad Adenauer (KAS) México, en colaboración con el Instituto Mexicano para la Competitividad (IMCO), presenta las mejores prácticas y políticas corporativas implementadas por empresas mexicanas para sumar e incluir a más mujeres en toda la estructura organizacional.'
       },
@@ -115,6 +121,7 @@ const programITM = {
         id: 8,
         avatar: '/speakers/SilviaOrtizRuiz.webp',
         rol: 'Directora General de Vanguardia Industrial',
+        company: '- Medio de comunicación digital B2B',
         conference: 'Manufactura con Liderazgo Femenino',
         resume: 'Presentación editorial del libro “Manufactura con Liderazgo Femenino”, una publicación con el sello de Vanguardia Industrial. Ofrece una semblanza de 15 mujeres que contribuyen al desarrollo y competitividad de la industria manufacturera. A través de un trabajo periodístico minucioso y de investigación, esta publicación, la primera en su tipo en México, aborda desde un ángulo personal y retrospectivo, la trayectoria de estas mujeres y su incursión en industrias donde los hombres son mayoría. En esta publicación exponen sus logros, fracasos y aprendizajes en este sector, en el cual se demanda la proliferación de mujeres que contribuyan al desarrollo de la industria manufacturera.'
       },
@@ -137,6 +144,7 @@ const programITM = {
         id: 27,
         avatar: '/speakers/LealHoracio.webp',
         rol: 'Principal',
+        company: '- Kearney',
         conference: 'A Rewiring of Global Value Chains',
         resume: ''
       },
@@ -147,6 +155,7 @@ const programITM = {
         id: 28,
         avatar: '/speakers/jasonDeng.webp',
         rol: 'Principal',
+        company: '- HollySys',
         conference: 'Sistemas de Gestión de Datos para el Control y Automatización de Procesos Industriales',
         resume: ' La conferencia muestra a los asistentes sistemas de última generación para llevar el control de procesos industriales, y aumentar así la eficiencia operativa, mediante el ahorro de costos de producción y tiempo, el aumento de la seguridad funcional de las plantas y cumplimiento de normativas fiscales, administrativas y ambientales'
       }
@@ -161,6 +170,7 @@ const programITM = {
         id: 21,
         avatar: '/speakers/ilianaVera.webp',
         rol: 'General Manager at LAING Business Solutions',
+        company: '- Schneider Electric',
         conference: 'Leveraging Industry 4.0 and A.I. toward Zero-Downtime, Zero-Defects',
         resume: 'Una disminución del tiempo de inactividad no planificado o unos pocos porcentajes de reducción de la chatarra pueden suponer millones de dólares de ahorro para los fabricantes. Esta presentación instruirá a los asistentes sobre los principios de la Industria 4.0 y analizará las "herramientas digitales del oficio" para hacer realidad la Industria 4.0 de forma sistemática, centrándose en el ROI de los casos empresariales, la conectividad en tiempo real y las tecnologías predictivas basadas en IA para el Mantenimiento 4.0 y la Calidad 4.0.'
 
@@ -176,6 +186,7 @@ const programITM = {
         avatar: '/speakers/franciscoCervantes.webp',
         id_s3: 24,
         rol: 'Presidente del Consejo Coordinador Empresarial | Presidente del Instituto para el Desarrollo Industrial y la Transformación Digital (INADI) | Presidente Ejecutivo de la Asociación Mexicana de la Industria Automotriz',
+        company: '- Consejo Coordinador Empresarial',
         conference: 'El Nearshoring en el marco de la Política Industrial del siglo XXI',
         resume: ''
 
@@ -187,6 +198,7 @@ const programITM = {
         id: 20,
         avatar: '/speakers/AstridGonzalez.webp',
         rol: 'Chemical Industry Manager',
+        company: 'Endress + Hauser Mexico',
         conference: '¿Cómo la industria de Procesos se aprovecha del IIoT?',
         resume: 'Mayor tiempo productivo gracias al mantenimiento predictivo de la tecnología Heartbeat y un ecosistema en la nube (Netilion). Monitoree y mitigue los riesgos con tecnología de punta, alta seguridad y ciberseguridad.'
 
@@ -200,6 +212,7 @@ const programITM = {
         id_s2: 10,
         avatar2: '/speakers/EduardoEspino.webp',
         rol: 'System & Architecture Senior Engineer | Software Sales Specialist',
+        company: '- Schneider Electric',
         conference: 'Automatización del futuro: IEC 61499',
         resume: 'La norma IEC 61499 revoluciona la automatización industrial desde la flexibilidad y modularidad hasta la interoperabilidad y reutilización de componentes. Aprenderás cómo la IEC 61499 impulsa la eficiencia, la escalabilidad y la agilidad en los procesos industriales, abriendo el camino hacia las Industrias del Futuro.'
       },
@@ -210,6 +223,7 @@ const programITM = {
         id: 11,
         avatar: '/speakers/JavierJesusGarcía.webp',
         rol: 'Offer Manager Digital Services MX & CAM',
+        company: '- Schneider Electric',
         conference: 'Desbloquea el potencial de los Servicios Digitales para la Industria 4.0',
         resume: 'El monitoreo en tiempo real y el análisis avanzado de datos pueden optimizar la eficiencia operativa, prevenir fallas y maximizar la vida útil de los activos industriales. Descubre cómo los Servicios Digitales están revolucionando la forma en que las industrias operan y toman decisiones estratégicas.'
       },
@@ -228,6 +242,7 @@ const programITM = {
         avatar4: '/speakers/RZavala.webp',
         avatar5: '/speakers/Gmatteoda.webp',
         rol: 'Directora de Comunicación y Desarrollo de Negocios | Head de Factory Automation and Motion Control | Head de Electrical Products | Head de Process Automation | Head de Customer Services',
+        company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
         conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
         resume: 'En este panel, expertos de sectores de automatización de procesos y fábricas; electrificación ciberseguridad y digitalización se reunirán para explorar cómo la transformación digital está desempeñando un papel fundamental en la promoción de la sostenibilidad. Se discutirán casos de éxito, estrategias innovadoras y las últimas tendencias en tecnología que están permitiendo a las empresas mejorar su eficiencia, reducir su huella ambiental y avanzar hacia prácticas sustentables.'
       }
@@ -243,6 +258,7 @@ const programITM = {
         id_s2: 13,
         avatar2: '/speakers/LuisParilli.webp',
         rol: 'Cybersecurity Leader Mexico & Central America | Digital Services Manager',
+        company: '- Schneider Electric',
         conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas',
         resume: 'La digitalización en las empresas e industria es fundamental, desde la optimización de procesos hasta la toma de decisiones basada en datos. Además, aprenderás cómo protegerte de los ataques cibernéticos y salvaguardar tus activos digitales con sólidas estrategias de ciberseguridad.'
       },
@@ -259,26 +275,64 @@ const programITM = {
         avatar3: '/speakers/JCRV.webp',
         avatar4: '/speakers/liliadeDiego.webp',
         rol: 'Coordinador del proyecto VDMA y presidente del grupo de trabajo OPC UA para maquinaria | Project Management Officer, Siemens Digital Industries | Gerente Técnico, WAGO | Asesora Técnica, GIZ México',
+        company: '- Grupo de trabajo OPC UA para maquinaria | Siemens Digital Industries | WAGO | GIZ México',
         conference: 'Tres pilares de la Industria 4.0',
         resume: 'Actualmente estamos frente a una transición en dos vertientes: hacia la digitalización y hacia una economía verde. ¿Cómo debería ser la industria 4.0 del futuro? En este panel se buscará transmitir a la audiencia tres pilares fundamentales de la Industria 4.0 para un óptimo desempeño de las soluciones tecnológicas y digitales y, que al mismo tiempo contribuyan con la transición hacía la economía verde. En este sentido, los pilares que serán abordados son la interoperabilidad, es decir la comunicación entre las máquinas, la ciberseguridad y la sustentabilidad.'
       },
       {
+        hour: '16:00 hrs',
+        duration: '30 min',
+        name: 'Alejandro Rodríguez Rosales',
+        id: 38,
+        avatar: '/speakers/AlejandroRodríguez.webp',
+        rol: 'Digital Industries, Sustainability Leader',
+        company: '- Siemens Mexico, Centroamerica Y El Caribe',
+        conference: 'Descarbonización en la Industria 4.0',
+        resume: 'Descubre cómo la sustentabilidad ayuda a las empresas a diferenciarse e incrementar su rentabilidad a largo plazo, aplicando tecnología con propósito de última generación.'
+      },
+      {
+        hour: '16:30 hrs',
+        duration: '45 min',
+        name: 'Leonardo Zacarias Gómez Navarro',
+        id: 39,
+        avatar: '/speakers/LeonardoZacarias.webp',
+        rol: 'Especialista en robótica y sistemas de visiónr',
+        company: '- GUREGO',
+        conference: 'Robótica Colaborativa y su impacto en la industria',
+        resume: 'Se busca compartir el crecimiento y tendencia de la robótica colaborativa en los sectores industriales; lo que los han vuelto tan famosos y cuando si es viable utilizar un robot colaborativo en sus industrias. Hacia donde va la robótica colaborativa en el mercado.'
+      },
+      {
         hour: '17:15 hrs',
         duration: '45 min',
-        name: 'Sergio Gabriel Montes de Oca',
-        avatar: '',
+        name: 'Sergio Gabriel Montes de Oca | Argelia Ordaz Galvan',
+        id: 40,
+        id_s2: 41,
+        avatar: '/speakers/SergioMontes.webp',
+        avatar2: '/speakers/ArgeliaGalvan.webp',
         rol: 'Services and Solutions Product Manager',
-        conference: 'Gestión inteligente de redes de agua'
+        company: '- Endress + Hauser Mexico',
+        conference: 'Gestión inteligente de redes de agua | Gerente de la Industria del Agua',
+        resume: 'Nuestra solución conecta todos los niveles de un sistema de suministro de agua: desde dispositivos de medición de campo, componentes para su transmisión y registro, hasta evaluación de datos y toma de decisiones. Es un Ecosistema IIoT basado en la nube.'
       }
     ],
     oct_6: [
       {
         hour: '09:30 hrs',
         duration: '90 min',
-        name: 'Daniel Rozanes Valenzuela',
+        name: 'Andrea Carreón',
         avatar: '',
-        rol: 'Asesor Técnico',
-        conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES'
+        rol: 'Asesora Jr. del Diálogo Digital entre México y Alemania',
+        conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES',
+        resume: 'Intercambiar diferentes enfoques sobre el fortalecimiento de la competitividad y sustentabilidad de las MIPYMES a través de la incorporación de herramientas digitales, dentro de sus procesos productivos.'
+      },
+      {
+        hour: '11:00 hrs',
+        duration: '60 min',
+        name: 'Tom Burke',
+        avatar: '',
+        rol: 'Global Director on Industry Standars',
+        conference: 'Evolución de la comunicación industrial: TSN integrando esta evolución',
+        resume: '.'
       },
       {
         hour: '12:00 hrs',
@@ -287,8 +341,29 @@ const programITM = {
         id: 14,
         avatar: '/speakers/CesarArteaga.webp',
         rol: 'UPS Business Developer',
+        company: '- Schneider Electric',
         conference: 'Soluciones de misión de crítica para la Industria actual y del futuro (3pH)',
         resume: 'Easy UPS proporciona estabilidad de energía con especificaciones eléctricas sólidas y rendimiento duradero para garantizar la continuidad de su negocio. De fácil instalación, rápida y sencilla. Operabilidad con una amplia ventana de temperatura de funcionamiento y sólida protección contra sobrecargas, todo en un formato compacto, ligero y móvil.'
+      },
+      {
+        hour: '15:00 hrs',
+        duration: '90 min',
+        name: 'Presentación de Pitches de las Startups Finalistas.',
+        id: '',
+        avatar: '',
+        rol: '',
+        conference: 'Startup Pitch @ ITM2023',
+        resume: ''
+      },
+      {
+        hour: '16:30 hrs',
+        duration: '45 min',
+        name: 'Diego Sinhue',
+        id: '',
+        avatar: '',
+        rol: 'Gobernador Constitucional del Estado de Guanajuato',
+        conference: 'Reconocimiento al Gobernador Guanajuato',
+        resume: ''
       }
 
     ]
@@ -304,8 +379,41 @@ const programITM = {
         id_s2: 16,
         avatar2: '/speakers/JuanAlbertoLopez.webp',
         rol: 'Business Development Manager',
+        company: '- Schneider Electric',
         conference: 'Innovación en tecnologías de Media Tensión digitales y verdes para el Net Zero',
         resume: 'Explora el futuro de la industria a través de la lente de la automatización con Schneider Electric. Acompáñanos en esta charla inspiradora mientras desentrañamos cómo la automatización impulsa la eficiencia, la agilidad y la sostenibilidad en las Industrias del Futuro. Descubre cómo nuestras soluciones líderes están forjando el camino hacia una industria más inteligente, sostenible y competitiva.'
+      },
+      {
+        hour: '11:45 hrs',
+        duration: '45 min',
+        name: 'José Luis Ponce González',
+        id: 42,
+        avatar: '/speakers/josePonce.webp',
+        rol: 'Subdirector de Desarrollo de Soluciones y Servicios de Ciberseguridad',
+        company: '- Ikusi',
+        conference: 'Ciberseguridad en la cadena de suministros: La ciber-resilencia como un factor crítico a considera',
+        resume: 'El tema de la ciberseguridad es por mucho un factor de éxito en cualquier iniciativa de Industria 4.0 hoy en día.  En esta charla se podrá identificar los factores que son necesarios considerar en términos de ciberseguridad dentro de una organización, así como la consideración de controles en su cadena de suministro  para identificar algún riesgo de manera temprana y eficiente,  con la finalidad de evitar un impacto en el negocio.'
+      },
+      {
+        hour: '13:15 hrs',
+        duration: '45 min',
+        name: 'Oscar Colin',
+        id: 43,
+        avatar: '/speakers/OscarColin.webp',
+        rol: 'Business Segment Manager, Digital Connectivity & Power',
+        company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+        conference: 'Ciberseguridad OT Sostenible',
+        resume: 'En esta conferencia, exploraremos el apasionante mundo de la ciberseguridad en las operaciones de tecnología (OT) y su profundo vínculo con la sostenibilidad. A medida que las industrias avanzan hacia la era de la digitalización y la Industria 4.0, la ciberseguridad se ha vuelto más crucial que nunca. Pero no solo se trata de proteger nuestros sistemas, sino de hacerlo de una manera que promueva la sostenibilidad y la resiliencia en nuestras redes, infraestructuras e industrias.'
+      },
+      {
+        hour: '15:30 hrs',
+        duration: '45 min',
+        name: 'Felipe Rivera | Javier Cárdenas | Antonio  Martínez',
+        id: '',
+        avatar: '',
+        rol: 'Director General | Gerente de Producto | Director General',
+        conference: 'Monozukuri, manufactura y digitalización',
+        resume: ''
       }
     ],
     oct_5: [
@@ -316,11 +424,33 @@ const programITM = {
         id: 17,
         avatar: '/speakers/VictorBulnes.webp',
         rol: 'Product Application Engineer',
+        company: '- Schneider Electric',
         conference: 'Reinventa la automatización industrial con EcoStruxure Automation Expert',
         resume: 'EcoStruxure Automation Expert está transformando la automatización industrial. Desde la optimización de procesos hasta la mejora de la eficiencia y la toma de decisiones basada en datos, EcoStruxure Automation Expert impulsa la productividad y la rentabilidad de las empresas.'
+      },
+      {
+        hour: '13:15 hrs',
+        duration: '45 min',
+        name: 'Francia González Alfaro',
+        id: 44,
+        avatar: '/speakers/FranciaGonzalezAlfaro.webp',
+        rol: 'Especialista de producto Factory Automation',
+        company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+        conference: 'Sin automatización, no hay digitalización',
+        resume: 'Ofreceremos una visión clara de por qué la automatización y la digitalización van de la mano en la revolución industrial actual y cómo es que las industrias pueden aprovechar esta sinergia para mantenerse relevantes y prosperar en mercados cada vez más tecnológicos y competitivos.'
       }
     ],
     oct_6: [
+      {
+        hour: '10:15 hrs',
+        duration: '45 min',
+        name: 'Darwin Estudilo | Gonzalo Pineda | Victor Fuentes',
+        id: '',
+        avatar: '',
+        rol: 'Gerente de Manufactura y Mantenimiento, | Gerente Regional de Servicio | Sales & Marketing ',
+        conference: 'Experiencia de Mantenimiento Preventivo',
+        resume: ''
+      },
       {
         hour: '11:00 hrs',
         duration: '45 min',
@@ -330,8 +460,20 @@ const programITM = {
         id_s2: 19,
         avatar2: '/speakers/VirginiaGuerere.webp',
         rol: 'Metering Business Developer | Buildings Automation Business Developer',
+        company: '- Schneider Electric',
         conference: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales',
         resume: '¿Innovación sostenible, eficiente y accionable para tus edificaciones comerciales? La tecnología para ello ya existe. Descubre de la mano de nuestras expertas, Abigail Carrillo -Metering Business Developer- y Virginia Guerere -Building Automation Business Developer-, todo lo que la digitalización, medición y automatización de las edificaciones pueden brindarte. Desde ahorro de energía hasta ahorro operativo y de mantenimiento, las instalaciones comerciales e industriales pueden ser eficientes al mismo tiempo que sostenibles.'
+      },
+      {
+        hour: '13:15 hrs',
+        duration: '45 min',
+        name: 'Horacio Ceron Islas',
+        id: 45,
+        avatar: '/speakers/HoracioCeron.webp',
+        rol: 'Portfolio Sales Manager',
+        company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+        conference: 'Mantenimiento inteligente aplicado en la industria',
+        resume: 'El mantenimiento inteligente es uno de los escenarios de aplicación más importantes de la Industria 4.0. Porque con los componentes eléctricos y las herramientas digitales adecuadas, las empresas pueden prolongar la vida útil de las máquinas e instalaciones y hacerlas funcionar de forma mucho más rentable, así como potencializar la eficiencia energetica de su planta. El núcleo del mantenimiento inteligente es la recopilación y vinculaión de datos de máquinas, plantas o edificios. Las infraestructuras técnicas están equipadas con sensores que miden continuamente su funcionalidad y rendimiento y remiten los datos a las aplicaciones digitales hacia una plataforma central de gestión. ¡Acompáñanos a adentrarnos en su funcionamiento!'
       }
     ]
   }

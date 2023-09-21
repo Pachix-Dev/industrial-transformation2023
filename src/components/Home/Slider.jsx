@@ -141,7 +141,7 @@ export function Slider () {
           <a href='http://www.itmusicfest.com.mx/' target='_blank' rel='noreferrer'>
             <img
               className='d-block w-100'
-              src='/BLACkEYEDPEAS.webp'
+              src='/BLACkEYEDPEAS2.webp'
               alt='black eyed peas'
             />
           </a>

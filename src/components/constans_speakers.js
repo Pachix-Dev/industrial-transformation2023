@@ -376,6 +376,86 @@ const speakers = [
     avatar: '/speakers/liliadeDiego.webp',
     sketch: 'Es asesora técnica del Proyecto Global Infraestructura de la Calidad (GPQI) comisionado por el Ministerio Federal de Economía y Protección del Clima (BMWK) de Alemania para facilitar el Diálogo Mexicano – Alemán en Infraestructura de la Calidad. Desde hace seis años colabora en la Cooperación Técnica Alemana (GIZ) en México en donde trabaja en temas de ciberseguridad e Industria 4.0. Tiene más de diez años de experiencia en innovación e industria y tiene una especialidad en gobernanza global por el Instituto Alemán para el Desarrollo y la Sustentabilidad (IDOS), con sede en Bonn, Alemania. Lilia es internacionalista por la Universidad Nacional Autónoma de México y tiene una maestría en Estudios Regionales por el Instituto Mora.',
     sketch_eng: ''
+  },
+  {
+    id: 38,
+    conference: 'Descarbonización en la Industria 4.0',
+    name: 'Alejandro Rodríguez Rosales',
+    company: 'Siemens Mexico, Centroamerica Y El Caribe',
+    rol: 'Digital Industries, Sustainability Leader',
+    avatar: '/speakers/AlejandroRodríguez.webp',
+    sketch: 'Ing. Eléctrico Electrónico por la Facultad de Ingeniería de la Universidad Nacional Autónoma de México. Cuenta con 10 años de experiencia en Energía y Sustentabilidad. Ha ocupado diversos roles en Latinoamérica con experiencia en proyectos de Eficiencia Energética, Generación Distribuida e Instalaciones Eléctricas. Hoy desempeña el rol de Líder de Sustentabilidad en la División de Digital Industries para Mexico y Centro América enfocado en soluciones de descarbonización.',
+    sketch_eng: ''
+  },
+  {
+    id: 39,
+    conference: 'Robótica Colaborativa y su impacto en la industria',
+    name: 'Leonardo Zacarias Gómez Navarro',
+    company: 'GUREGO',
+    rol: 'Especialista en robótica y sistemas de visiónr',
+    avatar: '/speakers/LeonardoZacarias.webp',
+    sketch: 'Ingeniero en Robótica, egresado de la Universidad Politécnica de Guanajuato. Ah laborado dentro del sector industrial desde hace ya 9 años; comenzando su carrera como líder de proyectos de automatización durante sus primeros 2 años en el sector agroindustrial. Continuo su carrera profesional durante 1 año como líder de programación de CNC para el sector metal-mecánico. Finalmente, hasta la fecha ha trabajado para la empresa GUREGO, donde comenzó como asesor de ventas técnicas y a lo largo de su trayectoria se le han asignado nuevas responsabilidades, hasta actualmente ser el responsable de la línea de COBOTS DOOSAN y sistemas de visión artificial SOLOMON. Parte de sus conocimientos han sido desarrollados en áreas comerciales, tomando capacitaciones, cursos y diplomados en temas de Programación Neuro-Lingüística (PNL), ventas consultivas, ventas, negociaciones estratégicas y prospección inteligente.',
+    sketch_eng: ''
+  },
+  {
+    id: 40,
+    conference: 'Gestión inteligente de redes de agua',
+    name: 'Sergio Gabriel Montes de Oca',
+    company: 'Endress + Hauser Mexico',
+    rol: 'Services and Solutions Product Manager',
+    avatar: '/speakers/SergioMontes.webp',
+    sketch: 'Gerente de Producto de servicio y soluciones en Endress + Hauser Mexico, con mas de 10 años de experiencia en la industria de automatización y Control, siendo por mas de 5 años Gerente de los laboratorios de metrología, gestionando los sistemas de calidad para mantener las acreditaciones con la EMA en las variables de flujo, presión, temperatura, densidad y volumen, ahora dedicado ha implementar soluciones innovadores a los clientes de la industria de procesos.',
+    sketch_eng: ''
+  },
+  {
+    id: 41,
+    conference: 'Gestión inteligente de redes de agua',
+    name: 'Argelia Ordaz Galvan',
+    company: 'Endress + Hauser Mexico',
+    rol: 'Gerente de la Industria del Agua',
+    avatar: '/speakers/ArgeliaGalvan.webp',
+    sketch: 'Gerente de la Industria del Agua en Endress + Hauser México, se desarrolla implementando sistemas de monitoreo y mejora a los clientes del país, adicionalmente cuenta con mas de 10 años como especialista en instrumentos de medición que permiten optimizar y controlar las principales aplicaciones de su industria',
+    sketch_eng: ''
+  },
+  {
+    id: 42,
+    conference: 'Gestión inteligente de redes de agua',
+    name: 'José Luis Ponce González',
+    company: 'Ikusi',
+    rol: 'Subdirector de Desarrollo de Soluciones y Servicios de Ciberseguridad',
+    avatar: '/speakers/josePonce.webp',
+    sketch: 'José Luis Ponce González es egresado del Tecnológico de Monterrey, campus Monterrey, de la carrera de ingeniería de sistemas electrónicos, cuenta con más de 22 años de experiencia en tecnologías de comunicaciones   e información, especialmente en el ámbito de ciberseguridad. Ha colaborado en empresas de telecomunicaciones y servicios especializados de IT globales. Actualmente forma parte de la empresa IKUSI como subdirector de negocios de ciberseguridad, apoyando a sus clientes a mejorar sus estrategias de ciberseguridad en los ámbitos de IT y OT.',
+    sketch_eng: 'José Luis Ponce González is a graduate of the Tecnológico de Monterrey, Monterrey campus, with a degree in electronic systems engineering. He has more than 22 years of experience in communications and information technologies, particularly in the field of cybersecurity. He has collaborated in global telecommunications and specialized IT services companies. Currently, he is part of the company IKUSI as Deputy Director of Cybersecurity Business, assisting clients in enhancing their cybersecurity strategies in both the IT and OT domains.'
+  },
+  {
+    id: 43,
+    conference: 'Ciberseguridad OT Sostenible',
+    name: 'Oscar Colin',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Business Segment Manager, Digital Connectivity & Power',
+    avatar: '/speakers/OscarColin.webp',
+    sketch: 'Óscar es Ingeniero en Control y Automatización por el Instituto Politécnico Nacional. Cuenta con más de 10 años de experiencia en Siemens en el área comercial atendiendo diversas industrias como la energética, automotriz y petroquímica, entre otras.',
+    sketch_eng: ''
+  },
+  {
+    id: 44,
+    conference: 'Sin automatización, no hay digitalización',
+    name: 'Francia González Alfaro',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Especialista de producto Factory Automation',
+    avatar: '/speakers/FranciaGonzalezAlfaro.webp',
+    sketch: 'Ingeniera Mecatrónica egresada de la Facultad de Ingeniería de la Universidad Nacional Autónoma de México. Ingresó a Siemens en el 2015 como ingeniera de servicio, fue uno de los 2 ingenieros que programaron y desarrollaron el primer proyecto implementado por ingenieros mexicanos de la empresa casi 100% automatizada, SUCROLIQ. Dentro de sus principales aportaciones como desarrolladora del proyecto fue la programación de los primeros filtros de placas automatizados del mundo. Especialista de producto para Factory Automation donde fue la responsable de marketing, temas técnicos y promoción del controlador más vendido de la casa S7-1200. Además, fue responsable del programa Siemens Coopera con la Educación, iniciativa de Siemens para lograr que Universidades y Escuelas con materias a fin de automatización puedan equipar y capacitar a estudiantes y profesores con los conocimientos que actualmente demanda la Industria alrededor de todo el mundo. En el año 2021 fue parte del programa internacional de talentos ITT, donde durante un año formó parte del Siemens Professional Education en Berlín, con el objetivo de obtener conocimientos de las nuevas tecnologías como Industria 4.0, Industria Edge, IoT, Inteligencia Artificial, Automatización y Virtual Commissioning. Como parte del programa fue parte del equipo PE 4 en la planta EWA en Amberg Alemania donde actualmente se fabrican los dispositivos más emblemáticos del catálogo de SIMATIC.',
+    sketch_eng: ''
+  },
+  {
+    id: 45,
+    conference: 'Mantenimiento inteligente aplicado en la industria',
+    name: 'Horacio Ceron Islas',
+    company: 'SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
+    rol: 'Portfolio Sales Manager',
+    avatar: '/speakers/HoracioCeron.webp',
+    sketch: 'Es ingeniero eléctrico egresado de Instituto Politécnico Nacional, cuenta con más de 15 años en Siemens en las áreas de Desarrollo de Proyectos en Alta, Media y Baja tensión, ingeniería de producto y desarrollando soluciones para el sector industrial en la región México-Centroamérica.',
+    sketch_eng: ''
   }
 ]
 export { speakers }

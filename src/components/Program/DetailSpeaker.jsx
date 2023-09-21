@@ -20,7 +20,7 @@ export function DetailSpeaker (props) {
               <div className='info_speakers'>
                 <h2>{props?.speaker?.name}</h2>
                 <p className='m-0'>{props?.speaker?.rol}</p>
-                <small>{props?.speaker?.company}</small>
+                <strong><small>{props?.speaker?.company}</small></strong>
               </div>
             </div>
 

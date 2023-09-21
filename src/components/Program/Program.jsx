@@ -87,7 +87,7 @@ export function Program () {
                             <Accordion.Item eventKey='0'>
                               <Accordion.Header>
                                 <h2>{program.name}</h2>
-                                <p>{program.rol}</p>
+                                <p>{program.rol} <strong>{program?.company}</strong></p>
                                 <h6>{program.conference}</h6>
                               </Accordion.Header>
                               <Accordion.Body>
@@ -95,7 +95,7 @@ export function Program () {
                               </Accordion.Body>
                             </Accordion.Item>
                           </Accordion>
-                          : <><h2>{program.name}</h2><p>{program.rol}</p><h6>{program.conference}</h6></>}
+                          : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                       </div>
                       <div className='d-block text-end' style={{ width: '-webkit-fill-available' }}>
                         {
@@ -260,7 +260,7 @@ export function Program () {
                   <div className='info_speakers'>
                     <h2>{speaker.name}</h2>
                     <p className='m-0'>{speaker.rol}</p>
-                    <small>{speaker.company}</small>
+                    <strong><small>{speaker.company}</small></strong>
                   </div>
                 </div>
               </button>
