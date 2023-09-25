@@ -132,9 +132,13 @@ const programITM = {
       {
         hour: '15:30 hrs',
         duration: '45 min',
-        name: 'Mitsubishi',
-        avatar: '',
-        rol: '',
+        name: 'Montserrat Montesinos | Daniela Arce',
+        id: 58,
+        avatar: '/speakers/monserratMontesinos.webp',
+        id_s2: 59,
+        avatar2: '/speakers/DanielaArce.webp',
+        rol: 'CEO | Head of Marketing Communications',
+        company: 'DICISA | Mitsubishi Electric Automation',
         conference: 'El talento no tiene género'
       },
       {

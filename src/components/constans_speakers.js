@@ -576,6 +576,26 @@ const speakers = [
     avatar: '/speakers/CesarGonzalez.webp',
     sketch: 'Ing. en Control y Automatización por el Instituto Politécnico Nacional. Cuenta con más de 20 años de experiencia en procesos de automatización, seguridad e ingeniería de desarrollo, en sectores energéticos como el del gas o el petróleo.  ',
     sketch_eng: ''
+  },
+  {
+    id: 58,
+    conference: 'El talento no tiene género',
+    name: 'Montserrat Montesinos',
+    company: 'DICISA',
+    rol: 'CEO',
+    avatar: '/speakers/monserratMontesinos.webp',
+    sketch: ' Montserrat Montesinos, CEO, DICISA ',
+    sketch_eng: ''
+  },
+  {
+    id: 59,
+    conference: 'El talento no tiene género',
+    name: 'Daniela Arce',
+    company: 'Mitsubishi Electric Automation',
+    rol: 'Head of Marketing Communications',
+    avatar: '/speakers/DanielaArce.webp',
+    sketch: ' Daniela Arce, Head of Marketing Communications, Mitsubishi Electric Automation',
+    sketch_eng: ''
   }
 
 ]
