@@ -83,11 +83,13 @@ const programITM = {
       {
         hour: '11:00 hrs',
         duration: '60 min',
-        name: 'Takao Nakahata',
+        name: 'Takao Nakahata | Víctor Fuentes',
         id: 55,
         avatar: '/speakers/takaoNakahata.webp',
-        rol: 'Director General',
-        company: '- JETRO',
+        id_s2: 60,
+        avatar2: '/speakers/victorFuentes.webp',
+        rol: 'Director General | Senior Manager Sales & Marketing',
+        company: '- JETRO | Mitsubishi Electric Automation',
         conference: 'Oportunidades Industriales México - Japón',
         resume: ''
       },
@@ -553,9 +555,12 @@ const programITM = {
         hour: '15:30 hrs',
         duration: '45 min',
         name: 'Felipe Rivera | Javier Cárdenas | Antonio  Martínez',
-        id: '',
-        avatar: '',
+        id: 61,
+        avatar: '/speakers/felipeRivera.webp',
+        id_s2: 62,
+        avatar2: '/speakers/JavierCardenas.webp',
         rol: 'Director General | Gerente de Producto | Director General',
+        company: 'Mitsubishi Electric Automation',
         conference: 'Monozukuri, manufactura y digitalización',
         resume: ''
       }

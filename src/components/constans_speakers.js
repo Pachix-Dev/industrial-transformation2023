@@ -596,6 +596,36 @@ const speakers = [
     avatar: '/speakers/DanielaArce.webp',
     sketch: ' Daniela Arce, Head of Marketing Communications, Mitsubishi Electric Automation',
     sketch_eng: ''
+  },
+  {
+    id: 60,
+    conference: 'Oportunidades Industriales México - Japón',
+    name: 'Víctor Fuentes',
+    company: 'Mitsubishi Electric Automation',
+    rol: 'Senior Manager Sales & Marketing',
+    avatar: '/speakers/victorFuentes.webp',
+    sketch: 'Víctor Fuentes, Senior Manager, Sales & Marketing at Mitsubishi Electric Automation',
+    sketch_eng: ''
+  },
+  {
+    id: 61,
+    conference: 'Monozukuri, manufactura y digitalización',
+    name: 'Felipe Rivera',
+    company: 'Mitsubishi Electric Automation',
+    rol: 'Director General',
+    avatar: '/speakers/felipeRivera.webp',
+    sketch: 'Felipe Rivera, Director General, Mitsubishi Electric Automation',
+    sketch_eng: ''
+  },
+  {
+    id: 62,
+    conference: 'Monozukuri, manufactura y digitalización',
+    name: 'Javier Cárdenas',
+    company: 'Mitsubishi Electric Automation',
+    rol: 'Gerente de Producto',
+    avatar: '/speakers/JavierCardenas.webp',
+    sketch: 'Javier Cárdenas, Gerente de Producto, Mitsubishi Electric Automation ',
+    sketch_eng: ''
   }
 
 ]
