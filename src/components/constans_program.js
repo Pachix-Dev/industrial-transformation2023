@@ -467,7 +467,7 @@ const programITM = {
         avatar: '',
         rol: 'Global Director on Industry Standars',
         conference: 'Evolución de la comunicación industrial: TSN integrando esta evolución',
-        resume: '.'
+        resume: ''
       },
       {
         hour: '12:00 hrs',
