@@ -142,12 +142,22 @@ export function Home () {
             </a>
           </Col>
           <Col md={3} className='mx-auto my-auto'>
-            <a href='https://ientc.com/' target='_blank' rel='noreferrer'>
-              <img src='/ientc.webp' width={250} loading='lazy' alt='ientc' />
+            <a href='https://hitachi.com.mx/' target='_blank' rel='noreferrer'>
+              <img src='/hitachi.webp' width={240} loading='lazy' alt='hitachi' />
+            </a>
+          </Col>
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://www.hitachienergy.com/' target='_blank' rel='noreferrer'>
+              <img src='/hitachi-energy.webp' width={290} loading='lazy' alt='hitachi-energy' />
             </a>
           </Col>
         </Row>
         <Row className='text-center'>
+          <Col md={3} className='mx-auto my-auto'>
+            <a href='https://ientc.com/' target='_blank' rel='noreferrer'>
+              <img src='/ientc.webp' width={250} loading='lazy' alt='ientc' />
+            </a>
+          </Col>
           <Col md={3} className='mx-auto my-auto'>
             <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
               <img src='/kaeser_1.webp' width={250} loading='lazy' alt='kaeser' />
