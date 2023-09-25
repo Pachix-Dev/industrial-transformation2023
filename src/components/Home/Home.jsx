@@ -98,9 +98,9 @@ export function Home () {
               <img src='/ciscopartner.webp' width={180} loading='lazy' alt='cisco' />
             </a>
           </Col>
-          <Col md className='my-auto'>
+          <Col md className='mx-auto my-auto'>
             <a href='https://www.ikusi.com/mx/' target='_blank' rel='noreferrer'>
-              <img src='/Ikusi.webp' width={180} loading='lazy' alt='ikusi' />
+              <img className='my-5' src='/Ikusi.webp' width={180} loading='lazy' alt='ikusi' />
             </a>
           </Col>
           <Col md className='my-auto'>
