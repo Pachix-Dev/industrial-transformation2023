@@ -174,10 +174,11 @@ const programITM = {
       {
         hour: '11:00 hrs',
         duration: '60 min',
-        name: 'Darwin Estudilo | Gonzalo Pineda | Victor Fuentes',
+        name: 'Darwin Estudillo | Gonzalo Pineda | Victor Fuentes',
         id: '',
         avatar: '',
         rol: 'Gerente de Manufactura y Mantenimiento, | Gerente Regional de Servicio | Sales & Marketing ',
+        company: '- John Crane | Mitsubishi Electric Automation',
         conference: 'Experiencia de Mantenimiento Preventivo',
         resume: ''
       },
