@@ -633,7 +633,7 @@ const speakers = [
     name: 'Gonzalo Pineda',
     company: 'Mitsubishi Electric Automation',
     rol: 'Gerente Regional de Servicio',
-    avatar: '/speakers/JavierCardenas.webp',
+    avatar: '/speakers/GonzaloPineda.webp',
     sketch: 'Gonzalo Pineda, Gerente Regional de Servicio, Mitsubishi Electric Automation ',
     sketch_eng: ''
   }
