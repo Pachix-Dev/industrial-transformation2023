@@ -5,10 +5,10 @@ const programITM = {
       {
         hour: '11:00 hrs',
         duration: '60 min',
-        name: 'Panel de GIZ',
+        name: 'Cinco Años de Industrial Transformation México: Un Impulso para el Desarrollo Económico Sustentable',
         avatar: '',
         rol: '',
-        conference: 'Cinco Años de Industrial Transformation Mexico: Un Impulso para el Desarrollo Económico Sustentable'
+        conference: 'Panel de GIZ'
       },
       {
         hour: '12:00 hrs',
@@ -183,6 +183,10 @@ const programITM = {
         name: 'Darwin Estudillo | Gonzalo Pineda | Victor Fuentes',
         id: '',
         avatar: '',
+        id_s2: 63,
+        avatar2: '/speakers/GonzaloPineda.webp',
+        id_s3: 60,
+        avatar3: '/speakers/victorFuentes.webp',
         rol: 'Gerente de Manufactura y Mantenimiento, | Gerente Regional de Servicio | Sales & Marketing ',
         company: '- John Crane | Mitsubishi Electric Automation',
         conference: 'Experiencia de Mantenimiento Preventivo',

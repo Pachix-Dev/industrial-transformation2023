@@ -626,6 +626,16 @@ const speakers = [
     avatar: '/speakers/JavierCardenas.webp',
     sketch: 'Javier Cárdenas, Gerente de Producto, Mitsubishi Electric Automation ',
     sketch_eng: ''
+  },
+  {
+    id: 63,
+    conference: 'Experiencia de Mantenimiento Preventivo',
+    name: 'Gonzalo Pineda',
+    company: 'Mitsubishi Electric Automation',
+    rol: 'Gerente Regional de Servicio',
+    avatar: '/speakers/JavierCardenas.webp',
+    sketch: 'Gonzalo Pineda, Gerente Regional de Servicio, Mitsubishi Electric Automation ',
+    sketch_eng: ''
   }
 
 ]
