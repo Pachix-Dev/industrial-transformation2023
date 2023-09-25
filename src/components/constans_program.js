@@ -11,6 +11,17 @@ const programITM = {
         conference: 'Cinco Años de Industrial Transformation Mexico: Un Impulso para el Desarrollo Económico Sustentable'
       },
       {
+        hour: '12:00 hrs',
+        duration: '45 min',
+        name: ' Israel Quiroz',
+        id: 53,
+        avatar: '/speakers/IsraelQuiroz.webp',
+        rol: 'Fundador y Presidente',
+        company: '- IQSECc',
+        conference: 'La ciberseguridad en la fábrica del futuro',
+        resume: 'El término “fábrica del futuro” nos lleva a imaginar un escenario de conectividad robótica donde todo sea manejado por máquinas sin la intervención humana. Sin embargo, más allá de este escenario futurista y extravagante, está la prioridad de lograr una industria visionaria y previsora de aquellas ciberamenazas emergentes; una industria que esté lista para enfrentar los retos cibernéticos del presente de la mano de una estrategia de ciberseguridad vanguardista, la cual proteja los activos y la operación. Porque hay gran diferencia entre ser una fábrica del futuro y ser una fábrica para el futuro.'
+      },
+      {
         hour: '12:45 hrs',
         duration: '45 min',
         name: 'Abraham Vela | Fernanda Silva',
@@ -21,7 +32,7 @@ const programITM = {
         rol: 'Offer Marketing Manager | Sales Manager',
         company: '- Schneider Electric',
         conference: 'Digitalización y automatización para una industria sostenible',
-        resume: 'a combinación de tecnologías digitales y automatización está impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
+        resume: 'La combinación de tecnologías digitales y automatización está impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
       },
       {
         hour: '13:30 hrs',
@@ -59,12 +70,24 @@ const programITM = {
     ],
     oct_5: [
       {
+        hour: '9:30 hrs',
+        duration: '45 min',
+        name: 'Alejandro Valdés Romero',
+        id: 54,
+        avatar: '/speakers/A_Valdes.webp',
+        rol: 'Account Manager para Agronegocios e industria llantera',
+        company: '- Siemens Mexico, Centroamérica Y El Caribe',
+        conference: 'Innovación y retos de la agricultura',
+        resume: 'En un mundo en constante evolución y con una creciente población global, la agricultura se enfrenta a desafíos sin precedentes. Para resolver estos retos requerimos de soluciones creativas; acompáñanos a descifrar si la innovación es una palabra de moda o algo alcanzable, a conocer más sobre el apasionante mundo de la agricultura 4.0 y a explorar cómo diversas tecnologías están transformando este sector tan crucial para las futuras generaciones. Conoce qué es la innovación, sus tipos y cómo podemos fomentarla. Además, presentaremos los principales retos de la agricultura y por qué es un "campo verde" para el desarrollo tecnológico.'
+      },
+      {
         hour: '11:00 hrs',
         duration: '60 min',
         name: 'Takao Nakahata',
-        id: '',
-        avatar: '',
-        rol: 'Director General JETRO ',
+        id: 55,
+        avatar: '/speakers/takaoNakahata.webp',
+        rol: 'Director General',
+        company: '- JETRO',
         conference: 'Oportunidades Industriales México - Japón',
         resume: ''
       },
@@ -138,6 +161,38 @@ const programITM = {
     ],
     oct_6: [
       {
+        hour: '10:15 hrs',
+        duration: '45 min',
+        name: 'Gonzalo Matteoda',
+        id: 56,
+        avatar: '/speakers/GonzaloMatteoda.webp',
+        rol: 'Head De Customer Services',
+        company: '- Siemens Mexico, Centroamérica Y El Caribe',
+        conference: 'OT/IT Integration – La importancia de los datos en la producción para mejorar la productividad',
+        resume: 'Acompáñanos a sumergirnos en la integración de la tecnología operativa (OT) y la tecnología de la información (IT) en el entorno de la producción industrial. Explora cómo la recopilación, análisis y aplicación de datos pueden desempeñar un papel fundamental en la mejora de la productividad en la industria.'
+      },
+      {
+        hour: '11:00 hrs',
+        duration: '60 min',
+        name: 'Darwin Estudilo | Gonzalo Pineda | Victor Fuentes',
+        id: '',
+        avatar: '',
+        rol: 'Gerente de Manufactura y Mantenimiento, | Gerente Regional de Servicio | Sales & Marketing ',
+        conference: 'Experiencia de Mantenimiento Preventivo',
+        resume: ''
+      },
+      {
+        hour: '12:00 hrs',
+        duration: '45 min',
+        name: 'César González',
+        id: 57,
+        avatar: '/speakers/CesarGonzalez.webp',
+        rol: 'Especialista de ventas en procesos de automatización ',
+        company: '- Siemens Mexico, Centroamérica y el Caribe',
+        conference: 'El futuro de la automatización en procesos industriales',
+        resume: 'Abordaremos las tendencias actuales y futuras en automatización industrial, destacando cómo la tecnología está transformando los procesos de fabricación y producción.'
+      },
+      {
         hour: '13:30 hrs',
         duration: '30 min',
         name: 'Horacio Leal',
@@ -163,6 +218,17 @@ const programITM = {
   },
   stage_2: {
     oct_4: [
+      {
+        hour: '11:00 hrs',
+        duration: '45 min',
+        name: 'Oscar Alberto Aldana | Christian Valdez',
+        id: '',
+        avatar: '',
+        rol: 'Director de Arquitectura Cybolt | Regional Manager North Latam Claroty',
+        company: '- Claroty & Cybolt',
+        conference: 'Desmitificando la Ciberseguridad OT',
+        resume: 'Importancia de la diferencia entre ciberseguridad IT vs OT. Ejemplos claros de falsas percepciones de seguridad en ambientes industriales y acciones necesarias para mitigar ataques de amenazas avanzadas persistentes.'
+      },
       {
         hour: '12:00 hrs',
         duration: '45 min',
@@ -246,9 +312,63 @@ const programITM = {
         conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
         resume: 'En este panel, expertos de sectores de automatización de procesos y fábricas; electrificación ciberseguridad y digitalización se reunirán para explorar cómo la transformación digital está desempeñando un papel fundamental en la promoción de la sostenibilidad. Se discutirán casos de éxito, estrategias innovadoras y las últimas tendencias en tecnología que están permitiendo a las empresas mejorar su eficiencia, reducir su huella ambiental y avanzar hacia prácticas sustentables.'
       }
-
     ],
     oct_5: [
+      {
+        hour: '9:30 hrs',
+        duration: '30 min',
+        name: 'Inauguración ',
+        id: '',
+        avatar: '',
+        rol: '',
+        company: '',
+        conference: 'Cumbre Desarrollo Industrial Sostenible',
+        resume: ''
+      },
+      {
+        hour: '10:00 hrs',
+        duration: '45 min',
+        name: 'Nearshoring en México: Competitividad Global y Oportunidades Locales ',
+        id: '',
+        avatar: '',
+        rol: '',
+        company: '',
+        conference: 'Cumbre Desarrollo Industrial Sostenible',
+        resume: ''
+      },
+      {
+        hour: '11:00 hrs',
+        duration: '60 min',
+        name: 'El siguiente nivel de la industria 4.0: Ecosistemas digitales resilientes',
+        id: '',
+        avatar: '',
+        rol: '',
+        company: '',
+        conference: 'Cumbre Desarrollo Industrial Sostenible',
+        resume: ''
+      },
+      {
+        hour: '12:00 hrs',
+        duration: '45 min',
+        name: 'Globalización 2.0: La nueva era en las cadenas globales de valor',
+        id: '',
+        avatar: '',
+        rol: '',
+        company: '',
+        conference: 'Cumbre Desarrollo Industrial Sostenible',
+        resume: ''
+      },
+      {
+        hour: '12:45 hrs',
+        duration: '30 min',
+        name: 'Clausura de la Cumbre y mensaje del gobierno del Estado de Guanajuato',
+        id: '',
+        avatar: '',
+        rol: '',
+        company: '',
+        conference: 'Cumbre Desarrollo Industrial Sostenible',
+        resume: ''
+      },
       {
         hour: '13:15 hrs',
         duration: '45 min',
@@ -261,6 +381,19 @@ const programITM = {
         company: '- Schneider Electric',
         conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas',
         resume: 'La digitalización en las empresas e industria es fundamental, desde la optimización de procesos hasta la toma de decisiones basada en datos. Además, aprenderás cómo protegerte de los ataques cibernéticos y salvaguardar tus activos digitales con sólidas estrategias de ciberseguridad.'
+      },
+      {
+        hour: '14:00 hrs',
+        duration: '60 min',
+        name: 'Sergio Gabriel Montes de Oca | Argelia Ordaz Galvan',
+        id: 40,
+        id_s2: 41,
+        avatar: '/speakers/SergioMontes.webp',
+        avatar2: '/speakers/ArgeliaGalvan.webp',
+        rol: 'Services and Solutions Product Manager',
+        company: '- Endress + Hauser Mexico',
+        conference: 'Gestión inteligente de redes de agua | Gerente de la Industria del Agua',
+        resume: 'Nuestra solución conecta todos los niveles de un sistema de suministro de agua: desde dispositivos de medición de campo, componentes para su transmisión y registro, hasta evaluación de datos y toma de decisiones. Es un Ecosistema IIoT basado en la nube.'
       },
       {
         hour: '15:00 hrs',
@@ -300,28 +433,23 @@ const programITM = {
         company: '- GUREGO',
         conference: 'Robótica Colaborativa y su impacto en la industria',
         resume: 'Se busca compartir el crecimiento y tendencia de la robótica colaborativa en los sectores industriales; lo que los han vuelto tan famosos y cuando si es viable utilizar un robot colaborativo en sus industrias. Hacia donde va la robótica colaborativa en el mercado.'
-      },
-      {
-        hour: '17:15 hrs',
-        duration: '45 min',
-        name: 'Sergio Gabriel Montes de Oca | Argelia Ordaz Galvan',
-        id: 40,
-        id_s2: 41,
-        avatar: '/speakers/SergioMontes.webp',
-        avatar2: '/speakers/ArgeliaGalvan.webp',
-        rol: 'Services and Solutions Product Manager',
-        company: '- Endress + Hauser Mexico',
-        conference: 'Gestión inteligente de redes de agua | Gerente de la Industria del Agua',
-        resume: 'Nuestra solución conecta todos los niveles de un sistema de suministro de agua: desde dispositivos de medición de campo, componentes para su transmisión y registro, hasta evaluación de datos y toma de decisiones. Es un Ecosistema IIoT basado en la nube.'
       }
     ],
     oct_6: [
       {
         hour: '09:30 hrs',
         duration: '90 min',
-        name: 'Andrea Carreón',
-        avatar: '',
-        rol: 'Asesora Jr. del Diálogo Digital entre México y Alemania',
+        name: 'Andrea Carreón | Andreas Jahn | Raúl Isaac Hernández Peña | Yuriana González Ulloa',
+        id: 46,
+        id_s2: 47,
+        id_s3: 48,
+        id_s4: 49,
+        avatar: '/speakers/AndreaCarreon.webp',
+        avatar2: '/speakers/AndreasJahn.webp',
+        avatar3: '/speakers/RaulHernandez.webp',
+        avatar4: '/speakers/YurianaGonzalez.webp',
+        rol: 'Asesora Jr. del Diálogo Digital entre México y Alemania | Miembro del Comité Ejecutivo Federal de la Asociación Alemana de la Pequeña y Mediana Empresa | Vicepresidente de Innovación y Tecnología | Asesora Técnica ',
+        company: '- GIZ | BVMW | CONCANACO SERVYTUR | Proyecto Recuperación Verde',
         conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES',
         resume: 'Intercambiar diferentes enfoques sobre el fortalecimiento de la competitividad y sustentabilidad de las MIPYMES a través de la incorporación de herramientas digitales, dentro de sus procesos productivos.'
       },
@@ -344,6 +472,17 @@ const programITM = {
         company: '- Schneider Electric',
         conference: 'Soluciones de misión de crítica para la Industria actual y del futuro (3pH)',
         resume: 'Easy UPS proporciona estabilidad de energía con especificaciones eléctricas sólidas y rendimiento duradero para garantizar la continuidad de su negocio. De fácil instalación, rápida y sencilla. Operabilidad con una amplia ventana de temperatura de funcionamiento y sólida protección contra sobrecargas, todo en un formato compacto, ligero y móvil.'
+      },
+      {
+        hour: '12:45 hrs',
+        duration: '45 min',
+        name: 'Alan González López',
+        id: 50,
+        avatar: '/speakers/AlanGonzalez.webp',
+        rol: 'Gerente técnico',
+        company: '- Beckhoff Automation SA de CV',
+        conference: 'Sistemas de transporte inteligente, el futuro en los procesos.',
+        resume: 'eXtended Transport System XTS es un sistema de trasporte lineal accionado magnéticamente con características de libre de mantenimiento que permiten total independencia en cado uno de sus elementos de transporte para una completa flexibilidad al momento de transportar productos linealmente. Por otro lado, nuestro sistema de transporte por levitación XPlanar permite controlar 6 grados de libertad al momento de transportar material entre estaciones de trabajo a través de un pallet de transporte. Conceptos como gemelo digital, interconectividad, trazabilidad entre otros serán abordaos durante la presentación.'
       },
       {
         hour: '15:00 hrs',
@@ -429,6 +568,17 @@ const programITM = {
         resume: 'EcoStruxure Automation Expert está transformando la automatización industrial. Desde la optimización de procesos hasta la mejora de la eficiencia y la toma de decisiones basada en datos, EcoStruxure Automation Expert impulsa la productividad y la rentabilidad de las empresas.'
       },
       {
+        hour: '11:45 hrs',
+        duration: '45 min',
+        name: 'Manuel Hernández',
+        id: 51,
+        avatar: '/speakers/ManuelHdzBaltazar.webp',
+        rol: 'Grid Automation Specialist México ',
+        company: '- Hitachi Energy ',
+        conference: 'La digitalización de la distribución eléctrica en la industria 4.0 ',
+        resume: 'Entérate como Hitachi Energy con sus soluciones digitales puede optimizar las operaciones de monitoreo y control de sus sistemas eléctricos para mejorar la flexibilidad en el suministro de energía para las industrias.'
+      },
+      {
         hour: '13:15 hrs',
         duration: '45 min',
         name: 'Francia González Alfaro',
@@ -438,19 +588,20 @@ const programITM = {
         company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
         conference: 'Sin automatización, no hay digitalización',
         resume: 'Ofreceremos una visión clara de por qué la automatización y la digitalización van de la mano en la revolución industrial actual y cómo es que las industrias pueden aprovechar esta sinergia para mantenerse relevantes y prosperar en mercados cada vez más tecnológicos y competitivos.'
+      },
+      {
+        hour: '15:30 hrs',
+        duration: '45 min',
+        name: 'José Enrique Poceros Pérez',
+        id: 52,
+        avatar: '/speakers/JoseEnriquezPoceros.webp',
+        rol: 'CTO',
+        company: '- Roue',
+        conference: 'Seguridad, Eficiencia y Ciberseguridad: la trilogía del éxito industrial',
+        resume: 'La Industria 4.0 está transformando la forma en que se producen los bienes y servicios. Las tecnologías avanzadas, como la inteligencia artificial, el Internet de las cosas y el análisis de datos, están cambiando la forma en que las empresas operan. Esta conferencia explorará el papel de la tecnología en la mejora de la seguridad y la eficiencia en la Industria 4.0. Y el como la ciberseguridad juega un papel crucial en la implementación de las tecnologías. La conferencia está dirigida a profesionales de la industria, académicos y estudiantes interesados en la seguridad y la eficiencia en la Industria 4.0.'
       }
     ],
     oct_6: [
-      {
-        hour: '10:15 hrs',
-        duration: '45 min',
-        name: 'Darwin Estudilo | Gonzalo Pineda | Victor Fuentes',
-        id: '',
-        avatar: '',
-        rol: 'Gerente de Manufactura y Mantenimiento, | Gerente Regional de Servicio | Sales & Marketing ',
-        conference: 'Experiencia de Mantenimiento Preventivo',
-        resume: ''
-      },
       {
         hour: '11:00 hrs',
         duration: '45 min',

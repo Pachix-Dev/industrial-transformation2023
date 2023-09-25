@@ -456,6 +456,127 @@ const speakers = [
     avatar: '/speakers/HoracioCeron.webp',
     sketch: 'Es ingeniero eléctrico egresado de Instituto Politécnico Nacional, cuenta con más de 15 años en Siemens en las áreas de Desarrollo de Proyectos en Alta, Media y Baja tensión, ingeniería de producto y desarrollando soluciones para el sector industrial en la región México-Centroamérica.',
     sketch_eng: ''
+  },
+  {
+    id: 46,
+    conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES',
+    name: 'Andrea Carreón',
+    company: 'GIZ',
+    rol: 'Asesora Jr. del Diálogo Digital entre México y Alemania',
+    avatar: '/speakers/AndreaCarreon.webp',
+    sketch: 'Andrea Estefanía Carreón Guillén, Asesora jr. del Secretariado en México del Diálogo Digital entre México y Alemania.',
+    sketch_eng: ''
+  },
+  {
+    id: 47,
+    conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES',
+    name: 'Andreas Jahn',
+    company: 'BVMW',
+    rol: 'Miembro del Comité Ejecutivo Federal de la Asociación Alemana de la Pequeña y Mediana Empresa',
+    avatar: '/speakers/AndreasJahn.webp',
+    sketch: 'Andreas Jahn ha sido miembro del Comité Ejecutivo Federal de los departamentos de Política, Economía y Comercio Exterior, Asuntos Públicos, Prensa y Relaciones Públicas del BVMW. Además, el Sr. Jahn es Secretario General de la Alianza de Pequeñas y Medianas Empresas con África, una iniciativa del BVMW que apoya a las empresas en su inserción en el mercado africano. También es el Presidente del Foro Germano-Turcomano desde 2021. De 2009 a 2019, trabajó en el Parlamento Alemán como asesor de política exterior del Diputado Johannes Selle. Andreas Jahn mantiene vínculos estrechos con importantes actores de la política nacional e internacional y ha viajado varias veces con delegaciones a África, Rusia y los Estados de la CEI, así como a otras regiones del mundo.',
+    sketch_eng: ''
+  },
+  {
+    id: 48,
+    conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES',
+    name: 'Raúl Isaac Hernández Peña',
+    company: 'CONCANACO SERVYTUR',
+    rol: 'Vicepresidente de Innovación y Tecnología',
+    avatar: '/speakers/RaulHernandez.webp',
+    sketch: 'Raúl ha llevado a cabo diferentes proyectos tanto en el sector público como privado, realizando diferentes plataformas como Check In Digital, para hoteles y restaurantes. Sanicam, prototipo automatizado orientado a desinfectar espacios a través del uso de tecnología UV. Así mismo, en el sector público el SIGH Magdalena, modelo de gestión estratégica implementando componentes innovadores al servicio de urgencias de la Unidad Médica de Alta Especialidad “Dr. Victorio de la Fuente Narváez” del IMSS. Como Vicepresidente de la Comisión de Innovación y Tecnología de CONCANACO SERVYTUR desde 2017, ha desarrollado diversas  plataformas para la Confederación, como Plataforma CONCANACO Buen Fin, CONCACLICK, CONCATOURS y Proyecto Islas Marías en colaboración con la Secretaría de Marina. Ha participado en diferentes concursos de innovación tecnológica, en los cuales ha sido reconocido gracias a sus conocimientos en desarrollo de plataformas digitales. Siendo ganador del Reto Todos vs el cáncer infantil, Reto INDAABIN 2015, Premio Nacional a la Innovación Tecnológica en la Promoción Turística de los Pueblos Mágicos, Reto Zapopan, entre otros.',
+    sketch_eng: ''
+  },
+  {
+    id: 49,
+    conference: 'Importancia de la incorporación de herramientas digitales para el fortalecimiento de la competitividad de las MIPYMES',
+    name: 'Yuriana González Ulloa',
+    company: 'Proyecto Recuperación Verde',
+    rol: 'Asesora Técnica',
+    avatar: '/speakers/YurianaGonzalez.webp',
+    sketch: 'Yuriana González Ulloa, Asesora Técnica, Proyecto Recuperación Verde.',
+    sketch_eng: ''
+  },
+  {
+    id: 50,
+    conference: 'Sistemas de transporte inteligente, el futuro en los procesos.',
+    name: 'Alan González López',
+    company: 'Beckhoff Automation SA de CV',
+    rol: 'Gerente técnico',
+    avatar: '/speakers/AlanGonzalez.webp',
+    sketch: 'Desde el inicio de mi carrera profesional me he inclinado por la parte técnica de mi profesión., Ingeniero en Mecatrónica con especialidad en sistemas de producción fue lo que estudie en el Instituto Tecnológico de Tlalnepantla en Estado de México. Siempre enfocado en conocer más de los equipos de automatización me fui adentrando en este mundo, después de casi 12 años y ahora viviendo en la ciudad de Querétaro he tenido la oportunidad de participar en muchos proyectos. Disfruto de compartir conocimientos y siempre aprovecho una oportunidad que pueda para compartir mi pasión., ¡Automatización!',
+    sketch_eng: 'Since the beginning of my professional career, I have been inclined towards the technical part of my profession. Mechatronics Engineer with a specialty in production systems was what I studied at Instituto Tecnológico de Tlalnepantla in the State of Mexico. Always focused on learning more about automation equipment, I entered this world, after almost 12 years and now living in the city of Querétaro I have had the opportunity to participate in many projects. I enjoy sharing knowledge and always take advantage of any opportunity to share my passion, Automation!'
+  },
+  {
+    id: 51,
+    conference: 'La digitalización de la distribución eléctrica en la industria 4.0',
+    name: 'Manuel Hernández',
+    company: 'Hitachi Energy ',
+    rol: 'Grid Automation Specialist México',
+    avatar: '/speakers/ManuelHdzBaltazar.webp',
+    sketch: 'Manuel es Grid Automation Specialist en Hitachi Energy México. Ha ocupado diversos cargos técnico-comerciales en otras Empresas Multinacionales del Sector Energético específicamente en las áreas de digitalización y automatización de redes eléctricas. En su posición, es responsable de promover la digitalización en el sector industrial y privado a través de las tecnologías de vanguardia de Hitachi Energy. Manuel cuenta con más de 13 años de experiencia en el sector energético. Tiene una Licenciatura en Ingeniería Eléctrica por parte del Instituto Politécnico Nacional en el cual es docente a Nivel Superior.',
+    sketch_eng: ''
+  },
+  {
+    id: 52,
+    conference: 'Seguridad, Eficiencia y Ciberseguridad: la trilogía del éxito industrial',
+    name: 'José Enrique Poceros Pérez',
+    company: 'Roue',
+    rol: 'CTO',
+    avatar: '/speakers/JoseEnriquezPoceros.webp',
+    sketch: 'Enrique Poceros, ingeniero en comunicaciones y electrónica. Cuenta con 9 años en la industria, donde ha logrado sobresalir gracias a su entusiasmo y conocimientos en minería, energías renovables, Gas y Petróleo, desarrollándose en las áreas de ciberseguridad, IoT, Industrial Control Systems y soluciones de diversas tecnologías. Ha colaborado como arquitecto de soluciones como: Estandarización de ciberseguridad para parques fotovoltaicos y parques eólicos    Así como el desarrollo y ejecución de proyectos como: • Arquitecturas de comunicación para gasoductos • Arquitecturas de ciberseguridad para terminales de refinados • Arquitecturas de comunicación de parques eólicos • Arquitecturas de comunicación y ciberseguridad de estaciones de servicio • Arquitecturas de comunicación para sistema de manufactura de envases • Arquitecturas de comunicación inalámbrica para la industria petroquímica así como arquitecto de soluciones en el Oil and Gas ATC y ahora en su transición hacia el IoT HUB, como parte de las inversiones de Cisco del programa Country Digital Acceleration.',
+    sketch_eng: ''
+  },
+  {
+    id: 53,
+    conference: 'La ciberseguridad en la fábrica del futuro',
+    name: ' Israel Quiroz ',
+    company: 'IQSEC',
+    rol: 'Fundador y Presidente',
+    avatar: '/speakers/IsraelQuiroz.webp',
+    sketch: 'Con una carrera que abarca más de dos décadas, Israel Quiroz ha dedicado su vida profesional a la generación de soluciones y servicios de Seguridad Informática y de Tecnologías de la información de vanguardia. Su determinación lo impulsaron a fundar hace más de 16 años la empresa líder en Ciberseguridad e Identidad Digital, IQSEC, la cual ha sido parte de proyectos de gran trascendencia en México y en la que, hasta hace unos meses, fungió como CEO. Sin embargo, su curiosidad, creatividad y necesidad de seguir innovando lo llevaron a delegar la Dirección y ponerse al frente del Comité de Innovación & Go To Market, desde donde sigue impulsando el crecimiento y la competitividad de su empresa.',
+    sketch_eng: ''
+  },
+  {
+    id: 54,
+    conference: 'Innovación y retos de la agricultura',
+    name: 'Alejandro Valdés Romero',
+    company: 'Siemens Mexico, Centroamérica Y El Caribe',
+    rol: 'Fundador y Presidente',
+    avatar: '/speakers/A_Valdes.webp',
+    sketch: 'Ingeniero Mecatrónico con más de 8 años de experiencia en automatización industrial, con alta especialización en gemelos digitales, digitalización y agricultura protegida. Actualmente colabora con los agronegocios y la industria de llantas para brindar valor a estos sectores a través de innovaciones tecnológicas.',
+    sketch_eng: ''
+  },
+  {
+    id: 55,
+    conference: 'Oportunidades Industriales México - Japón',
+    name: 'Takao Nakahata',
+    company: 'JETRO',
+    rol: 'Director General',
+    avatar: '/speakers/takaoNakahata.webp',
+    sketch: 'Director General, JETRO México, Japan External Trade Organization (JETRO), Licenciatura de Estudios Hispánicos, Universidad de Sofía en Tokio, Diploma de Estudios Internacionales y de América Latina, Diploma de Estudios Hispánicos, Universidad Complutense de Madrid. Especialidad Economía e industria de México y América Latina, Tratados de libre comercio de América Latina y sus reglas de origen Industria automotriz de América Latina',
+    sketch_eng: ''
+  },
+  {
+    id: 56,
+    conference: 'OT/IT Integration – La importancia de los datos en la producción para mejorar la productividad',
+    name: 'Gonzalo Matteoda',
+    company: 'Siemens Mexico, Centroamérica Y El Caribe',
+    rol: 'Head De Customer Services',
+    avatar: '/speakers/GonzaloMatteoda.webp',
+    sketch: 'Nacido en Argentina, Gonzalo es Ingeniero en Electrónica egresado de la Universidad Nacional de Córdoba y cuenta con una Maestría en Administración de Negocios en la Universidad Del Valle de Mexico. Cuenta con más de 20 años de experiencia en la industria, desempeñando funciones como ingeniero de servicios en automatización, líder de proyectos, gerente de proyectos, gerente de contratos de mantenimiento, ventas y administración de negocios. Su carrera la inició en Argentina desarrollando servicios y proyectos en la industria siderúrgica, para luego emprender experiencias en diferentes países de la región y el mundo, como en Venezuela, Brasil, México, USA, España y Sudáfrica, entre otros. Su carrera dentro de Siemens comenzó en el año 2009 como Gerente de Proyectos en Servicios de Automatización e Ingeniería Eléctrica para la industria siderúrgica y minera en Mesoamérica, logrando el desarrollo de importantes proyectos y contratos de servicios. Actualmente Gonzalo es director de la unidad de negocios de Digital Industries Customer Services, que tiene como objetivo ofrecer soluciones con un portafolio clásico y servicios digitales en el que cuenta con el apoyo de más de 100 colaboradores; adicionalmente es responsable de la dirección de ventas para la región norte de México.',
+    sketch_eng: ''
+  },
+  {
+    id: 57,
+    conference: 'El futuro de la automatización en procesos industriales',
+    name: 'César González',
+    company: 'Siemens Mexico, Centroamérica y el Caribe',
+    rol: 'Especialista de ventas en procesos de automatización',
+    avatar: '/speakers/CesarGonzalez.webp',
+    sketch: 'Ing. en Control y Automatización por el Instituto Politécnico Nacional. Cuenta con más de 20 años de experiencia en procesos de automatización, seguridad e ingeniería de desarrollo, en sectores energéticos como el del gas o el petróleo.  ',
+    sketch_eng: ''
   }
+
 ]
 export { speakers }

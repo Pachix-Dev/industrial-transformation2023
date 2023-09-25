@@ -94,7 +94,7 @@ export function Program () {
                                 {program.resume}
                               </Accordion.Body>
                             </Accordion.Item>
-                          </Accordion>
+                            </Accordion>
                           : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                       </div>
                       <div className='d-block text-end' style={{ width: '-webkit-fill-available' }}>
@@ -163,10 +163,10 @@ export function Program () {
                                   {program.resume}
                                 </Accordion.Body>
                               </Accordion.Item>
-                            </Accordion>
+                              </Accordion>
                             : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                         </div>
-                        <div className='d-inline-flex'>
+                        <div className='d-block text-end' style={{ width: '-webkit-fill-available' }}>
                           {
                           program.avatar === ''
                             ? ''
@@ -227,10 +227,10 @@ export function Program () {
                                   {program.resume}
                                 </Accordion.Body>
                               </Accordion.Item>
-                            </Accordion>
+                              </Accordion>
                             : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                         </div>
-                        <div className='d-inline-flex'>
+                        <div className='d-block text-end' style={{ width: '-webkit-fill-available' }}>
                           {
                           program.avatar === ''
                             ? ''
@@ -239,6 +239,16 @@ export function Program () {
                           {
                           program?.avatar2
                             ? <img onClick={() => handleModal(program?.id_s2)} src={program.avatar2} width={100} height={100} className='rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : ''
+                          }
+                          {
+                          program?.avatar3
+                            ? <img onClick={() => handleModal(program?.id_s3)} src={program.avatar3} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
+                            : ''
+                          }
+                          {
+                          program?.avatar4
+                            ? <img onClick={() => handleModal(program?.id_s4)} src={program.avatar4} width={100} height={100} className='mt-2 rounded-circle ms-4 program-date-avatar' alt='speaker' />
                             : ''
                           }
                         </div>
