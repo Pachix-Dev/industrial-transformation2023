@@ -508,7 +508,7 @@ const programITM = {
       {
         hour: '16:30 hrs',
         duration: '45 min',
-        name: 'Diego Sinhue',
+        name: 'Diego Sinhue Rodriguez Vallejo',
         id: '',
         avatar: '',
         rol: 'Gobernador Constitucional del Estado de Guanajuato',
