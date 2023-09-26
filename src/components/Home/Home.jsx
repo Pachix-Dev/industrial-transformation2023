@@ -64,7 +64,7 @@ export function Home () {
             </Ratio>
           </Col>
         </Row>
-        <h2 className='mt-5'>{t('menu.exhibitors')}</h2>
+        <h2 className='mt-5 mb-4'>{t('menu.exhibitors')}</h2>
         <ExibitorSlide />
         <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
         <Row className='text-center  pb-5'>

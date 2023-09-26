@@ -99,6 +99,9 @@ h3 {
     display: grid;
     place-items: center;
 }
+.exibitorSlider img{
+    margin: 0 30px;
+}
 
 .home-contactos {
     background-image: url('/bgcontactos.webp');
