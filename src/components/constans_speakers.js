@@ -530,11 +530,11 @@ const speakers = [
   {
     id: 53,
     conference: 'La ciberseguridad en la fábrica del futuro',
-    name: ' Israel Quiroz ',
+    name: 'Sergio Navarrete',
     company: 'IQSEC',
-    rol: 'Fundador y Presidente',
-    avatar: '/speakers/IsraelQuiroz.webp',
-    sketch: 'Con una carrera que abarca más de dos décadas, Israel Quiroz ha dedicado su vida profesional a la generación de soluciones y servicios de Seguridad Informática y de Tecnologías de la información de vanguardia. Su determinación lo impulsaron a fundar hace más de 16 años la empresa líder en Ciberseguridad e Identidad Digital, IQSEC, la cual ha sido parte de proyectos de gran trascendencia en México y en la que, hasta hace unos meses, fungió como CEO. Sin embargo, su curiosidad, creatividad y necesidad de seguir innovando lo llevaron a delegar la Dirección y ponerse al frente del Comité de Innovación & Go To Market, desde donde sigue impulsando el crecimiento y la competitividad de su empresa.',
+    rol: 'Presidente',
+    avatar: '/speakers/SergioNavarrete.webp',
+    sketch: 'Sergio Navarrete, Presidente, IQSEC',
     sketch_eng: ''
   },
   {

@@ -13,10 +13,10 @@ const programITM = {
       {
         hour: '12:00 hrs',
         duration: '45 min',
-        name: ' Israel Quiroz',
+        name: 'Sergio Navarrete',
         id: 53,
-        avatar: '/speakers/IsraelQuiroz.webp',
-        rol: 'Fundador y Presidente',
+        avatar: '/speakers/SergioNavarrete.webp',
+        rol: 'Presidente',
         company: '- IQSECc',
         conference: 'La ciberseguridad en la fábrica del futuro',
         resume: 'El término “fábrica del futuro” nos lleva a imaginar un escenario de conectividad robótica donde todo sea manejado por máquinas sin la intervención humana. Sin embargo, más allá de este escenario futurista y extravagante, está la prioridad de lograr una industria visionaria y previsora de aquellas ciberamenazas emergentes; una industria que esté lista para enfrentar los retos cibernéticos del presente de la mano de una estrategia de ciberseguridad vanguardista, la cual proteja los activos y la operación. Porque hay gran diferencia entre ser una fábrica del futuro y ser una fábrica para el futuro.'
