@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 export function CounterDown2 () {
   const { t } = useTranslation()
-  const [days, hours, minutes, seconds] = useCountdown('2023-10-04')
+  const { days, hours, minutes, seconds } = useCountdown('4 oct 2023 00:00:00')
 
   if (days + hours + minutes + seconds <= 0) {
     return <span>Time's up!</span>
