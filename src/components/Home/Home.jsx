@@ -290,12 +290,6 @@ export function Home () {
               <img src='/cluster.webp' width={200} loading='lazy' alt='cluster industrial' />
             </a>
           </Col>
-          <Col md={3} className='mx-auto my-auto'>
-            <a href='https://airtradeworld.com/' target='_blank' rel='noreferrer'>
-              <img src='/ATW.webp' width={150} loading='lazy' alt='ATW' />
-            </a>
-          </Col>
-
           <Col md={3} className='mx-auto'>
             <a href='https://www.eleconomista.com.mx/' target='_blank' rel='noreferrer'>
               <img src='/eleconomista.webp' width={200} loading='lazy' alt='el economista' />
