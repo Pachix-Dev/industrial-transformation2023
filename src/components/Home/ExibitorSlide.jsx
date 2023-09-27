@@ -202,7 +202,7 @@ const ExibitorSlide = () => {
           <img src='/Ateq.webp' width={200} alt='Ateq' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/BNCE.webp' width={200} alt='BNCE' />
+          <img src='/BNCE.webp' width={150} alt='BNCE' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/BenQ.webp' width={200} alt='BenQ' />
@@ -220,7 +220,7 @@ const ExibitorSlide = () => {
           <img src='/Dimo_Maint.webp' width={200} alt='Dimo_Maint' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/DongguanYicheng.webp' width={200} alt='DongguanYicheng' />
+          <img src='/DongguanYicheng.webp' width={150} alt='DongguanYicheng' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/EATON.webp' width={200} alt='EATON' />
@@ -235,16 +235,16 @@ const ExibitorSlide = () => {
           <img src='/KAIZEN.webp' width={200} alt='kaizen' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/LOGO-FG.webp' width={100} alt='LOGO-FG' />
+          <img src='/LOGO-FG.webp' width={150} alt='LOGO-FG' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Forte.webp' width={200} alt='Forte' />
+          <img src='/Forte.webp' width={150} alt='Forte' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/fyware.webp' width={200} alt='fyware' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/G100.webp' width={200} alt='G100' />
+          <img src='/G100.webp' width={150} alt='G100' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/Graftek.webp' width={200} alt='Graftek' />
@@ -253,7 +253,7 @@ const ExibitorSlide = () => {
           <img src='/ABSA.webp' width={200} alt='ABSA' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/GuangzhouKailing.webp' width={200} alt='GuangzhouKailing' />
+          <img src='/GuangzhouKailing.webp' width={100} alt='GuangzhouKailing' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/EHCMYK.webp' width={200} alt='EHCMYK' />
@@ -298,7 +298,7 @@ const ExibitorSlide = () => {
           <img src='/JIANGSUCONSUMMATE.webp' width={150} alt='JIANGSUCONSUMMATE' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/JIANGSUHUASHENG.webp' width={150} alt='JIANGSUHUASHENG' />
+          <img src='/JIANGSUHUASHENG.webp' width={80} alt='JIANGSUHUASHENG' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/Jiangsuitri.webp' width={150} alt='Jiangsuitri' />
