@@ -63,6 +63,27 @@ const ExibitorSlide = () => {
       <div className='exibitorSlider text-center h-100'>
         <img src='/KAIZEN.webp' width={200} alt='KAIZEN' />
       </div>
+      <div className='exibitorSlider text-center h-100'>
+        <img src='/JIANGRU.webp' width={200} alt='JIANGRU' />
+      </div>
+      <div className='exibitorSlider text-center h-100'>
+        <img src='/XiamenSDTZBearing.webp' width={200} alt='XiamenSDTZBearing' />
+      </div>
+      <div className='exibitorSlider text-center h-100'>
+        <img src='/wieland.webp' width={200} alt='wieland' />
+      </div>
+      <div className='exibitorSlider text-center h-100'>
+        <img src='/Wesco.webp' width={200} alt='Wesco' />
+      </div>
+      <div className='exibitorSlider text-center h-100'>
+        <img src='/Weidmuller.webp' width={200} alt='Weidmuller' />
+      </div>
+      <div className='exibitorSlider text-center h-100'>
+        <img src='/vallen.webp' width={200} alt='vallen' />
+      </div>
+      <div className='exibitorSlider text-center h-100'>
+        <img src='/TXOne.webp' width={200} alt='TXOne' />
+      </div>
     </Marquee>
   )
 }
