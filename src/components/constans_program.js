@@ -312,7 +312,7 @@ const programITM = {
         id_s2: 30,
         id_s3: 31,
         id_s4: 32,
-        id_s5: 33,
+        id_s5: 56,
         avatar: '/speakers/VRivera.webp',
         avatar2: '/speakers/RGuerrero.webp',
         avatar3: '/speakers/JairMexia.webp',

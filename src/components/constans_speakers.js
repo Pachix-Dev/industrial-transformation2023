@@ -327,7 +327,7 @@ const speakers = [
     sketch: 'Rodrigo Zavala, Head de Process Automation, Siemens México, Centroamérica y el Caribe.',
     sketch_eng: ''
   },
-  {
+  /* {
     id: 33,
     conference: 'Transformación Digital: Impulsando la sostenibilidad de las industrias',
     name: 'Gonzalo Matteoda',
@@ -336,7 +336,7 @@ const speakers = [
     avatar: '/speakers/Gmatteoda.webp',
     sketch: 'Gonzalo Matteoda, Head de Customer Services, Siemens México, Centroamérica y el Caribe.',
     sketch_eng: ''
-  },
+  }, */
   {
     id: 34,
     conference: 'Tres pilares de la Industria 4.0',
