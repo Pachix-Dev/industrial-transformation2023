@@ -4,7 +4,6 @@ export function Roadshows () {
   return (
     <Container>
       <h1 className='text-center fw-bold mt-5' style={{ color: '#e8001e' }}>Roadshows</h1>
-
       <Row className=' mt-5 mb-5'>
         <Col md={6}>
           <Ratio aspectRatio='16x9'>

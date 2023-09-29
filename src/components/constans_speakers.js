@@ -30,7 +30,7 @@ const speakers = [
     sketch: 'Actual líder del equipo de Ventas a Contratistas y Especificación de Schneider Electric a nivel nacional. Profesionista egresada del Tecnológico de Monterrey como Ingeniera Industrial y de Sistemas, con estudios de posgrado en Administración Financiera. Fernanda cuenta con una trayectoria dinámica y exitosa dentro de Schneider Electric, con 10 años de experiencia en Administración de Proyectos desde la concepción, ventas hasta la ejecución para la industria en segmentos de transporte, automotriz y edificios.',
     sketch_eng: 'Current leader of the Schneider Electric Contractor Sales and Specification team nationwide. Professional graduated from the Tecnológico de Monterrey as an Industrial and Systems Engineer, with postgraduate studies in Financial Administration. Fernanda has a dynamic and successful career within Schneider Electric, with 10 years of experience in Project Management from conception, sales to execution for the industry in the transportation, automotive and building segments.'
   },
-  {
+  /* {
     id: 4,
     conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
     name: 'Monserrat Puebla',
@@ -40,7 +40,7 @@ const speakers = [
     resume: 'Descubra cómo la diversidad de género impulsa la innovación y el crecimiento en el campo de la ingeniería, y cómo la inclusión de más mujeres en puestos técnicos y de liderazgo beneficia a toda la industria. A través de historias inspiradoras y experiencias personales, nuestros oradoras compartirán ideas y consejos sobre cómo superar los desafíos y lograr el éxito en un entorno tradicionalmente dominado por hombres.',
     sketch: 'Ingeniera en Comunicaciones y Electrónica con Especialidad en Control y Automatización, egresada de la ESIME Zacatenco IPN. Con 17 años de experiencia en diferentes áreas como Ingeniería de Aplicaciones y Servicios en la Industria del Petróleo y Gas, Desarrollo de Licitaciones para la Industria Privada, Mercadeo y Desarrollo de Negocios de Oferta de Automatización Industrial. Actualmente, es Gerente de Desarrollo de Negocios de Automatización Industrial en Schneider Electric México.',
     sketch_eng: 'Communications and Electronics Engineer with a Specialty in Control and Automation, graduated from ESIME Zacatenco IPN. With 17 years of experience in different areas such as Applications and Services Engineering in the Oil and Gas Industry, Development of Tenders for Private Industry, Marketing and Business Development of Industrial Automation Offer. She is currently Business Development Manager for Industrial Automation in Schneider Electric Mexico.'
-  },
+  }, */
   {
     id: 5,
     conference: 'Equidad e innovación: el rol vital de la mujer en la industria',
@@ -127,7 +127,7 @@ const speakers = [
     sketch: 'Cybersecurity Leader Mexico & Central America Ingeniero Industrial y de Sistemas con Diplomado en Dirección Estratégica de Negocios con más de 13 años de experiencia en empresas transnacionales en México, Estados Unidos y Canadá en campos de aplicación como Ciberseguridad Industrial en múltiples segmentos de aplicación.',
     sketch_eng: 'Industrial and Systems Engineer with a Diploma in Strategic Business Management with more than 13 years of experience in transnational companies in Mexico, the United States and Canada in application fields such as Industrial Cybersecurity in multiple application segments.'
   },
-  {
+  /* {
     id: 13,
     conference: 'Digitalización Inteligente: Fortaleciendo la Industria y Protegiéndola de Amenazas Cibernéticas',
     name: 'Luis Gerónimo Parilli',
@@ -136,7 +136,7 @@ const speakers = [
     avatar: '/speakers/LuisParilli.webp',
     sketch: 'Ingeniero Industrial, MBA con amplia trayectoria profesional en la gestión y administración de contratos de Ingeniería, operación y mantenimiento. Impulsador de negocios relacionados con productos y servicios, logrando que las empresas sean ambientalmente responsables (ahorro de energía, ahorro de agua y reciclaje de materiales), con más de 18 años de experiencia en empresas nacionales e internacionales. Actualmente se desempeña como Digital Services Manager para Schneider Electric México y CAM.',
     sketch_eng: 'Industrial Engineer, MBA with extensive professional experience in the management and administration of engineering, operation and maintenance contracts.  Business driver related to products and services, making companies environmentally responsible (energy saving, water saving and recycling of materials), with more than 18 years of experience in national and international companies. He currently serves as Digital Services Manager for Schneider Electric Mexico and CAM.'
-  },
+  }, */
   {
     id: 14,
     conference: 'Soluciones de misión de crítica para la Industrias actual y del futuro (3pH)',
@@ -167,7 +167,7 @@ const speakers = [
     sketch: 'Juan Alberto López Pérez es Business Development Manager para Medium Voltage Primary Distribution en Schneider Electric. Ingeniero Eléctrico con más 13 años de experiencia con equipos de Media Tensión en las áreas de Ingeniería y desarrollo de negocio.',
     sketch_eng: 'Juan Alberto López Pérez is Business Development Manager for Medium Voltage Primary Distribution at Schneider Electric. He is an Electrical Engineer with more than 13 years of experience with Medium Voltage equipment in the areas of Engineering and business development.'
   },
-  {
+  /* {
     id: 17,
     conference: 'Reinventa la automatización industrial con EcoStruxure Automation Expert.',
     name: 'Victor Bulnes',
@@ -176,7 +176,7 @@ const speakers = [
     avatar: '/speakers/VictorBulnes.webp',
     sketch: 'Con más de 15 años de experiencia en el ramo eléctrico, de automatización y mantenimiento, Victor Bulnes es egresado de la Universidad Autónoma de Nuevo León como Ingeniero Mecánico Electricista, sus áreas de especialidad son: automatización, redes industriales, control eléctrico, arranque motor, y distribución eléctrica. Victor es representante técnico en aplicaciones de producto, especializado en: PLCs y HMIs. Anteriormente, ocupó los cargos de Supervisor de Automatización para CCMs inteligentes e Ingeniero de Aplicaciones Senior dentro de la compañía Schneider Electric.',
     sketch_eng: 'With more than 15 years of experience in the electrical, automation and maintenance field, Victor Bulnes graduated from the Autonomous University of Nuevo León as an Electrical Mechanical Engineer. His areas of specialty are: automation, industrial networks, electrical control, starting engine, and electrical distribution. Victor is technical representative in product applications, specialized in: PLCs and HMIs. He previously held the positions of Automation Supervisor for intelligent CCMs and Senior Applications Engineer in Schneider Electric.'
-  },
+  }, */
   {
     id: 18,
     conference: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales',

@@ -77,7 +77,7 @@ export function Subscribe () {
                   onChange={onChange}
                   hl='en'
                 />
-              </>
+                </>
               : <ReCAPTCHA
                   sitekey='6LdUjjonAAAAADb5Z9eAiGXqMdmc6aUM8ZLzYjBg'
                   ref={captchaRef}
