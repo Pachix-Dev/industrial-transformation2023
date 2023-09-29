@@ -25,11 +25,11 @@ const programITM = {
         hour: '12:45 hrs',
         duration: '45 min',
         name: 'Miguel Domínguez | Fernanda Silva',
-        id: '',
-        avatar: '',
+        id: 2,
+        avatar: '/speakers/MiguelDominguez.webp',
         id_s2: 3,
         avatar2: '/speakers/MariaFernandaSilva.webp',
-        rol: 'Sales Manager',
+        rol: 'Inside Sales Manager | Sales Manager',
         company: '- Schneider Electric',
         conference: 'Digitalización y automatización para una industria sostenible',
         resume: 'La combinación de tecnologías digitales y automatización está impulsando una transformación sostenible en el sector industrial. Descubrirás cómo la integración de soluciones inteligentes, como la digitalización de la red eléctrica y la gestión eficiente de la energía, está promoviendo la eficiencia energética, reduciendo las emisiones y fomentando la sostenibilidad en las industrias.'
@@ -66,6 +66,21 @@ const programITM = {
         company: '- Cisco LATAM',
         conference: 'Ciberseguridad 4.0: Estrategia y Táctica desde la Trinchera',
         resume: ''
+      },
+      {
+        hour: '16:00 hrs',
+        duration: '60 min',
+        name: 'Bruno Luciano | Alfredo González | Santiago Escalona',
+        id: 64,
+        id_s2: 65,
+        id_s3: 66,
+        avatar: '/speakers/brunoLuciano.webp',
+        avatar2: '/speakers/AlfredoGonzalez.webp',
+        avatar3: '/speakers/SantiagoEscalona.webp',
+        rol: 'Director de ventas empresariales | Director de desarrollo de negocios | Director de marketing estratégico',
+        company: '- Nokia',
+        conference: 'Una fábrica es tan inteligente como la red que la conecta',
+        resume: 'Las tecnologías de comunicación inalámbrica son un habilitador clave para acelerar el camino hacia la Industria 4.0, asegurando ventajas competitivas en términos de innovación, eficiencia y flexibilidad. Identificar las fortalezas y desafíos de integrar sistemas de comunicación en rápida evolución para desarrollar aplicaciones industriales competitivas y confiables requiere una fuerte cooperación y un entendimiento común entre todos los actores en la cadena de valor. En esta sesión, nuestros expertos explican cómo con un enfoque práctico y orientado a la eficiencia del negocio, además de una conectividad inteligente y de misión crítica serán la correcta evolución hacia la manufactura 4.0, optimizando y favoreciendo el ecosistema industrial.'
       }
     ],
     oct_5: [
@@ -109,14 +124,19 @@ const programITM = {
       {
         hour: '13:45 hrs',
         duration: '60 min',
-        name: 'Panel: Siemens, Cisco, Nokia ',
-        id: '',
-        avatar: '',
-        id_s2: '',
-        avatar2: '',
-        rol: '',
+        name: 'Luz Alanis | Valeria Baudino | María del Mar López González | Sandra Aun',
+        id: 67,
+        id_s2: 68,
+        id_s3: 69,
+        id_s4: 70,
+        avatar: '/speakers/LuzAlanis.webp',
+        avatar2: '/speakers/ValeriaBaudino.webp',
+        avatar3: '/speakers/MariaMarLopez.webp',
+        avatar4: '/speakers/SandraAun.webp',
+        rol: 'Consultora | Gerente de Operaciones de Ventas | Process Engineer Manager | Gerente Direct Fulfillment',
+        company: '- Nokia | Siemens México, Centroamérica y el Caribe | MX Regional Ops - Mexico, Cisco Systems',
         conference: 'Industria 4.0: desde una perspectiva sustentable y humana',
-        resume: ''
+        resume: 'Un panel de discusión inspirador con la participación de mujeres destacadas en la Industria 4.0 en donde abordaremos las oportunidades y retos de la Industria 4.0 en la sustentabilidad y las personas. Exploraremos las perspectivas, desafíos y casos de éxito en la industria.. A través del debate de ideas que invitan a la reflexión, podremos obtener una compresión más profunda del papel crucial que tiene la Industria 4.0 como habilitador de la sustentabilidad y el desarrollo humano.'
       },
       {
         hour: '14:45 hrs',

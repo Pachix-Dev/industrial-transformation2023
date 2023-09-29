@@ -12,12 +12,12 @@ const speakers = [
   {
     id: 2,
     conference: 'Digitalización y automatización para una industria sostenible',
-    name: 'Abraham Vela',
+    name: 'Miguel Domínguez',
     company: 'Schneider Electric',
-    rol: 'Offer Marketing Manager',
-    avatar: '/speakers/AbrahamVela.webp',
-    sketch: 'Profesional experto en negocios con más de 8 años de experiencia en la industria eléctrica. Trabaja día a día para mejorar el futuro de nuestro mundo construyendo un uso sostenible y eficiente de la energía que nos permita combatir el cambio climático. Es promotor del desarrollo de las personas a través de un alto desempeño, apoyando la mejora de sus capacidades, gestionando la conciliación de la vida personal y laboral y mejorando la cultura organizacional.',
-    sketch_eng: 'Expert business professional with more than 8 years of experience in the electrical industry. Abraham Vela works every day to improve the future of our world by building a sustainable and efficient use of energy that allows us to combat climate change. Promoter of people\'s development through high performance, supporting the improvement of their skills, managing the reconciliation of personal and work life and improving the organizational culture.'
+    rol: 'Inside Sales Manager',
+    avatar: '/speakers/MiguelDominguez.webp',
+    sketch: 'Lider para Inside Sales Manager All BU, tiene expertise en la industria eléctrica, acumulado a lo largo de más de diez años de dedicación y logros significativos dentro de la compañía. Su experiencia incluye un rol clave como Prescription Manager en la unidad de negocios de Home & Distribution, donde lideró estrategias exitosas en el ámbito de los desarrolladores de vivienda en México. Miguel es Ingeniero Mecatrónico graduado de la Universidad Tecnológica de Pereira en Colombia y cuenta con una maestría en ingeniería eléctrica por el CINVESTAV (Centro de Investigación y de Estudios Avanzados del IPN)',
+    sketch_eng: 'Leader for Inside Sales Manager All BU, has expertise in the electrical industry, accumulated through more than ten years of dedication and significant achievements within the company. His experience includes a key role as Prescription Manager in the Home & Distribution business unit, where he led successful strategies in the field of housing developers in Mexico. Miguel holds a degree in Mechatronics Engineering from the Universidad Tecnológica de Pereira in Colombia and a Master\'s degree in Electrical Engineering from CINVESTAV (Centro de Investigación y de Estudios Avanzados del IPN)'
   },
   {
     id: 3,
@@ -635,6 +635,76 @@ const speakers = [
     rol: 'Gerente Regional de Servicio',
     avatar: '/speakers/GonzaloPineda.webp',
     sketch: 'Gonzalo Pineda, Gerente Regional de Servicio, Mitsubishi Electric Automation ',
+    sketch_eng: ''
+  },
+  {
+    id: 64,
+    conference: 'Una fábrica es tan inteligente como la red que la conecta',
+    name: 'Bruno Luciano',
+    company: 'Nokia',
+    rol: 'Director de ventas empresariales',
+    avatar: '/speakers/brunoLuciano.webp',
+    sketch: 'Bruno cuenta con más de 15 años de experiencia en el sector de telecomunicaciones, desempeñando diferentes roles en su carrera posicionando soluciones de Nokia para la industria, con amplio enfoque en Digitalización del sector Telco e industria para llevar a cabo la transformación hacia Industria 4.0 y Tecnología 5G, logrando aportar una visión tecnológica y de negocios global por haber vivido en diferentes países en los últimos años. lográndose consolidar como un referente en el sector. Es Ingeniero Eléctrico y en Electrónica por la Universidad Bandeirantes y un MBA ejecutivo por la Fundación Don Cabral, ambas ubicadas en Brasil.',
+    sketch_eng: ''
+  },
+  {
+    id: 65,
+    conference: 'Una fábrica es tan inteligente como la red que la conecta',
+    name: 'Alfredo González Herrero',
+    company: 'Nokia',
+    rol: 'Director de desarrollo de negocios',
+    avatar: '/speakers/AlfredoGonzalez.webp',
+    sketch: 'Alfredo González colabora actualmente con operadores de ferrocarriles, puertos y terminales marítimas, aeropuertos y operadores logísticos de América Latina en su transformación hacia Industria 4.0 con soluciones de redes de misión crítica y redes privadas 4G/5G de Nokia. Alfredo coordina una organización dedicada a desarrollar el negocio de NOKIA en nuevos proyectos de manufactura, infraestructura y de transporte y logística, a su vez, Alfredo también desarrolla nuevos socios y aliados en el sector, anteriormente en Nokia, fue Director para Empresas y Gobierno en México y también Director para la cuenta Telefónica Latinoamérica Norte. Alfredo tiene una Maestría en Ingeniería de Telecomunicaciones por la Universidad Politécnica de Madrid en España y un MBA por el IESE Business School de la Universidad de Navarra.',
+    sketch_eng: ''
+  },
+  {
+    id: 66,
+    conference: 'Una fábrica es tan inteligente como la red que la conecta',
+    name: 'Santiago Escalona',
+    company: 'Nokia',
+    rol: 'Director de Marketing estratégico',
+    avatar: '/speakers/SantiagoEscalona.webp',
+    sketch: 'Santiago cuenta con alrededor de 20 años de experiencia en el sector de telecomunicaciones, desempeñando roles tanto técnicos como comerciales, de liderazgo de ventas y marketing, actualmente dirige el posicionamiento de Nokia y ayuda a la generación de negocios en el mercado Latinoamericano, con amplio enfoque en Transformación Digital, Industria 4.0 y Tecnología 5G, logrando aportar una visión tecnológica y de negocios global por haber vivido 9 años fuera de México en países como China, Nigeria, Ecuador, Panamá, Argelia, Marruecos y Suecia, lográndose consolidar como un referente en el sector. Es Ingeniero en Comunicaciones y Electrónica por el Instituto Politécnico Nacional de México y un diplomado master en Marketing por Wharton School de la Universidad de Pennsylvania.',
+    sketch_eng: ''
+  },
+  {
+    id: 67,
+    conference: 'Industria 4.0: desde una perspectiva sustentable y humana',
+    name: 'María de la Luz Alanís Uriarte',
+    company: '',
+    rol: 'Consultora ',
+    avatar: '/speakers/LuzAlanis.webp',
+    sketch: 'Mujer, promotora de la empatía profesional, de un desarrollo organizacional integral, inclusivo y sostenible. Máster en Gestión Ambiental por la Escuela Europea de Dirección y Empresa. Una década en la industria de alimentos y bebidas. Ha participado en la generación e implementación de estrategias y herramientas de Industria 4.0 en más de 100 líneas de producción en 10 países distintos incrementando el bienestar y seguridad de los colaboradores garantizando un payback saludable. Diseñó  estrategias y material de capacitación de la estrategia de sustentabilidad en 27 plantas de producción en 11 países. Ejecutando los cursos in situ. Diseñó , configuró e implementó un sistema de seguridad industrial en 13 plantas de producción en 8 países.',
+    sketch_eng: ''
+  },
+  {
+    id: 68,
+    conference: 'Industria 4.0: desde una perspectiva sustentable y humana',
+    name: 'Valeria Baudino',
+    company: 'Nokia Enterprise',
+    rol: 'Directora de Estrategia Comercial ',
+    avatar: '/speakers/ValeriaBaudino.webp',
+    sketch: 'Valeria cuenta con más de 25 años de experiencia en el sector de telecomunicaciones, desempeñando distintos roles en operaciones y liderando proyectos en varios países de    Latinoamérica. Actualmente se desempeña como Directora de Estrategia Comercial para Latinoamérica para el mercado Enterprise, enfocado en los sectores de Gobierno e Industrias, tales como Energía, Minería, Transporte, Manufactura y Logística. Es Ingeniera Industrial por el ITBA (Instituto Tecnológico de Buenos Aires) y tiene un MBA por la Universidad del CEMA de Buenos Aires y un Master en Program Management del Stevens Institute of Technology University in New Jersey.',
+    sketch_eng: ''
+  },
+  {
+    id: 69,
+    conference: 'Industria 4.0: desde una perspectiva sustentable y humana',
+    name: 'María del Mar López González',
+    company: 'Siemens México, Centroamérica y el Caribe',
+    rol: 'Process Engineer Manager',
+    avatar: '/speakers/MariaMarLopez.webp',
+    sketch: 'Cuenta con más de 10 años de experiencia en ingeniería de manufactura. Ha liderado equipos multifuncionales en el diseño de fábricas y en el desarrollo de nuevos procesos. El aumento de la capacidad y la expansión de la planta son algunos de los proyectos más desafiantes y favoritos en los que actualmente ha trabajado. Como gerente, su principal responsabilidad es asegurar que su equipo tenga todas las herramientas y recursos necesarios para completar proyectos, alcanzar objetivos y lograr todo con la más alta calidad, cumpliendo con todos los requisitos de los clientes al menor costo posible. Cuenta con 8 años de experiencia en el lanzamiento de la industria automotriz y en la metodología de preparación de nuevos productos para FORD, HONDA, TOYOTA y KIA (fuera de la herramienta de proceso, revisión de diseño, control de calidad, MRM, SOP, ESC).',
+    sketch_eng: ''
+  },
+  {
+    id: 70,
+    conference: 'Industria 4.0: desde una perspectiva sustentable y humana',
+    name: 'Sandra Aun',
+    company: 'MX Regional Ops - Mexico, Cisco Systems',
+    rol: 'Gerente Direct Fulfillment',
+    avatar: '/speakers/SandraAun.webp',
+    sketch: 'Como Gerente de Direct Fulfillment de Operaciones en México Sandra es responsable de habilitar y administrar las acciones de manufactura y todas las actividades de la cadena de suministro y el cumplimiento de embarques directos. Sandra se encarga de garantizar la continuidad del suministro, el dimensionamiento de la capacidad y el cumplimiento de los planes de construcción para lograr métricas clave, presupuestos y satisfacción del cliente. Con más de 18 años de experiencia en la cadena de suministro y operaciones de fabricación, ha ocupado varios puestos de liderazgo, donde ha liderado, construido y escalado equipos en México, Europa y América del Norte con logros en el desarrollo e implementación de estrategias de cadena de suministro completas con flexibilidad, competitividad de tiempos y costos y entrega a tiempo a clientes. Sandra forma parte del último eslabón de la estrategia de Cisco de cadena de suministro. Es una firme defensora y patrocinadora de las mujeres. Apasionada por el liderazgo y por fomentar la próxima generación de mujeres a través de la acción y el ejemplo para ocupar puestos de liderazgo. Sandra cree firmemente en el pensamiento positivo y en la influencia con una actitud positiva en el lugar de trabajo. Sandra es licenciatura en administración de empresas y una maestría en Administración y Dirección de Empresas del ITESM. Certificado en Compras y Control de Inventarios, así como Green Belt del ISCM.',
     sketch_eng: ''
   }
 
