@@ -132,7 +132,7 @@ const programITM = {
         avatar: '/speakers/LuzAlanis.webp',
         avatar2: '/speakers/ValeriaBaudino.webp',
         avatar3: '/speakers/MariaMarLopez.webp',
-        avatar4: '/speakers/SandraAun.webp',
+        avatar4: '/speakers/SandraAun2.webp',
         rol: 'Consultora | Gerente de Operaciones de Ventas | Process Engineer Manager | Gerente Direct Fulfillment',
         company: '- Nokia | Siemens México, Centroamérica y el Caribe | MX Regional Ops - Mexico, Cisco Systems',
         conference: 'Industria 4.0: desde una perspectiva sustentable y humana',
