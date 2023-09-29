@@ -706,6 +706,16 @@ const speakers = [
     avatar: '/speakers/SandraAun.webp',
     sketch: 'Como Gerente de Direct Fulfillment de Operaciones en México Sandra es responsable de habilitar y administrar las acciones de manufactura y todas las actividades de la cadena de suministro y el cumplimiento de embarques directos. Sandra se encarga de garantizar la continuidad del suministro, el dimensionamiento de la capacidad y el cumplimiento de los planes de construcción para lograr métricas clave, presupuestos y satisfacción del cliente. Con más de 18 años de experiencia en la cadena de suministro y operaciones de fabricación, ha ocupado varios puestos de liderazgo, donde ha liderado, construido y escalado equipos en México, Europa y América del Norte con logros en el desarrollo e implementación de estrategias de cadena de suministro completas con flexibilidad, competitividad de tiempos y costos y entrega a tiempo a clientes. Sandra forma parte del último eslabón de la estrategia de Cisco de cadena de suministro. Es una firme defensora y patrocinadora de las mujeres. Apasionada por el liderazgo y por fomentar la próxima generación de mujeres a través de la acción y el ejemplo para ocupar puestos de liderazgo. Sandra cree firmemente en el pensamiento positivo y en la influencia con una actitud positiva en el lugar de trabajo. Sandra es licenciatura en administración de empresas y una maestría en Administración y Dirección de Empresas del ITESM. Certificado en Compras y Control de Inventarios, así como Green Belt del ISCM.',
     sketch_eng: ''
+  },
+  {
+    id: 71,
+    conference: 'Digital Transformation: Build smart apps, build apps smarter',
+    name: 'Kenya Castellanos',
+    company: 'Siemens Digital Industries Software Mexico, Centroamerica Y El Caribe',
+    rol: 'Gerente Direct Fulfillment',
+    avatar: '/speakers/KenyaCastellanos.webp',
+    sketch: 'Ingeniera Industrial y de Sistemas con experiencia en todo el ciclo de vida del desarrollo de software (SDLC), incluido el diseño, la implementación y las pruebas.Especialista en el manejo de herramientas de desarrollo de software que incluyen Python, VBA, R, SQL, JS, entre otras, así como desarrollo en plataformas low – code.',
+    sketch_eng: ''
   }
 
 ]

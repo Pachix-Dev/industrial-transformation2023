@@ -516,6 +516,17 @@ const programITM = {
         resume: 'eXtended Transport System XTS es un sistema de trasporte lineal accionado magnéticamente con características de libre de mantenimiento que permiten total independencia en cado uno de sus elementos de transporte para una completa flexibilidad al momento de transportar productos linealmente. Por otro lado, nuestro sistema de transporte por levitación XPlanar permite controlar 6 grados de libertad al momento de transportar material entre estaciones de trabajo a través de un pallet de transporte. Conceptos como gemelo digital, interconectividad, trazabilidad entre otros serán abordaos durante la presentación.'
       },
       {
+        hour: '13:30 hrs',
+        duration: '45 min',
+        name: 'Javier Perez | Matthew Schwieger',
+        id: '',
+        avatar: '',
+        rol: 'Sales Engineer | General Manager (North America)',
+        company: '- PowerArena',
+        conference: 'IA de visión artificial: una nueva era para los ingenieros industriales',
+        resume: 'El ensamblaje durante mucho tiempo una fortaleza para la manufactura mexicana y continúa creciendo. Sin embargo, las exigencias a las que se enfrentan los equipos de ingenieros industriales en la actualidad eran inimaginables hace apenas una década. Para que México siga siendo líder en ensamble, se deben realizar inversiones en manufactura inteligente. La fabricación inteligente, como la Industria 4.0, ha evitado en gran medida el ensamblaje, pero la tecnología adecuada está aquí en forma de IA de visión por computadora. PowerArena cuenta con esta tecnología y es el líder emergente en México en la implementación de esta tecnología. Únase a esta conversación con PowerArena y Advantech para conocer cómo la IA de visión por computadora está llevando la fabricación inteligente a México.'
+      },
+      {
         hour: '15:00 hrs',
         duration: '90 min',
         name: 'Presentación de Pitches de las Startups Finalistas.',
@@ -563,6 +574,17 @@ const programITM = {
         company: '- Ikusi',
         conference: 'Ciberseguridad en la cadena de suministros: La ciber-resilencia como un factor crítico a considera',
         resume: 'El tema de la ciberseguridad es por mucho un factor de éxito en cualquier iniciativa de Industria 4.0 hoy en día.  En esta charla se podrá identificar los factores que son necesarios considerar en términos de ciberseguridad dentro de una organización, así como la consideración de controles en su cadena de suministro  para identificar algún riesgo de manera temprana y eficiente,  con la finalidad de evitar un impacto en el negocio.'
+      },
+      {
+        hour: '12:30 hrs',
+        duration: '45 min',
+        name: 'José Iván Manzano',
+        id: '',
+        avatar: '',
+        rol: 'Gerente de ventas sector manufactura y energía',
+        company: '- Nokia ',
+        conference: 'Acelerando la digitalización hacia Industria 4.0',
+        resume: ''
       },
       {
         hour: '13:15 hrs',
@@ -615,6 +637,17 @@ const programITM = {
         resume: 'Entérate como Hitachi Energy con sus soluciones digitales puede optimizar las operaciones de monitoreo y control de sus sistemas eléctricos para mejorar la flexibilidad en el suministro de energía para las industrias.'
       },
       {
+        hour: '12:30 hrs',
+        duration: '45 min',
+        name: 'Alfredo González Herrero',
+        id: 65,
+        avatar: '/speakers/AlfredoGonzalez.webp',
+        rol: 'Director de desarrollo de negocios ',
+        company: '- Nokia ',
+        conference: '¿Por qué 5G es un habilitador clave en la transformación digital de la industria manufacturera?',
+        resume: 'Las industrias digitales, como el comercio minorista en línea, los medios de comunicación, la banca y seguros… ya están disfrutando del potencial de la digitalización desde años. Sin embargo, la gran mayoría de las empresas físicas (intensivos en activos físicos) solo han podido materializar una mínima parte de todo su potencial. Son muchas las tecnologías que permiten digitalizar los distintos aspectos de las operaciones de las empresas físicas: La Industria 4.0.  ¿Qué hace diferentes y superiores a las redes privadas 5G frente a las tecnologías inalámbricas que venían usándose hasta la fecha en entornos industriales? ¿Cuáles son los casos de uso que estas tecnologías habilitan que antes no eran viables o casi imposibles?'
+      },
+      {
         hour: '13:15 hrs',
         duration: '45 min',
         name: 'Francia González Alfaro',
@@ -650,6 +683,17 @@ const programITM = {
         company: '- Schneider Electric',
         conference: 'Innovación para la eficiencia y la sostenibilidad en instalaciones comerciales e industriales',
         resume: '¿Innovación sostenible, eficiente y accionable para tus edificaciones comerciales? La tecnología para ello ya existe. Descubre de la mano de nuestras expertas, Abigail Carrillo -Metering Business Developer- y Virginia Guerere -Building Automation Business Developer-, todo lo que la digitalización, medición y automatización de las edificaciones pueden brindarte. Desde ahorro de energía hasta ahorro operativo y de mantenimiento, las instalaciones comerciales e industriales pueden ser eficientes al mismo tiempo que sostenibles.'
+      },
+      {
+        hour: '11:45 hrs',
+        duration: '45 min',
+        name: 'Kenya Castellanos',
+        id: 71,
+        avatar: '/speakers/KenyaCastellanos.webp',
+        rol: 'Consultora Pre-venta',
+        company: '- Siemens Digital Industries Software Mexico, Centroamerica Y El Caribe',
+        conference: 'Digital Transformation: Build smart apps, build apps smarter',
+        resume: 'Esta conferencia se enfoca en la transformación digital y cómo esta revoluciona la forma en que se desarrollan y utilizan aplicaciones inteligentes. Explora cómo las tecnologías emergentes, como la inteligencia artificial y el aprendizaje automático, están siendo implementadas en el desarrollo de aplicaciones para optimizar procesos y mejorar la eficiencia en diversas áreas.'
       },
       {
         hour: '13:15 hrs',
