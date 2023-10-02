@@ -5,10 +5,12 @@ const programITM = {
       {
         hour: '11:00 hrs',
         duration: '60 min',
-        name: 'Cinco Años de Industrial Transformation México: Un Impulso para el Desarrollo Económico Sustentable',
+        name: 'Jochen Köckler | Diego Sinhue Rodríguez Vallejo | Alejandro Preinfalk | Lilia de Diego Correa',
         avatar: '',
-        rol: '',
-        conference: 'Panel de GIZ'
+        rol: 'Chairman of the Managing Board | Gobernador del Estado de Guanajuato | Presidente | Asesora Técnica',
+        company: '- Deutsche Messe AG | Gobierno del estado de Guanajuato | Cámara Mexicano-Alemana de Comercio e Industria (CAMEXA) y Presidente & CEO de Siemens México, Centroamérica y el Caribe |  GIZ México',
+        conference: 'Industrial Transformation MEXICO: Cinco años impulsando la Industria 4.0 para el desarrollo industrial sostenible0',
+        resume: 'Celebrando su quinta edición, el gran éxito de la ITM evidencia que cada vez más actores del sector privado y público son conscientes de la importancia de la Industria 4.0 para el desarrollo industrial sustentable. En este panel, altos representantes de instituciones mexicanas y alemanas reflexionarán sobre la exitosa colaboración entre ambos países en estos temas y el impacto de la feria de Industria 4.0 más grande de Latinoamérica. '
       },
       {
         hour: '12:00 hrs',
@@ -205,6 +207,17 @@ const programITM = {
       }
     ],
     oct_6: [
+      {
+        hour: '9:30 hrs',
+        duration: '45 min',
+        name: 'Jonathan David Ramirez Cruz',
+        id: '',
+        avatar: '',
+        rol: ' ',
+        company: '- Beckhoff Automation',
+        conference: 'MX-System - Automatización de máquinas y sistemas sin tableros de control',
+        resume: 'Acompáñanos a sumergirnos en la integración de la tecnología operativa (OT) y la tecnología de la información (IT) en el entorno de la producción industrial. Explora cómo la recopilación, análisis y aplicación de datos pueden desempeñar un papel fundamental en la mejora de la productividad en la industria.'
+      },
       {
         hour: '10:15 hrs',
         duration: '45 min',
@@ -687,6 +700,17 @@ const programITM = {
         company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
         conference: 'Sin automatización, no hay digitalización',
         resume: 'Ofreceremos una visión clara de por qué la automatización y la digitalización van de la mano en la revolución industrial actual y cómo es que las industrias pueden aprovechar esta sinergia para mantenerse relevantes y prosperar en mercados cada vez más tecnológicos y competitivos.'
+      },
+      {
+        hour: '14:45 hrs',
+        duration: '45 min',
+        name: 'Alan Gonzalez López',
+        id: 50,
+        avatar: '/speakers/AlanGonzalez.webp',
+        rol: 'Gerente técnico',
+        company: '- Beckhoff Automation ',
+        conference: 'Control basado en computadora industrial',
+        resume: ''
       },
       {
         hour: '15:30 hrs',
