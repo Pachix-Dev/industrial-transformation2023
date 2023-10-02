@@ -611,6 +611,17 @@ const programITM = {
         company: 'Mitsubishi Electric Automation',
         conference: 'Monozukuri, manufactura y digitalización',
         resume: ''
+      },
+      {
+        hour: '16:15 hrs',
+        duration: '45 min',
+        name: 'Rosario Ramírez Lugo',
+        id: 72,
+        avatar: '/speakers/RosarioRamirez.webp',
+        rol: 'Business Development Electrical Resistance Welding,',
+        company: 'Bosch Rexroth',
+        conference: 'Cómo aumentar la productividad y la calidad en el proceso de soldadura por resistencia',
+        resume: 'Durante esta conferencia el asistente conocerá un nuevo método de regulación para la soldadura por resistencia de tipo punto (spot) para obtener una calidad inigualable en prácticamente cualquier tipo de material. Adicionalmente, se presentará cómo aumentar el desempeño en el proceso de soldadura por resistencia al ahorrar tiempo en cada ciclo de soldadura; así como algunas herramientas para reducir los costos y tiempos de puesta en el mercado de sus máquinas de soldadura por resistencia.'
       }
     ],
     oct_5: [
