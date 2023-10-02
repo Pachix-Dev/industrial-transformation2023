@@ -16,7 +16,7 @@ const speakers = [
     company: 'Schneider Electric',
     rol: 'Inside Sales Manager',
     avatar: '/speakers/MiguelDominguez.webp',
-    sketch: 'Lider para Inside Sales Manager All BU, tiene expertise en la industria eléctrica, acumulado a lo largo de más de diez años de dedicación y logros significativos dentro de la compañía. Su experiencia incluye un rol clave como Prescription Manager en la unidad de negocios de Home & Distribution, donde lideró estrategias exitosas en el ámbito de los desarrolladores de vivienda en México. Miguel es Ingeniero Mecatrónico graduado de la Universidad Tecnológica de Pereira en Colombia y cuenta con una maestría en ingeniería eléctrica por el CINVESTAV (Centro de Investigación y de Estudios Avanzados del IPN)',
+    sketch: 'Líder para Inside Sales Manager All BU, tiene expertise en la industria eléctrica, acumulado a lo largo de más de diez años de dedicación y logros significativos dentro de la compañía. Su experiencia incluye un rol clave como Prescription Manager en la unidad de negocios de Home & Distribution, donde lideró estrategias exitosas en el ámbito de los desarrolladores de vivienda en México. Es Ingeniero Mecatrónico graduado de la Universidad Tecnológica de Pereira, en Colombia, y cuenta con una maestría en ingeniería eléctrica por el CINVESTAV (Centro de Investigación y de Estudios Avanzados del IPN).',
     sketch_eng: 'Leader for Inside Sales Manager All BU, has expertise in the electrical industry, accumulated through more than ten years of dedication and significant achievements within the company. His experience includes a key role as Prescription Manager in the Home & Distribution business unit, where he led successful strategies in the field of housing developers in Mexico. Miguel holds a degree in Mechatronics Engineering from the Universidad Tecnológica de Pereira in Colombia and a Master\'s degree in Electrical Engineering from CINVESTAV (Centro de Investigación y de Estudios Avanzados del IPN)'
   },
   {
@@ -214,7 +214,7 @@ const speakers = [
     company: 'Schneider Electric',
     rol: 'General Manager at LAING Business Solutions',
     avatar: '/speakers/ilianaVera.webp',
-    sketch: 'Iliana Vera es la Directora General de LAING Business Solutions. Aporta más de 20 años de experiencia en manufactura al servicio de empresas industriales como Magna y Nemak con soluciones de Industria 4.0. Iliana es también la Presidenta de la Cámara Canadiense de Coahuila. Es una defensora de los Negocios Internacionales y le apasiona ayudar a los fabricantes globales a impulsar la productividad en sus plantas y cadenas de suministro.',
+    sketch: 'Es Directora General de LAING Business Solutions. Tiene más de 20 años de experiencia en manufactura al servicio de empresas industriales como Magna y Nemak, con soluciones de Industria 4.0. Es Presidenta de la Cámara Canadiense de Coahuila. Es una defensora de los Negocios Internacionales y le apasiona ayudar a los fabricantes globales a impulsar la productividad en sus plantas y cadenas de suministro.',
     sketch_eng: 'Iliana Vera is the General Manager at LAING Business Solutions. She brings over 20 years of manufacturing experience serving industrial companies like Magna and Nemak with Industry 4.0 solutions. Iliana is also the President of the Canadian Chamber of Coahuila. She is an International Business advocate and is passionate about helping global manufacturers drive productivity in their plants and supply chains. '
   },
   {
@@ -244,7 +244,7 @@ const speakers = [
     company: 'Asociación Mexicana de la Industria Automotriz',
     rol: 'Presidente Ejecutivo',
     avatar: '/speakers/JoseZozaya.webp',
-    sketch: 'El Dr. Zozaya es Presidente Ejecutivo de la Asociación Mexicana de la Industria Automotriz a partir de Agosto del 2020. Fungió como Presidente, Gerente General y Representante Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM),empresa subsidiaria de Kansas City Southern (KCS) (NYSE: KSU), desde Abril del 2006 a Julio del 2020. Cuenta con más de 40 años de experiencia en relaciones gubernamentales, asuntos legales y asuntos internacionales, así como en fusiones y adquisiciones. Previo a ser Presidente Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM), fue Director Jurídico y de Relaciones Gubernamentales de ExxonMobil México, posición que ocupó durante nueve años. Tiene un Doctorado Honoris Causa otorgado por parte de la Academia Mexicana de Derecho Internacional y una Licenciatura en Derecho por la Universidad Iberoamericana. Realizó estudios avanzados en Derecho Corporativo y Competencia Económica en el Instituto Tecnológico Autónomo de México, cursó el programa ejecutivo de Administración de Empresas Internacionales en la Universidad Thunderbird en Arizona, el programa de gestión para abogados en la Universidad de Yale y el curso ejecutivo para miembros del consejo de administración en la Escuela de Negocios de Harvard. Fue también Presidente de la Asociación Mexicana de Ferrocarriles para el periodo 2020 – 2021; Vicepresidente de CONCAMIN desde 2018, miembro del Consejo de Administración de Afore Siglo XXI, de la empresa Ferrovalle y de Cumbre de Negocios. Desde el 24 de mayo de 2016, fue nombrado Presidente del Consejo Binacional de Directores de la US-Mexico Chamber of Commerce. Fue Presidente del Consejo Mexicano del Transporte (2014 – 2016), Vicepresidente del Consejo Ejecutivo de Empresas Globales (2010 – 2013), Presidente Nacional de la American Chamber durante dos periodos (2010 – 2012), es miembro del Patronato de la Orquesta Sinfónica del Estado de México y miembro del board de Fomento Educacional A.C.',
+    sketch: 'Es Presidente Ejecutivo de la Asociación Mexicana de la Industria Automotriz a partir de agosto del 2020. Fungió como Presidente, Gerente General y Representante Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM),empresa subsidiaria de Kansas City Southern (KCS) (NYSE: KSU), desde abril del 2006 a julio del 2020. Cuenta con más de 40 años de experiencia en relaciones gubernamentales, asuntos legales y asuntos internacionales, así como en fusiones y adquisiciones. Previo a ser Presidente Ejecutivo de Kansas City Southern de México, S.A. de C.V. (KCSM), fue Director Jurídico y de Relaciones Gubernamentales de ExxonMobil México, posición que ocupó durante nueve años. Tiene un Doctorado Honoris Causa otorgado por parte de la Academia Mexicana de Derecho Internacional y una Licenciatura en Derecho por la Universidad Iberoamericana. Realizó estudios avanzados en Derecho Corporativo y Competencia Económica en el Instituto Tecnológico Autónomo de México, cursó el programa ejecutivo de Administración de Empresas Internacionales en la Universidad Thunderbird en Arizona, el programa de gestión para abogados en la Universidad de Yale y el curso ejecutivo para miembros del consejo de administración en la Escuela de Negocios de Harvard. Fue también Presidente de la Asociación Mexicana de Ferrocarriles para el periodo 2020 – 2021; Vicepresidente de CONCAMIN desde 2018, miembro del Consejo de Administración de Afore Siglo XXI, de la empresa Ferrovalle y de la Cumbre de Negocios. Desde el 24 de mayo de 2016, fue nombrado Presidente del Consejo Binacional de Directores de la US-Mexico Chamber of Commerce. Fue Presidente del Consejo Mexicano del Transporte (2014 – 2016), Vicepresidente del Consejo Ejecutivo de Empresas Globales (2010 – 2013), Presidente Nacional de la American Chamber durante dos periodos (2010 – 2012), es miembro del Patronato de la Orquesta Sinfónica del Estado de México y miembro del board de Fomento Educacional A.C.',
     sketch_eng: ''
   },
   {
@@ -364,7 +364,7 @@ const speakers = [
     company: 'WAGO',
     rol: 'Gerente Técnico',
     avatar: '/speakers/JCRV.webp',
-    sketch: 'Carlos Ramirez, estudió la carrera de Ingeniería en Sistemas con especialidad en Automatización y Control. Desde 2009 colaboró con un distribuidor/integrador principalmente en el área de automatización y soporte. En 2015 se une a WAGO como gerente regional de la zona sureste, en 2016 inició actividades de soporte técnico de productos WAGO, especialmente en el área de Automatización, a nivel nacional como Ingeniero de Aplicaciones. En 2021 tomó el cargo de Gerente técnico, apoyando con el equipo, a usuarios internos y externos de WAGO en la preparación de su personal con capacitaciones, soporte, y selección de equipo para el desarrollo de sus aplicaciones en automatización. Actualmente se encuentra estudiando el diplomado "European Energy Manager".',
+    sketch: 'Estudió la carrera de Ingeniería en Sistemas con especialidad en Automatización y Control. Desde 2009 colaboró con un distribuidor/integrador principalmente en el área de automatización y soporte. En 2015, se unió a WAGO como gerente regional de la zona sureste, en 2016 inició actividades de soporte técnico de productos WAGO, especialmente en el área de Automatización, a nivel nacional como Ingeniero de Aplicaciones. En 2021 tomó el cargo de Gerente técnico, apoyando con el equipo, a usuarios internos y externos de WAGO en la preparación de su personal con capacitaciones, soporte, y selección de equipo para el desarrollo de sus aplicaciones en automatización. Actualmente, se encuentra estudiando el diplomado "European Energy Manager".',
     sketch_eng: ''
   },
   {
@@ -381,7 +381,7 @@ const speakers = [
     id: 38,
     conference: 'Descarbonización en la Industria 4.0',
     name: 'Alejandro Rodríguez Rosales',
-    company: 'Siemens Mexico, Centroamerica Y El Caribe',
+    company: 'Siemens México, Centroamerica Y El Caribe',
     rol: 'Digital Industries, Sustainability Leader',
     avatar: '/speakers/AlejandroRodríguez.webp',
     sketch: 'Es Eléctrico Electrónico por la Facultad de Ingeniería, de la Universidad Nacional Autónoma de México. Cuenta con 10 años de experiencia en Energía y Sustentabilidad. Ha ocupado diversos roles en Latinoamérica con experiencia en proyectos de Eficiencia Energética, Generación Distribuida e Instalaciones Eléctricas. Actualmente, en Siemens desempeña el rol de Líder de Sustentabilidad en la División de Digital Industries para México y Centroamérica, enfocado en soluciones de descarbonización.',
@@ -419,7 +419,7 @@ const speakers = [
   },
   {
     id: 42,
-    conference: 'Gestión inteligente de redes de agua',
+    conference: 'Exploradores del mañana: “Un viaje al futuro con ayuda de la tecnología”',
     name: 'José Luis Ponce González',
     company: 'Ikusi',
     rol: 'Subdirector de Desarrollo de Soluciones y Servicios de Ciberseguridad',
@@ -474,7 +474,7 @@ const speakers = [
     company: 'BVMW',
     rol: 'Miembro del Comité Ejecutivo Federal de la Asociación Alemana de la Pequeña y Mediana Empresa',
     avatar: '/speakers/AndreasJahn.webp',
-    sketch: 'Andreas Jahn ha sido miembro del Comité Ejecutivo Federal de los departamentos de Política, Economía y Comercio Exterior, Asuntos Públicos, Prensa y Relaciones Públicas del BVMW. Además, el Sr. Jahn es Secretario General de la Alianza de Pequeñas y Medianas Empresas con África, una iniciativa del BVMW que apoya a las empresas en su inserción en el mercado africano. También es el Presidente del Foro Germano-Turcomano desde 2021. De 2009 a 2019, trabajó en el Parlamento Alemán como asesor de política exterior del Diputado Johannes Selle. Andreas Jahn mantiene vínculos estrechos con importantes actores de la política nacional e internacional y ha viajado varias veces con delegaciones a África, Rusia y los Estados de la CEI, así como a otras regiones del mundo.',
+    sketch: 'Ha sido miembro del Comité Ejecutivo Federal de los departamentos de Política, Economía y Comercio Exterior, Asuntos Públicos, Prensa y Relaciones Públicas del BVMW. Además, es Secretario General de la Alianza de Pequeñas y Medianas Empresas con África, una iniciativa del BVMW que apoya a las empresas en su inserción en el mercado africano. También, es el Presidente del Foro Germano-Turcomano desde 2021. De 2009 a 2019, trabajó en el Parlamento Alemán como asesor de política exterior del Diputado Johannes Selle. Mantiene vínculos estrechos con importantes actores de la política nacional e internacional y ha viajado varias veces con delegaciones a África, Rusia y los Estados de la CEI, así como a otras regiones del mundo.',
     sketch_eng: ''
   },
   {
@@ -484,7 +484,7 @@ const speakers = [
     company: 'CONCANACO SERVYTUR',
     rol: 'Vicepresidente de Innovación y Tecnología',
     avatar: '/speakers/RaulHernandez.webp',
-    sketch: 'Raúl ha llevado a cabo diferentes proyectos tanto en el sector público como privado, realizando diferentes plataformas como Check In Digital, para hoteles y restaurantes. Sanicam, prototipo automatizado orientado a desinfectar espacios a través del uso de tecnología UV. Así mismo, en el sector público el SIGH Magdalena, modelo de gestión estratégica implementando componentes innovadores al servicio de urgencias de la Unidad Médica de Alta Especialidad “Dr. Victorio de la Fuente Narváez” del IMSS. Como Vicepresidente de la Comisión de Innovación y Tecnología de CONCANACO SERVYTUR desde 2017, ha desarrollado diversas  plataformas para la Confederación, como Plataforma CONCANACO Buen Fin, CONCACLICK, CONCATOURS y Proyecto Islas Marías en colaboración con la Secretaría de Marina. Ha participado en diferentes concursos de innovación tecnológica, en los cuales ha sido reconocido gracias a sus conocimientos en desarrollo de plataformas digitales. Siendo ganador del Reto Todos vs el cáncer infantil, Reto INDAABIN 2015, Premio Nacional a la Innovación Tecnológica en la Promoción Turística de los Pueblos Mágicos, Reto Zapopan, entre otros.',
+    sketch: 'Ha llevado a cabo diferentes proyectos tanto en el sector público como privado, realizando diferentes plataformas como Check In Digital, para hoteles y restaurantes. Sanicam, prototipo automatizado orientado a desinfectar espacios a través del uso de tecnología UV. Así mismo, en el sector público el SIGH Magdalena, modelo de gestión estratégica implementando componentes innovadores al servicio de urgencias de la Unidad Médica de Alta Especialidad “Dr. Victorio de la Fuente Narváez” del IMSS. Como Vicepresidente de la Comisión de Innovación y Tecnología de CONCANACO SERVYTUR desde 2017, ha desarrollado diversas plataformas para la Confederación, como Plataforma CONCANACO Buen Fin, CONCACLICK, CONCATOURS y Proyecto Islas Marías en colaboración con la Secretaría de Marina. Ha participado en diferentes concursos de innovación tecnológica, en los cuales ha sido reconocido gracias a sus conocimientos en desarrollo de plataformas digitales. Siendo ganador del Reto Todos vs el cáncer infantil, Reto INDAABIN 2015, Premio Nacional a la Innovación Tecnológica en la Promoción Turística de los Pueblos Mágicos, Reto Zapopan, entre otros.',
     sketch_eng: ''
   },
   {
@@ -504,7 +504,7 @@ const speakers = [
     company: 'Beckhoff Automation SA de CV',
     rol: 'Gerente técnico',
     avatar: '/speakers/AlanGonzalez.webp',
-    sketch: 'Desde el inicio de mi carrera profesional me he inclinado por la parte técnica de mi profesión., Ingeniero en Mecatrónica con especialidad en sistemas de producción fue lo que estudie en el Instituto Tecnológico de Tlalnepantla en Estado de México. Siempre enfocado en conocer más de los equipos de automatización me fui adentrando en este mundo, después de casi 12 años y ahora viviendo en la ciudad de Querétaro he tenido la oportunidad de participar en muchos proyectos. Disfruto de compartir conocimientos y siempre aprovecho una oportunidad que pueda para compartir mi pasión., ¡Automatización!',
+    sketch: 'Desde el inicio de su carrera profesional, se ha inclinado por la parte técnica de su profesión. Ingeniero en Mecatrónica, con especialidad en Sistemas de Producción, por el Instituto Tecnológico de Tlalnepantla. Siempre enfocado en conocer más de los equipos de automatización. Ha participado en diversos proyectos. en muchos proyectos en Automatización.',
     sketch_eng: 'Since the beginning of my professional career, I have been inclined towards the technical part of my profession. Mechatronics Engineer with a specialty in production systems was what I studied at Instituto Tecnológico de Tlalnepantla in the State of Mexico. Always focused on learning more about automation equipment, I entered this world, after almost 12 years and now living in the city of Querétaro I have had the opportunity to participate in many projects. I enjoy sharing knowledge and always take advantage of any opportunity to share my passion, Automation!'
   },
   {
@@ -519,12 +519,12 @@ const speakers = [
   },
   {
     id: 52,
-    conference: 'Seguridad, Eficiencia y Ciberseguridad: la trilogía del éxito industrial',
+    conference: 'Exploradores del mañana: “Un viaje al futuro con ayuda de la tecnología”',
     name: 'José Enrique Poceros Pérez',
     company: 'Roue',
     rol: 'CTO',
     avatar: '/speakers/JoseEnriquezPoceros.webp',
-    sketch: 'Enrique Poceros, ingeniero en comunicaciones y electrónica. Cuenta con 9 años en la industria, donde ha logrado sobresalir gracias a su entusiasmo y conocimientos en minería, energías renovables, Gas y Petróleo, desarrollándose en las áreas de ciberseguridad, IoT, Industrial Control Systems y soluciones de diversas tecnologías. Ha colaborado como arquitecto de soluciones como: Estandarización de ciberseguridad para parques fotovoltaicos y parques eólicos    Así como el desarrollo y ejecución de proyectos como: • Arquitecturas de comunicación para gasoductos • Arquitecturas de ciberseguridad para terminales de refinados • Arquitecturas de comunicación de parques eólicos • Arquitecturas de comunicación y ciberseguridad de estaciones de servicio • Arquitecturas de comunicación para sistema de manufactura de envases • Arquitecturas de comunicación inalámbrica para la industria petroquímica así como arquitecto de soluciones en el Oil and Gas ATC y ahora en su transición hacia el IoT HUB, como parte de las inversiones de Cisco del programa Country Digital Acceleration.',
+    sketch: 'Ingeniero en Comunicaciones y Electrónica. Cuenta con 9 años en la industria, donde ha logrado sobresalir gracias a su entusiasmo y conocimientos en Minería, Energías renovables, Gas y Petróleo; desarrollándose en las áreas de Ciberseguridad, IoT, Industrial Control Systems y soluciones de diversas tecnologías. Ha colaborado como arquitecto de soluciones como: Estandarización de ciberseguridad para parques fotovoltaicos y parques eólicos, así como el desarrollo y ejecución de proyectos como Arquitecturas: de comunicación para gasoductos, de ciberseguridad para terminales de refinados, de comunicación de parques eólicos, de comunicación y ciberseguridad de estaciones de servicio, de comunicación para sistema de manufactura de envases, y de comunicación inalámbrica para la industria petroquímica; así como arquitecto de soluciones en el Oil and Gas ATC y ahora en su transición hacia el IoT HUB, como parte de las inversiones de Cisco del programa Country Digital Acceleration.',
     sketch_eng: ''
   },
   {
@@ -541,8 +541,8 @@ const speakers = [
     id: 54,
     conference: 'Innovación y retos de la agricultura',
     name: 'Alejandro Valdés Romero',
-    company: 'Siemens Mexico, Centroamérica Y El Caribe',
-    rol: 'Fundador y Presidente',
+    company: 'Siemens México, Centroamérica y el Caribe',
+    rol: 'Account Manager para Agronegocios e industria llantera',
     avatar: '/speakers/A_Valdes.webp',
     sketch: 'Ingeniero Mecatrónico con más de 8 años de experiencia en automatización industrial, con alta especialización en gemelos digitales, digitalización y agricultura protegida. Actualmente colabora con los agronegocios y la industria de llantas para brindar valor a estos sectores a través de innovaciones tecnológicas.',
     sketch_eng: ''
@@ -562,9 +562,9 @@ const speakers = [
     conference: 'OT/IT Integration – La importancia de los datos en la producción para mejorar la productividad',
     name: 'Gonzalo Matteoda',
     company: 'Siemens Mexico, Centroamérica Y El Caribe',
-    rol: 'Head De Customer Services',
+    rol: 'Head of Customer Services',
     avatar: '/speakers/GonzaloMatteoda.webp',
-    sketch: 'Nacido en Argentina, Gonzalo es Ingeniero en Electrónica egresado de la Universidad Nacional de Córdoba y cuenta con una Maestría en Administración de Negocios en la Universidad Del Valle de Mexico. Cuenta con más de 20 años de experiencia en la industria, desempeñando funciones como ingeniero de servicios en automatización, líder de proyectos, gerente de proyectos, gerente de contratos de mantenimiento, ventas y administración de negocios. Su carrera la inició en Argentina desarrollando servicios y proyectos en la industria siderúrgica, para luego emprender experiencias en diferentes países de la región y el mundo, como en Venezuela, Brasil, México, USA, España y Sudáfrica, entre otros. Su carrera dentro de Siemens comenzó en el año 2009 como Gerente de Proyectos en Servicios de Automatización e Ingeniería Eléctrica para la industria siderúrgica y minera en Mesoamérica, logrando el desarrollo de importantes proyectos y contratos de servicios. Actualmente Gonzalo es director de la unidad de negocios de Digital Industries Customer Services, que tiene como objetivo ofrecer soluciones con un portafolio clásico y servicios digitales en el que cuenta con el apoyo de más de 100 colaboradores; adicionalmente es responsable de la dirección de ventas para la región norte de México.',
+    sketch: 'Es Ingeniero en Electrónica, egresado de la Universidad Nacional de Córdoba y cuenta con una Maestría en Administración de Negocios, en la Universidad Del Valle de México. Tiene más de 20 años de experiencia en la industria, desempeñando funciones como ingeniero de servicios en automatización, líder de proyectos, gerente de proyectos, gerente de contratos de mantenimiento, ventas y administración de negocios. Su carrera la inició en Argentina desarrollando servicios y proyectos en la industria siderúrgica, para luego emprender experiencias en diferentes países de la región y el mundo, como en Venezuela, Brasil, México, Estados Unidos, España y Sudáfrica, entre otros. Su carrera dentro de Siemens comenzó en el año 2009 como Gerente de Proyectos en Servicios de Automatización e Ingeniería Eléctrica para la industria siderúrgica y minera en Mesoamérica, logrando el desarrollo de importantes proyectos y contratos de servicios. Actualmente, Gonzalo es director de la unidad de negocios de Digital Industries Customer Services, que tiene como objetivo ofrecer soluciones con un portafolio clásico y servicios digitales en el que cuenta con el apoyo de más de 100 colaboradores; adicionalmente es responsable de la dirección de ventas para la región norte de México.',
     sketch_eng: ''
   },
   {
@@ -574,7 +574,7 @@ const speakers = [
     company: 'Siemens Mexico, Centroamérica y el Caribe',
     rol: 'Especialista de ventas en procesos de automatización',
     avatar: '/speakers/CesarGonzalez.webp',
-    sketch: 'Ing. en Control y Automatización por el Instituto Politécnico Nacional. Cuenta con más de 20 años de experiencia en procesos de automatización, seguridad e ingeniería de desarrollo, en sectores energéticos como el del gas o el petróleo.  ',
+    sketch: 'Ingeniero en Control y Automatización por el Instituto Politécnico Nacional. Cuenta con más de 20 años de experiencia en procesos de automatización, seguridad e ingeniería de desarrollo, en sectores energéticos como el del gas o el petróleo.',
     sketch_eng: ''
   },
   {
@@ -644,7 +644,7 @@ const speakers = [
     company: 'Nokia',
     rol: 'Director de ventas empresariales',
     avatar: '/speakers/brunoLuciano.webp',
-    sketch: 'Bruno cuenta con más de 15 años de experiencia en el sector de telecomunicaciones, desempeñando diferentes roles en su carrera posicionando soluciones de Nokia para la industria, con amplio enfoque en Digitalización del sector Telco e industria para llevar a cabo la transformación hacia Industria 4.0 y Tecnología 5G, logrando aportar una visión tecnológica y de negocios global por haber vivido en diferentes países en los últimos años. lográndose consolidar como un referente en el sector. Es Ingeniero Eléctrico y en Electrónica por la Universidad Bandeirantes y un MBA ejecutivo por la Fundación Don Cabral, ambas ubicadas en Brasil.',
+    sketch: 'Tiene más de 15 años de experiencia en el sector de telecomunicaciones, desempeñando diferentes roles en su carrera posicionando soluciones de Nokia para la industria, con amplio enfoque en Digitalización del sector Telco e industria para llevar a cabo la transformación hacia Industria 4.0 y Tecnología 5G; ha logrado aportar una visión tecnológica y de negocios global por haber vivido en diferentes países en los últimos años. Se ha logrado consolidar como un referente en el sector. Es Ingeniero Eléctrico y en Electrónica por la Universidad Bandeirantes y tiene un MBA ejecutivo por la Fundación Don Cabral, ambas ubicadas en Brasil.',
     sketch_eng: ''
   },
   {
@@ -654,7 +654,7 @@ const speakers = [
     company: 'Nokia',
     rol: 'Director de desarrollo de negocios',
     avatar: '/speakers/AlfredoGonzalez.webp',
-    sketch: 'Alfredo González colabora actualmente con operadores de ferrocarriles, puertos y terminales marítimas, aeropuertos y operadores logísticos de América Latina en su transformación hacia Industria 4.0 con soluciones de redes de misión crítica y redes privadas 4G/5G de Nokia. Alfredo coordina una organización dedicada a desarrollar el negocio de NOKIA en nuevos proyectos de manufactura, infraestructura y de transporte y logística, a su vez, Alfredo también desarrolla nuevos socios y aliados en el sector, anteriormente en Nokia, fue Director para Empresas y Gobierno en México y también Director para la cuenta Telefónica Latinoamérica Norte. Alfredo tiene una Maestría en Ingeniería de Telecomunicaciones por la Universidad Politécnica de Madrid en España y un MBA por el IESE Business School de la Universidad de Navarra.',
+    sketch: 'Colabora con operadores de ferrocarriles, puertos y terminales marítimas, aeropuertos y operadores logísticos de América Latina en su transformación hacia Industria 4.0 con soluciones de redes de misión crítica y redes privadas 4G/5G de Nokia. Coordina una organización dedicada a desarrollar el negocio de NOKIA en nuevos proyectos de manufactura, infraestructura y de transporte y logística. También desarrolla nuevos socios y aliados en el sector. Anteriormente en Nokia, fue Director para Empresas y Gobierno en México, y también Director para la cuenta Telefónica Latinoamérica Norte. Tiene una Maestría en Ingeniería de Telecomunicaciones, por la Universidad Politécnica de Madrid, y un MBA por el IESE Business School de la Universidad de Navarra.',
     sketch_eng: ''
   },
   {
@@ -664,7 +664,7 @@ const speakers = [
     company: 'Nokia',
     rol: 'Director de Marketing estratégico',
     avatar: '/speakers/SantiagoEscalona.webp',
-    sketch: 'Santiago cuenta con alrededor de 20 años de experiencia en el sector de telecomunicaciones, desempeñando roles tanto técnicos como comerciales, de liderazgo de ventas y marketing, actualmente dirige el posicionamiento de Nokia y ayuda a la generación de negocios en el mercado Latinoamericano, con amplio enfoque en Transformación Digital, Industria 4.0 y Tecnología 5G, logrando aportar una visión tecnológica y de negocios global por haber vivido 9 años fuera de México en países como China, Nigeria, Ecuador, Panamá, Argelia, Marruecos y Suecia, lográndose consolidar como un referente en el sector. Es Ingeniero en Comunicaciones y Electrónica por el Instituto Politécnico Nacional de México y un diplomado master en Marketing por Wharton School de la Universidad de Pennsylvania.',
+    sketch: 'Cuenta con alrededor de 20 años de experiencia en el sector de telecomunicaciones, desempeñando roles tanto técnicos como comerciales, de liderazgo de ventas y marketing. Actualmente, dirige el posicionamiento de Nokia y ayuda a la generación de negocios en el mercado Latinoamericano, con amplio enfoque en Transformación Digital, Industria 4.0 y Tecnología 5G, logrando aportar una visión tecnológica y de negocios global por haber vivido 9 años en China, Nigeria, Ecuador, Panamá, Argelia, Marruecos y Suecia, lográndose consolidar como un referente en el sector. Es Ingeniero en Comunicaciones y Electrónica, por el Instituto Politécnico Nacional de México, y tiene un diplomado master en Marketing por Wharton School, de la Universidad de Pennsylvania.',
     sketch_eng: ''
   },
   {
@@ -674,7 +674,7 @@ const speakers = [
     company: '',
     rol: 'Consultora ',
     avatar: '/speakers/LuzAlanis.webp',
-    sketch: 'Mujer, promotora de la empatía profesional, de un desarrollo organizacional integral, inclusivo y sostenible. Máster en Gestión Ambiental por la Escuela Europea de Dirección y Empresa. Una década en la industria de alimentos y bebidas. Ha participado en la generación e implementación de estrategias y herramientas de Industria 4.0 en más de 100 líneas de producción en 10 países distintos incrementando el bienestar y seguridad de los colaboradores garantizando un payback saludable. Diseñó  estrategias y material de capacitación de la estrategia de sustentabilidad en 27 plantas de producción en 11 países. Ejecutando los cursos in situ. Diseñó , configuró e implementó un sistema de seguridad industrial en 13 plantas de producción en 8 países.',
+    sketch: 'Promotora de la empatía profesional, de un desarrollo organizacional integral, inclusivo y sostenible. Máster en Gestión Ambiental, por la Escuela Europea de Dirección y Empresa. Tiene una década de experiencia en la industria de alimentos y bebidas. Ha participado en la generación e implementación de estrategias y herramientas de Industria 4.0 en más de 100 líneas de producción en 10 países distintos, incrementando el bienestar y seguridad de los colaboradores garantizando un payback saludable. Diseñó estrategias y material de capacitación de la estrategia de sustentabilidad en 27 plantas de producción en 11 países. Ha ejecutado cursos in situ. Diseñó, configuró e implementó un sistema de seguridad industrial en 13 plantas de producción en 8 países.',
     sketch_eng: ''
   },
   {
@@ -684,7 +684,7 @@ const speakers = [
     company: 'Nokia Enterprise',
     rol: 'Directora de Estrategia Comercial ',
     avatar: '/speakers/ValeriaBaudino.webp',
-    sketch: 'Valeria cuenta con más de 25 años de experiencia en el sector de telecomunicaciones, desempeñando distintos roles en operaciones y liderando proyectos en varios países de    Latinoamérica. Actualmente se desempeña como Directora de Estrategia Comercial para Latinoamérica para el mercado Enterprise, enfocado en los sectores de Gobierno e Industrias, tales como Energía, Minería, Transporte, Manufactura y Logística. Es Ingeniera Industrial por el ITBA (Instituto Tecnológico de Buenos Aires) y tiene un MBA por la Universidad del CEMA de Buenos Aires y un Master en Program Management del Stevens Institute of Technology University in New Jersey.',
+    sketch: 'Cuenta con más de 25 años de experiencia en el sector de telecomunicaciones, desempeñando distintos roles en operaciones y liderando proyectos en varios países de Latinoamérica. Actualmente, se desempeña como Directora de Estrategia Comercial para Latinoamérica para el mercado Enterprise, enfocado en los sectores de Gobierno e Industrias, tales como Energía, Minería, Transporte, Manufactura y Logística. Es Ingeniera Industrial por el Instituto Tecnológico de Buenos Aires, y tiene un MBA por la Universidad del CEMA de Buenos Aires, y un Máster en Program Management del Stevens Institute of Technology University.',
     sketch_eng: ''
   },
   {
@@ -704,7 +704,7 @@ const speakers = [
     company: 'MX Regional Ops - Mexico, Cisco Systems',
     rol: 'Gerente Direct Fulfillment',
     avatar: '/speakers/SandraAun2.webp',
-    sketch: 'Como Gerente de Direct Fulfillment de Operaciones en México Sandra es responsable de habilitar y administrar las acciones de manufactura y todas las actividades de la cadena de suministro y el cumplimiento de embarques directos. Sandra se encarga de garantizar la continuidad del suministro, el dimensionamiento de la capacidad y el cumplimiento de los planes de construcción para lograr métricas clave, presupuestos y satisfacción del cliente. Con más de 18 años de experiencia en la cadena de suministro y operaciones de fabricación, ha ocupado varios puestos de liderazgo, donde ha liderado, construido y escalado equipos en México, Europa y América del Norte con logros en el desarrollo e implementación de estrategias de cadena de suministro completas con flexibilidad, competitividad de tiempos y costos y entrega a tiempo a clientes. Sandra forma parte del último eslabón de la estrategia de Cisco de cadena de suministro. Es una firme defensora y patrocinadora de las mujeres. Apasionada por el liderazgo y por fomentar la próxima generación de mujeres a través de la acción y el ejemplo para ocupar puestos de liderazgo. Sandra cree firmemente en el pensamiento positivo y en la influencia con una actitud positiva en el lugar de trabajo. Sandra es licenciatura en administración de empresas y una maestría en Administración y Dirección de Empresas del ITESM. Certificado en Compras y Control de Inventarios, así como Green Belt del ISCM.',
+    sketch: 'Es responsable de habilitar y administrar las acciones de manufactura y todas las actividades de la cadena de suministro y el cumplimiento de embarques directos. Se encarga de garantizar la continuidad del suministro, el dimensionamiento de la capacidad y el cumplimiento de los planes de construcción para lograr métricas clave, presupuestos y satisfacción del cliente. Con más de 18 años de experiencia en la cadena de suministro y operaciones de fabricación, ha ocupado varios puestos de liderazgo, donde ha guiado, construido y escalado equipos en México, Europa y América del Norte con logros en el desarrollo e implementación de estrategias de cadena de suministro completas con flexibilidad, competitividad de tiempos y costos y entrega a tiempo a clientes. Forma parte del último eslabón de la estrategia de Cisco de cadena de suministro. Es una firme defensora y patrocinadora de las mujeres. Apasionada por el liderazgo y por fomentar la próxima generación de mujeres a través de la acción y el ejemplo para ocupar puestos de liderazgo. Es Licenciada en Administración de Empresas, y tiene una maestría en Administración y Dirección de Empresas, del ITESM. Cuenta con Certificación en Compras y Control de Inventarios, así como en Green Belt del ISCM.',
     sketch_eng: ''
   },
   {

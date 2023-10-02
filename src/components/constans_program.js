@@ -145,7 +145,7 @@ const programITM = {
       {
         hour: '13:45 hrs',
         duration: '60 min',
-        name: 'Luz Alanis | Valeria Baudino | María del Mar López González | Sandra Aun',
+        name: 'Luz Alanís | Valeria Baudino | María del Mar López González | Sandra Aun',
         id: 67,
         id_s2: 68,
         id_s3: 69,
@@ -210,7 +210,7 @@ const programITM = {
       {
         hour: '9:30 hrs',
         duration: '45 min',
-        name: 'Jonathan David Ramirez Cruz',
+        name: 'Jonathan David Ramírez Cruz',
         id: '',
         avatar: '',
         rol: ' ',
@@ -224,7 +224,7 @@ const programITM = {
         name: 'Gonzalo Matteoda',
         id: 56,
         avatar: '/speakers/GonzaloMatteoda.webp',
-        rol: 'Head De Customer Services',
+        rol: 'Head of Customer Services',
         company: '- Siemens Mexico, Centroamérica Y El Caribe',
         conference: 'OT/IT Integration – La importancia de los datos en la producción para mejorar la productividad',
         resume: 'Acompáñanos a sumergirnos en la integración de la tecnología operativa (OT) y la tecnología de la información (IT) en el entorno de la producción industrial. Explora cómo la recopilación, análisis y aplicación de datos pueden desempeñar un papel fundamental en la mejora de la productividad en la industria.'
@@ -232,7 +232,7 @@ const programITM = {
       {
         hour: '11:00 hrs',
         duration: '60 min',
-        name: 'Darwin Estudillo | Gonzalo Pineda | Victor Fuentes',
+        name: 'Darwin Estudillo | Gonzalo Pineda | Víctor Fuentes',
         id: '',
         avatar: '',
         id_s2: 63,
@@ -492,7 +492,7 @@ const programITM = {
         name: 'Leonardo Zacarias Gómez Navarro',
         id: 39,
         avatar: '/speakers/LeonardoZacarias.webp',
-        rol: 'Especialista en robótica y sistemas de visiónr',
+        rol: 'Especialista en robótica y sistemas de visión',
         company: '- GUREGO',
         conference: 'Robótica Colaborativa y su impacto en la industria',
         resume: 'Se busca compartir el crecimiento y tendencia de la robótica colaborativa en los sectores industriales; lo que los han vuelto tan famosos y cuando si es viable utilizar un robot colaborativo en sus industrias. Hacia donde va la robótica colaborativa en el mercado.'
@@ -550,7 +550,7 @@ const programITM = {
       {
         hour: '13:30 hrs',
         duration: '45 min',
-        name: 'Javier Perez | Matthew Schwieger',
+        name: 'Javier Pérez | Matthew Schwieger',
         id: '',
         avatar: '',
         rol: 'Sales Engineer | General Manager (North America)',
