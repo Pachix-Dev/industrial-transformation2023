@@ -81,6 +81,25 @@ const programITM = {
         company: '- Nokia',
         conference: 'Una fábrica es tan inteligente como la red que la conecta',
         resume: 'Las tecnologías de comunicación inalámbrica son un habilitador clave para acelerar el camino hacia la Industria 4.0, asegurando ventajas competitivas en términos de innovación, eficiencia y flexibilidad. Identificar las fortalezas y desafíos de integrar sistemas de comunicación en rápida evolución para desarrollar aplicaciones industriales competitivas y confiables requiere una fuerte cooperación y un entendimiento común entre todos los actores en la cadena de valor. En esta sesión, nuestros expertos explican cómo con un enfoque práctico y orientado a la eficiencia del negocio, además de una conectividad inteligente y de misión crítica serán la correcta evolución hacia la manufactura 4.0, optimizando y favoreciendo el ecosistema industrial.'
+      },
+      {
+        hour: '17:00 hrs',
+        duration: '60 min',
+        name: 'José Luis Ponce | Enrique Poceros | Rubén Rojas | Alejandro Sánchez | Paco Bolaños',
+        id: 42,
+        id_s2: 52,
+        id_s3: 73,
+        id_s4: 74,
+        id_s5: 25,
+        avatar: '/speakers/josePonce.webp',
+        avatar2: '/speakers/JoseEnriquezPoceros.webp',
+        avatar3: '/speakers/rubenRojas.webp',
+        avatar4: '/speakers/AlejandroChavez.webp',
+        avatar5: '/speakers/pacoBolanos.webp',
+        rol: 'Subdirector de Desarrollo de Soluciones y Servicios de Ciberseguridad | Chief Technology Officer | Colaboration Product Manager | Director de Desarrollo en Integraciones | Arquitecto de IoT Transformación Digital',
+        company: '- Ikusi | Roue | Plannet | ISAT Telecomunicaciones | Cisco LATAM',
+        conference: 'Exploradores del mañana: “Un viaje al futuro con ayuda de la tecnología”',
+        resume: ''
       }
     ],
     oct_5: [

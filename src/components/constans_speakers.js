@@ -726,6 +726,26 @@ const speakers = [
     avatar: '/speakers/RosarioRamirez.webp',
     sketch: 'Rosario es Ingeniero en Electrónica por el ITLM y obtuvo el grado de Maestro en Ingeniería Electrónica por la UASLP. Se ha desempeñado en la industria durante más de 10 años. Desde octubre del 2017 forma parte de Bosch Rexroth, donde se ha desempeñad0 en el puesto de Ingeniero de Aplicaciones de Automatización y Electrificación realizando actividades como: dimensionamiento, puesta en marcha, soporte y entrenamiento para proyectos en la industria. Actualmente es desarrollador de negocios de la tecnología ERW (Electrical Resistance Welding), cuyo rol consiste en promover esta tecnología a través del uso de las herramientas disponibles en el portafolio de Bosch Rexroth.',
     sketch_eng: ''
+  },
+  {
+    id: 73,
+    conference: 'Exploradores del mañana: “Un viaje al futuro con ayuda de la tecnología”',
+    name: 'Rubén Rojas',
+    company: 'Plannet',
+    rol: ' Colaboration Product Manager',
+    avatar: '/speakers/rubenRojas.webp',
+    sketch: 'Ruben Rojas, Colaboration Product Manager, Plannet',
+    sketch_eng: ''
+  },
+  {
+    id: 74,
+    conference: 'Exploradores del mañana: “Un viaje al futuro con ayuda de la tecnología”',
+    name: 'Alejandro Sánchez',
+    company: 'ISAT Telecomunicaciones',
+    rol: 'Director de Desarrollo en Integraciones',
+    avatar: '/speakers/AlejandroChavez.webp',
+    sketch: ' Alejandro Sánchez, Director de Desarrollo en Integraciones, ISAT Telecomunicaciones',
+    sketch_eng: ''
   }
 
 ]
