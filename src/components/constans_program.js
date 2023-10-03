@@ -211,9 +211,9 @@ const programITM = {
         hour: '9:30 hrs',
         duration: '45 min',
         name: 'Jonathan David Ramírez Cruz',
-        id: '',
-        avatar: '',
-        rol: ' ',
+        id: 75,
+        avatar: '/speakers/jonathanRamirez.webp',
+        rol: 'Gerente de sector industrial',
         company: '- Beckhoff Automation',
         conference: 'MX-System - Automatización de máquinas y sistemas sin tableros de control',
         resume: 'Acompáñanos a sumergirnos en la integración de la tecnología operativa (OT) y la tecnología de la información (IT) en el entorno de la producción industrial. Explora cómo la recopilación, análisis y aplicación de datos pueden desempeñar un papel fundamental en la mejora de la productividad en la industria.'
