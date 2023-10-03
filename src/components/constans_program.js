@@ -635,6 +635,19 @@ const programITM = {
         resume: 'En esta conferencia, exploraremos el apasionante mundo de la ciberseguridad en las operaciones de tecnología (OT) y su profundo vínculo con la sostenibilidad. A medida que las industrias avanzan hacia la era de la digitalización y la Industria 4.0, la ciberseguridad se ha vuelto más crucial que nunca. Pero no solo se trata de proteger nuestros sistemas, sino de hacerlo de una manera que promueva la sostenibilidad y la resiliencia en nuestras redes, infraestructuras e industrias.'
       },
       {
+        hour: '14:00 hrs',
+        duration: '45 min',
+        name: 'Carlos Odreman | Esteban Papp',
+        id: 78,
+        id_s2: 79,
+        avatar: '/speakers/Carlos-odreman.webp',
+        avatar2: '/speakers/EstebanPapp.webp',
+        rol: 'Experto en HxGN EAM | Gerente Comercial',
+        company: '- Hexagon Channel Partner | Nifersa Information Technology',
+        conference: 'Revolucionando la forma de gestionar los activos con HxGN EAM',
+        resume: ''
+      },
+      {
         hour: '15:30 hrs',
         duration: '45 min',
         name: 'Felipe Rivera | Javier Cárdenas | Antonio  Martínez | Víctor Fuentes',

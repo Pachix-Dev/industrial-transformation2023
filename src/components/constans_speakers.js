@@ -776,6 +776,26 @@ const speakers = [
     avatar: '/speakers/ChristianCruz.webp',
     sketch: 'Con más de 20 años de experiencia en la industria de TI, gran parte ellos en el segmento de ciberseguridad, con empresas como Juniper, Nokia, Dell y A10.  Estuvo involucrado en proyectos emblemáticos de TI para México durante los últimos años. ahora responsable de desarrollar el mercado de seguridad OT para la industria de Manufactura para México y el Norte de Latinoamerica.',
     sketch_eng: 'With more than 20 years of experience in the IT industry, much of it in the cybersecurity segment, with companies such as Juniper, Nokia, Dell and A10.  He was involved in emblematic IT projects for Mexico during the last years. Now responsible for developing the OT security market for the Manufacturing industry for Mexico and Northern Latin America.'
+  },
+  {
+    id: 78,
+    conference: 'Revolucionando la forma de gestionar los activos con HxGN EAM',
+    name: ' Carlos Odreman',
+    company: 'Hexagon Channel Partner',
+    rol: 'Experto en HxGN EAM ',
+    avatar: '/speakers/Carlos-odreman.webp',
+    sketch: 'Carlos es Ingeniero en sistemas con más de 25 años de experiencia como business solution senior consultant en todo lo concerniente a tecnologías de la información, especialmente en temas relacionados a gestión de mantenimiento y control de activos de grandes corporaciones. A participado en numerosos proyectos de implementación, en clientes de diferentes verticales industriales, ubicadas a lo largo de todo mundo; lo que le ha permitido forjar una reputación respetable en toda la base instalada del software HxGN EAM y convertirse en una referencia importante. Carlos posee su propia organización, de la cual hoy en día es el director general ofreciendo junto a su equipo, toda su experiencia a las empresas que deseen evolucionar hacia niveles de Madurez del Mantenimiento 4.0 y 5.0',
+    sketch_eng: 'Carlos is a systems engineer with more than 25 years of experience as a senior business solution consultant in everything related to information technology, especially in issues related to maintenance management and asset control of large corporations. He has participated in numerous implementation projects for clients in different industry verticals, located throughout the world, which has allowed him to forge a respectable reputation throughout the installed base of HxGN EAM software and become an important reference. Carlos owns his own organization, of which today he is the CEO, offering, together with his team, all his experience to companies wishing to evolve towards Maintenance Maturity Levels 4.0 and 5.0.'
+  },
+  {
+    id: 79,
+    conference: 'Revolucionando la forma de gestionar los activos con HxGN EAM',
+    name: ' Carlos Odreman',
+    company: 'Nifersa Information Technology',
+    rol: ' Gerente de Comercial ',
+    avatar: '/speakers/EstebanPapp.webp',
+    sketch: 'Esteban cuenta con una amplia trayectoria en el área de Mantenimiento Industrial, con más de 25años en el sector Automotriz entre otros. Desempeñando cargos Gerenciales relacionado con Servicios Postventa, Operaciones y Logística, Producción, Proyectos y Comercialización. Esteban es Ingeniero Especializado en Tecnología Automotriz con Postgrado de Calidad y Productividad, Graduado en la Universidad de Carabobo, Venezuela. Actualmente su rol principal está enfocado en el desarrollo de la Industrias hacia niveles de Madurez del Mantenimiento 4.0 y 5.0 ',
+    sketch_eng: 'Esteban has extensive experience in the Industrial Maintenance area, with more than 25 years in the Automotive sector among others. He has held management positions related to After Sales Services, Operations and Logistics, Production, Projects and Marketing. Esteban is an Engineer specialized in Automotive Technology with a postgraduate degree in Quality and Productivity, graduated from the University of Carabobo, Venezuela. Currently his main role is focused on the development of Industries towards Maintenance Maturity Levels 4.0 and 5.0. Translated with www.DeepL.com/Translator (free version)'
   }
 
 ]
