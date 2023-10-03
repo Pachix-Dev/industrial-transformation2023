@@ -284,11 +284,13 @@ const programITM = {
       {
         hour: '11:00 hrs',
         duration: '45 min',
-        name: 'Oscar Alberto Aldana | Christian Valdez',
-        id: '',
-        avatar: '',
-        rol: 'Director de Arquitectura Cybolt | Regional Manager North Latam Claroty',
-        company: '- Claroty & Cybolt',
+        name: 'Oscar Alberto Aldana | Christian Cruz Valdez',
+        id: 76,
+        id_s2: 77,
+        avatar: '/speakers/oscarAlberto.webp',
+        avatar2: '/speakers/ChristianCruz.webp',
+        rol: 'Director de Arquitectura Cybolt | Regional Manager North Latam',
+        company: '- Cybolt | Claroty',
         conference: 'Desmitificando la Ciberseguridad OT',
         resume: 'Importancia de la diferencia entre ciberseguridad IT vs OT. Ejemplos claros de falsas percepciones de seguridad en ambientes industriales y acciones necesarias para mitigar ataques de amenazas avanzadas persistentes.'
       },
@@ -658,6 +660,17 @@ const programITM = {
     ],
     oct_5: [
       {
+        hour: '10:15 hrs',
+        duration: '45 min',
+        name: 'Avelino Miguelez',
+        id: '',
+        avatar: '',
+        rol: 'Consultor Experto',
+        company: '- Forte Innovation Consulting',
+        conference: 'Creando el futuro con Azure',
+        resume: 'Encontremos respuestas a los desafíos comerciales que enfrenta con la solución de Azure que reúne todo lo que necesita la industria: productos relacionados, servicios y aplicaciones externas. Desde DevOps y análisis empresariales hasta IoT, rápidamente podrá activar y ejecutar una solución escalable y rentable ideal para sus inversiones actuales.'
+      },
+      {
         hour: '11:00 hrs',
         duration: '45 min',
         name: 'Eduardo Espino',
@@ -759,6 +772,17 @@ const programITM = {
         company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
         conference: 'Mantenimiento inteligente aplicado en la industria',
         resume: 'El mantenimiento inteligente es uno de los escenarios de aplicación más importantes de la Industria 4.0. Porque con los componentes eléctricos y las herramientas digitales adecuadas, las empresas pueden prolongar la vida útil de las máquinas e instalaciones y hacerlas funcionar de forma mucho más rentable, así como potencializar la eficiencia energetica de su planta. El núcleo del mantenimiento inteligente es la recopilación y vinculaión de datos de máquinas, plantas o edificios. Las infraestructuras técnicas están equipadas con sensores que miden continuamente su funcionalidad y rendimiento y remiten los datos a las aplicaciones digitales hacia una plataforma central de gestión. ¡Acompáñanos a adentrarnos en su funcionamiento!'
+      },
+      {
+        hour: '14:00 hrs',
+        duration: '45 min',
+        name: 'Isaí Reyna | Ruben Rojas | Carlos Márquez',
+        id: 73,
+        avatar: '/speakers/rubenRojas.webp',
+        rol: 'Ingeniero Preventa | Product Manager | Marketing Manager',
+        company: '- Plannet',
+        conference: 'Manufactura Conectada y Eficiente: Webex, Wi-Fi y Wearables como Pilares',
+        resume: ''
       }
     ]
   }

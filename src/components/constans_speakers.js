@@ -756,6 +756,26 @@ const speakers = [
     avatar: '/speakers/jonathanRamirez.webp',
     sketch: 'Jonathan David Ramirez Cruz, nacido en el Estado de México Egresado del Instituto Politécnico Nacional con el título de Ingeniero en control y automatización. Ha desarrollado una carrera profesional donde el interés principal ha sido la tecnología. Se ha enfocado a la automatización y control de los procesos industriales en os diferentes sectores industriales del país y centro américa cuenta con una experiencia en la industria de 13 años actualmente se desempeña como gerente de sector industrial dentro de Beckhoff México y busca dejar huella con cada uno de los clientes que asesora.',
     sketch_eng: 'Jonathan David Ramirez Cruz, born in the State of Mexico he graduated from the Instituto Politécnico Nacional with the title of Engineer in control and automation. He has developed a professional career where his main interest has been technology. he has focused on the automation and control of industrial processes in the different industrial sectors of the country and Central America. He has 13 years of experience in the industry. He currently works as an industrial sector manager within Beckhoff México and seeks to leave his mark with each of the clients he advises.'
+  },
+  {
+    id: 76,
+    conference: 'Desmitificando la Ciberseguridad OT',
+    name: 'Oscar Alberto Aldana ',
+    company: 'Cybolt',
+    rol: 'Director de Arquitectura Cybolt',
+    avatar: '/speakers/oscarAlberto.webp',
+    sketch: 'Certificaciones de industria GIAC Response and Industrial Defense, GIAC Certified Incident Handler, GIAC Certified Forensic Examiner, GIAC Certified Forensic Analyst y GIAC Network Forensic Analyst, su desempeño lo llevaron a estar en el Advisory Board de GIAC.  También posee diversas certificaciones de fabricantes como lo son CCNP Security, CCNA, CCNA Security, CCNA CyberOps, entre otras.  Ha impartido diferentes conferencias cubriendo el ramo de seguridad y rendimiento en redes empresariales e industriales.',
+    sketch_eng: 'Industry certifications GIAC Response and Industrial Defense, GIAC Certified Incident Handler, GIAC Certified Forensic Examiner, GIAC Certified Forensic Analyst and GIAC Network Forensic Analyst, his performance led him to be on the Advisory Board of GIAC.  He also holds several certifications from manufacturers such as CCNP Security, CCNA, CCNA Security, CCNA CyberOps, among others.  He has given several conferences covering security and performance in enterprise and industrial networks.'
+  },
+  {
+    id: 77,
+    conference: 'Desmitificando la Ciberseguridad OT',
+    name: 'Christian Cruz Valdez',
+    company: 'Claroty',
+    rol: 'Regional Manager North Latam',
+    avatar: '/speakers/ChristianCruz.webp',
+    sketch: 'Con más de 20 años de experiencia en la industria de TI, gran parte ellos en el segmento de ciberseguridad, con empresas como Juniper, Nokia, Dell y A10.  Estuvo involucrado en proyectos emblemáticos de TI para México durante los últimos años. ahora responsable de desarrollar el mercado de seguridad OT para la industria de Manufactura para México y el Norte de Latinoamerica.',
+    sketch_eng: 'With more than 20 years of experience in the IT industry, much of it in the cybersecurity segment, with companies such as Juniper, Nokia, Dell and A10.  He was involved in emblematic IT projects for Mexico during the last years. Now responsible for developing the OT security market for the Manufacturing industry for Mexico and Northern Latin America.'
   }
 
 ]

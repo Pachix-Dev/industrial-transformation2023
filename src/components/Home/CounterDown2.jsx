@@ -8,7 +8,7 @@ export function CounterDown2 () {
   const { days, hours, minutes, seconds } = useCountdown('4 oct 2023 09:00:00')
 
   if (days + hours + minutes + seconds <= 0) {
-    return <span>Time's up!</span>
+    return <span />
   } else {
     return (
       <Container className='pt-5 mt-5 text-center home-counterdown-timer'>
