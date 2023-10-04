@@ -654,15 +654,13 @@ const programITM = {
       {
         hour: '14:00 hrs',
         duration: '45 min',
-        name: 'Carlos Odreman | Esteban Papp',
-        id: 78,
-        id_s2: 79,
-        avatar: '/speakers/Carlos-odreman.webp',
-        avatar2: '/speakers/EstebanPapp.webp',
-        rol: 'Experto en HxGN EAM | Gerente Comercial',
-        company: '- Hexagon Channel Partner | Nifersa Information Technology',
-        conference: 'Revolucionando la forma de gestionar los activos con HxGN EAM',
-        resume: ''
+        name: 'Daniel Alejandro Gomez',
+        id: 84,
+        avatar: '/speakers/DanielGomez.webp',
+        rol: 'Director de Operaciones',
+        company: '- Mantenimientos Industriales LIAN/Promotora Energética E3',
+        conference: 'Automatización de la Gestión de Mantenimiento',
+        resume: 'Uno de los retos de la gestión de mantenimiento hoy en día es la obtención de información en tiempo real, de manera automatizada, para lograr el procesamiento y análisis de los datos de la manera mas eficiente y efectiva posible. Esta necesidad se maximiza cuando los activos están en diferentes áreas geográficas y cuando la cantidad de activos tiene un número importante en relación con el personal de mantenimiento. El uso de software para la adquisición de la información y el análisis para la toma de decisiones de manera oportuna es una necesidad fundamental para optimizar la gestión de mantenimiento, el uso de recursos y optimización de costos.'
       },
       {
         hour: '15:30 hrs',
@@ -746,6 +744,19 @@ const programITM = {
         company: '- SIEMENS MEXICO, CENTROAMERICA Y EL CARIBE',
         conference: 'Sin automatización, no hay digitalización',
         resume: 'Ofreceremos una visión clara de por qué la automatización y la digitalización van de la mano en la revolución industrial actual y cómo es que las industrias pueden aprovechar esta sinergia para mantenerse relevantes y prosperar en mercados cada vez más tecnológicos y competitivos.'
+      },
+      {
+        hour: '14:00 hrs',
+        duration: '45 min',
+        name: 'Carlos Odreman | Esteban Papp',
+        id: 78,
+        id_s2: 79,
+        avatar: '/speakers/Carlos-odreman.webp',
+        avatar2: '/speakers/EstebanPapp.webp',
+        rol: 'Experto en HxGN EAM | Gerente Comercial',
+        company: '- Hexagon Channel Partner | Nifersa Information Technology',
+        conference: 'Revolucionando la forma de gestionar los activos con HxGN EAM',
+        resume: ''
       },
       {
         hour: '14:45 hrs',
