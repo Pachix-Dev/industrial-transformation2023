@@ -626,7 +626,7 @@ const programITM = {
         avatar: '/speakers/josePonce.webp',
         rol: 'Subdirector de Desarrollo de Soluciones y Servicios de Ciberseguridad',
         company: '- Ikusi',
-        conference: 'Ciberseguridad en la cadena de suministros: La ciber-resilencia como un factor crítico a considera',
+        conference: 'Ciberseguridad en la cadena de suministros: La ciber-resilencia como un factor crítico a considerar',
         resume: 'El tema de la ciberseguridad es por mucho un factor de éxito en cualquier iniciativa de Industria 4.0 hoy en día.  En esta charla se podrá identificar los factores que son necesarios considerar en términos de ciberseguridad dentro de una organización, así como la consideración de controles en su cadena de suministro  para identificar algún riesgo de manera temprana y eficiente,  con la finalidad de evitar un impacto en el negocio.'
       },
       {
