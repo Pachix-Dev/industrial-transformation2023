@@ -133,6 +133,23 @@ const programITM = {
         resume: ''
       },
       {
+        hour: '12:00 hrs',
+        duration: '60 min',
+        name: 'Enrique Chávez | Giorgia Negro | Marco Antonio Guzman | Andreas Müller ',
+        id: 80,
+        id_s2: 81,
+        id_s3: 82,
+        id_s4: 83,
+        avatar: '/speakers/enriqueChavez.webp',
+        avatar2: '/speakers/giorginaNegro.webp',
+        avatar3: '/speakers/marcoAntonio.webp',
+        avatar4: '/speakers/andreasMuller.webp',
+        rol: 'Director de Operaciones LAN & Caribe | Energy Engineer | Vice-Presidente | Director General Adjunto',
+        company: '- Eaton N.n. | Siemens | ANES | CAMEXA',
+        conference: 'Panel Twin-Transition – Eficiencia Energética – Energías Renovables',
+        resume: 'Informar al público de la ITM sobre la importancia de la descarbonización y las posibilidades que ofrecen la digitalización, las energías renovables y los sistemas de gestión de energía y del desarrollo sostenible para lograrla. '
+      },
+      {
         hour: '13:00 hrs',
         duration: '45 min',
         name: 'Iris Rodríguez',

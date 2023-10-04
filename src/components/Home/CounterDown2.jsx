@@ -10,7 +10,7 @@ export function CounterDown2 () {
         <h1 className='mb-0 fw-bold text-light'>
           {t('home.titleITM')}
         </h1>
-        <h1 className='mt-5 mb-0 fw-bold counterdown-title'>
+        <h1 className='mt-3 mb-0 fw-bold counterdown-title'>
           {t('home.titleCounter')}
         </h1>
         <p className='counterdown-description text-light'>

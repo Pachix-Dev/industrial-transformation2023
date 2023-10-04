@@ -795,7 +795,47 @@ const speakers = [
     rol: ' Gerente de Comercial ',
     avatar: '/speakers/EstebanPapp.webp',
     sketch: 'Esteban cuenta con una amplia trayectoria en el área de Mantenimiento Industrial, con más de 25años en el sector Automotriz entre otros. Desempeñando cargos Gerenciales relacionado con Servicios Postventa, Operaciones y Logística, Producción, Proyectos y Comercialización. Esteban es Ingeniero Especializado en Tecnología Automotriz con Postgrado de Calidad y Productividad, Graduado en la Universidad de Carabobo, Venezuela. Actualmente su rol principal está enfocado en el desarrollo de la Industrias hacia niveles de Madurez del Mantenimiento 4.0 y 5.0 ',
-    sketch_eng: 'Esteban has extensive experience in the Industrial Maintenance area, with more than 25 years in the Automotive sector among others. He has held management positions related to After Sales Services, Operations and Logistics, Production, Projects and Marketing. Esteban is an Engineer specialized in Automotive Technology with a postgraduate degree in Quality and Productivity, graduated from the University of Carabobo, Venezuela. Currently his main role is focused on the development of Industries towards Maintenance Maturity Levels 4.0 and 5.0. Translated with www.DeepL.com/Translator (free version)'
+    sketch_eng: 'Esteban has extensive experience in the Industrial Maintenance area, with more than 25 years in the Automotive sector among others. He has held management positions related to After Sales Services, Operations and Logistics, Production, Projects and Marketing. Esteban is an Engineer specialized in Automotive Technology with a postgraduate degree in Quality and Productivity, graduated from the University of Carabobo, Venezuela. Currently his main role is focused on the development of Industries towards Maintenance Maturity Levels 4.0 and 5.0.'
+  },
+  {
+    id: 80,
+    conference: 'Panel Twin-Transition – Eficiencia Energética – Energías Renovables',
+    name: 'Enrique Chávez',
+    company: 'Eaton N.n.',
+    rol: 'Director de Operaciones LAN & Caribe',
+    avatar: '/speakers/enriqueChavez.webp',
+    sketch: 'Enrique Chávez: Director de Operaciones LAN & Caribe – Eaton N.n.',
+    sketch_eng: 'Enrique Chávez: Director de Operaciones LAN & Caribe – Eaton N.n.'
+  },
+  {
+    id: 81,
+    conference: 'Panel Twin-Transition – Eficiencia Energética – Energías Renovables',
+    name: 'Giorgia Negro',
+    company: 'Siemens',
+    rol: 'Energy Engineer',
+    avatar: '/speakers/giorginaNegro.webp',
+    sketch: 'Ingeniera en Energía por la Universidad Politécnica de Milan, Italia. Con experiencia en    múltiples proyectos de Eficiencia Energética e instalaciones eléctricas y de aire acondicionado. Actualmente desempeña el rol de Solutions Energy Engineer en la División de Energy & Performace Services en la compañía Siemens para México y Centro América.',
+    sketch_eng: 'Energy Engineer from the Polytechnic University of Milan, Italy. With experience in multiple projects of Energy Efficiency and electrical and air conditioning installations. She currently holds the role of Solutions Energy Engineer in the Energy & Performance Services Division of Siemens for Mexico and Central America.'
+  },
+  {
+    id: 82,
+    conference: 'Panel Twin-Transition – Eficiencia Energética – Energías Renovables',
+    name: 'Marco Antonio Guzman',
+    company: 'ANES',
+    rol: 'Vice-Presidente',
+    avatar: '/speakers/marcoAntonio.webp',
+    sketch: 'Es Ingeniero Eléctrico del Instituto Politécnico Nacional, trabajo en Telmex como directivo, coordinando a grupos de trabajo técnicos para el despliegue de Infraestructura eléctrica energizando Centrales de Transmisión, Conmutación y Data Center, Operó para el Grupo CARSO Planes de Acción de Eficiencia Energética para empresas de Telecom en México y en America Latina. Es profesor de Posgrado de la Universidad Autónoma de Nuevo León, enfocado en materias de Telecom y Eficiencia energética. Es miembro de la ANES y AMIF. Es coordinador opera=vo de la revisión de estándares de competencia en el CGC EE y ER del CONOCER',
+    sketch_eng: 'He is an Electrical Engineer from the National Polytechnic Institute, worked in Telmex as a manager, coordinating technical working groups for the deployment of electrical infrastructure energizing Transmission, Switching and Data Centers, operated for the CARSO Group Energy Efficiency Action Plans for Telecom companies in Mexico and Latin America. He is a postgraduate professor at the Universidad Autónoma de Nuevo León, focused on Telecom and Energy Efficiency. He is a member of ANES and AMIF. He is the operational coordinator of the revision of competency standards in the CGC EE and ER of CONOCER.'
+  },
+  {
+    id: 83,
+    conference: 'Panel Twin-Transition – Eficiencia Energética – Energías Renovables',
+    name: 'Andreas Müller',
+    company: 'CAMEXA',
+    rol: 'Director General Adjunto',
+    avatar: '/speakers/andreasMuller.webp',
+    sketch: 'Andreas Müller – Director General Adjunto de CAMEXA',
+    sketch_eng: 'Andreas Müller – Director General Adjunto de CAMEXA'
   }
 
 ]
