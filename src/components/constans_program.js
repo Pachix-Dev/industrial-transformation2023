@@ -281,9 +281,9 @@ const programITM = {
         name: 'Fabian Badia Gutierrez',
         id: '',
         avatar: '',
-        rol: '',
+        rol: 'Sales Regional Manager',
         company: '- Bosch Rexroth',
-        conference: 'sustentabilidad como habilitador en la Industria conectada',
+        conference: 'Bosch Rexroth: sustentabilidad como habilitador en la Industria conectada',
         resume: ''
       },
       {
