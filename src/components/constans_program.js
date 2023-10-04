@@ -779,6 +779,17 @@ const programITM = {
         company: '- Roue',
         conference: 'Seguridad, Eficiencia y Ciberseguridad: la trilogía del éxito industrial',
         resume: 'La Industria 4.0 está transformando la forma en que se producen los bienes y servicios. Las tecnologías avanzadas, como la inteligencia artificial, el Internet de las cosas y el análisis de datos, están cambiando la forma en que las empresas operan. Esta conferencia explorará el papel de la tecnología en la mejora de la seguridad y la eficiencia en la Industria 4.0. Y el como la ciberseguridad juega un papel crucial en la implementación de las tecnologías. La conferencia está dirigida a profesionales de la industria, académicos y estudiantes interesados en la seguridad y la eficiencia en la Industria 4.0.'
+      },
+      {
+        hour: '16:15 hrs',
+        duration: '45 min',
+        name: 'Saúl López Díaz',
+        id: '',
+        avatar: '',
+        rol: 'Distribution Sales Manager',
+        company: '- Bosch Rexroth',
+        conference: 'Soluciones i4.0, Plug & produce: Simple y fácil',
+        resume: ''
       }
     ],
     oct_6: [
