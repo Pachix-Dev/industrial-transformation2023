@@ -276,6 +276,17 @@ const programITM = {
         resume: 'Abordaremos las tendencias actuales y futuras en automatización industrial, destacando cómo la tecnología está transformando los procesos de fabricación y producción.'
       },
       {
+        hour: '12:45 hrs',
+        duration: '45 min',
+        name: 'Fabian Badia Gutierrez',
+        id: '',
+        avatar: '',
+        rol: '',
+        company: '- Bosch Rexroth',
+        conference: 'sustentabilidad como habilitador en la Industria conectada',
+        resume: ''
+      },
+      {
         hour: '13:30 hrs',
         duration: '30 min',
         name: 'Horacio Leal',
