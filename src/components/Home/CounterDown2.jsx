@@ -34,12 +34,15 @@ export function CounterDown2 () {
         </p>
 
         <div className='d-flex align-items-center justify-content-center'>
-          <a className='home-register me-3' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>
+          <a className='home-register me-2' href='https://itm.ahmreg.com.mx/' target='_blank' rel='noreferrer'>
             {t('home.registro_itm_2023')}
           </a>
-          <Link className='home-register' to='/program'>
+          <Link className='home-register me-2' to='/program'>
             {t('program.title')}
           </Link><br /><br />
+          <a className='home-register' href='/files/DIRECTORIO-ITM-2023.pdf' target='_blank' rel='noreferrer'>
+            {t('home.directory')}
+          </a>
         </div>
         <p className='counterdown-description mt-3 text-light' dangerouslySetInnerHTML={{ __html: t('home.leyend') }} />
       </div>
