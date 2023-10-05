@@ -9,8 +9,7 @@ const programITM = {
         id: 1,
         id_s2: 37,
         avatar: '/speakers/AlejandroPreinfalk.webp',
-        avatar2: '/speakers/liliadeDiego.webp',
-        rol: 'Chairman of the Managing Board | Gobernador del Estado de Guanajuato | Presidente | Director de asuntos Ecónomicos, Embajada de la republica federal de Alemania| Director de los programas Digitalización y Comercio cooperación tecnica alemana GIZ en México',
+        rol: 'Chairman of the Managing Board | Gobernador del Estado de Guanajuato | Presidente | Director de asuntos Ecónomicos, Embajada de la republica federal de Alemania| Director de los programas Digitalización y Comercio',
         company: '- Deutsche Messe AG | Gobierno del estado de Guanajuato | Cámara Mexicano-Alemana de Comercio e Industria (CAMEXA) y Presidente & CEO de Siemens México, Centroamérica y el Caribe |  GIZ México',
         conference: 'Industrial Transformation MEXICO: Cinco años impulsando la Industria 4.0 para el desarrollo industrial sostenible',
         resume: 'Celebrando su quinta edición, el gran éxito de la ITM evidencia que cada vez más actores del sector privado y público son conscientes de la importancia de la Industria 4.0 para el desarrollo industrial sustentable. En este panel, altos representantes de instituciones mexicanas y alemanas reflexionarán sobre la exitosa colaboración entre ambos países en estos temas y el impacto de la feria de Industria 4.0 más grande de Latinoamérica. '
