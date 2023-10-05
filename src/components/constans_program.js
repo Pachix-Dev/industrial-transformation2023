@@ -124,7 +124,7 @@ const programITM = {
         duration: '45 min',
         name: 'Salvador Santana | Mathieu Fresco | Iván Wong | Víctor Fuentes',
         id: 54,
-        avatar: '/speakers/A_Valdes.webp',
+        avatar: '',
         rol: 'Moderador | Director General | Director General |  Gerente Senior de Ventas y Marketing',
         company: '-  WashTech | Smart AE | Mitsubishi Electric',
         conference: 'Robótica industrial y los nuevos profesionales',
