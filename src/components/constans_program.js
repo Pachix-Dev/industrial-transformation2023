@@ -5,12 +5,12 @@ const programITM = {
       {
         hour: '11:00 hrs',
         duration: '60 min',
-        name: 'Jochen Köckler | Diego Sinhue Rodríguez Vallejo | Alejandro Preinfalk | Lilia de Diego Correa',
+        name: 'Jochen Köckler | Diego Sinhue Rodríguez Vallejo | Alejandro Preinfalk | Gunnar Schneider | Daniel Solterbeck',
         id: 1,
         id_s2: 37,
         avatar: '/speakers/AlejandroPreinfalk.webp',
         avatar2: '/speakers/liliadeDiego.webp',
-        rol: 'Chairman of the Managing Board | Gobernador del Estado de Guanajuato | Presidente | Asesora Técnica',
+        rol: 'Chairman of the Managing Board | Gobernador del Estado de Guanajuato | Presidente | Director de asuntos Ecónomicos, Embajada de la republica federal de Alemania| Director de los programas Digitalización y Comercio cooperación tecnica alemana GIZ en México',
         company: '- Deutsche Messe AG | Gobierno del estado de Guanajuato | Cámara Mexicano-Alemana de Comercio e Industria (CAMEXA) y Presidente & CEO de Siemens México, Centroamérica y el Caribe |  GIZ México',
         conference: 'Industrial Transformation MEXICO: Cinco años impulsando la Industria 4.0 para el desarrollo industrial sostenible',
         resume: 'Celebrando su quinta edición, el gran éxito de la ITM evidencia que cada vez más actores del sector privado y público son conscientes de la importancia de la Industria 4.0 para el desarrollo industrial sustentable. En este panel, altos representantes de instituciones mexicanas y alemanas reflexionarán sobre la exitosa colaboración entre ambos países en estos temas y el impacto de la feria de Industria 4.0 más grande de Latinoamérica. '
@@ -118,6 +118,17 @@ const programITM = {
         company: '- Siemens Mexico, Centroamérica Y El Caribe',
         conference: 'Innovación y retos de la agricultura',
         resume: 'En un mundo en constante evolución y con una creciente población global, la agricultura se enfrenta a desafíos sin precedentes. Para resolver estos retos requerimos de soluciones creativas; acompáñanos a descifrar si la innovación es una palabra de moda o algo alcanzable, a conocer más sobre el apasionante mundo de la agricultura 4.0 y a explorar cómo diversas tecnologías están transformando este sector tan crucial para las futuras generaciones. Conoce qué es la innovación, sus tipos y cómo podemos fomentarla. Además, presentaremos los principales retos de la agricultura y por qué es un "campo verde" para el desarrollo tecnológico.'
+      },
+      {
+        hour: '10:15 hrs',
+        duration: '45 min',
+        name: 'Salvador Santana | Mathieu Fresco | Iván Wong | Víctor Fuentes',
+        id: 54,
+        avatar: '/speakers/A_Valdes.webp',
+        rol: 'Moderador | Director General | Director General |  Gerente Senior de Ventas y Marketing',
+        company: '-  WashTech | Smart AE | Mitsubishi Electric',
+        conference: 'Robótica industrial y los nuevos profesionales',
+        resume: ''
       },
       {
         hour: '11:00 hrs',
