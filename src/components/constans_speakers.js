@@ -741,11 +741,11 @@ const speakers = [
     id: 74,
     conference: 'Trituradora Tlazazalca, Transformación 4.0 de procesos manuales a digitales',
     name: 'Alejandro Sánchez',
-    company: 'ISAT Telecomunicaciones',
-    rol: 'Director de Desarrollo en Integraciones',
+    company: 'Instituto Tecnológico de Estudios Superiores de Monterrey campus Monterrey',
+    rol: 'Ingeniero en Sistemas Electrónicos',
     avatar: '/speakers/AlejandroChavez.webp',
-    sketch: 'Alejandro Sánchez, Director de Desarrollo en Integraciones, ISAT Telecomunicaciones',
-    sketch_eng: 'Alejandro Sánchez, Director de Desarrollo en Integraciones, ISAT Telecomunicaciones'
+    sketch: 'Alejandro Sánchez, Ingeniero en Sistemas Electrónicos, Instituto Tecnológico de Estudios Superiores de Monterrey campus Monterrey',
+    sketch_eng: 'Alejandro Sánchez, Ingeniero en Sistemas Electrónicos, Instituto Tecnológico de Estudios Superiores de Monterrey campus Monterrey'
   },
   {
     id: 75,
