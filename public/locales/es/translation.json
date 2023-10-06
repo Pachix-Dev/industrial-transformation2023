@@ -8,10 +8,10 @@
         "exhibitors_2": "Quiero exponer",
         "exhibitors_2_1": "Expositores confirmados",
         "exhibitors_3": "Perfil del expositor",
-        "exhibitors_4": "Factsheet ITM 2023",
+        "exhibitors_4": "Factsheet ITM 2024",
         "exhibitors_4_1": "Manual del Expositor ITM 2023",
-        "exhibitors_5": "Plano ITM 2023",
-        "exhibitors_6": "Contrato ITM 2023",
+        "exhibitors_5": "Plano ITM 2024",
+        "exhibitors_6": "Contrato ITM 2024",
         "exhibitors_7": "Patrocinios 2023",
         "exhibitors_7_1": "Paquetes de patrocinio",
         "exhibitors_7_2": "Patrocinio Conferencias",
@@ -28,6 +28,8 @@
         "visitors_3": "Tarifas especiales para hoteles",
         "visitors_4": "Convenio United Airlines",
         "past_events": "EDICIONES ITM",
+        "itm2023": "itm 2023",
+        "itm2023_1": "Directorio de Expositores 2023",
         "itm2022": "itm 2022",
         "itm2022_1": "itm Resultados 2022",
         "itm2022_2": "Directorio de Expositores 2022",
@@ -406,7 +408,7 @@
         "speech": "Ponencia"
     },
     "footer": {
-        "dateFooter": "4 - 6 de octubre de 2023",
+        "dateFooter": "octubre de 2024",
         "suscribe": "Suscríbete a nuestro boletín"
     }
 }

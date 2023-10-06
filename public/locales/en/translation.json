@@ -8,10 +8,10 @@
         "exhibitors_2": "why exhibit",
         "exhibitors_2_1": "Confirmed exhibitors",
         "exhibitors_3": "exhibitor profile",
-        "exhibitors_4": "factsheet ITM 2023",
+        "exhibitors_4": "factsheet ITM 2024",
         "exhibitors_4_1": "Manual Exhibitor ITM 2023",
-        "exhibitors_5": "floor plan itm-2023",
-        "exhibitors_6": "contract itm 2023",
+        "exhibitors_5": "Floorplan ITM 2024",
+        "exhibitors_6": "Contract ITM 2024",
         "exhibitors_7": "sponsorships 2023",
         "exhibitors_7_1": "Sponsorship packages",
         "exhibitors_7_2": "Sponsorship Sponsorship Conferences",
@@ -28,6 +28,8 @@
         "visitors_3": "special hotel rates",
         "visitors_4": "united airlines agreement",
         "past_events": "past events",
+        "itm2023": "itm 2023",
+        "itm2023_1": "Directorio de Expositores 2023",
         "itm2022": "itm 2022",
         "itm2022_1": "after show report 2022",
         "itm2022_2": "exhibitors directory 2022",
@@ -407,7 +409,7 @@
         "speech": "Speech"
     },
     "footer": {
-        "dateFooter": "4 - 6 October 2023",
+        "dateFooter": "October 2024",
         "suscribe": "Subscribe to our newsletter"
     }
 }

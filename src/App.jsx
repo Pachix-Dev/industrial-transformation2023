@@ -44,7 +44,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Industrial Transformation</title>
+                <title>ITM 2024 | Industrial Transformation</title>
                 <meta name='description' content={t('seo.description')} />
               </Helmet>
               <Home />
@@ -56,7 +56,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | About Us</title>
+                <title>ITM 2024 | About Us</title>
               </Helmet>
               <AboutUs />
             </>
@@ -67,7 +67,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Background</title>
+                <title>ITM 2024 | Background</title>
               </Helmet>
               <Background />
             </>
@@ -78,7 +78,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Contact</title>
+                <title>ITM 2024 | Contact</title>
               </Helmet>
               <Contact />
             </>
@@ -89,7 +89,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Why visit</title>
+                <title>ITM 2024 | Why visit</title>
               </Helmet>
               <WhyVisit />
             </>
@@ -100,7 +100,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Why Exibit</title>
+                <title>ITM 2024 | Why Exibit</title>
               </Helmet>
               <WhyExhibit />
             </>
@@ -111,7 +111,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Exibitor Profile</title>
+                <title>ITM 2024 | Exibitor Profile</title>
               </Helmet>
               <ExhibitorProfile />
             </>
@@ -122,7 +122,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Key Audience Groups</title>
+                <title>ITM 2024 | Key Audience Groups</title>
               </Helmet>
               <AudienceGroups />
             </>
@@ -133,7 +133,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Products Category</title>
+                <title>ITM 2024 | Products Category</title>
               </Helmet>
               <ProductsCategory />
             </>
@@ -144,7 +144,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Visitor Profile</title>
+                <title>ITM 2024 | Visitor Profile</title>
               </Helmet>
               <VisitorProfle />
             </>
@@ -155,7 +155,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Toolkit</title>
+                <title>ITM 2024 | Toolkit</title>
               </Helmet>
               <Toolkit />
             </>
@@ -167,7 +167,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Galery ITM 2019</title>
+                <title>ITM 2024 | Galery ITM 2019</title>
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2019</h1>
@@ -181,7 +181,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Galery ITM 2020</title>
+                <title>ITM 2024 | Galery ITM 2020</title>
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2020</h1>
@@ -195,7 +195,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Galery ITM 2021</title>
+                <title>ITM 2024 | Galery ITM 2021</title>
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2021</h1>
@@ -209,7 +209,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Galery ITM 2022</title>
+                <title>ITM 2024 | Galery ITM 2022</title>
               </Helmet>
               <Container className='mt-5 mb-5'>
                 <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2022</h1>
@@ -223,7 +223,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Download Logos</title>
+                <title>ITM 2024 | Download Logos</title>
               </Helmet>
               <DonwLoadLogos />
             </>
@@ -234,7 +234,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Download Logos</title>
+                <title>ITM 2024 | Download Logos</title>
               </Helmet>
               <StartupPitch />
             </>
@@ -245,7 +245,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Program</title>
+                <title>ITM 2024 | Program</title>
               </Helmet>
               <Program />
             </>
@@ -256,7 +256,7 @@ function App () {
           element={
             <>
               <Helmet>
-                <title>ITM 2023 | Roadshows</title>
+                <title>ITM 2024 | Roadshows</title>
               </Helmet>
               <Roadshows />
             </>

@@ -39,22 +39,16 @@ export function Footer () {
       <Container>
         <Row className='mt-5 mb-5'>
           <Col md={8}>
-
-            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.859950910688!2d-101.654688!3d21.113962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe571ff11b0d%3A0x6d9c73bfdbbd1fc8!2sPoliforum%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1691442801832!5m2!1ses!2smx' width='100%' height={260} loading='lazy' referrerPolicy='no-referrer-when-downgrade' />
+            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.904420047227!2d-101.6540912!3d21.1135188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sHannover%20Fairs%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1696631280437!5m2!1ses!2smx' width='100%' height={260} loading='lazy' referrerPolicy='no-referrer-when-downgrade' />
           </Col>
           <Col md={4}>
             <div className='footer-wrapper-info-contact'>
               <div>
-                <p><strong>ITM 2023</strong></p>
+                <p><strong>ITM 2024</strong></p>
                 <p>
                   <svg width='19' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' className='w-6 h-6'>
                     <path strokeLinecap='round' strokeLinejoin='round' d='M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5m-9-6h.008v.008H12v-.008zM12 15h.008v.008H12V15zm0 2.25h.008v.008H12v-.008zM9.75 15h.008v.008H9.75V15zm0 2.25h.008v.008H9.75v-.008zM7.5 15h.008v.008H7.5V15zm0 2.25h.008v.008H7.5v-.008zm6.75-4.5h.008v.008h-.008v-.008zm0 2.25h.008v.008h-.008V15zm0 2.25h.008v.008h-.008v-.008zm2.25-4.5h.008v.008H16.5v-.008zm0 2.25h.008v.008H16.5V15z' />
                   </svg> {t('footer.dateFooter')}<br />
-                  <svg width='19' xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth='1.5' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' d='M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z' /></svg> 9:00 am – 6:00 pm<br />
-                  <svg width={19} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' className='w-6 h-6'>
-                    <path strokeLinecap='round' strokeLinejoin='round' d='M15 10.5a3 3 0 11-6 0 3 3 0 016 0z' />
-                    <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z' />
-                  </svg> Poliforum León, Guanajuato
                 </p>
               </div>
               <div>

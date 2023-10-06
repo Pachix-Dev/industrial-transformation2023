@@ -74,8 +74,8 @@ export function Menu () {
 
                   <NavDropdown.Item
                     href={i18n.language === 'en'
-                      ? '/files/Factsheet_ITM2023_ENG_compressed_v3.pdf'
-                      : '/files/Factsheet_ITM2023_ESP_compressed_V3.pdf'}
+                      ? '/files/Factsheet-ITM-2024.pdf'
+                      : '/files/Factsheet-ITM-2024.pdf'}
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -94,7 +94,7 @@ export function Menu () {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href='/files/Floorplan-ITM-2023-29-09-2023.pdf'
+                    href='/files/Floorplan-ITM-2024.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -102,7 +102,7 @@ export function Menu () {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href='/files/CONTRACT-ITM-2023.pdf'
+                    href='/files/Contract-ITM-2024.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -195,8 +195,16 @@ export function Menu () {
                 </NavDropdown>
 
                 <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
-                  <p className='p-2 mb-0'>{t('menu.itm2022')}</p>
+                  <p className='p-2 mb-0'>{t('menu.itm2023')}</p>
+                  <NavDropdown.Item
+                    href='/files/DIRECTORIO-ITM-2023.pdf'
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.itm2023_1')}
+                  </NavDropdown.Item>
 
+                  <p className='p-2 mb-0'>{t('menu.itm2022')}</p>
                   <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/ENG-ITM-2022-RESULTS-v3.pdf'
@@ -337,9 +345,6 @@ export function Menu () {
                   <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'es' ? 'white' : '' }}>En</button>
 
                 </Navbar.Text>
-                <Nav.Link href='https://rai.eventonline.mx/' target='_blank' onClick={handleClose}>
-                  <img src='/raiLogo.webp' width={120} alt='RAI' />
-                </Nav.Link>
               </Nav>
             </Offcanvas.Body>
           </Navbar.Offcanvas>

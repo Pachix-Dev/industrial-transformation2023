@@ -1,14 +1,48 @@
-.home-register {
-    background-color: #e8001e;
+.home-files-download{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+.home-files-download a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    padding: 15px;
-    border-radius: 20px;
+}
+.home-register{
+    border-radius: 5%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    position: relative;
+    padding: 10px;
+    margin: 0 8px;
+}
+.home-register::after {
+    background-color: #0D61FF;
+}
+.home-register::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(.05);
+    transform-origin: bottom;
+    content: '';
+    z-index: 2;
+    opacity: .9;    
+    transition: .3s
+}
+.home-register:hover::after {
+    transform: scaleY(1);
+    opacity: 1;
 }
 
-.home-register:hover {
-    background-color: black
+.home-register span{
+    position: relative;
+    z-index: 5;
 }
 
 .home>h2,

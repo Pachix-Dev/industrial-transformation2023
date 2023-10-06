@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next'
 import { Col, Container, Ratio, Row } from 'react-bootstrap'
-import { CounterDown2 } from './CounterDown2'
 import { Slider } from './Slider'
 import { Contacts } from '../Contacts'
 
@@ -22,20 +21,56 @@ export function Home () {
         </a>
       </div>
       <div className='home-counter-video'>
-        <CounterDown2 />
+        <Container className='pt-5 mt-5 text-center home-counterdown-timer'>
+          <Row>
+            <Col md={6}>
+              {
+                stateLang === 'en'
+                  ? <img src='/Construyamos_eng.webp' alt='ITM' className='w-100' />
+                  : <img src='/Construyamos.webp' alt='ITM' className='w-100' />
+              }
+            </Col>
+          </Row>
+        </Container>
         <div className='position-absolute top-0 w-100 h-100'>
           <video
             muted
             loop
             autoPlay
             playsInline
-            poster='/posterVideo.webp'
+            poster='/BG-ITM-2024.webp'
           >
             <source
-              src='/VIDEO COUNTDOWN ITM 2023.webm'
-              type='video/webm'
+              src='/BG-ITM-2024.mp4'
+              type='video/mp4'
             />
           </video>
+        </div>
+        <div className='home-files-download'>
+          <a className='home-register' href='/files/Floorplan-ITM-2024.pdf' target='_blank' rel='noreferrer'>
+            <span className='d-md-flex justify-content-evenly fw-bold'>
+              {t('menu.exhibitors_5')}
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={25}>
+                <path strokeLinecap='round' strokeLinejoin='round' d='M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75' />
+              </svg>
+            </span>
+          </a>
+          <a className='home-register' href='/files/Factsheet-ITM-2024.pdf' target='_blank' rel='noreferrer'>
+            <span className='d-md-flex justify-content-evenly fw-bold'>Factsheet 2024
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={25}>
+                <path strokeLinecap='round' strokeLinejoin='round' d='M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75' />
+              </svg>
+            </span>
+
+          </a>
+          <a className='home-register' href='/files/Contract-ITM-2024.pdf' target='_blank' rel='noreferrer'>
+            <span className='d-md-flex justify-content-evenly fw-bold'>
+              {t('menu.exhibitors_6')}
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={25}>
+                <path strokeLinecap='round' strokeLinejoin='round' d='M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75' />
+              </svg>
+            </span>
+          </a>
         </div>
       </div>
 
