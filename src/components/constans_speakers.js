@@ -739,7 +739,7 @@ const speakers = [
   },
   {
     id: 74,
-    conference: 'Exploradores del mañana: “Un viaje al futuro con ayuda de la tecnología”',
+    conference: 'Trituradora Tlazazalca, Transformación 4.0 de procesos manuales a digitales',
     name: 'Alejandro Sánchez',
     company: 'ISAT Telecomunicaciones',
     rol: 'Director de Desarrollo en Integraciones',
@@ -846,6 +846,16 @@ const speakers = [
     avatar: '/speakers/DanielGomez.webp',
     sketch: 'Daniel es egresado de La Universidad del Zulia, Venezuela en Ingeniería Mecánica, con una maestría en automatización y control de procesos. Cuenta con 19 años de experiencia en diferentes sectores, incluyendo proyectos de ingeniería en sus diferentes fases (conceptual, básica y detalle) en las áreas de Procesos, Mecánica e Instrumentación para empresas de Oil & Gas. Luego 10 años como coordinador de proyectos y automatización en la industria petroquímica. Actualmente en el sector de Energía desempeña el rol de Director de Operaciones, específicamente en la industria del gas natural (en sus diferentes estados y procesos), biogás, biometano, entre otros combustibles, liderando un equipo técnico especializado para servicio post venta en la atención de tecnología de compresión y periféricos para los procesos productivos de sus clientes a nivel nacional.',
     sketch_eng: 'Daniel graduated from the University of Zulia, Venezuela in Mechanical Engineering, with a master\'s degree in automation and process control. He has 19 years of experience in different sectors, including engineering projects in their different phases (conceptual, basic and detail) in the areas of Processes, Mechanics and Instrumentation for Oil & Gas companies. Then 10 years as project and automation coordinator in the petrochemical industry. Currently in the Energy sector he plays the role of Director of Operations, specifically in the natural gas industry (in its different states and processes), biogas, biomethane, among other fuels, leading a specialized technical team for after-sales service in customer service. of compression technology and peripherals for the production processes of its clients nationwide.'
+  },
+  {
+    id: 85,
+    conference: 'Bosch Rexroth: sustentabilidad como habilitador en la Industria conectada',
+    name: 'Fabian Badia Gutierrez',
+    company: 'Bosch Rexroth',
+    rol: 'Sales Regional Manager',
+    avatar: '/speakers/fabianBadia.webp',
+    sketch: 'Fabian Badia Gutierrez, Sales Regional Manager, Bosch Rexroth',
+    sketch_eng: 'Fabian Badia Gutierrez, Sales Regional Manager, Bosch Rexroth'
   }
 
 ]

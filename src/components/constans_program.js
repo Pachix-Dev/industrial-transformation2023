@@ -289,8 +289,8 @@ const programITM = {
         hour: '12:45 hrs',
         duration: '45 min',
         name: 'Fabian Badia Gutierrez',
-        id: '',
-        avatar: '',
+        id: 85,
+        avatar: '/speakers/fabianBadia.webp',
         rol: 'Sales Regional Manager',
         company: '- Bosch Rexroth',
         conference: 'Bosch Rexroth: sustentabilidad como habilitador en la Industria conectada',
@@ -814,6 +814,17 @@ const programITM = {
       }
     ],
     oct_6: [
+      {
+        hour: '10:15 hrs',
+        duration: '45 min',
+        name: 'Alejandro José Sánchez',
+        id: 74,
+        avatar: '/speakers/AlejandroChavez.webp',
+        rol: 'Ingeniero en Sistemas Electrónicos',
+        company: '- Instituto Tecnológico de Estudios Superiores de Monterrey campus Monterrey',
+        conference: 'Trituradora Tlazazalca, Transformación 4.0 de procesos manuales a digitales',
+        resume: '¿Innovación sostenible, eficiente y accionable para tus edificaciones comerciales? La tecnología para ello ya existe. Descubre de la mano de nuestras expertas, Abigail Carrillo -Metering Business Developer- y Virginia Guerere -Building Automation Business Developer-, todo lo que la digitalización, medición y automatización de las edificaciones pueden brindarte. Desde ahorro de energía hasta ahorro operativo y de mantenimiento, las instalaciones comerciales e industriales pueden ser eficientes al mismo tiempo que sostenibles.'
+      },
       {
         hour: '11:00 hrs',
         duration: '45 min',
