@@ -75,7 +75,6 @@ export function Home () {
       </div>
 
       <Container className='home mt-5 pb-4'>
-        <Slider />
         <h2 className='mt-5'>{t('home.highlights_ITM2022')}</h2>
         <Row className='text-center'>
           <Col md={8} className='mx-auto'>
