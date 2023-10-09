@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next'
 import { Col, Container, Ratio, Row } from 'react-bootstrap'
-import { Slider } from './Slider'
 import { Contacts } from '../Contacts'
 
 import './Home.css'
