@@ -21,7 +21,7 @@ export function Footer () {
             <path d='M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z' />
           </svg>
         </a>
-        <a href='https://twitter.com/i/flow/login?redirect_after_login=%2FIndtransmex' target='_blank' rel='noreferrer'>
+        <a href='https://twitter.com/i/flow/login?redirect_after_login=%2FIndtransmex' target='_blank' rel='noreferrer' aria-label='twiiter'>
           <svg viewBox='0 0 24 24' aria-hidden='true'>
             <title>Twitter</title>
             <g>
@@ -39,7 +39,7 @@ export function Footer () {
       <Container>
         <Row className='mt-5 mb-5'>
           <Col md={8}>
-            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.904420047227!2d-101.6540912!3d21.1135188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sHannover%20Fairs%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1696631280437!5m2!1ses!2smx' width='100%' height={260} loading='lazy' referrerPolicy='no-referrer-when-downgrade' />
+            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.904420047227!2d-101.6540912!3d21.1135188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sHannover%20Fairs%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1696631280437!5m2!1ses!2smx' width='100%' height={260} loading='lazy' referrerPolicy='no-referrer-when-downgrade' title='mapa igeco' />
           </Col>
           <Col md={4}>
             <div className='footer-wrapper-info-contact'>
