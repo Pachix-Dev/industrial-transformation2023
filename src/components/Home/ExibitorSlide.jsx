@@ -62,7 +62,7 @@ const ExibitorSlide = () => {
           <img src='/WAGO-Logo.webp' width={250} height={177} alt='WAGO-Logo' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/KAIZEN.webp' width={200} alt='KAIZEN' />
+          <img src='/KAIZEN.webp' width={200} height={81} alt='KAIZEN' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/JIANGRU.webp' width={200} height={150} alt='JIANGRU' />
@@ -157,151 +157,151 @@ const ExibitorSlide = () => {
       </Marquee>
       <Marquee gradient direction='right'>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/NTF.webp' width={250} alt='NTF' />
+          <img src='/NTF.webp' width={250} height={94} alt='NTF' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Modula.webp' width={100} alt='Modula' />
+          <img src='/Modula.webp' width={100} height={67} alt='Modula' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Maper.webp' width={200} alt='Maper' />
+          <img src='/Maper.webp' width={200} height={49} alt='Maper' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/ManWinWin.webp' width={200} alt='ManWinWin' />
+          <img src='/ManWinWin.webp' width={200} height={118} alt='ManWinWin' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/lishuijinzheng.webp' width={200} alt='lishuijinzheng' />
+          <img src='/lishuijinzheng.webp' width={200} height={141} alt='lishuijinzheng' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/LG_BAR.webp' width={200} alt='LG_BAR' />
+          <img src='/LG_BAR.webp' width={200} height={41} alt='LG_BAR' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/KNIPEX_CMYK.webp' width={200} alt='KNIPEX_CMYK' />
+          <img src='/KNIPEX_CMYK.webp' width={200} height={96} alt='KNIPEX_CMYK' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/JINANLEVOBEARING.webp' width={200} alt='JINANLEVOBEARING' />
+          <img src='/JINANLEVOBEARING.webp' width={200} height={200} alt='JINANLEVOBEARING' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/JINANGOLDENBRIDGE.webp' width={150} alt='JINANGOLDENBRIDGE' />
+          <img src='/JINANGOLDENBRIDGE.webp' width={150} height={119} alt='JINANGOLDENBRIDGE' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/AOTTO.webp' width={200} alt='AOTTO' />
+          <img src='/AOTTO.webp' width={200} height={112} alt='AOTTO' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/3DM.webp' width={200} alt='3DM' />
+          <img src='/3DM.webp' width={200} height={73} alt='3DM' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/5GAutomatika.webp' width={150} alt='5GAutomatika' />
+          <img src='/5GAutomatika.webp' width={150} height={74} alt='5GAutomatika' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/AdvantechSlogan.webp' width={200} alt='AdvantechSlogan' />
+          <img src='/AdvantechSlogan.webp' width={200} height={52} alt='AdvantechSlogan' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/TBSEK.webp' width={150} alt='TBSEK' />
+          <img src='/TBSEK.webp' width={150} height={84} alt='TBSEK' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Ateq.webp' width={200} alt='Ateq' />
+          <img src='/Ateq.webp' width={200} height={141} alt='Ateq' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/BNCE.webp' width={150} alt='BNCE' />
+          <img src='/BNCE.webp' width={150} height={105} alt='BNCE' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/BenQ.webp' width={200} alt='BenQ' />
+          <img src='/BenQ.webp' width={200} height={58} alt='BenQ' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/capThin.webp' width={200} alt='capThin' />
+          <img src='/capThin.webp' width={200} height={101} alt='capThin' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/CompreService.webp' width={200} alt='CompreService' />
+          <img src='/CompreService.webp' width={200} height={97} alt='CompreService' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/CRONOS.webp' width={200} alt='CRONOS' />
+          <img src='/CRONOS.webp' width={200} height={50} alt='CRONOS' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Dimo_Maint.webp' width={200} alt='Dimo_Maint' />
+          <img src='/Dimo_Maint.webp' width={200} height={160} alt='Dimo_Maint' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/DongguanYicheng.webp' width={150} alt='DongguanYicheng' />
+          <img src='/DongguanYicheng.webp' width={132} alt='DongguanYicheng' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/EATON.webp' width={200} alt='EATON' />
+          <img src='/EATON.webp' width={200} height={100} alt='EATON' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/EllevenOne.webp' width={200} alt='EllevenOne' />
+          <img src='/EllevenOne.webp' width={200} height={154} alt='EllevenOne' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/enshu.webp' width={200} alt='enshu' />
+          <img src='/enshu.webp' width={200} height={79} alt='enshu' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/KAIZEN.webp' width={200} height={81} alt='kaizen' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/LOGO-FG.webp' width={150} alt='LOGO-FG' />
+          <img src='/LOGO-FG.webp' width={150} height={150} alt='LOGO-FG' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Forte.webp' width={150} alt='Forte' />
+          <img src='/Forte.webp' width={150} height={150} alt='Forte' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/fyware.webp' width={200} alt='fyware' />
+          <img src='/fyware.webp' width={200} height={40} alt='fyware' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/G100.webp' width={150} alt='G100' />
+          <img src='/G100.webp' width={150} height={60} alt='G100' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Graftek.webp' width={200} alt='Graftek' />
+          <img src='/Graftek.webp' width={200} height={45} alt='Graftek' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/ABSA.webp' width={200} alt='ABSA' />
+          <img src='/ABSA.webp' width={200} height={66} alt='ABSA' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/GuangzhouKailing.webp' width={100} alt='GuangzhouKailing' />
+          <img src='/GuangzhouKailing.webp' width={100} height={100} alt='GuangzhouKailing' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/EHCMYK.webp' width={200} height={40} alt='EHCMYK' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Hanlaser.webp' width={200} alt='Hanlaser' />
+          <img src='/Hanlaser.webp' width={200} height={72} alt='Hanlaser' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Harmontronics.webp' width={200} alt='Harmontronics' />
+          <img src='/Harmontronics.webp' width={200} height={72} alt='Harmontronics' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/HEBEI.webp' width={200} alt='HEBEI' />
+          <img src='/HEBEI.webp' width={200} height={27} alt='HEBEI' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/HenanQuanxiang.webp' width={80} alt='HenanQuanxiang' />
+          <img src='/HenanQuanxiang.webp' width={80} height={63} alt='HenanQuanxiang' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/hitachi.webp' width={200} alt='hitachi' />
+          <img src='/hitachi.webp' width={200} height={106} alt='hitachi' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Hiwin.webp' width={150} alt='Hiwin' />
+          <img src='/Hiwin.webp' width={150} height={43} alt='Hiwin' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/HNCelectric.webp' width={150} alt='HNCelectric' />
+          <img src='/HNCelectric.webp' width={150} height={67} alt='HNCelectric' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/i-50.webp' width={150} alt='i-50' />
+          <img src='/i-50.webp' width={150} height={68} alt='i-50' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/IDAKA.webp' width={150} alt='IDAKA' />
+          <img src='/IDAKA.webp' width={150} height={76} alt='IDAKA' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/IDbox.webp' width={150} alt='IDbox' />
+          <img src='/IDbox.webp' width={150} height={46} alt='IDbox' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/ientc.webp' width={150} alt='IENTC' />
+          <img src='/ientc.webp' width={150} height={62} alt='IENTC' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/innostrat.webp' width={150} alt='innostrat' />
+          <img src='/innostrat.webp' width={150} height={23} alt='innostrat' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/JIANGSUCONSUMMATE.webp' width={150} alt='JIANGSUCONSUMMATE' />
+          <img src='/JIANGSUCONSUMMATE.webp' width={150} height={73} alt='JIANGSUCONSUMMATE' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/JIANGSUHUASHENG.webp' width={80} alt='JIANGSUHUASHENG' />
+          <img src='/JIANGSUHUASHENG.webp' width={80} height={102} alt='JIANGSUHUASHENG' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/Jiangsuitri.webp' width={150} alt='Jiangsuitri' />
+          <img src='/Jiangsuitri.webp' width={150} height={150} alt='Jiangsuitri' />
         </div>
       </Marquee>
     </>
