@@ -256,7 +256,7 @@ const ExibitorSlide = () => {
           <img src='/GuangzhouKailing.webp' width={100} height={100} alt='GuangzhouKailing' />
         </div>
         <div className='exibitorSlider text-center h-100'>
-          <img src='/EHCMYK.webp' width={200} height={40} alt='EHCMYK' />
+          <img src='/EHCMYK.webp' width={200} height={65} alt='EHCMYK' />
         </div>
         <div className='exibitorSlider text-center h-100'>
           <img src='/Hanlaser.webp' width={200} height={72} alt='Hanlaser' />
