@@ -1,5 +1,4 @@
 // analytics.js
-
 export function initializeGA () {
   window.dataLayer = window.dataLayer || []
   function gtag () {
