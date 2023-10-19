@@ -16,7 +16,7 @@ export function Home () {
     <>
       <div className='home-newsletter'>
         <a href='#newsletter'>
-          <svg width={30} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth='1.5' stroke='currentColor' className='w-6 h-6'>
+          <svg width={30} xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth='1.5' stroke='currentColor'>
             <path strokeLinecap='round' strokeLinejoin='round' d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75' />
           </svg> <strong>{t('footer.suscribe')}</strong>
         </a>
@@ -92,24 +92,24 @@ export function Home () {
         <Row className='text-center  pb-5'>
           <Col md={4}>
             <a href='https://www.se.com/mx/es/' target='_blank' rel='noreferrer'>
-              <img src='/logoSchneider.webp' width={185} loading='lazy' alt='schneider' className='py-3' />
+              <img src='/logoSchneider.webp' width={185} height={93} loading='lazy' alt='schneider' className='py-3' />
             </a>
           </Col>
           <Col md={4}>
             <a href='https://mx.mitsubishielectric.com/fa/en' target='_blank' rel='noreferrer'>
-              <img src='/mitsubishi.webp' width={250} loading='lazy' alt='mitsubishi' className='py-3' />
+              <img src='/mitsubishi.webp' width={250} height={125} loading='lazy' alt='mitsubishi' className='py-3' />
             </a>
           </Col>
           <Col md={4}>
             <a href='https://new.siemens.com/mx/es.htm' target='_blank' rel='noreferrer'>
-              <img src='/siemens.webp' width={300} loading='lazy' alt='siemens' />
+              <img src='/siemens.webp' width={300} height={150} loading='lazy' alt='siemens' />
             </a>
           </Col>
         </Row>
         <h3 className='mt-5 mb-3'>{t('home.digital')}</h3>
         <p className='text-center'>
           <a href='https://www.beckhoff.com/es-mx/' target='_blank' rel='noreferrer'>
-            <img className='home-digital-logo' src='/Beckhoff.webp' loading='lazy' alt='BecjHoff' width={400} />
+            <img className='home-digital-logo' src='/Beckhoff.webp' loading='lazy' alt='BecjHoff' width={400} height={130} />
           </a>
         </p>
 
@@ -165,7 +165,7 @@ export function Home () {
           </Col>
           <Col md={3} className='mx-auto my-auto'>
             <a href='https://hitachi.com.mx/' target='_blank' rel='noreferrer'>
-              <img src='/hitachi.webp' width={240} loading='lazy' alt='hitachi' />
+              <img src='/hitachi.webp' width={240} height={127} loading='lazy' alt='hitachi' />
             </a>
           </Col>
           <Col md={3} className='mx-auto my-auto'>
