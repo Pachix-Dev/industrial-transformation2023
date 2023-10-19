@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Col, Container, Ratio, Row } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import { Contacts } from '../Contacts'
 
 import './Home.css'
@@ -7,9 +7,11 @@ import './Home.css'
 import { ExibitorSlide } from './ExibitorSlide'
 import { useLanguage } from '../hooks/useLanguage'
 import { Subscribe } from '../Subscribe'
+import { useNearScreen } from '../hooks/useNearScreen'
 export function Home () {
   const { t } = useTranslation()
   const { stateLang } = useLanguage()
+  const [show, ref] = useNearScreen()
   return (
     <>
       <div className='home-newsletter'>
@@ -25,8 +27,8 @@ export function Home () {
             <Col md={5}>
               {
                 stateLang === 'en'
-                  ? <img src='/Construyamos_eng.webp' alt='ITM' className='w-100' />
-                  : <img src='/Construyamos.webp' alt='ITM' className='w-100' />
+                  ? <img src='/Construyamos_eng.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
+                  : <img src='/Construyamos.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
               }
             </Col>
           </Row>
@@ -77,24 +79,11 @@ export function Home () {
         <h2 className='mt-5'>{t('home.highlights_ITM2022')}</h2>
         <Row className='text-center'>
           <Col md={8} className='mx-auto'>
-            <Ratio aspectRatio='16x9'>
-              {
-                stateLang === 'en'
-                  ? <iframe
-                      src='https://www.youtube-nocookie.com/embed/rj6ubgIR6Do'
-                      title='YouTube video player'
-                      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                      allowFullScreen
-                    />
-                  : <iframe
-                      src='https://www.youtube-nocookie.com/embed/6_H5V9p5UZA'
-                      title='YouTube video player'
-                      allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-                      allowFullScreen
-                    />
-              }
-
-            </Ratio>
+            {
+            stateLang === 'en'
+              ? <a href='https://www.youtube.com/watch?v=rj6ubgIR6Do&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} className='w-100 h-100' /></a>
+              : <a href='https://www.youtube.com/watch?v=6_H5V9p5UZA&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} className='w-100 h-100' /></a>
+          }
           </Col>
         </Row>
         <h2 className='mt-5 mb-4'>{t('menu.exhibitors')}</h2>
@@ -391,10 +380,10 @@ export function Home () {
         </Row>
 
       </Container>
-      <section className='home-gallery' id='newsletter'>
+      <section className='home-gallery' id='newsletter' ref={ref}>
         <Container className='pt-5 pb-5'>
           <h3><strong>{t('footer.suscribe')}</strong></h3>
-          <Subscribe />
+          {show && <Subscribe />}
         </Container>
       </section>
       <Contacts />

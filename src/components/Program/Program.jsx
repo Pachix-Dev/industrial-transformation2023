@@ -3,7 +3,6 @@ import './Program.css'
 import { Accordion, Container, Nav, Tab, Tabs } from 'react-bootstrap'
 
 import React, { useState } from 'react'
-import 'react-multi-carousel/lib/styles.css'
 import { speakers } from '../constans_speakers.js'
 
 import { DetailSpeaker } from './DetailSpeaker'
@@ -94,7 +93,7 @@ export function Program () {
                                   {program.resume}
                                 </Accordion.Body>
                               </Accordion.Item>
-                            </Accordion>
+                              </Accordion>
                             : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                         </div>
                         <div className='d-block text-md-end'>
@@ -163,7 +162,7 @@ export function Program () {
                                   {program.resume}
                                 </Accordion.Body>
                               </Accordion.Item>
-                            </Accordion>
+                              </Accordion>
                             : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                         </div>
                         <div className='d-block text-md-end'>
@@ -227,7 +226,7 @@ export function Program () {
                                   {program.resume}
                                 </Accordion.Body>
                               </Accordion.Item>
-                            </Accordion>
+                              </Accordion>
                             : <><h2>{program.name}</h2><p>{program.rol} <strong>{program?.company}</strong></p><h6>{program.conference}</h6></>}
                         </div>
                         <div className='d-block text-md-end'>
