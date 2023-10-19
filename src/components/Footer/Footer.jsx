@@ -2,9 +2,11 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './Footer.css'
 import { useTranslation } from 'react-i18next'
 import iconworld from '../../assets/MundoITM.webp'
+import { useNearScreen } from '../hooks/useNearScreen'
 
 export function Footer () {
   const { t, i18n } = useTranslation()
+  const [show, ref] = useNearScreen()
   return (
     <footer>
       <img src='/plecaITM.webp' className='w-100' alt='ITM 2023' />
@@ -36,10 +38,11 @@ export function Footer () {
           </svg>
         </a>
       </div>
-      <Container>
+      <Container ref={ref}>
         <Row className='mt-5 mb-5'>
           <Col md={8}>
-            <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.904420047227!2d-101.6540912!3d21.1135188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sHannover%20Fairs%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1696631280437!5m2!1ses!2smx' width='100%' height={260} loading='lazy' referrerPolicy='no-referrer-when-downgrade' title='mapa igeco' />
+            {show &&
+              <iframe src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.904420047227!2d-101.6540912!3d21.1135188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sHannover%20Fairs%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1696631280437!5m2!1ses!2smx' width='100%' height={260} loading='lazy' referrerPolicy='no-referrer-when-downgrade' title='mapa igeco' />}
           </Col>
           <Col md={4}>
             <div className='footer-wrapper-info-contact'>
