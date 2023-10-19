@@ -92,12 +92,12 @@ export function Home () {
         <Row className='text-center  pb-5'>
           <Col md={4}>
             <a href='https://www.se.com/mx/es/' target='_blank' rel='noreferrer'>
-              <img src='/logoSchneider.webp' width={185} height={93} loading='lazy' alt='schneider' className='py-3' />
+              <img src='/logoSchneider.webp' width={185} loading='lazy' alt='schneider' className='py-3' />
             </a>
           </Col>
           <Col md={4}>
             <a href='https://mx.mitsubishielectric.com/fa/en' target='_blank' rel='noreferrer'>
-              <img src='/mitsubishi.webp' width={250} height={125} loading='lazy' alt='mitsubishi' className='py-3' />
+              <img src='/mitsubishi.webp' width={250} loading='lazy' alt='mitsubishi' className='py-3' />
             </a>
           </Col>
           <Col md={4}>
@@ -117,12 +117,12 @@ export function Home () {
         <Row className='text-center'>
           <Col md className='mx-auto my-auto'>
             <a href='https://www.cisco.com/c/es_mx/index.html' target='_blank' rel='noreferrer'>
-              <img src='/ciscopartner.webp' width={180} loading='lazy' alt='cisco' />
+              <img src='/ciscopartner.webp' width={180} height={142} loading='lazy' alt='cisco' />
             </a>
           </Col>
           <Col md className='mx-auto my-auto'>
             <a href='https://www.ikusi.com/mx/' target='_blank' rel='noreferrer'>
-              <img className='my-5' src='/Ikusi.webp' width={180} loading='lazy' alt='ikusi' />
+              <img className='my-5' src='/Ikusi.webp' width={180} height={79} loading='lazy' alt='ikusi' />
             </a>
           </Col>
           <Col md className='my-auto'>
