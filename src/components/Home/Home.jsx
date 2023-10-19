@@ -22,7 +22,7 @@ export function Home () {
       <div className='home-counter-video'>
         <Container className='pt-5 mt-5 text-center home-counterdown-timer'>
           <Row>
-            <Col md={6}>
+            <Col md={5}>
               {
                 stateLang === 'en'
                   ? <img src='/Construyamos_eng.webp' alt='ITM' className='w-100' />
