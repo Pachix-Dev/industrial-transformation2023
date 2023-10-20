@@ -48,7 +48,7 @@ export function Home () {
           </video>
         </div>
         <div className='home-files-download'>
-          <a className='home-register' href='/files/Floorplan-ITM-2024.pdf' target='_blank' rel='noreferrer'>
+          <a className='home-register' href='/files/Floorplan-ITM-2024-19-10-2023.pdf' target='_blank' rel='noreferrer'>
             <span className='d-md-flex justify-content-evenly fw-bold'>
               {t('menu.exhibitors_5')}
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={25}>
@@ -81,8 +81,8 @@ export function Home () {
           <Col md={8} className='mx-auto'>
             {
             stateLang === 'en'
-              ? <a href='https://www.youtube.com/watch?v=rj6ubgIR6Do&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} className='w-100 h-100' /></a>
-              : <a href='https://www.youtube.com/watch?v=6_H5V9p5UZA&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} className='w-100 h-100' /></a>
+              ? <a href='https://www.youtube.com/watch?v=rj6ubgIR6Do&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} loading='lazy' className='w-100 h-100' /></a>
+              : <a href='https://www.youtube.com/watch?v=6_H5V9p5UZA&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} loading='lazy' className='w-100 h-100' /></a>
           }
           </Col>
         </Row>
