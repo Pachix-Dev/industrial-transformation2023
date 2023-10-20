@@ -134,7 +134,7 @@ export function Home () {
         <Row className='text-center'>
           <Col md className='my-auto'>
             <a href='https://www.plannet.mx/' target='_blank' rel='noreferrer'>
-              <img className='my-4' src='/planet.webp' width={250} loading='lazy' alt='planet' />
+              <img className='my-4' src='/planet.webp' width={250} height={166} loading='lazy' alt='planet' />
             </a>
           </Col>
           <Col md className='mx-auto my-auto'>
@@ -170,7 +170,7 @@ export function Home () {
           </Col>
           <Col md={3} className='mx-auto my-auto'>
             <a href='https://www.hitachienergy.com/' target='_blank' rel='noreferrer'>
-              <img src='/hitachi-energy.webp' width={290} loading='lazy' alt='hitachi-energy' />
+              <img src='/hitachi-energy.webp' width={290} height={153} loading='lazy' alt='hitachi-energy' />
             </a>
           </Col>
         </Row>
@@ -182,12 +182,12 @@ export function Home () {
           </Col>
           <Col md={3} className='mx-auto my-auto'>
             <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
-              <img src='/kaeser_1.webp' width={250} loading='lazy' alt='kaeser' />
+              <img src='/kaeser_1.webp' width={250} height={117} loading='lazy' alt='kaeser' />
             </a>
           </Col>
           <Col md={3} className='mx-auto my-auto'>
             <a href='https://www.boschrexroth.com/es/mx/' target='_blank' rel='noreferrer'>
-              <img src='/rexroth.webp' width={200} loading='lazy' alt='rexroth' />
+              <img src='/rexroth.webp' width={200} height={133} loading='lazy' alt='rexroth' />
             </a>
           </Col>
         </Row>
@@ -195,7 +195,7 @@ export function Home () {
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
             <a href='https://www.concamin.org.mx/inicio' target='_blank' rel='noreferrer'>
-              <img src='/concamin.webp' width={250} loading='lazy' alt='concamin' />
+              <img src='/concamin.webp' width={250} height={150} loading='lazy' alt='concamin' />
             </a>
           </Col>
         </Row>
@@ -203,41 +203,41 @@ export function Home () {
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
             <a href='https://www.a3mexico.com.mx/a3' target='_blank' rel='noreferrer'>
-              <img src='/A3.webp' width={190} loading='lazy' alt='A3' />
+              <img src='/A3.webp' width={190} height={127} loading='lazy' alt='A3' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://mexiko.ahk.de/es/' target='_blank' rel='noreferrer'>
-              <img src='/ahk.webp' width={190} loading='lazy' alt='ahk' />
+              <img src='/ahk.webp' width={190} height={127} loading='lazy' alt='ahk' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://www.canieti.org/inicio.aspx' target='_blank' rel='noreferrer'>
-              <img src='/canieti.webp' width={190} loading='lazy' alt='canieti' />
+              <img src='/canieti.webp' width={190} height={127} loading='lazy' alt='canieti' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
             <a href='https://www.giz.de/en/worldwide/33041.html' target='_blank' rel='noreferrer'>
-              <img src='/giz.webp' width={190} loading='lazy' alt='giz' />
+              <img src='/giz.webp' width={190} loading='lazy' height={127} alt='giz' />
             </a>
           </Col>
         </Row>
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
             <a href='https://www.gobiernoabiertogto.org.mx/' target='_blank' rel='noreferrer'>
-              <img src='/gto200.webp' width={190} loading='lazy' alt='gto200' />
+              <img src='/gto200.webp' width={190} loading='lazy' height={127} alt='gto200' />
             </a>
           </Col>
 
           <Col md={3} className='mx-auto'>
             <a href='https://aedual.mx/' target='_blank' rel='noreferrer'>
-              <img src='/dual.webp' width={190} loading='lazy' alt='dual' />
+              <img src='/dual.webp' width={190} height={127} loading='lazy' alt='dual' />
             </a>
           </Col>
 
           <Col md={3} className='mx-auto'>
             <a href='https://www.kas.de/es/web/mexiko' target='_blank' rel='noreferrer'>
-              <img src='/kas.webp' width={190} loading='lazy' alt='kas' />
+              <img src='/kas.webp' width={190} height={127} loading='lazy' alt='kas' />
             </a>
           </Col>
 
@@ -270,7 +270,7 @@ export function Home () {
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
             <a href='https://www.franciamexico.com/' target='_blank' rel='noreferrer'>
-              <img src='/camara-france.webp' width={200} loading='lazy' alt='cci-france' />
+              <img src='/camara-france.webp' width={200} height={106} loading='lazy' alt='cci-france' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
@@ -294,7 +294,7 @@ export function Home () {
         <Row className='text-center'>
           <Col md={3} className='mx-auto'>
             <a href='https://grupomultimedios.com/' target='_blank' rel='noreferrer'>
-              <img src='/multimediosLogo.webp' width={200} loading='lazy' alt='Multimedios' />
+              <img src='/multimediosLogo.webp' width={200} height={155} loading='lazy' alt='Multimedios' />
             </a>
           </Col>
           <Col md={3} className='mx-auto'>
