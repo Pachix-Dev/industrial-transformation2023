@@ -146,8 +146,8 @@ export function Menu () {
                 <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item
                     href={i18n.language === 'en'
-                      ? '/files/PasaporteITM2023IMPRESION(English).pdf'
-                      : '/files/PasaporteITM2023DigitalEspañol.pdf'}
+                      ? '/files/Pasaporte-ITM-2023-ENG.pdf'
+                      : '/files/Pasaporte-ITM-2023-ESP.pdf'}
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -202,6 +202,15 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.itm2023_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    href={i18n.language === 'en'
+                      ? '/files/Pasaporte-ITM-2023-ENG.pdf'
+                      : '/files/Pasaporte-ITM-2023-ESP.pdf'}
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.itm2023_2')}
                   </NavDropdown.Item>
 
                   <p className='p-2 mb-0'>{t('menu.itm2022')}</p>
