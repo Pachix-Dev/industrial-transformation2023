@@ -73,9 +73,7 @@ export function Menu () {
                   {/* <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item> */}
 
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/Factsheet-ITM-2024V1.pdf'
-                      : '/files/Factsheet-ITM-2024V1.pdf'}
+                    href='/files/Factsheet-ITM-2024-V4.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
