@@ -28,7 +28,7 @@ export function Home () {
               {
                 stateLang === 'en'
                   ? <img src='/Construyamos_eng.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
-                  : <img src='/Construyamos.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
+                  : <img src='/ConstruyamosV1.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
               }
             </Col>
           </Row>
