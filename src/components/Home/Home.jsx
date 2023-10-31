@@ -29,7 +29,7 @@ export function Home () {
               {
                 stateLang === 'en'
                   ? <img src='/Construyamos_eng.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
-                  : <img src='/ConstruyamosV1.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
+                  : <img src='/ITM-HOME2024-ES.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
               }
             </Col>
           </Row>
@@ -78,11 +78,11 @@ export function Home () {
 
       <Container className='home mt-5 pb-4'>
         <Row>
-          <Col md>
+          <Col md className='my-auto'>
             <h2 className='fw-bold'>{t('home.highlights_ITM2022')}</h2>
             <p dangerouslySetInnerHTML={{ __html: t('home.description') }} />
           </Col>
-          <Col md={5}>
+          <Col md>
             <img src='/homeITM.webp' alt='ITM 2023' className='w-100' loading='lazy' />
           </Col>
         </Row>
