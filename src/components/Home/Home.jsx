@@ -8,6 +8,7 @@ import { ExibitorSlide } from './ExibitorSlide'
 import { useLanguage } from '../hooks/useLanguage'
 import { Subscribe } from '../Subscribe'
 import { useNearScreen } from '../hooks/useNearScreen'
+import { Gallery } from './Gallery'
 export function Home () {
   const { t } = useTranslation()
   const { stateLang } = useLanguage()
@@ -76,16 +77,19 @@ export function Home () {
       </div>
 
       <Container className='home mt-5 pb-4'>
-        <h2 className='mt-5'>{t('home.highlights_ITM2022')}</h2>
-        <Row className='text-center'>
-          <Col md={8} className='mx-auto'>
-            {
-            stateLang === 'en'
-              ? <a href='https://www.youtube.com/watch?v=rj6ubgIR6Do&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} loading='lazy' className='w-100 h-100' /></a>
-              : <a href='https://www.youtube.com/watch?v=6_H5V9p5UZA&ab_channel=IndustrialTransformationMEXICO' target='_blank' rel='noreferrer'><img src='/ITM2023.webp' alt='ITM 2023' width={858} height={483} loading='lazy' className='w-100 h-100' /></a>
-          }
+        <Row>
+          <Col md>
+            <h2 className='fw-bold'>{t('home.highlights_ITM2022')}</h2>
+            <p dangerouslySetInnerHTML={{ __html: t('home.description') }} />
+          </Col>
+          <Col md={5}>
+            <img src='/homeITM.webp' alt='ITM 2023' className='w-100' loading='lazy' />
           </Col>
         </Row>
+        <h2 className='fw-bold text-dark text-center fs-2 mt-5 mb-5'>
+          Highlights ITM 2023
+        </h2>
+        <Gallery />
         <h2 className='mt-5 mb-4'>{t('menu.exhibitors')}</h2>
         <ExibitorSlide />
         <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
