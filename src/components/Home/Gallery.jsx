@@ -14,8 +14,7 @@ const images = [
   { src: '/gallery/home/galeriaITM2.webp', width: 300, height: 200 },
   { src: '/gallery/home/galeriaITM3.webp', width: 300, height: 200 },
   { src: '/gallery/home/galeriaITM5.webp', width: 300, height: 200 },
-  { src: '/gallery/home/galeriaITM6.webp', width: 300, height: 200 },
-  { src: '/gallery/home/galeriaITM7.webp', width: 300, height: 200 }
+  { src: '/gallery/home/galeriaITM6.webp', width: 300, height: 200 }
 
 ]
 
