@@ -51,7 +51,7 @@ export function Contact () {
         )
         const data = await res.json()
         if (data.success) {
-          const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email3', requestOptions2)
+          const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email-itm', requestOptions2)
           const dataEmail = await statusEmail.json()
           if (dataEmail.status) {
             setSendStatus(false)
