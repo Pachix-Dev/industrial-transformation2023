@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form'
 import { useTranslation } from 'react-i18next'
 import { Contacts } from '../Contacts'
 import { useRef, useState } from 'react'
-import { Container } from 'react-bootstrap'
+import { Container, Spinner } from 'react-bootstrap'
 import { CustomRecaptcha } from '../CustomRecaptcha'
 import { useLanguage } from '../hooks/useLanguage'
 export function Contact () {
@@ -12,6 +12,7 @@ export function Contact () {
   const { stateLang } = useLanguage()
   const [captcha, setCaptcha] = useState(false)
   const [message, setMessage] = useState()
+  const [sendStatus, setSendStatus] = useState(false)
   const onChange = () => {
     setCaptcha(true)
   }
@@ -26,28 +27,49 @@ export function Contact () {
       captchaRef.current.reset()
       setCaptcha(false)
       const formData = Object.fromEntries(new window.FormData(event.target))
+
       const requestOptions = {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ token, formData })
+        body: JSON.stringify({ token })
+      }
+
+      const requestOptions2 = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ formData })
       }
       try {
+        setSendStatus(true)
         const res = await fetch(
-          'https://industrialtransformation.mx/newsletter/contact.php',
+          'https://hfmexico.mx/foro-electromovilidad/backend/verifyMacs.php',
           requestOptions
         )
         const data = await res.json()
-        if (data.status) {
-          setMessage('Message send successfully!!')
+        if (data.success) {
+          const statusEmail = await fetch('https://hfmexico.mx/foro-electromovilidad/backend/email/send-email3', requestOptions2)
+          const dataEmail = await statusEmail.json()
+          if (dataEmail.status) {
+            setSendStatus(false)
+            setMessage('¡Gracias por contactarnos! En breve nos pondremos en contacto contigo.')
+          } else {
+            setSendStatus(false)
+            setMessage('Lo sentimos en este momento no es posible enviar tu información...')
+          }
         } else {
-          setMessage('Sorry we couldn\'t verify you are not robot try again...')
+          setSendStatus(false)
+          setMessage('Lo sentimos no pudimos comprobar que no eres un robot...')
         }
       } catch (error) {
         console.log(error)
+        setSendStatus(false)
+        setMessage('Lo sentimos en este momento no es posible enviar tu información...')
       }
-      document.getElementById('form-newsletter').reset()
+      document.getElementById('form-contact').reset()
     }
   }
 
@@ -68,7 +90,7 @@ export function Contact () {
       </Contacts>
       <Container className='mt-5 mb-5'>
         <h1 className='text-center fw-bold'>{t('contactForm.title')}</h1>
-        <Form id='form-newsletter' onSubmit={handleSubmit}>
+        <Form id='form-contact' onSubmit={handleSubmit}>
           <Form.Group className='mb-3' controlId='formBasicPassword'>
             <Form.Label>{t('home.name')}</Form.Label>
             <Form.Control type='text' name='name' required />
@@ -88,7 +110,9 @@ export function Contact () {
           {renderReCAPTCHA()}
           {captcha ? '' : <div style={{ color: '#dc3545' }}>{message}</div>}
           <Button variant='dark' type='submit' className='mt-3'>
-            {t('contactForm.send')}
+            {sendStatus
+              ? <><Spinner as='span' animation='border' size='sm' role='status' aria-hidden='true' /><span> Loading...</span></>
+              : t('contactForm.send')}
           </Button>
         </Form>
       </Container>
