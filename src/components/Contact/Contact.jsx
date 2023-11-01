@@ -46,7 +46,7 @@ export function Contact () {
       try {
         setSendStatus(true)
         const res = await fetch(
-          'https://hfmexico.mx/foro-electromovilidad/backend/verifyMacs.php',
+          'https://hfmexico.mx/foro-electromovilidad/backend/verifyITM.php',
           requestOptions
         )
         const data = await res.json()
