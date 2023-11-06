@@ -307,7 +307,145 @@ const gallery2022 = [
   '/gallery/2022/rdi_storm_22.webp',
   '/gallery/2022/rdi_storm_21.webp'
 ]
+const galleryExpositores2023 = [
+  '/gallery/2023/expositores1.jpg',
+  '/gallery/2023/expositores2.jpg',
+  '/gallery/2023/expositores3.jpg',
+  '/gallery/2023/expositores4.jpg',
+  '/gallery/2023/expositores5.jpg',
+  '/gallery/2023/expositores6.jpg',
+  '/gallery/2023/expositores7.jpg',
+  '/gallery/2023/expositores8.jpg',
+  '/gallery/2023/expositores9.jpg',
+  '/gallery/2023/expositores10.jpg',
+  '/gallery/2023/expositores11.jpg',
+  '/gallery/2023/expositores12.jpg',
+  '/gallery/2023/expositores13.jpg',
+  '/gallery/2023/expositores14.jpg',
+  '/gallery/2023/expositores15.jpg',
+  '/gallery/2023/expositores16.jpg',
+  '/gallery/2023/expositores17.jpg',
+  '/gallery/2023/expositores18.jpg',
+  '/gallery/2023/expositores19.jpg',
+  '/gallery/2023/expositores20.jpg',
+  '/gallery/2023/expositores21.jpg',
+  '/gallery/2023/expositores22.jpg',
+  '/gallery/2023/expositores23.jpg'
+]
+const galleryConferencias2023 = [
+  '/gallery/2023/conferencias1.jpg',
+  '/gallery/2023/conferencias2.jpg',
+  '/gallery/2023/conferencias3.jpg',
+  '/gallery/2023/conferencias4.jpg',
+  '/gallery/2023/conferencias5.jpg',
+  '/gallery/2023/conferencias6.jpg',
+  '/gallery/2023/conferencias7.jpg',
+  '/gallery/2023/conferencias8.jpg',
+  '/gallery/2023/conferencias9.jpg',
+  '/gallery/2023/conferencias10.jpg',
+  '/gallery/2023/conferencias11.jpg',
+  '/gallery/2023/conferencias12.jpg',
+  '/gallery/2023/conferencias13.jpg',
+  '/gallery/2023/conferencias14.jpg',
+  '/gallery/2023/conferencias15.jpg',
+  '/gallery/2023/conferencias16.jpg',
+  '/gallery/2023/conferencias17.jpg',
+  '/gallery/2023/conferencias18.jpg'
+]
+const galleryFuturistic2023 = [
+  '/gallery/2023/futuristicminds1.jpg',
+  '/gallery/2023/futuristicminds2.jpg',
+  '/gallery/2023/futuristicminds3.jpg',
+  '/gallery/2023/futuristicminds4.jpg',
+  '/gallery/2023/futuristicminds5.jpg',
+  '/gallery/2023/futuristicminds6.jpg',
+  '/gallery/2023/futuristicminds7.jpg',
+  '/gallery/2023/futuristicminds8.jpg',
+  '/gallery/2023/futuristicminds9.jpg',
+  '/gallery/2023/futuristicminds10.jpg',
+  '/gallery/2023/futuristicminds11.jpg',
+  '/gallery/2023/futuristicminds12.jpg',
+  '/gallery/2023/futuristicminds13.jpg',
+  '/gallery/2023/futuristicminds14.jpg',
+  '/gallery/2023/futuristicminds15.jpg'
+]
+const startupPitch2023 = [
+  '/gallery/2023/startuppitch1.jpg',
+  '/gallery/2023/startuppitch2.jpg',
+  '/gallery/2023/startuppitch3.jpg',
+  '/gallery/2023/startuppitch4.jpg',
+  '/gallery/2023/startuppitch5.jpg',
+  '/gallery/2023/startuppitch6.jpg',
+  '/gallery/2023/startuppitch7.jpg',
+  '/gallery/2023/startuppitch8.jpg',
+  '/gallery/2023/startuppitch9.jpg',
+  '/gallery/2023/startuppitch10.jpg'
 
+]
+const itmujeres2023 = [
+  '/gallery/2023/itmujeres1.jpg',
+  '/gallery/2023/itmujeres2.jpg',
+  '/gallery/2023/itmujeres3.jpg',
+  '/gallery/2023/itmujeres4.jpg',
+  '/gallery/2023/itmujeres5.jpg',
+  '/gallery/2023/itmujeres6.jpg',
+  '/gallery/2023/itmujeres7.jpg',
+  '/gallery/2023/itmujeres8.jpg'
+]
+const mtech2023 = [
+  '/gallery/2023/mtech1.jpg',
+  '/gallery/2023/mtech2.jpg',
+  '/gallery/2023/mtech3.jpg',
+  '/gallery/2023/mtech4.jpg',
+  '/gallery/2023/mtech5.jpg',
+  '/gallery/2023/mtech6.jpg',
+  '/gallery/2023/mtech7.jpg',
+  '/gallery/2023/mtech8.jpg',
+  '/gallery/2023/mtech9.jpg',
+  '/gallery/2023/mtech10.jpg',
+  '/gallery/2023/mtech11.jpg',
+  '/gallery/2023/mtech12.jpg',
+  '/gallery/2023/mtech13.jpg',
+  '/gallery/2023/mtech14.jpg',
+  '/gallery/2023/mtech15.jpg',
+  '/gallery/2023/mtech16.jpg'
+]
+const cumbre2023 = [
+  '/gallery/2023/cumbre1.jpg',
+  '/gallery/2023/cumbre2.jpg',
+  '/gallery/2023/cumbre3.jpg',
+  '/gallery/2023/cumbre4.jpg',
+  '/gallery/2023/cumbre5.jpg',
+  '/gallery/2023/cumbre6.jpg',
+  '/gallery/2023/cumbre7.jpg',
+  '/gallery/2023/cumbre8.jpg'
+]
+const nocheIndustriales2023 = [
+  '/gallery/2023/nocheIndustriales1.jpg',
+  '/gallery/2023/nocheIndustriales2.jpg',
+  '/gallery/2023/nocheIndustriales3.jpg',
+  '/gallery/2023/nocheIndustriales4.jpg',
+  '/gallery/2023/nocheIndustriales5.jpg',
+  '/gallery/2023/nocheIndustriales6.jpg',
+  '/gallery/2023/nocheIndustriales7.jpg',
+  '/gallery/2023/nocheIndustriales8.jpg',
+  '/gallery/2023/nocheIndustriales9.jpg',
+  '/gallery/2023/nocheIndustriales10.jpg',
+  '/gallery/2023/nocheIndustriales11.jpg',
+  '/gallery/2023/nocheIndustriales12.jpg',
+  '/gallery/2023/nocheIndustriales13.jpg',
+  '/gallery/2023/nocheIndustriales14.jpg'
+]
+const octoker2023 = [
+  '/gallery/2023/octoker1.jpg',
+  '/gallery/2023/octoker2.jpg',
+  '/gallery/2023/octoker3.jpg',
+  '/gallery/2023/octoker4.jpg',
+  '/gallery/2023/octoker5.jpg',
+  '/gallery/2023/octoker6.jpg',
+  '/gallery/2023/octoker7.jpg',
+  '/gallery/2023/octoker8.jpg'
+]
 const toolkit = [
   '/gallery/toolkit/Exhibitor-Foto-de-fondo-para-LinkedIn.webp',
   '/gallery/toolkit/Exhibitor-Banner-para-Doc.webp',
@@ -325,4 +463,4 @@ const toolkitNamesImg = [
   'Exhibitor Post para Facebook Horizontal',
   'Exhibitor Instagram Story'
 ]
-export { galleryHome, gallery2019, gallery2020, gallery2021, gallery2022, toolkit, toolkitNamesImg }
+export { galleryHome, gallery2019, gallery2020, gallery2021, gallery2022, galleryExpositores2023, galleryConferencias2023, galleryFuturistic2023, startupPitch2023, itmujeres2023, mtech2023, cumbre2023, nocheIndustriales2023, octoker2023, toolkit, toolkitNamesImg }

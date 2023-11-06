@@ -4,6 +4,7 @@
 
 .gallery-item {
     cursor: pointer;
+    text-align: center;
 }
 
 .gallery .pagination {

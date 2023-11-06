@@ -12,7 +12,7 @@ import { WhyVisit } from './components/WhyVisit/WhyVisit'
 import { VisitorProfle } from './components/VisitorProfile/VisitorProfile'
 import { GalleryPage } from './components/GalleryPage/GalleryPage'
 import { Container } from 'react-bootstrap'
-import { gallery2019, gallery2020, gallery2021, gallery2022 } from './components/constants_gallery'
+import { cumbre2023, gallery2019, gallery2020, gallery2021, gallery2022, galleryConferencias2023, galleryExpositores2023, galleryFuturistic2023, itmujeres2023, mtech2023, nocheIndustriales2023, octoker2023, startupPitch2023 } from './components/constants_gallery'
 import { Gallery } from './components/Gallery/Gallery'
 import { DonwLoadLogos } from './components/DonwloadLogos/DonwLoadLogos'
 import { Toolkit } from './components/Toolkit/Toolkit'
@@ -94,6 +94,52 @@ function App () {
             title='Galery ITM 2022'
             element={
               <Container className='mt-5 mb-5'><h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>ITM 2022</h1><Gallery galleryImgs={gallery2022} galleryName='Gallery ITM 2022' /></Container>
+            }
+                   />}
+        />
+        <Route
+          path='galery-itm-2023'
+          element={<RouteWithHelmet
+            title='Galery ITM 2023'
+            element={
+              <Container className='mt-5 mb-5'>
+                <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>
+                  {t('menu.exhibitors')}
+                </h1>
+                <Gallery galleryImgs={galleryExpositores2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  {t('gallery.conferences')}
+                </h1>
+                <Gallery galleryImgs={galleryConferencias2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  FUTURISTIC MINDS
+                </h1>
+                <Gallery galleryImgs={galleryFuturistic2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  STARTUP PITCH
+                </h1>
+                <Gallery galleryImgs={startupPitch2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  ITMUJERES
+                </h1>
+                <Gallery galleryImgs={itmujeres2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  M-TECH
+                </h1>
+                <Gallery galleryImgs={mtech2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  CUMBRE DE DESARROLLO INDUSTRIAL SOSTENIBLE
+                </h1>
+                <Gallery galleryImgs={cumbre2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  NOCHE DE INDUSTRIALES/ PREMIOS TIC E ITZAMNÁ
+                </h1>
+                <Gallery galleryImgs={nocheIndustriales2023} />
+                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                  OKTOBERFEST LEÓN
+                </h1>
+                <Gallery galleryImgs={octoker2023} />
+              </Container>
             }
                    />}
         />

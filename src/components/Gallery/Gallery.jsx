@@ -75,14 +75,17 @@ export function Gallery (props) {
               data-src={img}
               data-sub-html=' '
               className='gallery-item'
+              width={300}
             >
               <img
                 src={img}
                 alt={`${props.galleryName}-${index}`}
-                className='w-100 p-3'
+                className='img-gallery'
+                width={300}
+                height={200}
                 loading='lazy'
               />
-              {props?.toolkitNamesImg && <p className='text-center'>{props?.toolkitNamesImg[index]}</p>}
+              {props?.toolkitNamesImg && <p className='text-center fw-bold'>{props?.toolkitNamesImg[index]}</p>}
             </div>
           )
         })}
