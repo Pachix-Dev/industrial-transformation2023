@@ -18,7 +18,7 @@ export function Contacts ({ children }) {
               Eder Raúl Rangel Déziga<br />
               Tel. +52 55 7028 3335 ext. 809
             </p>
-            <a href='mailto:eder.rangel@hfmexico.mx'>eder.rangel@hfmexico.mx</a>
+            <a href='mailto:eder.rangel@igeco.mx'>eder.rangel@igeco.mx</a>
           </Col>
           <Col md className='text-center'>
             <img src={simone} alt='Simone Robering' width={150} loading='lazy' />
