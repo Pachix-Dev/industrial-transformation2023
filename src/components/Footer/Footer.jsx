@@ -58,7 +58,7 @@ export function Footer () {
                 <p><strong>{t('home.sales_contact')}</strong></p>
                 <p>Eder Raúl Rangel Déziga<br />
                   Tel: +52 (55) 7028-3335 ext. 809<br />
-                  <a href='mailto:eder.rangel@hfmexico.mx'>eder.rangel@hfmexico.mx</a>
+                  <a href='mailto:eder.rangel@igeco.mx'>eder.rangel@igeco.mx</a>
                 </p>
               </div>
             </div>
