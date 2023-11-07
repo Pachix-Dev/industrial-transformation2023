@@ -334,7 +334,6 @@ const galleryExpositores2023 = [
 ]
 const galleryConferencias2023 = [
   '/gallery/2023/conferencias1.jpg',
-  '/gallery/2023/conferencias2.jpg',
   '/gallery/2023/conferencias3.jpg',
   '/gallery/2023/conferencias4.jpg',
   '/gallery/2023/conferencias5.jpg',
