@@ -103,11 +103,11 @@ function App () {
             title='Galery ITM 2023'
             element={
               <Container className='mt-5 mb-5'>
-                <h1 className='text-center fw-bold' style={{ color: '#e8001e' }}>
+                <h1 className='text-center fw-bold text-uppercase' style={{ color: '#e8001e' }}>
                   {t('menu.exhibitors')}
                 </h1>
                 <Gallery galleryImgs={galleryExpositores2023} />
-                <h1 className='mt-5 text-center fw-bold' style={{ color: '#e8001e' }}>
+                <h1 className='mt-5 text-center fw-bold text-uppercase' style={{ color: '#e8001e' }}>
                   {t('gallery.conferences')}
                 </h1>
                 <Gallery galleryImgs={galleryConferencias2023} />
