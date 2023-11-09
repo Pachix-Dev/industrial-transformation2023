@@ -195,6 +195,15 @@ export function Menu () {
                 <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
                   <p className='p-2 mb-0'>{t('menu.itm2023')}</p>
                   <NavDropdown.Item
+                    href={i18n.language === 'en'
+                      ? '/files/REPORT-ITM-2023-ENG.pdf'
+                      : '/files/RESULTADOS-ITM-2023.pdf'}
+                    target='_blank'
+                    onClick={handleClose}
+                  >
+                    {t('menu.itm2023_3')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
                     href='/files/DIRECTORIO-ITM-V4.pdf'
                     target='_blank'
                     onClick={handleClose}
