@@ -55,7 +55,7 @@ function App () {
         <Route path='contact' element={<RouteWithHelmet title='Contact' element={<Contact />} />} />
         <Route path='why-visit' element={<RouteWithHelmet title='Why visit' element={<WhyVisit />} />} />
         <Route path='why-exibit' element={<RouteWithHelmet title='Why visit' element={<WhyExhibit />} />} />
-        <Route path='exibitor-profile' element={<RouteWithHelmet title='Exibitor Profile' element={<ExhibitorProfile />} />} />
+        <Route path='exhibitor-profile' element={<RouteWithHelmet title='Exibitor Profile' element={<ExhibitorProfile />} />} />
         <Route path='key-audience-groups' element={<RouteWithHelmet title='Key Audience Groups' element={<AudienceGroups />} />} />
         <Route path='products-category' element={<RouteWithHelmet title='Products Category' element={<ProductsCategory />} />} />
         <Route path='visitor-profile' element={<RouteWithHelmet title='Visitor Profile' element={<VisitorProfle />} />} />

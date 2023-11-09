@@ -8,7 +8,6 @@ import category05 from '../../assets/categoria05.webp'
 import category06 from '../../assets/categoria06.webp'
 import category07 from '../../assets/categoria07.webp'
 import category08 from '../../assets/categoria08.webp'
-
 import { useTranslation } from 'react-i18next'
 export function ProductsCategory () {
   const { t } = useTranslation()

@@ -51,10 +51,10 @@ export function Menu () {
                 <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
                   <NavDropdown.Item
                     as={Link}
-                    to='/why-exibit'
+                    to='/exhibitor-profile'
                     onClick={handleClose}
                   >
-                    {t('menu.exhibitors_2')}
+                    {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     href='/files/Empresas-ITM2023-Plano-02102023.pdf'
