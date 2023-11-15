@@ -1,30 +1,19 @@
-on:
-  push:
-    branches:
-      - main
-name: 🚀 Deploy website on push main branch
+on: push
+name: Publish Website
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: 🚀 Deploy Website Every Commit
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+      - name: 🚚 Get Latest Code
+        uses: actions/checkout@v3
 
-      - name: Install Dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - name: deploy file to server
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: 📂 Sync Files
+        uses: SamKirkland/web-deploy@v1
         with:
-          username: "${{ secrets.SFTP_USERNAME }}"
-          server: "${{ secrets.SERVER }}"
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          password: "${{ secrets.SFTP_PASSWORD }}"
-          port: "${{ secrets.SSH_PORT }}"
-          local_path: "./dist/*"
-          remote_path: "/home/industrialtransf/public_html/test"
-          sftpArgs: "-o ConnectTimeout=5"
+          target-server: "${{ secrets.SERVER }}"
+          remote-user: "${{ secrets.SFTP_USERNAME }}"
+          private-ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-port: "${{ secrets.SSH_PORT }}"
+          source-path: ./dist/
+          destination-path: ~/home/industrialtransf/public_html/test

@@ -24,6 +24,7 @@ import { useEffect } from 'react'
 import { Footer } from './components/Footer/Footer'
 import { StartupPitch } from './components/StartupPitch/StartupPitch'
 import { Roadshows } from './components/Roadshows/Roadshows'
+import { Program } from './components/Program/Program'
 import { trackPageView } from './google-analytics'
 
 function RouteWithHelmet ({ title, description, element }) {
@@ -145,7 +146,7 @@ function App () {
         />
         <Route path='donwload-logos' element={<RouteWithHelmet title='Download Logos' element={<DonwLoadLogos />} />} />
         <Route path='startup-pitch' element={<RouteWithHelmet title='Startup Pitch' element={<StartupPitch />} />} />
-        {/* <Route path='program' element={<RouteWithHelmet title='Program' element={<Program />} />} /> */}
+        <Route path='program' element={<RouteWithHelmet title='Program' element={<Program />} />} />
         <Route path='roadshows' element={<RouteWithHelmet title='Roadshows' element={<Roadshows />} />} />
       </Routes>
       <Footer />
