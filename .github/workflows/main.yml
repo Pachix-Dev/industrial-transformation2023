@@ -26,5 +26,4 @@ jobs:
           port: "${{ secrets.SSH_PORT }}"
           local_path: "./dist/*"
           remote_path: "/home/industrialtransf/public_html/"
-          sftp_only: true
-          password: ${{ secrets.SFTP_PASSWORD }}
+          sftpArgs: "-o ConnectTimeout=5"
