@@ -17,3 +17,4 @@ jobs:
           ssh-port: "${{ secrets.SSH_PORT }}"
           source-path: ./dist/
           destination-path: ~/home/industrialtransf/public_html/test
+          rsync-options: --verbose
