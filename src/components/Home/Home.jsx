@@ -32,8 +32,8 @@ export function Home () {
             <Col md={5}>
               {
                 stateLang === 'en'
-                  ? <img src='/ITM-HOME2024-EN.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
-                  : <img src='/ITM-HOME2024-ES.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
+                  ? <img src='/ITM-HOME2024-ENV2.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
+                  : <img src='/ITM-HOME2024-ESV2.webp' alt='ITM' width={526} height={413} className='w-100 h-100' />
               }
             </Col>
           </Row>
