@@ -8,21 +8,25 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 🚚 Get latest code
         uses: actions/checkout@v3
 
-      - name: Install Dependencies
-        run: npm install
+      - name: 🔨 Build Project
+        run: |
+          npm install
+          npm run build
 
-      - name: Build
-        run: npm run build
-
-      - name: deploy file to server
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
+      - name: 📂 Sync files
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          username: "${{ secrets.SFTP_USERNAME }}"
-          server: "${{ secrets.SERVER }}"
-          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: "${{ secrets.SSH_PORT }}"
-          local_path: "./dist/*"
-          remote_path: "/home/industrialtransf/public_html/"
+          server: ${{ secrets.server }}
+          username: ${{ secrets.ftp_username }}
+          password: ${{ secrets.ftp_password }}
+          protocol: ftps
+          port: 21
+          server-dir: public_html/
+          local-dir: ./dist/
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/node_modules/**
