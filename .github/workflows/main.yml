@@ -22,6 +22,7 @@ jobs:
         with:
           username: "${{ secrets.SFTP_USERNAME }}"
           server: "${{ secrets.SERVER }}"
+          ssh_private_key: "${{ secrets.SSH_PRIVATE_KEY }}"
           port: "${{ secrets.SSH_PORT }}"
           local_path: "./dist/*"
           remote_path: "/home/industrialtransf/public_html/test"
