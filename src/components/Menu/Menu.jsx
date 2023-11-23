@@ -101,13 +101,13 @@ export function Menu () {
                     {t('menu.exhibitors_5')}
                   </NavDropdown.Item>
 
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href='/files/Contract-ITM-2024.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_6')}
-                  </NavDropdown.Item>
+  </NavDropdown.Item> */}
 
                   <NavDropdown.Divider />
                   <p className='mt-2 p-2 mb-0'>{t('menu.exhibitors_7')}</p>
