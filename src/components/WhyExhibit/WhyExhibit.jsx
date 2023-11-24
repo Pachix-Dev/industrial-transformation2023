@@ -4,7 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import i18next from 'i18next'
 
 export function WhyExhibit () {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   return (
     <>
       <div className='exhibit-parallax'>
@@ -79,9 +79,9 @@ export function WhyExhibit () {
             </a>
             <a
               className='home-register text-light text-decoration-none w-25'
-              href={i18next.language === 'en'
-                ? '/files/FACTSHEET-ITM-ENG-V2.pdf'
-                : '/files/FACTSHEET-ITM-ESP-V2.pdf'}
+              href={i18n.language === 'en'
+                ? '/files/Factsheet-ITM-2024-ENG-V4.pdf'
+                : '/files/Factsheet-ITM-2024-ESP-V4.pdf'}
               target='_blank'
               rel='noreferrer'
             >
