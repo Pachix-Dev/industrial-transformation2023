@@ -53,7 +53,7 @@ export function Home () {
           </video>
         </div>
         <div className='home-files-download'>
-          <a className='home-register' href='/files/Floorplan-ITM-2024-27-10-2023.pdf' target='_blank' rel='noreferrer'>
+          <a className='home-register' href='/files/Floorplan-ITM-2024-11-12-2023.pdf' target='_blank' rel='noreferrer'>
             <span className='d-md-flex justify-content-evenly fw-bold'>
               {t('menu.exhibitors_5')}
               <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={25}>
