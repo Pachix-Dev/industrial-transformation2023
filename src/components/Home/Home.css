@@ -1,26 +1,24 @@
 .home-files-download{
     display: flex;
-    justify-content: space-evenly;
-    position: absolute;
     bottom: 0;
-    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .home-files-download a{
     text-decoration: none;
     color: white;
 }
 .home-register{
-    border-radius: 5%;
+    border-radius: 20px;
     justify-content: center;
     display: flex;
     flex-direction: column;
     background-color: red;
     position: relative;
-    padding: 10px;
-    margin: 0 8px;
+    padding: 10px;    
 }
 .home-register::after {
     background-color: #0D61FF;
+    border-radius: 20px;
 }
 .home-register::after {
     position: absolute;

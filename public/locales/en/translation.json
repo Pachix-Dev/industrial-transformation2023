@@ -1,5 +1,6 @@
 {
     "menu": {
+        "banner": "become an exhibitor",
         "about_us": "about us",
         "about_1": "about itm",
         "about_2": "background",
@@ -12,7 +13,7 @@
         "exhibitors_4_1": "Manual Exhibitor ITM 2023",
         "exhibitors_5": "Floorplan ITM 2024",
         "exhibitors_6": "Contract ITM 2024",
-        "exhibitors_7": "sponsorships 2023",
+        "exhibitors_7": "Sponsorships 2024",
         "exhibitors_7_1": "Sponsorship packages",
         "exhibitors_7_2": "Sponsorship Sponsorship Conferences",
         "exhibitors_7_3": "Sponsorship Commercial Presentation",
@@ -133,10 +134,9 @@
         "description_5": "Connect with the most relevant network of professionals specialized in the sector in the country.",
         "become_exhibitor": "If you want to be an exhibitor contact:"
     },
-    "profile": {
-        "title": "EXHIBITOR PROFILE",
-        "countries": "(Comprising Mexico, USA, Canada, Europe, Asia)",
-        "description": "Exhibitor Types: Solutions providers, technology providers, industrial companies, component manufacturers, software companies, manufacturing solutions suppliers, service companies, training and certification companies, institutes of higher learning, research institutions, consultancies, start ups, etc."
+    "profile": {        
+        "subtitle": "Become an Exhibitor",
+        "description": "As the platform for Industry 4.0 in Latin America, ITM is the showcase for industrial transformation year after year, with innovations, technological breakthroughs and groundbreaking products. From development to production, logistics, energy supply and services: INDUSTRIAL TRANSFORMATION MEXICO showcases cross-sector solutions and interface technologies for the entire industrial ecosystem.<br /><br />ITM is an event of Hannover Messe, the world's leading industrial trade fair."
     },
     "audience": {
         "title": "WHAT TYPE OF AUDIENCE WILL ATTEND?",

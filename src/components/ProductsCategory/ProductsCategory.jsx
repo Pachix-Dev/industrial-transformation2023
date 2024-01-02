@@ -12,7 +12,7 @@ import { useTranslation } from 'react-i18next'
 export function ProductsCategory () {
   const { t } = useTranslation()
   return (
-    <div className='container-back my-5'>
+    <div className='container-back'>
       <h3 className='text-center title-category py-5'>{t('productsCategory.title')}</h3>
       <Container>
         <Row className='mb-5'>

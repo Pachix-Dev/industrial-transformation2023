@@ -19,8 +19,25 @@ export function Menu () {
   const handleShow = () => setShow(true)
   const handleClose = () => setShow(false)
   return (
-    <>
-      <Navbar className={`text-uppercase text-center ${location.pathname === '/' ? 'menu-itm-home' : 'menu-itm'}`} expand='lg'>
+    <div className={`${location.pathname === '/' ? 'menu-itm-home' : 'menu-itm'}`}>
+      <a href='/exhibitor-profile'>
+        <div className='banner-become text-white text-center p-2'>
+          <div>
+            <span className='bg-secondary rounded-circle p-2 d-inline-flex justify-content-center'>
+              <svg class='w-3 h-3 text-black' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='white' width={20} viewBox='0 0 18 19' data-astro-cid-3ef6ksr2=''> <path d='M15 1.943v12.114a1 1 0 0 1-1.581.814L8 11V5l5.419-3.871A1 1 0 0 1 15 1.943ZM7 4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V4ZM4 17v-5h1v5H4ZM16 5.183v5.634a2.984 2.984 0 0 0 0-5.634Z' data-astro-cid-3ef6ksr2='' />
+              </svg>
+            </span> ITM 2024
+          </div>
+          <div>
+            <span>{t('menu.banner')} </span>
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width={40}>
+              <path d='M5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256l-7.108-4.061C13.555 6.346 12 7.249 12 8.689v2.34L5.055 7.061Z' />
+            </svg>
+
+          </div>
+        </div>
+      </a>
+      <Navbar className='text-uppercase text-center' expand='lg'>
         <Container>
           <Navbar.Brand as={Link} to='/'>
             <img src={logoITM} width={160} height={120} alt='ITM-2023' />
@@ -56,19 +73,6 @@ export function Menu () {
                   >
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href='/files/Empresas-ITM2023-Plano-02102023.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_2_1')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    as={Link}
-                    to='products-category'
-                    onClick={handleClose}
-                  >{t('menu.exhibitors_9')}
-                  </NavDropdown.Item>
 
                   {/* <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item> */}
 
@@ -84,17 +88,7 @@ export function Menu () {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/MANUAL-ITM_INGLES_23-08-29.pdf'
-                      : '/files/MANUAL_ITM_23_08_01.pdf'}
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_4_1')}
-                  </NavDropdown.Item>
-
-                  <NavDropdown.Item
-                    href='/files/Floorplan-ITM-2024-15-12-2023.pdf'
+                    href='/files/Floorplan-ITM-2024-21-12-2023.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -109,42 +103,11 @@ export function Menu () {
                     {t('menu.exhibitors_6')}
   </NavDropdown.Item> */}
 
-                  <NavDropdown.Divider />
-                  <p className='mt-2 p-2 mb-0'>{t('menu.exhibitors_7')}</p>
-                  <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/SPONSORSHIPS-2023-ITM-ENG.pdf'
-                      : '/files/PATRICINIOS 2023 ITM ESP.pdf'}
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_7_1')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href='/files/Patrocinio Keynote ITM 2023.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_7_2')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href='/files/Patrocinio Transformation ITM 2023.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_7_3')}
-                  </NavDropdown.Item>
-                  <NavDropdown.Item
-                    href='/files/Patrocinios Noche de Industriales ITM 2023vf.pdf'
-                    target='_blank'
-                    onClick={handleClose}
-                  >
-                    {t('menu.exhibitors_7_4')}
-                  </NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='/sponsorships' onClick={handleClose}>{t('menu.exhibitors_7')}</NavDropdown.Item>
                 </NavDropdown>
 
                 <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
-                  <NavDropdown.Item
+                  {/* <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/Pasaporte-ITM-2023-ENG.pdf'
                       : '/files/Pasaporte-ITM-2023-ESP.pdf'}
@@ -152,7 +115,7 @@ export function Menu () {
                     onClick={handleClose}
                   >
                     {t('menu.visitors_0')}
-                  </NavDropdown.Item>
+                  </NavDropdown.Item> */}
                   <NavDropdown.Item
                     as={Link} to='/why-visit'
                     onClick={handleClose}
@@ -368,6 +331,6 @@ export function Menu () {
           </Navbar.Offcanvas>
         </Container>
       </Navbar>
-    </>
+    </div>
   )
 }

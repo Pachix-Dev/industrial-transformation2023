@@ -61,9 +61,9 @@ export function WhyExhibit () {
             </Row>
           </div>
 
-          <div className='d-flex justify-content-center mt-5'>
+          <div className='d-flex justify-content-center mt-5 gap-5'>
             <a
-              className='home-register text-light text-decoration-none w-25'
+              className='home-register text-light text-decoration-none'
               href={i18next.language === 'en'
                 ? '/files/REPORT-ITM-2023-ENG.pdf'
                 : '/files/RESULTADOS-ITM-2023.pdf'}
@@ -78,7 +78,7 @@ export function WhyExhibit () {
               </span>
             </a>
             <a
-              className='home-register text-light text-decoration-none w-25'
+              className='home-register text-light text-decoration-none'
               href={i18n.language === 'en'
                 ? '/files/Factsheet-ITM-2024-ENG-V4.pdf'
                 : '/files/Factsheet-ITM-2024-ESP-V4.pdf'}

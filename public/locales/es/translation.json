@@ -1,5 +1,6 @@
 {
     "menu": {
+        "banner": "conviértete en expositor",
         "about_us": "Quiénes somos",
         "about_1": "Acerca de itm",
         "about_2": "Antecedentes",
@@ -12,7 +13,7 @@
         "exhibitors_4_1": "Manual del Expositor ITM 2023",
         "exhibitors_5": "Plano ITM 2024",
         "exhibitors_6": "Contrato ITM 2024",
-        "exhibitors_7": "Patrocinios 2023",
+        "exhibitors_7": "Patrocinios 2024",
         "exhibitors_7_1": "Paquetes de patrocinio",
         "exhibitors_7_2": "Patrocinio Conferencias",
         "exhibitors_7_3": "Patrocinio Presentación Comercial",
@@ -133,10 +134,9 @@
         "description_5": "Tome la delantera en los negocios del futuro.",
         "become_exhibitor": "Si quieres ser expositor contáctate con:"
     },
-    "profile": {
-        "title": "Perfil de Expositor",
-        "countries": "(Regiones: México, Estados Unidos, Canadá, Europa, Asia)",
-        "description": "Tipos de expositores: proveedores de soluciones, proveedores de tecnología, empresas industriales, fabricantes de componentes, empresas de software, proveedores de soluciones de manufactura, empresas de servicios, empresas de formación y certificación, institutos de educación superior, instituciones de investigación, consultorías, empresas emergentes, gobierno federales, estatales y municipales, cámaras y asociaciones, medios de comunicación."
+    "profile": {        
+        "subtitle": "Conviértete en expositor",
+        "description": "Como la plataforma de la Industria 4.0 en América Latina, ITM es el escaparate de la transformación industrial año tras año, con innovaciones, avances tecnológicos y productos innovadores. Desde el desarrollo hasta la producción, pasando por la logística, el suministro de energía y los servicios: INDUSTRIAL TRANSFORMATION MÉXICO muestra soluciones intersectoriales y tecnologías de interfaz para todo el ecosistema industrial. <br /><br />ITM es un Evento de Hannover Messe, la feria industrial líder en el mundo."
     },
     "audience": {
         "title": "¿Qué tipo de audiencia asistirá?",

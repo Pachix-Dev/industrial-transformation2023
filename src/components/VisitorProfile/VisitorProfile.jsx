@@ -66,6 +66,7 @@ export function VisitorProfle () {
         </Col>
         <Col md className='p-0 visitorprofile-parallax-two' />
       </Row>
+
     </>
   )
 }
