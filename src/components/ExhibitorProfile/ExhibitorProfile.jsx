@@ -4,7 +4,7 @@ import eder from '../../assets/ederRangel.webp'
 import { ProductsCategory } from '../ProductsCategory/ProductsCategory'
 import { Col, Row } from 'react-bootstrap'
 export function ExhibitorProfile () {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
   return (
     <>
       <div className='container-parallax pt-5 pb-5'>
@@ -24,19 +24,21 @@ export function ExhibitorProfile () {
                   </span>
                 </a>
                 <a className='home-register' href='/sponsorships'>
-                  <span className='d-md-flex justify-content-evenly fw-bold'>{t('menu.exhibitors_7')}
-
-                  </span>
-
+                  <span className='d-md-flex justify-content-evenly fw-bold'>{t('menu.exhibitors_7')}</span>
                 </a>
-                {/* <a className='home-register' href='/files/Contract-ITM-2024.pdf' target='_blank' rel='noreferrer'>
-            <span className='d-md-flex justify-content-evenly fw-bold'>
-              {t('menu.exhibitors_6')}
-              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={25}>
-                <path strokeLinecap='round' strokeLinejoin='round' d='M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75' />
-              </svg>
-            </span>
-          </a> */}
+                <a
+                  className='home-register'
+                  href={i18n.language === 'en'
+                    ? '/files/Factsheet-ITM-2024-ENG-V4.pdf'
+                    : '/files/Factsheet-ITM-2024-ESP-V4.pdf'} target='_blank' rel='noreferrer'
+                >
+                  <span className='d-md-flex justify-content-evenly fw-bold'>
+                    Factsheet 2024
+                    <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width={25}>
+                      <path strokeLinecap='round' strokeLinejoin='round' d='M7.5 7.5h-.75A2.25 2.25 0 004.5 9.75v7.5a2.25 2.25 0 002.25 2.25h7.5a2.25 2.25 0 002.25-2.25v-7.5a2.25 2.25 0 00-2.25-2.25h-.75m-6 3.75l3 3m0 0l3-3m-3 3V1.5m6 9h.75a2.25 2.25 0 012.25 2.25v7.5a2.25 2.25 0 01-2.25 2.25h-7.5a2.25 2.25 0 01-2.25-2.25v-.75' />
+                    </svg>
+                  </span>
+                </a>
               </div>
 
             </Col>
