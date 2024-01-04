@@ -445,16 +445,23 @@ const octoker2023 = [
   '/gallery/2023/octoker7.jpg',
   '/gallery/2023/octoker8.jpg'
 ]
-const toolkit = [
-  '/gallery/toolkit/Exhibitor-Foto-de-fondo-para-LinkedIn.webp',
-  '/gallery/toolkit/Exhibitor-Banner-para-Doc.webp',
-  '/gallery/toolkit/Exhibitor-Encabezado-para-Twitter-de-viajes.webp',
-  '/gallery/toolkit/Exhibitor-Banner-horizontal.webp',
-  '/gallery/toolkit/Exhibitor-Post-para-Facebook-Horizontal.webp',
-  '/gallery/toolkit/Exhibitor-Instagram-Story.webp'
+const toolkitES = [
+  '/gallery/toolkit/Exhibitor-Foto-de-fondo-para-LinkedIn-es.webp',
+  '/gallery/toolkit/Exhibitor-Banner-para-Doc-es.webp',
+  '/gallery/toolkit/Exhibitor-Encabezado-para-Twitter-de-viajes-es.webp',
+  '/gallery/toolkit/Exhibitor-Banner-horizontal-es.webp',
+  '/gallery/toolkit/Exhibitor-Post-para-Facebook-Horizontal-es.webp',
+  '/gallery/toolkit/Exhibitor-Instagram-Story-es.webp'
 ]
-
-const toolkitNamesImg = [
+const toolkitEN = [
+  '/gallery/toolkit/Exhibitor-Foto-de-fondo-para-LinkedIn-en.webp',
+  '/gallery/toolkit/Exhibitor-Banner-para-Doc-en.webp',
+  '/gallery/toolkit/Exhibitor-Encabezado-para-Twitter-de-viajes-en.webp',
+  '/gallery/toolkit/Exhibitor-Banner-horizontal-en.webp',
+  '/gallery/toolkit/Exhibitor-Post-para-Facebook-Horizontal-en.webp',
+  '/gallery/toolkit/Exhibitor-Instagram-Story-en.webp'
+]
+const toolkitNames = [
   'Exhibitor Foto de fondo para LinkedIn',
   'Exhibitor Banner para Doc',
   'Exhibitor Encabezado para Twitter de viajes',
@@ -462,4 +469,5 @@ const toolkitNamesImg = [
   'Exhibitor Post para Facebook Horizontal',
   'Exhibitor Instagram Story'
 ]
-export { galleryHome, gallery2019, gallery2020, gallery2021, gallery2022, galleryExpositores2023, galleryConferencias2023, galleryFuturistic2023, startupPitch2023, itmujeres2023, mtech2023, cumbre2023, nocheIndustriales2023, octoker2023, toolkit, toolkitNamesImg }
+
+export { galleryHome, gallery2019, gallery2020, gallery2021, gallery2022, galleryExpositores2023, galleryConferencias2023, galleryFuturistic2023, startupPitch2023, itmujeres2023, mtech2023, cumbre2023, nocheIndustriales2023, octoker2023, toolkitES, toolkitNames, toolkitEN }
