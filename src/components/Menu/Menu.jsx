@@ -301,7 +301,7 @@ export function Menu () {
                     as={Link}
                     to='/toolkit'
                     onClick={handleClose}
-                  >{t('menu.exhibitors_10')}
+                  >TOOLKIT 2024
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
