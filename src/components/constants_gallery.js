@@ -462,11 +462,11 @@ const toolkitEN = [
   '/gallery/toolkit/Exhibitor-Instagram-Story-en.webp'
 ]
 const toolkitNames = [
-  'Exhibitor Foto de fondo para LinkedIn',
+  'Exhibitor Banner LinkedIn',
   'Exhibitor Banner para Doc',
-  'Exhibitor Encabezado para Twitter de viajes',
+  'Exhibitor Banner Twitter',
   'Exhibitor Banner horizontal',
-  'Exhibitor Post para Facebook Horizontal',
+  'Exhibitor Post Facebook Horizontal',
   'Exhibitor Instagram Story'
 ]
 
