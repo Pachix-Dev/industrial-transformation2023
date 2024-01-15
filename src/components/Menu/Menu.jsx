@@ -11,7 +11,7 @@ import iconworld from '../../assets/MundoITM.webp'
 import { useState } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 
-export function Menu () {
+export function Menu() {
   const { t, i18n } = useTranslation()
   const [show, setShow] = useState()
   const location = useLocation()
@@ -19,21 +19,41 @@ export function Menu () {
   const handleShow = () => setShow(true)
   const handleClose = () => setShow(false)
   return (
-    <div className={`${location.pathname === '/' ? 'menu-itm-home' : 'menu-itm'}`}>
+    <div
+      className={`${location.pathname === '/' ? 'menu-itm-home' : 'menu-itm'}`}
+    >
       <a href='/exhibitor-profile'>
         <div className='banner-become text-white text-center p-2'>
           <div>
             <span className='bg-secondary rounded-circle p-2 d-inline-flex justify-content-center'>
-              <svg class='w-3 h-3 text-black' aria-hidden='true' xmlns='http://www.w3.org/2000/svg' fill='white' width={20} viewBox='0 0 18 19' data-astro-cid-3ef6ksr2=''> <path d='M15 1.943v12.114a1 1 0 0 1-1.581.814L8 11V5l5.419-3.871A1 1 0 0 1 15 1.943ZM7 4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V4ZM4 17v-5h1v5H4ZM16 5.183v5.634a2.984 2.984 0 0 0 0-5.634Z' data-astro-cid-3ef6ksr2='' />
+              <svg
+                class='w-3 h-3 text-black'
+                aria-hidden='true'
+                xmlns='http://www.w3.org/2000/svg'
+                fill='white'
+                width={20}
+                viewBox='0 0 18 19'
+                data-astro-cid-3ef6ksr2=''
+              >
+                {' '}
+                <path
+                  d='M15 1.943v12.114a1 1 0 0 1-1.581.814L8 11V5l5.419-3.871A1 1 0 0 1 15 1.943ZM7 4H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2v5a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V4ZM4 17v-5h1v5H4ZM16 5.183v5.634a2.984 2.984 0 0 0 0-5.634Z'
+                  data-astro-cid-3ef6ksr2=''
+                />
               </svg>
-            </span> ITM 2024
+            </span>{' '}
+            ITM 2024
           </div>
           <div>
             <span>{t('menu.banner')} </span>
-            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width={40}>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              viewBox='0 0 24 24'
+              fill='currentColor'
+              width={40}
+            >
               <path d='M5.055 7.06C3.805 6.347 2.25 7.25 2.25 8.69v8.122c0 1.44 1.555 2.343 2.805 1.628L12 14.471v2.34c0 1.44 1.555 2.343 2.805 1.628l7.108-4.061c1.26-.72 1.26-2.536 0-3.256l-7.108-4.061C13.555 6.346 12 7.249 12 8.689v2.34L5.055 7.061Z' />
             </svg>
-
           </div>
         </div>
       </a>
@@ -52,9 +72,25 @@ export function Menu () {
             <Offcanvas.Header closeButton onClick={handleClose} />
             <Offcanvas.Body className='ms-auto'>
               <Nav className='align-items-center'>
-                <NavDropdown title={t('menu.about_us')} renderMenuOnMount disabled>
-                  <NavDropdown.Item as={Link} to='/about-us' onClick={handleClose}>{t('menu.about_1')}</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/background' onClick={handleClose}>{t('menu.about_2')}</NavDropdown.Item>
+                <NavDropdown
+                  title={t('menu.about_us')}
+                  renderMenuOnMount
+                  disabled
+                >
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/about-us'
+                    onClick={handleClose}
+                  >
+                    {t('menu.about_1')}
+                  </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/background'
+                    onClick={handleClose}
+                  >
+                    {t('menu.about_2')}
+                  </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
                     to='key-audience-groups'
@@ -62,10 +98,20 @@ export function Menu () {
                   >
                     {t('menu.exhibitors_8')}
                   </NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='/contact' onClick={handleClose}>{t('menu.exhibitors_1')}</NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/contact'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_1')}
+                  </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.exhibitors')} renderMenuOnMount disabled>
+                <NavDropdown
+                  title={t('menu.exhibitors')}
+                  renderMenuOnMount
+                  disabled
+                >
                   <NavDropdown.Item
                     as={Link}
                     to='/exhibitor-profile'
@@ -77,14 +123,15 @@ export function Menu () {
                   {/* <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item> */}
 
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/Factsheet-ITM-2024-ENG-V4.pdf'
-                      : '/files/Factsheet-ITM-2024-ESP-V4.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/Factsheet-ITM-2024-ENG-V4.pdf'
+                        : '/files/Factsheet-ITM-2024-ESP-V4.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_4')}
-
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
@@ -95,18 +142,28 @@ export function Menu () {
                     {t('menu.exhibitors_5')}
                   </NavDropdown.Item>
 
-                  {/* <NavDropdown.Item
-                    href='/files/Contract-ITM-2024.pdf'
+                  <NavDropdown.Item
+                    href='/files/ITM2024-contract-V2.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
                     {t('menu.exhibitors_6')}
-  </NavDropdown.Item> */}
+                  </NavDropdown.Item>
 
-                  <NavDropdown.Item as={Link} to='/sponsorships' onClick={handleClose}>{t('menu.exhibitors_7')}</NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/sponsorships'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_7')}
+                  </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.visitors')} renderMenuOnMount disabled>
+                <NavDropdown
+                  title={t('menu.visitors')}
+                  renderMenuOnMount
+                  disabled
+                >
                   {/* <NavDropdown.Item
                     href={i18n.language === 'en'
                       ? '/files/Pasaporte-ITM-2023-ENG.pdf'
@@ -117,7 +174,8 @@ export function Menu () {
                     {t('menu.visitors_0')}
                   </NavDropdown.Item> */}
                   <NavDropdown.Item
-                    as={Link} to='/why-visit'
+                    as={Link}
+                    to='/why-visit'
                     onClick={handleClose}
                   >
                     {t('menu.visitors_1')}
@@ -140,9 +198,11 @@ export function Menu () {
                   </NavDropdown.Item>
                   */}
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/SPECIAL-RATES-ITM-2023-ENG.pdf'
-                      : '/files/Tarifas-especiales-ITM-2023-ESP.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/SPECIAL-RATES-ITM-2023-ENG.pdf'
+                        : '/files/Tarifas-especiales-ITM-2023-ESP.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -157,12 +217,18 @@ export function Menu () {
                   </NavDropdown.Item>
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.past_events')} renderMenuOnMount disabled>
+                <NavDropdown
+                  title={t('menu.past_events')}
+                  renderMenuOnMount
+                  disabled
+                >
                   <p className='p-2 mb-0'>{t('menu.itm2023')}</p>
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/REPORT-ITM-2023-ENG.pdf'
-                      : '/files/RESULTADOS-ITM-2023.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/REPORT-ITM-2023-ENG.pdf'
+                        : '/files/RESULTADOS-ITM-2023.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -176,9 +242,11 @@ export function Menu () {
                     {t('menu.itm2023_1')}
                   </NavDropdown.Item>
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/Pasaporte-ITM-2023-ENG.pdf'
-                      : '/files/Pasaporte-ITM-2023-ESP.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/Pasaporte-ITM-2023-ENG.pdf'
+                        : '/files/Pasaporte-ITM-2023-ESP.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -187,9 +255,11 @@ export function Menu () {
 
                   <p className='p-2 mb-0'>{t('menu.itm2022')}</p>
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/ENG-ITM-2022-RESULTS-v3.pdf'
-                      : '/files/ESP-ITM-2022-RESULTADOS-v3.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/ENG-ITM-2022-RESULTS-v3.pdf'
+                        : '/files/ESP-ITM-2022-RESULTADOS-v3.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -214,9 +284,11 @@ export function Menu () {
 
                   <p className='mt-2 p-2 mb-0'>{t('menu.itm2021')}</p>
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/ENG-Result-report-itm2021.pdf'
-                      : '/files/ESP-Result-report-itm2021.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/ENG-Result-report-itm2021.pdf'
+                        : '/files/ESP-Result-report-itm2021.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -239,9 +311,11 @@ export function Menu () {
 
                   <p className='mt-2 p-2 mb-0'>{t('menu.itm2020')}</p>
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/Aftershow-report-ITM-2020.pdf'
-                      : '/files/Resultados-ITM-virtual-2020.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/Aftershow-report-ITM-2020.pdf'
+                        : '/files/Resultados-ITM-virtual-2020.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -264,9 +338,11 @@ export function Menu () {
 
                   <p className='mt-2 p-2 mb-0'>{t('menu.itm2019')}</p>
                   <NavDropdown.Item
-                    href={i18n.language === 'en'
-                      ? '/files/After-Show-report-bis-carta-2019.pdf'
-                      : '/files/After-Show-Report-Esp-2019.pdf'}
+                    href={
+                      i18n.language === 'en'
+                        ? '/files/After-Show-report-bis-carta-2019.pdf'
+                        : '/files/After-Show-Report-Esp-2019.pdf'
+                    }
                     target='_blank'
                     onClick={handleClose}
                   >
@@ -286,10 +362,13 @@ export function Menu () {
                   >
                     {t('menu.itm2019_2')}
                   </NavDropdown.Item>
-
                 </NavDropdown>
 
-                <NavDropdown title={t('menu.media_hub')} renderMenuOnMount disabled>
+                <NavDropdown
+                  title={t('menu.media_hub')}
+                  renderMenuOnMount
+                  disabled
+                >
                   <NavDropdown.Item
                     as={Link}
                     to='/gallery'
@@ -301,7 +380,8 @@ export function Menu () {
                     as={Link}
                     to='/toolkit'
                     onClick={handleClose}
-                  >TOOLKIT 2024
+                  >
+                    TOOLKIT 2024
                   </NavDropdown.Item>
                   <NavDropdown.Item
                     as={Link}
@@ -318,13 +398,33 @@ export function Menu () {
                     Roadshows
                   </NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link href='https://cuatro-cero.mx/' target='_blank' onClick={handleClose}>Cuatro Cero</Nav.Link>
+                <Nav.Link
+                  href='https://cuatro-cero.mx/'
+                  target='_blank'
+                  onClick={handleClose}
+                >
+                  Cuatro Cero
+                </Nav.Link>
                 <Navbar.Text className='language-option'>
-                  <img src={iconworld} width={19} height={19} alt='languages-world' />
-                  <button onClick={() => i18n.changeLanguage('es')} style={{ color: i18n.language === 'en' ? 'white' : '' }}>Es</button>
+                  <img
+                    src={iconworld}
+                    width={19}
+                    height={19}
+                    alt='languages-world'
+                  />
+                  <button
+                    onClick={() => i18n.changeLanguage('es')}
+                    style={{ color: i18n.language === 'en' ? 'white' : '' }}
+                  >
+                    Es
+                  </button>
                   /
-                  <button onClick={() => i18n.changeLanguage('en')} style={{ color: i18n.language === 'es' ? 'white' : '' }}>En</button>
-
+                  <button
+                    onClick={() => i18n.changeLanguage('en')}
+                    style={{ color: i18n.language === 'es' ? 'white' : '' }}
+                  >
+                    En
+                  </button>
                 </Navbar.Text>
               </Nav>
             </Offcanvas.Body>
