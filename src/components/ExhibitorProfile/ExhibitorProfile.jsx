@@ -22,7 +22,7 @@ export function ExhibitorProfile() {
                   className='home-register'
                   href={
                     i18n.language === 'en'
-                      ? '/files/Factsheet-ITM-2024-ENG-V4.pdf'
+                      ? '/files/Factsheet-ITM-2024-ENG-AC.pdf'
                       : '/files/Factsheet-ITM-2024-ESP-V4.pdf'
                   }
                   target='_blank'
