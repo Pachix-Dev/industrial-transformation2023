@@ -454,12 +454,12 @@ const toolkitES = [
   '/gallery/toolkit/Exhibitor-Instagram-Story-es.webp'
 ]
 const toolkitEN = [
-  '/gallery/toolkit/Exhibitor-Foto-de-fondo-para-LinkedIn-en.webp',
-  '/gallery/toolkit/Exhibitor-Banner-para-Doc-en.webp',
-  '/gallery/toolkit/Exhibitor-Encabezado-para-Twitter-de-viajes-en.webp',
-  '/gallery/toolkit/Exhibitor-Banner-horizontal-en.webp',
-  '/gallery/toolkit/Exhibitor-Post-para-Facebook-Horizontal-en.webp',
-  '/gallery/toolkit/Exhibitor-Instagram-Story-en.webp'
+  '/gallery/toolkit/Exhibitor-Foto-de-fondo-para-LinkedIn-enV2.webp',
+  '/gallery/toolkit/Exhibitor-Banner-para-Doc-enV2.webp',
+  '/gallery/toolkit/Exhibitor-Encabezado-para-Twitter-de-viajes-enV2.webp',
+  '/gallery/toolkit/Exhibitor-Banner-horizontal-enV2.webp',
+  '/gallery/toolkit/Exhibitor-Post-para-Facebook-Horizontal-enV2.webp',
+  '/gallery/toolkit/Exhibitor-Instagram-Story-enV2.webp'
 ]
 const toolkitNames = [
   'Exhibitor Banner LinkedIn',
