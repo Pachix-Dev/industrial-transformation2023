@@ -368,24 +368,7 @@ export function Home() {
               </a>
             </Col>
           </Row>
-          <h3 className='mt-5 mb-5'>{t('home.industry_partners')}</h3>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto'>
-              <a
-                href='https://www.concamin.org.mx/inicio'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/concamin.webp'
-                  width={250}
-                  height={150}
-                  loading='lazy'
-                  alt='concamin'
-                />
-              </a>
-            </Col>
-          </Row>
+
           <AlliesStrategicSlide />
           <SocialMediaSlide />
         </Container>
