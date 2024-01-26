@@ -172,8 +172,8 @@ export function WhyExhibit() {
               className='home-register text-light text-decoration-none'
               href={
                 i18n.language === 'en'
-                  ? '/files/Factsheet-ITM-2024-ENG-AC.pdf'
-                  : '/files/Factsheet-ITM-2024-ESP-V4.pdf'
+                  ? '/files/Factsheet-ITM-2024-AC-ENGv5.pdf'
+                  : '/files/Factsheet-ITM-2024-AC-ESPv5.pdf'
               }
               target='_blank'
               rel='noreferrer'
