@@ -125,8 +125,8 @@ export function Menu() {
                   <NavDropdown.Item
                     href={
                       i18n.language === 'en'
-                        ? '/files/Factsheet-ITM-2024-ENG-V6.pdf'
-                        : '/files/Factsheet-ITM-2024-ESP-V6.pdf'
+                        ? '/files/Factsheet-ITM-2024-ESP-V6.pdf'
+                        : '/files/Factsheet-ITM-2024-ENG-V6.pdf'
                     }
                     target='_blank'
                     onClick={handleClose}
