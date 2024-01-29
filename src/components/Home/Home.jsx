@@ -44,7 +44,7 @@ export function Home() {
             <Col md={5}>
               {stateLang === 'en' ? (
                 <img
-                  src='/ITM-ENG-AC.webp'
+                  src='/ITMTEXTENGACFEB.webp'
                   alt='ITM'
                   width={526}
                   height={413}
@@ -52,7 +52,7 @@ export function Home() {
                 />
               ) : (
                 <img
-                  src='/ITM-HOME2024-ESV2.webp'
+                  src='/ITMTEXTACFEB.webp'
                   alt='ITM'
                   width={526}
                   height={413}
