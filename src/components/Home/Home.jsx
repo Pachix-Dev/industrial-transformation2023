@@ -52,7 +52,7 @@ export function Home() {
                 />
               ) : (
                 <img
-                  src='/ITMTEXTACFEB.webp'
+                  src='/ITMKVTEXTOESPv1.webp'
                   alt='ITM'
                   width={526}
                   height={413}
