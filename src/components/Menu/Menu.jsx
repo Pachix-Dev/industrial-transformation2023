@@ -27,7 +27,7 @@ export function Menu() {
           <div>
             <span className='bg-secondary rounded-circle p-2 d-inline-flex justify-content-center'>
               <svg
-                class='w-3 h-3 text-black'
+                className='w-3 h-3 text-black'
                 aria-hidden='true'
                 xmlns='http://www.w3.org/2000/svg'
                 fill='white'

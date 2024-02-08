@@ -90,13 +90,6 @@ export function SocialMediaSlide() {
       link: 'https://www.am.com.mx/',
     },
     {
-      src: '/heraldo.webp',
-      width: 200,
-      height: 133,
-      alt: 'Heraldo',
-      link: 'https://heraldodemexico.com.mx/',
-    },
-    {
       src: '/directorioauto.webp',
       width: 200,
       height: 133,
@@ -129,6 +122,18 @@ export function SocialMediaSlide() {
       width: 200,
       alt: 'cosmos online ',
       link: 'https://www.cosmos.com.mx/',
+    },
+    {
+      src: '/cuatrocero.webp',
+      width: 200,
+      alt: 'Cuatro Cero',
+      link: 'https://www.cosmos.com.mx/',
+    },
+    {
+      src: '/heraldoHorizontal.webp',
+      width: 200,
+      alt: 'Heraldo Mexico',
+      link: 'https://heraldodemexico.com.mx/',
     },
   ]
   return (
