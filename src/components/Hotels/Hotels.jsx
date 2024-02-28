@@ -111,8 +111,8 @@ export function Hotels(){
                                             
                                         </ListGroup.Item>
                                         <ListGroup.Item>
-                                            {hotel.email}<br />
-                                            {hotel?.cc}
+                                            <a href={`mailto:${hotel.email}`}>{hotel.email}</a><br />
+                                            <a href={`mailto:${hotel.cc}`}>{hotel?.cc}</a>
                                         </ListGroup.Item>
                                         <ListGroup.Item>
                                             {t('hotels.code_reservation')} <strong>{hotel.code}</strong>

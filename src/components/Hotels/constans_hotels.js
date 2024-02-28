@@ -8,11 +8,11 @@ const hotels = [
       phone_international: 'International: 844-683-8959',
       phone_mexico: 'México: 477 295 9400',
       celular: '',
-      email: 'guadalajara.res@barcelo.com',
+      email: 'lesly.deavila@courtyard.com',
       cc:'',
       code: 'HANNOVER',
       time_walk: '2 min',
-      start: 4
+      start: 5
     },
     {
       src: '/hoteles/Holiday_Inn_Centro_de_Convenciones.webp',
