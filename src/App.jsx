@@ -27,6 +27,7 @@ import { Roadshows } from './components/Roadshows/Roadshows'
 import { Program } from './components/Program/Program'
 import { trackPageView } from './google-analytics'
 import { Sponsorships } from './components/Sponsorships/Sponsorships'
+import { Hotels } from './components/Hotels/Hotels'
 
 function RouteWithHelmet ({ title, description, element }) {
   return (
@@ -150,6 +151,7 @@ function App () {
         <Route path='program' element={<RouteWithHelmet title='Program' element={<Program />} />} />
         <Route path='roadshows' element={<RouteWithHelmet title='Roadshows' element={<Roadshows />} />} />
         <Route path='sponsorships' element={<RouteWithHelmet title='Sponsorships' element={<Sponsorships />} />} />
+        <Route path='hotels' element={<RouteWithHelmet title='Hotels' element={<Hotels />} />} />
       </Routes>
       <Footer />
     </>

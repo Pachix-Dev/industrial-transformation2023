@@ -420,5 +420,10 @@
     "footer": {
         "dateFooter": "9 al 11 de octubre de 2024",
         "suscribe": "Suscríbete a nuestro boletín"
+    },
+    "hotels":{
+        "title": "Tarifas especiales en hoteles",
+        "description": "Nos complace anunciar que hemos asegurado tarifas preferenciales en hoteles de calidad para que tu experiencia sea aún más cómoda y accesible.<br /><br />Ubicados estratégicamente alrededor del lugar del evento, estos hoteles ofrecen no solo comodidad, sino también la oportunidad de sumergirte completamente en la atmósfera del evento. Hemos negociado tarifas especiales para nuestros asistentes, asegurándonos de que tu estancia sea tan inolvidable como el propio evento.",
+        "code_reservation": "Codigo de reserva"
     }
 }

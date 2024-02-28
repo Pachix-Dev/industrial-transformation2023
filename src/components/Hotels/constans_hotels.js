@@ -1,0 +1,95 @@
+const hotels = [
+    {
+      src: '/hoteles/Courtyard_by_Marriott.webp',
+      name: 'Courtyard by Marriott',
+      address: 'Blvd. Francisco Villa 102 Col. Oriental, 37510 León, Gto.',
+      rate_es: 'Tarifa desde $1,589.00 MXN + imp. en ocupación sencilla o doble sin desayuno',
+      rate_en: 'Rate from $1,589.00 MXN + tax in single or double occupancy without breakfast.',
+      phone_international: 'International: 844-683-8959',
+      phone_mexico: 'México: 477 295 9400',
+      celular: '',
+      email: 'guadalajara.res@barcelo.com',
+      cc:'',
+      code: 'HANNOVER',
+      time_walk: '2 min',
+      start: 4
+    },
+    {
+      src: '/hoteles/Holiday_Inn_Centro_de_Convenciones.webp',
+      name: 'Holiday Inn Centro de Convenciones',
+      address: 'Blvd. Adolfo López Mateos 2501, Las Bugambilias, 37270 León, Gto.',
+      rate_es: 'Tarifa desde $1,160.00 MXN + imp. en ocupación sencilla o doble sin desayuno.',
+      rate_en: 'Rate from $1,160.00 MXN + tax in single or double occupancy without breakfast.',
+      phone_international: '',
+      phone_mexico: 'México: 477 710 0040',
+      celular: ' 477 2947148 Valeria Orozco',
+      email: 'ventas.ap@hotelesbjx.com',
+      cc:'',
+      code: 'HANNOVER',
+      time_walk: '7 min',
+      start: 4
+    },
+    {
+      src: '/hoteles/Hampton_Inn_by_Hilton.webp',
+      name: 'Hampton Inn by Hilton',
+      address: 'Blvd. Adolfo López Mateos 1717, Los Gavilanes, 37270 León, Gto.',
+      rate_es: 'Tarifa desde $2,299.00 MXN + imp. en ocupación sencilla o doble con desayuno ',
+      rate_en: 'Rate from $2,299.00 MXN + tax in single or double occupancy with breakfast.',
+      phone_international: '',
+      phone_mexico: 'México: 477 740 3219',
+      celular: '',
+      email: 'yadhira.estrada@hilton.com ',
+      cc:'da.hernandez@hilton.com',
+      code: 'HANNOVER',
+      time_walk: '12 min',
+      start: 5
+    },
+    {
+      src: '/hoteles/Plaza_Hotel_Radisson_Poliforum.webp',
+      name: 'Plaza Hotel Radisson Poliforum',
+      address: 'Blvd. Adolfo López Mateos 2611 Ote, Barrio de Guadalupe, 37280 León, Gto.',
+      rate_es: 'Tarifa desde $1,280.00 MXN + imp. en ocupación estándar sin desayuno ',
+      rate_en: 'Rate from $1,280.00 MXN + tax in standard occupancy without breakfast',
+      phone_international: '',
+      phone_mexico: 'México: 477 710 0022',
+      celular: '',
+      email: '',
+      cc:'',
+      code: 'HANNOVER',
+      time_walk: '13 min',
+      start: 5
+    },
+    {
+      src: '/hoteles/Holiday_Inn_Plaza_del_Zapato.webp',
+      name: 'Holiday Inn Plaza del Zapato',
+      address: 'Blvd. Adolfo López Mateos 1308, Los Gavilanes, 37270 León, Gto.',
+      rate_es: 'Tarifa desde $1,386.00 MXN + imp. en ocupación sencilla o doble sin desayuno',
+      rate_en: 'Rate from $1,386.00 MXN + tax in single or double occupancy without breakfast.',
+      phone_international: '',
+      phone_mexico: 'México: 477 710 0040 ',
+      celular: '',
+      email: 'ventas.7@hotelesbjx.com',
+      cc:'',
+      code: 'HANNOVER',
+      time_walk: '14 min',
+      start: 4
+    },
+    {
+      src: '/hoteles/Hotel_Sleep_Inn_Antares_Leon.webp',
+      name: 'Hotel Sleep Inn Antares León',
+      address: 'Blvd. Adolfo López Mateos 2500 Interior 3, Col. San Isidro de Jerez, 37530, León, Gto.',
+      rate_es: 'Tarifa desde $ 820.00 MXN + imp en ocupación sencilla con desayuno',
+      rate_en: 'Rate from $ 820.00 MXN + tax in single occupancy with breakfast',
+      phone_international: '',
+      phone_mexico: 'México: 477 101 6900',
+      celular: '',
+      email: 'gerencia.ventas@sleepinnleonantares.com',
+      cc:'',
+      code: 'HANNOVER',
+      time_walk: '31 min',
+      start: 4
+    }
+  ]
+  
+  export  {hotels} 
+

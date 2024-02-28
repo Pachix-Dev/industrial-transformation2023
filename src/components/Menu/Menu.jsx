@@ -198,12 +198,8 @@ export function Menu() {
                   </NavDropdown.Item>
                   */}
                   <NavDropdown.Item
-                    href={
-                      i18n.language === 'en'
-                        ? '/files/SPECIAL-RATES-ITM-2023-ENG.pdf'
-                        : '/files/Tarifas-especiales-ITM-2023-ESP.pdf'
-                    }
-                    target='_blank'
+                    as={Link}
+                    to='/hotels'
                     onClick={handleClose}
                   >
                     {t('menu.visitors_3')}
