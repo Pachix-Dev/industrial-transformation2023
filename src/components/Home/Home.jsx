@@ -133,8 +133,8 @@ export function Home() {
           <h3 className='mt-5 mb-4'>{t('menu.exhibitors')}</h3>
           <ExibitorSlide />
           <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
-          <Row className='text-center  pb-5'>
-            <Col md={4}>
+          <Row className='text-center pb-5'>
+            <Col md={3}>
               <a
                 href='https://www.se.com/mx/es/'
                 target='_blank'
@@ -149,7 +149,7 @@ export function Home() {
                 />
               </a>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <a
                 href='https://mx.mitsubishielectric.com/fa/en'
                 target='_blank'
@@ -164,7 +164,7 @@ export function Home() {
                 />
               </a>
             </Col>
-            <Col md={4}>
+            <Col md={3}>
               <a
                 href='https://new.siemens.com/mx/es.htm'
                 target='_blank'
@@ -176,6 +176,20 @@ export function Home() {
                   height={150}
                   loading='lazy'
                   alt='siemens'
+                />
+              </a>
+            </Col>
+            <Col md={3} className='m-auto'>
+              <a
+                href='https://mx.misumi-ec.com/es/'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <img
+                  src='/misumi.webp' 
+                  height={130}
+                  loading='lazy'
+                  alt='misumi'
                 />
               </a>
             </Col>
