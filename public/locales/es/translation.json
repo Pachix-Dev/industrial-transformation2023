@@ -419,7 +419,9 @@
     },
     "footer": {
         "dateFooter": "9 al 11 de octubre de 2024",
-        "suscribe": "Suscríbete a nuestro boletín"
+        "suscribe": "Suscríbete a nuestro boletín",
+        "day_1":"Miércoles y Jueves",
+        "day_2":"Viernes"
     },
     "hotels":{
         "title": "Tarifas especiales en hoteles",

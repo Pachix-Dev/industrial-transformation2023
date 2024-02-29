@@ -420,7 +420,9 @@
     },
     "footer": {
         "dateFooter": "9 - 11 October 2024",
-        "suscribe": "Subscribe to our newsletter"
+        "suscribe": "Subscribe to our newsletter",
+        "day_1":"Wednesday and Thursday",
+        "day_2":"Friday"
     },
     "hotels":{
         "title": "Special Hotel Rates",

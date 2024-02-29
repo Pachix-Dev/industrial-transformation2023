@@ -105,7 +105,9 @@ export function Footer() {
                   </svg>{' '}
                   {t('footer.dateFooter')}
                   <br />
-                  Poliforum Léon, Guanajuato, México
+                  <p>Poliforum Léon, Guanajuato, México</p>
+                  <p> {t("footer.day_1")} <br />&nbsp;&nbsp;11:00 - 19:00 hrs</p>
+                  <p>{t("footer.day_2")} <br />&nbsp;&nbsp;11:00 - 17:00 hrs</p>
                 </p>
               </div>
               <div>
