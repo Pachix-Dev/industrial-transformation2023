@@ -132,24 +132,10 @@ export function Home() {
         <Container>
           <h3 className='mt-5 mb-4'>{t('menu.exhibitors')}</h3>
           <ExibitorSlide />
+          <h1 className='text-center text-secondary fs-2 fw-bold'>{t('home.title-sponsors')}</h1>
           <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
-          <Row className='text-center pb-5'>
-            <Col md={3}>
-              <a
-                href='https://www.se.com/mx/es/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/logoSchneider.webp'
-                  width={185}
-                  loading='lazy'
-                  alt='schneider'
-                  className='py-3'
-                />
-              </a>
-            </Col>
-            <Col md={3}>
+          <Row className='justify-content-md-center'>
+            <Col xs={12} md={3} lg={3} className='text-center'>
               <a
                 href='https://mx.mitsubishielectric.com/fa/en'
                 target='_blank'
@@ -157,29 +143,14 @@ export function Home() {
               >
                 <img
                   src='/mitsubishi.webp'
-                  width={250}
+                  width={280}
                   loading='lazy'
                   alt='mitsubishi'
                   className='py-3'
                 />
               </a>
             </Col>
-            <Col md={3}>
-              <a
-                href='https://new.siemens.com/mx/es.htm'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/siemens.webp'
-                  width={300}
-                  height={150}
-                  loading='lazy'
-                  alt='siemens'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='m-auto'>
+            <Col xs={12} md={3} lg={3} className='text-center my-auto'>
               <a
                 href='https://mx.misumi-ec.com/es/'
                 target='_blank'
@@ -187,7 +158,7 @@ export function Home() {
               >
                 <img
                   src='/misumi.webp' 
-                  height={130}
+                  height={150}
                   loading='lazy'
                   alt='misumi'
                 />
