@@ -109,7 +109,8 @@
         "contact": "Contacto",
         "name": "Nombre",
         "email": "Correo electrónico",
-        "subscription": "SUSCRIBIRSE"
+        "subscription": "SUSCRIBIRSE",
+        "want-exhibitor":"Quiero ser expositor"
     },
     "aboutPage": {
         "title": "ACERCA DE ITM",
