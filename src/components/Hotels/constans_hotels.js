@@ -88,6 +88,21 @@ const hotels = [
       code: 'HANNOVER',
       time_walk: '31 min',
       start: 4
+    },
+    {
+      src: '/hoteles/Hotel_Hotsson_León.webp',
+      name: 'Hotel Hotsson León',
+      address: 'Blvd. Adolfo López Mateos 1102, Los Gavilanes, 37266 León, Gto.',
+      rate_es: 'Tarifa desde $2,721.00  MXN Incluye imp. en ocupación estándar sencilla con desayuno',
+      rate_en: 'Rate from $2,721.00 MXN Includes tax in standard single occupancy with breakfast.',
+      phone_international: '',
+      phone_mexico: 'México: 477 719 8004',
+      celular: '',
+      email: 'fromero@hotsson.com',
+      cc:'',
+      code: 'HANNOVER',
+      time_walk: '20 min',
+      start: 5
     }
   ]
   
