@@ -90,7 +90,7 @@ const hotels = [
       start: 4
     },
     {
-      src: '/hoteles/Hotel_Hotsson_León.webp',
+      src: '/hoteles/Hotel_Hotsson_Leon.webp',
       name: 'Hotel Hotsson León',
       address: 'Blvd. Adolfo López Mateos 1102, Los Gavilanes, 37266 León, Gto.',
       rate_es: 'Tarifa desde $2,721.00  MXN Incluye imp. en ocupación estándar sencilla con desayuno',
