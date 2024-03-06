@@ -9,7 +9,20 @@ export function Footer() {
   const [show, ref] = useNearScreen()
   return (
     <footer>
-      <img src='/BannerITMv1.webp' className='w-100' alt='ITM 2024' />
+      {/* <img src='/BannerITMv1.webp' className='w-100' alt='ITM 2024' /> */}
+      <div className='background-logo-footer'>
+        <Row className='justify-content-md-center'>
+          <Col xs={4} sm={2} lg={2} className='p-3'>
+            <img src="/igeco_bn.webp" alt="igeco-logo" className="img-fluid" />
+          </Col>
+          <Col xs={4} sm={2} lg={2} className='p-3'>
+            <img src="/deutsche_messe_bn.webp" alt="deutsche-messe" className="img-fluid" />
+          </Col>
+          <Col xs={4} sm={2} lg={2} className='p-3'>
+            <img src="/logo_gto_veda.png" alt="guanajuato-veda" className="img-fluid" />
+          </Col>
+        </Row>
+      </div>
       <div className='footer-socialmedia mt-5'>
         <a
           href='https://www.facebook.com/Indtransmex/'
