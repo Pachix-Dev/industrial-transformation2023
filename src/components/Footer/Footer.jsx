@@ -72,7 +72,7 @@ export function Footer() {
           <Col md={8}>
             {show && (
               <iframe
-                src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.904420047227!2d-101.6540912!3d21.1135188!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf498c5bc1fb%3A0x86fa719e9f9cf16!2sHannover%20Fairs%20M%C3%A9xico!5e0!3m2!1ses!2smx!4v1696631280437!5m2!1ses!2smx'
+                src='https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14887.859950910688!2d-101.654688!3d21.113962!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe571ff11b0d%3A0x6d9c73bfdbbd1fc8!2sPoliforum%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1709834039135!5m2!1ses!2smx'
                 width='100%'
                 height={260}
                 loading='lazy'
@@ -106,8 +106,15 @@ export function Footer() {
                   {t('footer.dateFooter')}
                   <br />
                   <p>Poliforum Léon, Guanajuato, México</p>
-                  <p> {t("footer.day_1")} <br />&nbsp;&nbsp;11:00 - 19:00 hrs</p>
-                  <p>{t("footer.day_2")} <br />&nbsp;&nbsp;11:00 - 17:00 hrs</p>
+                  <p>
+                    {' '}
+                    {t('footer.day_1')} <br />
+                    &nbsp;&nbsp;11:00 - 19:00 hrs
+                  </p>
+                  <p>
+                    {t('footer.day_2')} <br />
+                    &nbsp;&nbsp;11:00 - 17:00 hrs
+                  </p>
                 </p>
               </div>
               <div>
