@@ -41,13 +41,6 @@ export function SocialMediaSlide() {
       link: 'https://www.clusterindustrial.com.mx/',
     },
     {
-      src: '/eleconomista.webp',
-      width: 200,
-      height: 133,
-      alt: 'el economista',
-      link: 'https://www.eleconomista.com.mx/',
-    },
-    {
       src: '/dpl.webp',
       width: 200,
       height: 76,
@@ -109,13 +102,6 @@ export function SocialMediaSlide() {
       height: 133,
       alt: 'revista consultora ',
       link: 'https://revistaconsultoria.com.mx/',
-    },
-    {
-      src: '/revistapreferencia.webp',
-      width: 200,
-      height: 133,
-      alt: 'revista preferencia ',
-      link: 'http://www.revistadp.com/',
     },
     {
       src: '/partner12.webp',

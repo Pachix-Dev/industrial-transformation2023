@@ -68,7 +68,57 @@ export function Home() {
           </video>
         </div>
       </div>
-
+      <Container className='mt-5'>
+        <h1 className='text-center text-secondary fs-2 fw-bold'>{t('home.title-sponsors')}</h1>
+        <h3 className='mt-5'>{t('home.sponsors')}</h3>
+        <Row className='justify-content-md-center'>
+          <Col xs={12} md={3} lg={3} className='text-center'>
+            <a
+              href='https://mx.mitsubishielectric.com/fa/en/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/mitsubishi.webp'
+                width={280}
+                loading='lazy'
+                alt='mitsubishi'
+                className='py-3'
+              />
+            </a>
+          </Col>
+          <Col xs={12} md={3} lg={3} className='text-center my-auto'>
+            <a
+              href='http://www.misumimex.com/'
+              target='_blank'
+              rel='noreferrer'
+            >
+              <img
+                src='/misumi.webp'
+                height={150}
+                loading='lazy'
+                alt='misumi'
+              />
+            </a>
+          </Col>
+        </Row>
+      </Container>
+      <WhyExhibit />
+      <Contacts />
+      <Container>
+        <h3 className='fw-bold text-center title-reasons fs-2 mt-5 mb-5'>
+          Highlights ITM 2023
+        </h3>
+        <Gallery />
+      </Container>
+      <Container>
+        <h3 className='mt-5 mb-4'>{t('menu.exhibitors')} 2023</h3>
+        <ExibitorSlide />
+      </Container>
+      <Container>
+        <AlliesStrategicSlide />
+        <SocialMediaSlide />
+      </Container>
       <Container className='home mt-5 pb-4'>
         <Row>
           <Col md className='my-auto'>
@@ -123,279 +173,16 @@ export function Home() {
               </Col>
             </Row>
           )}
-          <h3 className='fw-bold text-center title-reasons fs-2 mt-5 mb-5'>
-            Highlights ITM 2023
-          </h3>
-          <Gallery />
         </Container>
-        <WhyExhibit />
-        <Container>
-          <h3 className='mt-5 mb-4'>{t('menu.exhibitors')}</h3>
-          <ExibitorSlide />
-          <h3 className='mt-5 mb-5'>{t('home.sponsors')}</h3>
-          <Row className='text-center pb-5'>
-            <Col md={3}>
-              <a
-                href='https://www.se.com/mx/es/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/logoSchneider.webp'
-                  width={185}
-                  loading='lazy'
-                  alt='schneider'
-                  className='py-3'
-                />
-              </a>
-            </Col>
-            <Col md={3}>
-              <a
-                href='https://mx.mitsubishielectric.com/fa/en'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/mitsubishi.webp'
-                  width={250}
-                  loading='lazy'
-                  alt='mitsubishi'
-                  className='py-3'
-                />
-              </a>
-            </Col>
-            <Col md={3}>
-              <a
-                href='https://new.siemens.com/mx/es.htm'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/siemens.webp'
-                  width={300}
-                  height={150}
-                  loading='lazy'
-                  alt='siemens'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='m-auto'>
-              <a
-                href='https://mx.misumi-ec.com/es/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/misumi.webp' 
-                  height={130}
-                  loading='lazy'
-                  alt='misumi'
-                />
-              </a>
-            </Col>
-          </Row>
-          <h3 className='mt-5 mb-3'>{t('home.digital')}</h3>
-          <p className='text-center'>
-            <a
-              href='https://www.beckhoff.com/es-mx/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                className='home-digital-logo'
-                src='/Beckhoff.webp'
-                loading='lazy'
-                alt='BecjHoff'
-                width={400}
-                height={130}
-              />
-            </a>
-          </p>
-
-          <h3 className='mt-5 mb-5'>{t('home.gold_sponsors')}</h3>
-          <Row className='text-center'>
-            <Col md className='mx-auto my-auto'>
-              <a
-                href='https://www.cisco.com/c/es_mx/index.html'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/ciscopartner.webp'
-                  width={180}
-                  height={142}
-                  loading='lazy'
-                  alt='cisco'
-                />
-              </a>
-            </Col>
-            <Col md className='mx-auto my-auto'>
-              <a
-                href='https://www.ikusi.com/mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  className='my-5'
-                  src='/Ikusi.webp'
-                  width={180}
-                  height={79}
-                  loading='lazy'
-                  alt='ikusi'
-                />
-              </a>
-            </Col>
-            <Col md className='my-auto'>
-              <a href='https://isat.com.mx/' target='_blank' rel='noreferrer'>
-                <img
-                  className='my-4'
-                  src='/isat.webp'
-                  width={180}
-                  loading='lazy'
-                  alt='isat'
-                />
-              </a>
-            </Col>
-          </Row>
-          <Row className='text-center'>
-            <Col md className='my-auto'>
-              <a
-                href='https://www.plannet.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  className='my-4'
-                  src='/planet.webp'
-                  width={250}
-                  height={166}
-                  loading='lazy'
-                  alt='planet'
-                />
-              </a>
-            </Col>
-            <Col md className='mx-auto my-auto'>
-              <a
-                href='https://www.roue.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img src='/roue.webp' width={220} loading='lazy' alt='roue' />
-              </a>
-            </Col>
-          </Row>
-          <h3 className='mt-5 mb-5'>{t('home.silver_sponsor')}</h3>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto'>
-              <a
-                href='https://www.nokia.com/es_int/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img src='/nokia.webp' width={250} loading='lazy' alt='nokia' />
-              </a>
-            </Col>
-          </Row>
-          <h3 className='mt-5 mb-5'>{t('home.content_partners')}</h3>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto'>
-              <a href='https://claroty.com/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/claroty.webp'
-                  width={290}
-                  loading='lazy'
-                  alt='claroty'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
-              <a href='https://hexagon.com/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/hexagon.webp'
-                  width={290}
-                  loading='lazy'
-                  alt='hexagon'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
-              <a
-                href='https://hitachi.com.mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/hitachi.webp'
-                  width={240}
-                  height={127}
-                  loading='lazy'
-                  alt='hitachi'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
-              <a
-                href='https://www.hitachienergy.com/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/hitachi-energy.webp'
-                  width={290}
-                  height={153}
-                  loading='lazy'
-                  alt='hitachi-energy'
-                />
-              </a>
-            </Col>
-          </Row>
-          <Row className='text-center'>
-            <Col md={3} className='mx-auto my-auto'>
-              <a href='https://ientc.com/' target='_blank' rel='noreferrer'>
-                <img src='/ientc.webp' width={250} loading='lazy' alt='ientc' />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
-              <a href='https://mx.kaeser.com/' target='_blank' rel='noreferrer'>
-                <img
-                  src='/kaeser_1.webp'
-                  width={250}
-                  height={117}
-                  loading='lazy'
-                  alt='kaeser'
-                />
-              </a>
-            </Col>
-            <Col md={3} className='mx-auto my-auto'>
-              <a
-                href='https://www.boschrexroth.com/es/mx/'
-                target='_blank'
-                rel='noreferrer'
-              >
-                <img
-                  src='/rexroth.webp'
-                  width={200}
-                  height={133}
-                  loading='lazy'
-                  alt='rexroth'
-                />
-              </a>
-            </Col>
-          </Row>
-
-          <AlliesStrategicSlide />
-          <SocialMediaSlide />
-        </Container>
-        <section className='home-gallery' id='newsletter'>
-          <Container className='pt-5 pb-5'>
-            <h3>
-              <strong>{t('footer.suscribe')}</strong>
-            </h3>
-            {show && <Subscribe />}
-          </Container>
-        </section>
       </div>
-      <Contacts />
+      <section className='home-gallery' id='newsletter'>
+        <Container className='pt-5 pb-5'>
+          <h3>
+            <strong>{t('footer.suscribe')}</strong>
+          </h3>
+          {show && <Subscribe />}
+        </Container>
+      </section>
     </>
   )
 }

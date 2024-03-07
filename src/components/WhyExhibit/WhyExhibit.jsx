@@ -138,7 +138,17 @@ export function WhyExhibit() {
               </Col>
             </Row>
           </div>
-
+          <div className='d-flex justify-content-center mt-5 gap-5'>
+            <a
+              className='home-register text-light text-decoration-none'
+              href='/exhibitor-profile'
+              rel='noreferrer'
+            >
+              <span className='d-md-flex justify-content-evenly fw-bold text-uppercase px-5'>
+                {t('home.want-exhibitor')}
+              </span>
+            </a>
+          </div>
           <div className='d-flex justify-content-center mt-5 gap-5'>
             <a
               className='home-register text-light text-decoration-none'

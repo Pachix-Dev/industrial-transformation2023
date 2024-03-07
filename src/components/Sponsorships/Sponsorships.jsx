@@ -17,7 +17,7 @@ export function Sponsorships() {
                   Paquetes de Patrocinios: Platino, Gold y Silver
                 </Card.Title>
                 <a
-                  href='/files/1-Patrocinio-Alianza-ITM-2024.pdf'
+                  href='/files/1_patrocinio alianza-ITM-2024-v2.pdf'
                   target='_blank'
                   className='bg-primary text-white rounded p-2 text-decoration-none'
                 >
