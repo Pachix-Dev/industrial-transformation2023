@@ -48,7 +48,7 @@ export function ExhibitorProfile() {
                 </a>
                 <a
                   className='home-register'
-                  href='/files/Floorplan-ITM-2024-21-12-2023.pdf'
+                  href='/files/Floorplan_ITM_2024_08.03.2024.pdf'
                   target='_blank'
                   rel='noreferrer'
                 >
