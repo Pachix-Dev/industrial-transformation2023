@@ -104,8 +104,7 @@ export function ExhibitorProfile() {
           </Row>
         </div>
       </div>
-      <ProductsCategory />
-
+      {/* <ProductsCategory /> */}
       <div className='pt-5 pb-5 text-black text-center'>
         <div className='border-bottom border-2 border-light' />
         <h4 className='mt-3 mb-3'>{t('exhibitorReasons.become_exhibitor')}</h4>
