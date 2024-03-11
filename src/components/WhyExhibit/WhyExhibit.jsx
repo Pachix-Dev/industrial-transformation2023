@@ -183,7 +183,7 @@ export function WhyExhibit() {
               href={
                 i18n.language === 'en'
                 ? '/files/Factsheet_ITM_ENG_v2_120124.pdf'
-                : '/files/Factsheet_ITM_ESP_v2_120124.pdf'
+                : '/files/Factsheet_ITM_2024_AC_ESP_VF_08-03-2024.pdf'
               }
               target='_blank'
               rel='noreferrer'
