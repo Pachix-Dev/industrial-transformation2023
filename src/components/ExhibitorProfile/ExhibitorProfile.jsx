@@ -23,7 +23,7 @@ export function ExhibitorProfile() {
                   href={
                     i18n.language === 'en'
                       ? '/files/Factsheet-ITM-2024-ENG-V8.pdf'
-                      : '/files/Factsheet-ITM-AC-2024-ESPv9.pdf'
+                      : '/files/Factsheet_ITM_2024_AC_ESP_VF_08-03-2024.pdf'
                   }
                   target='_blank'
                   rel='noreferrer'
