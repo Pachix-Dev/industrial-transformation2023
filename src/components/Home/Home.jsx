@@ -104,7 +104,6 @@ export function Home() {
         </Row>
       </Container>
       <WhyExhibit />
-      <Contacts />
       <Container className='home mt-5 pb-4'>
         <Row>
           <Col md className='my-auto'>
@@ -175,6 +174,7 @@ export function Home() {
         </h3>
         <Gallery />
       </Container>
+      <Contacts />
       <section className='home-gallery' id='newsletter'>
         <Container className='pt-5 pb-5'>
           <h3>
