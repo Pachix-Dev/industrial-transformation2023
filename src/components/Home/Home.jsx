@@ -104,21 +104,6 @@ export function Home() {
         </Row>
       </Container>
       <WhyExhibit />
-      <Contacts />
-      <Container>
-        <h3 className='fw-bold text-center title-reasons fs-2 mt-5 mb-5'>
-          Highlights ITM 2023
-        </h3>
-        <Gallery />
-      </Container>
-      <Container>
-        <h3 className='mt-5 mb-4'>{t('menu.exhibitors')} 2023</h3>
-        <ExibitorSlide />
-      </Container>
-      <Container>
-        <AlliesStrategicSlide />
-        <SocialMediaSlide />
-      </Container>
       <Container className='home mt-5 pb-4'>
         <Row>
           <Col md className='my-auto'>
@@ -175,6 +160,21 @@ export function Home() {
           )}
         </Container>
       </div>
+      <Container>
+        <h3 className='mt-5 mb-4'>{t('menu.exhibitors')} 2023</h3>
+        <ExibitorSlide />
+      </Container>
+      <Container>
+        <AlliesStrategicSlide />
+        <SocialMediaSlide />
+      </Container>
+      <Container>
+        <h3 className='fw-bold text-center title-reasons fs-2 mt-5 mb-5'>
+          Highlights ITM 2023
+        </h3>
+        <Gallery />
+      </Container>
+      <Contacts />
       <section className='home-gallery' id='newsletter'>
         <Container className='pt-5 pb-5'>
           <h3>

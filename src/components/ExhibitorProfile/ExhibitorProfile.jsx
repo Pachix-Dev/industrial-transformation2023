@@ -23,7 +23,7 @@ export function ExhibitorProfile() {
                   href={
                     i18n.language === 'en'
                       ? '/files/Factsheet-ITM-2024-ENG-V8.pdf'
-                      : '/files/Factsheet-ITM-AC-2024-ESPv9.pdf'
+                      : '/files/Factsheet_ITM_2024_AC_ESP_VF_08-03-2024.pdf'
                   }
                   target='_blank'
                   rel='noreferrer'
@@ -48,7 +48,7 @@ export function ExhibitorProfile() {
                 </a>
                 <a
                   className='home-register'
-                  href='/files/Floorplan-ITM-2024-21-12-2023.pdf'
+                  href='/files/Floorplan_ITM_2024_08.03.2024.pdf'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -104,8 +104,7 @@ export function ExhibitorProfile() {
           </Row>
         </div>
       </div>
-      <ProductsCategory />
-
+      {/* <ProductsCategory /> */}
       <div className='pt-5 pb-5 text-black text-center'>
         <div className='border-bottom border-2 border-light' />
         <h4 className='mt-3 mb-3'>{t('exhibitorReasons.become_exhibitor')}</h4>
