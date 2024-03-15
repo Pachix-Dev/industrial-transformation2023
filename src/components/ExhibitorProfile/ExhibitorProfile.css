@@ -14,7 +14,10 @@
     font-weight: 750;
 }
 
-
+.text-why-exhibit{
+    color: #DD0000;
+    font-size: 20px;
+}
 
 .border-bottom {
     width: 45px;
@@ -24,3 +27,5 @@
 .exhibitor-description {
     font-size: 20px;
 }
+
+

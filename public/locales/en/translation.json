@@ -138,7 +138,26 @@
     },
     "profile": {        
         "subtitle": "Become an Exhibitor",
-        "description": "As the platform for Industry 4.0 in Latin America, ITM is the showcase for industrial transformation year after year, with innovations, technological breakthroughs and groundbreaking products. From development to production, logistics, energy supply and services: INDUSTRIAL TRANSFORMATION MEXICO showcases cross-sector solutions and interface technologies for the entire industrial ecosystem.<br /><br />ITM is an event of Hannover Messe, the world's leading industrial trade fair."
+        "description": "As the platform for Industry 4.0 in Latin America, ITM is the showcase for industrial transformation year after year, with innovations, technological breakthroughs and groundbreaking products. From development to production, logistics, energy supply and services: INDUSTRIAL TRANSFORMATION MEXICO showcases cross-sector solutions and interface technologies for the entire industrial ecosystem.<br /><br />ITM is an event of Hannover Messe, the world's leading industrial trade fair.",
+        "why-exhibit":{
+            "title":"WHY EXHIBIT?",
+            "description-1":"PROFESSIONAL BUYERS",
+            "description-2":"FROM MORE THAN 30 COUNTRIES",
+            "description-3":"PARTICIPATE IN THE PURCHASING PROCESS"
+        },
+        "segments":{
+            "title":"SEGMENTS OF INTEREST 2024",
+            "item-1":"Automation and Robotization ",
+            "item-2":"Smart Logistics",
+            "item-3":"Energy Solutions",
+            "item-4":"Digital Manufacturing and ICT",
+            "item-5":"Aerospace Industry ",
+            "item-6":"Machines & Tools ",
+            "item-7":"Smart Factory",
+            "item-8":"Research Institutions ",
+            "item-9":"Additive Manufacturing",
+            "item-10":"Government"
+        }
     },
     "audience": {
         "title": "WHAT TYPE OF AUDIENCE WILL ATTEND?",

@@ -138,7 +138,26 @@
     },
     "profile": {        
         "subtitle": "Conviértete en expositor",
-        "description": "Como la plataforma de la Industria 4.0 en América Latina, ITM es el escaparate de la transformación industrial año tras año, con innovaciones, avances tecnológicos y productos innovadores. Desde el desarrollo hasta la producción, pasando por la logística, el suministro de energía y los servicios: INDUSTRIAL TRANSFORMATION MÉXICO muestra soluciones intersectoriales y tecnologías de interfaz para todo el ecosistema industrial. <br /><br />ITM es un Evento de Hannover Messe, la feria industrial líder en el mundo."
+        "description": "Como la plataforma de la Industria 4.0 en América Latina, ITM es el escaparate de la transformación industrial año tras año, con innovaciones, avances tecnológicos y productos innovadores. Desde el desarrollo hasta la producción, pasando por la logística, el suministro de energía y los servicios: INDUSTRIAL TRANSFORMATION MÉXICO muestra soluciones intersectoriales y tecnologías de interfaz para todo el ecosistema industrial. <br /><br />ITM es un Evento de Hannover Messe, la feria industrial líder en el mundo.",
+        "why-exhibit":{
+            "title":"¿POR QUÉ EXPONER?",
+            "description-1":"COMPRADORES PROFESIONALES",
+            "description-2":"DE MÁS DE 30 PAÍSES",
+            "description-3":"PARTICIPAN EN EL PROCESO DE COMPRA"
+        },
+        "segments":{
+            "title":"SEGMENTOS DE INTERÉS 2024 ",
+            "item-1":"Automatización y Robotización",
+            "item-2":"Logística Inteligente",
+            "item-3":"Soluciones de Energía",
+            "item-4":"Manufactura Digital y TIC",
+            "item-5":"Industria Aeroespacial",
+            "item-6":"Máquinas y Herramientas",
+            "item-7":"Fábrica Inteligente",
+            "item-8":"Instituciones de Investigación",
+            "item-9":"Manufactura Aditiva",
+            "item-10":"Gobierno"
+        }
     },
     "audience": {
         "title": "¿Qué tipo de audiencia asistirá?",
