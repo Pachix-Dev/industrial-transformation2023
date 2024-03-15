@@ -29,3 +29,11 @@
 }
 
 
+.background-info {
+    background-image: url('/gradient-back.webp');
+    background-size: cover;
+    background-position: center; 
+    height: auto;
+  }
+  
+

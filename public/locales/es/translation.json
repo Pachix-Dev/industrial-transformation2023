@@ -157,7 +157,11 @@
             "item-8":"Instituciones de Investigación",
             "item-9":"Manufactura Aditiva",
             "item-10":"Gobierno"
-        }
+        },
+        "btn-interested":"ME INTERESA",
+        "btn-exhibitor-info":"INFORMACIÓN PARA SER EXPOSITORA",
+        "btn-exhibitor":"SOY EXPOSITOR",
+        "btn-sent-message":"Enviar Mensaje"
     },
     "audience": {
         "title": "¿Qué tipo de audiencia asistirá?",

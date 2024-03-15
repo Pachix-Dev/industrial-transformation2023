@@ -2,7 +2,7 @@ import './ExhibitorProfile.css'
 import { useTranslation } from 'react-i18next'
 import eder from '../../assets/ederRangel.webp'
 import { ProductsCategory } from '../ProductsCategory/ProductsCategory'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 export function ExhibitorProfile() {
   const { t, i18n } = useTranslation()
   return (
@@ -105,24 +105,24 @@ export function ExhibitorProfile() {
         </div>
       </div>
       <Container className='my-5'>
-            <h1 className='fs-1 fw-bold text-center text-uppercase' style={{color:'#DD0000'}}>{t("profile.why-exhibit.title")}</h1>
-            <Row className='gap-5 mt-5'>
-              <Col sm  className='text-center'>
-                  <div className='' style={{color:'#DD0000'}}> 
-                    <p className='fs-2 fw-bold text-uppercase'><span style={{fontSize:'70px'}}>15,000</span> <br /><span className='text-black'>
-                      {t("profile.why-exhibit.description-1")}</span> <br /> <span className='fs-1 fw-bold'>{t("profile.why-exhibit.description-2")} </span> </p>
-                    <img src="/countries.webp" alt="" className="img-fluid" width='300'/>
-                  </div>
-              </Col>
-              <Col sm className='text-center'>
-                  <div  style={{color:'#DD0000'}}>
-                    <p className='fs-2 fw-bold text-uppercase'><span className='fs-1'></span> <br /> {t("profile.why-exhibit.description-3")} </p>
-                    <img src="/attendees.webp" alt="" className="img-fluid"  width='350'/>
-                  </div>
-              </Col>
-            </Row>
+        <h1 className='fs-1 fw-bold text-center text-uppercase' style={{ color: '#DD0000' }}>{t("profile.why-exhibit.title")}</h1>
+        <Row className='gap-5 mt-5'>
+          <Col sm className='text-center'>
+            <div className='' style={{ color: '#DD0000' }}>
+              <p className='fs-2 fw-bold text-uppercase'><span style={{ fontSize: '70px' }}>15,000</span> <br /><span className='text-black'>
+                {t("profile.why-exhibit.description-1")}</span> <br /> <span className='fs-1 fw-bold'>{t("profile.why-exhibit.description-2")} </span> </p>
+              <img src="/countries.webp" alt="" className="img-fluid" width='300' />
+            </div>
+          </Col>
+          <Col sm className='text-center'>
+            <div style={{ color: '#DD0000' }}>
+              <p className='fs-2 fw-bold text-uppercase'><span className='fs-1'></span> <br /> {t("profile.why-exhibit.description-3")} </p>
+              <img src="/attendees.webp" alt="" className="img-fluid" width='350' />
+            </div>
+          </Col>
+        </Row>
       </Container>
-      <Container  className='fs-5 fw-semibold mt-5 pt-3' style={{color:'#DD0000'}}>
+      <Container className='fs-5 fw-semibold mt-5 pt-3' style={{ color: '#DD0000' }}>
         <h1 className='fs-1 fw-bold text-center text-uppercase my-5'>{t("profile.segments.title")}</h1>
         <Row className='gap-5 '>
           <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
@@ -169,6 +169,30 @@ export function ExhibitorProfile() {
           </Col>
         </Row>
       </Container>
+      <section className='py-5'>
+        <div className='background-info d-flex justify-content-center align-items-center' style={{height:"350px"}}>
+          <div className='w-50'>
+            <a
+              className='home-register col text-center mb-3 text-reset text-decoration-none'
+              href={
+                i18n.language === 'en'
+                  ? '/files/Factsheet-ITM-2024-ENG-V8.pdf'
+                  : '/files/Factsheet_ITM_2024_AC_ESP_VF_08-03-2024.pdf'
+              }
+              target='_blank'
+              rel='noreferrer'
+            >
+              <span className='d-flex justify-content-evenly align-items-center fw-bold text-white fs-2'>
+                {t("profile.btn-exhibitor-info")}
+              </span>
+            </a>
+          </div>
+        </div>
+
+        <div className='background-exhibit'>
+
+        </div>
+      </section>
       <div className='pt-5 pb-5 text-black text-center'>
         <div className='border-bottom border-2 border-light' />
         <h4 className='mt-3 mb-3'>{t('exhibitorReasons.become_exhibitor')}</h4>
@@ -181,7 +205,12 @@ export function ExhibitorProfile() {
         </p>
         <a className='text-black' href='mailto:eder.rangel@igeco.mx'>
           eder.rangel@igeco.mx
-        </a>
+        </a><br />
+        <a className='text-black' href='mailto:eder.rangel@igeco.mx'>
+          <Button variant="outline-danger" size="lg"  className='mt-3'>
+            {t("profile.btn-sent-message")}
+          </Button>
+        </a><br />
       </div>
     </>
   )

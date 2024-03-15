@@ -157,7 +157,11 @@
             "item-8":"Research Institutions ",
             "item-9":"Additive Manufacturing",
             "item-10":"Government"
-        }
+        },
+        "btn-interested":"I'M INTERESTED",
+        "btn-exhibitor-info":"EXHIBITOR INFORMATION",
+        "btn-exhibitor":"I AM AN EXHIBITOR",
+        "btn-sent-message":"Sent Message"
     },
     "audience": {
         "title": "WHAT TYPE OF AUDIENCE WILL ATTEND?",
