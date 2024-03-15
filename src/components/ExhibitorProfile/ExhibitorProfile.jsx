@@ -2,7 +2,7 @@ import './ExhibitorProfile.css'
 import { useTranslation } from 'react-i18next'
 import eder from '../../assets/ederRangel.webp'
 import { ProductsCategory } from '../ProductsCategory/ProductsCategory'
-import { Button, Col, Container, Row } from 'react-bootstrap'
+import { Button, Card, Col, Container, ListGroup, Row } from 'react-bootstrap'
 export function ExhibitorProfile() {
   const { t, i18n } = useTranslation()
   return (
@@ -169,8 +169,65 @@ export function ExhibitorProfile() {
           </Col>
         </Row>
       </Container>
+      <section>
+        <h1 className='fs-1 fw-bold text-center text-uppercase my-5' style={{ color: '#DD0000' }}>{t("profile.rates.title")}</h1>
+        <Container fluid>
+          <Row className="justify-content-md-center gap-2 m-2">
+            <Col lg={6}>
+              <div className="card h-100">
+                <div className="row g-0">
+                  <div className="col-md-6">
+                    <img src="/stand-1.webp" className="img-fluid rounded" alt="stand 1" />
+                  </div>
+                  <div className="col-md-6">
+                    <div className="card-body">
+                      <h5 className="fw-bold fs-2">{t("profile.rates.stand-1.title")}</h5>
+                      <p className="card-text fs-3"> <span className='text-danger fw-bold'> {t("profile.rates.stand-1.price")} </span> <br /> {t("profile.rates.stand-1.type")} </p>
+                      <p className="card-text"> {t("profile.rates.stand-1.description")} </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+          <Row className="justify-content-md-center gap-4 mx-2 mt-5">
+            <Col lg={5}>
+              <div className="card h-100" >
+                <div className="row g-0">
+                  <div className="col-md-6">
+                    <img src="/stand-2.webp" className="img-fluid rounded" alt="stand 2" />
+                  </div>
+                  <div className="col-md-6">
+                    <div className="card-body">
+                      <h5 className="fw-bold fs-2">{t("profile.rates.stand-2.title")}</h5>
+                      <p className="card-text fs-3"> <span className='text-danger fw-bold'> {t("profile.rates.stand-2.price")} </span> <br /> {t("profile.rates.stand-2.type")} </p>
+                      <p className="card-text"> {t("profile.rates.stand-2.description")} </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+            <Col lg={5}>
+              <div className="card h-100" >
+                <div className="row g-0">
+                  <div className="col-md-6">
+                    <img src="/stand-3.webp" className="img-fluid rounded" alt="stand 1" />
+                  </div>
+                  <div className="col-md-6">
+                    <div className="card-body">
+                      <h5 className="fw-bold fs-2">{t("profile.rates.stand-3.title")}</h5>
+                      <p className="card-text fs-3"> <span className='text-danger fw-bold'> {t("profile.rates.stand-3.price")} </span> <br /> {t("profile.rates.stand-3.type")} </p>
+                      <p className="card-text"> {t("profile.rates.stand-3.description")} </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
       <section className='py-5'>
-        <div className='background-info d-flex justify-content-center align-items-center' style={{height:"350px"}}>
+        <div className='background-info d-flex justify-content-center align-items-center' style={{ height: "350px" }}>
           <div className='w-50'>
             <a
               className='home-register col text-center mb-3 text-reset text-decoration-none'
@@ -188,10 +245,7 @@ export function ExhibitorProfile() {
             </a>
           </div>
         </div>
-
-        <div className='background-exhibit'>
-
-        </div>
+        <div className='background-exhibit'></div>
       </section>
       <div className='pt-5 pb-5 text-black text-center'>
         <div className='border-bottom border-2 border-light' />
@@ -207,7 +261,7 @@ export function ExhibitorProfile() {
           eder.rangel@igeco.mx
         </a><br />
         <a className='text-black' href='mailto:eder.rangel@igeco.mx'>
-          <Button variant="outline-danger" size="lg"  className='mt-3'>
+          <Button variant="outline-danger" size="lg" className='mt-3'>
             {t("profile.btn-sent-message")}
           </Button>
         </a><br />

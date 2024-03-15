@@ -163,7 +163,25 @@
         "btn-exhibitor":"I AM AN EXHIBITOR",
         "btn-sent-message":"Sent Message",
         "rates":{
-                
+            "title":"TARIFAS DE PARTICIPACIÓN ITM 2024",
+            "stand-1":{
+                "title":"Raw Space (no set up)",
+                "type":"Regular price sqm",
+                "price":"USD 378 + VAT",
+                "description":"Includes exhibitor badges (3 per 9 sqm), unlimited visitor pre-registration code for your company and mention in the directory. Does NOT include carpet, construction, furniture, or services."
+            },
+            "stand-2":{
+                "title":"Equipped Booth (Basic Option)",
+                "type":"Regular price sqm",
+                "price":"USD 452 + VAT",
+                "description":"Includes standard carpet, dividing partitions, vinyl sign, standard furniture (counter, table and 2 chairs), 1 110v electrical contact, exhibitor badges (3 per 9 sqm), unlimited visitor pre-registration code for your company and mention in the directory."
+            },
+            "stand-3":{
+                "title":"Comfort Plus",
+                "type":"Regular price sqm",
+                "price":"USD 4,655 + VAT(Price per 9 sqm)",
+                "description":"Includes construction with predetermined design with space for brand positioning, furniture, 1 110v electrical contact per 9 sqm, and 40\" screen, exhibitor badges (3 per 9 sqm), unlimited visitor pre-registration code for your company and mention in the directory."
+            }
         }
     },
     "audience": {
