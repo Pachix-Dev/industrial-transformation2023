@@ -161,7 +161,10 @@
         "btn-interested":"I'M INTERESTED",
         "btn-exhibitor-info":"EXHIBITOR INFORMATION",
         "btn-exhibitor":"I AM AN EXHIBITOR",
-        "btn-sent-message":"Sent Message"
+        "btn-sent-message":"Sent Message",
+        "rates":{
+                
+        }
     },
     "audience": {
         "title": "WHAT TYPE OF AUDIENCE WILL ATTEND?",
