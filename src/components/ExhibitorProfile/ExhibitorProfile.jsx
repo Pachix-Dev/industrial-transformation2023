@@ -226,7 +226,7 @@ export function ExhibitorProfile() {
           </Row>
         </Container>
       </section>
-      <section className='py-5'>
+      <section className='pt-5'>
         <div className='background-info d-flex justify-content-center align-items-center' style={{ height: "350px" }}>
           <div className='w-50'>
             <a
@@ -247,7 +247,7 @@ export function ExhibitorProfile() {
         </div>
         <div className='background-exhibit'></div>
       </section>
-      <div className='pt-5 pb-5 text-black text-center'>
+      <div className='pb-5 text-black text-center'>
         <div className='border-bottom border-2 border-light' />
         <h4 className='mt-3 mb-3'>{t('exhibitorReasons.become_exhibitor')}</h4>
         <img src={eder} alt='Eder Rangel' height={150} loading='lazy' />
