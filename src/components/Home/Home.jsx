@@ -72,33 +72,85 @@ export function Home() {
         <h1 className='text-center text-secondary fs-2 fw-bold'>{t('home.title-sponsors')}</h1>
         <h3 className='mt-5'>{t('home.sponsors')}</h3>
         <Row className='justify-content-md-center'>
-          <Col xs={12} md={3} lg={3} className='text-center'>
-            <a
-              href='https://mx.mitsubishielectric.com/fa/en/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src='/mitsubishi.webp'
-                width={280}
-                loading='lazy'
+           <Col xs={12} sm={4} md={4} lg={3}>
+           <a href='https://mx.mitsubishielectric.com/fa/en/' target='_blank' rel='noreferrer'>
+              <img src='/mitsubishi.webp' className='img-fluid' loading='lazy'
                 alt='mitsubishi'
-                className='py-3'
               />
             </a>
           </Col>
-          <Col xs={12} md={3} lg={3} className='text-center my-auto'>
-            <a
-              href='http://www.misumimex.com/'
-              target='_blank'
-              rel='noreferrer'
-            >
-              <img
-                src='/misumi.webp'
-                height={150}
-                loading='lazy'
-                alt='misumi'
-              />
+          <Col xs={12} sm={4} md={4} lg={3}>
+            <a  href='http://www.misumimex.com/' target='_blank' rel='noreferrer'>
+              <img src="/misumi.webp" alt="misumi" className="img-fluid" loading='lazy'/>      
+            </a>
+          </Col>
+        </Row>
+      </Container>
+      <Container fluid className='my-5'>
+        <h3 className='mt-5 mb-4'>{t('menu.exhibitors')} 2024</h3>
+        <Row className='gap-2 justify-content-md-center'>
+          <Col xs={12} sm={4} md={4} lg={2}>
+            <a href="https://store.lacasadelcontrol.com.mx/" target='_blank'>
+              <img src="/exhibitors/ccg.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={4} md={4} lg={2}>
+            <a href="https://www.euchner.mx/" target='_blank'>
+              <img src="/exhibitors/euchner.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={4} md={4} lg={2}>
+            <a href="https://www.ifm.com/mx/" target='_blank'>
+              <img src="/exhibitors/ifm.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={4} md={4} lg={2}>
+            <a href="https://www.ika.technology/" target='_blank'>
+              <img src="/exhibitors/ika.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+        </Row>
+        <Row className='gap-2 justify-content-md-center pt-2'>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://www.infoportal-mx.com/" target='_blank'>
+              <img src="/exhibitors/info-portal.webp" alt="" className="img-fluid"/>     
+            </a>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://shop.knipex.com.mx/" target='_blank'>
+              <img src="/exhibitors/knipex.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://lasalle.mx/" target='_blank'>
+              <img src="/exhibitors/la-salle.webp" alt="" className="img-fluid"/>      
+            </a>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://www.leanmdc.com/" target='_blank'>
+              <img src="/exhibitors/lean-mdc.webp" alt="" className="img-fluid"/>     
+            </a>
+          </Col>
+        </Row>
+        <Row className='gap-2 justify-content-md-center py-2'>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://mx.misumi-ec.com/es/" target='_blank'>
+              <img src="/exhibitors/misumi.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://www.mitutoyo.com.mx/es_MX" target='_blank'>
+              <img src="/exhibitors/mitutoyo.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://www.mytec.mx/" target='_blank'>
+              <img src="/exhibitors/mytec.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={2}>
+            <a href="https://www.wago.com/mx-es/" target='_blank'>
+              <img src="/exhibitors/wago.webp" alt="" className="img-fluid" />      
             </a>
           </Col>
         </Row>
@@ -160,10 +212,10 @@ export function Home() {
           )}
         </Container>
       </div>
-      <Container>
+      {/* <Container>
         <h3 className='mt-5 mb-4'>{t('menu.exhibitors')} 2023</h3>
         <ExibitorSlide />
-      </Container>
+      </Container> */}
       <Container>
         <AlliesStrategicSlide />
         <SocialMediaSlide />
