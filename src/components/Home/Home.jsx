@@ -88,7 +88,7 @@ export function Home() {
       </Container>
       <Container fluid className='my-5'>
         <h3 className='mt-5 mb-4'>{t('menu.exhibitors')} 2024</h3>
-        <Row className='gap-2 justify-content-md-center'>
+        <Row className='gap-2 justify-content-md-center pt-5'>
           <Col xs={12} sm={4} md={4} lg={2}>
             <a href="https://store.lacasadelcontrol.com.mx/" target='_blank'>
               <img src="/exhibitors/ccg.webp" alt="" className="img-fluid" />      
@@ -110,7 +110,7 @@ export function Home() {
             </a>
           </Col>
         </Row>
-        <Row className='gap-2 justify-content-md-center pt-2'>
+        <Row className='gap-2 justify-content-md-center pt-5'>
           <Col xs={12} sm={6} md={4} lg={2}>
             <a href="https://www.infoportal-mx.com/" target='_blank'>
               <img src="/exhibitors/info-portal.webp" alt="" className="img-fluid"/>     
@@ -132,7 +132,7 @@ export function Home() {
             </a>
           </Col>
         </Row>
-        <Row className='gap-2 justify-content-md-center py-2'>
+        <Row className='gap-2 justify-content-md-center py-5'>
           <Col xs={12} sm={6} md={4} lg={2}>
             <a href="https://mx.misumi-ec.com/es/" target='_blank'>
               <img src="/exhibitors/misumi.webp" alt="" className="img-fluid" />      
