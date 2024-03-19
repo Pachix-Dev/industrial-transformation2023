@@ -4,7 +4,7 @@
         "about_us": "Quiénes somos",
         "about_1": "Acerca de itm",
         "about_2": "Antecedentes",
-        "exhibitors": "Expositores Confirmados",
+        "exhibitors": "Expositores",
         "exhibitors_1": "Contacto",
         "exhibitors_2": "Quiero exponer",
         "exhibitors_2_1": "Expositores confirmados",
@@ -52,7 +52,8 @@
         "media_hub": "Centro de Medios",
         "media_hub_1": "Cuatro cero",
         "media_hub_2": "Galería",
-        "media_hub_3": "Descargar Logotipos"
+        "media_hub_3": "Descargar Logotipos",
+        "title_exhibitors": "Expositores Confirmados"
     },
     "contactForm": {
         "title": "Déjenos un comentario",

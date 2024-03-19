@@ -87,7 +87,7 @@ export function Home() {
         </Row>
       </Container>
       <Container fluid className='my-5'>
-        <h3 className='mt-5 mb-4'>{t('menu.exhibitors')} 2024</h3>
+        <h3 className='mt-5 mb-4'>{t('menu.title_exhibitors')} 2024</h3>
         <Row className='gap-2 justify-content-md-center pt-5'>
           <Col xs={12} sm={4} md={4} lg={2}>
             <a href="https://store.lacasadelcontrol.com.mx/" target='_blank'>
