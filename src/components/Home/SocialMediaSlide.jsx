@@ -68,6 +68,8 @@ export function SocialMediaSlide() {
       alt: 'mexico industry',
       link: 'https://mexicoindustry.com/',
     },
+  ]
+  const logos2 = [
     {
       src: '/vanguardia.webp',
       width: 200,
@@ -133,6 +135,25 @@ export function SocialMediaSlide() {
       <h3 className='mt-5 mb-5'>{t('home.platinum_media')}</h3>
       <Marquee gradient>
         {logos.map((logo) => (
+          <a
+            className='exibitorSlider text-center h-100'
+            href={logo.link}
+            target='_blank'
+            rel='noopener noreferrer'
+            key={logo.alt}
+          >
+            <img
+              src={logo.src}
+              width={logo.width}
+              height={logo.height}
+              loading='lazy'
+              alt={logo.alt}
+            />
+          </a>
+        ))}
+      </Marquee>
+      <Marquee direction='rigth' gradient>
+        {logos2.map((logo) => (
           <a
             className='exibitorSlider text-center h-100'
             href={logo.link}
