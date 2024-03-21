@@ -106,7 +106,6 @@ export function Menu() {
                     {t('menu.exhibitors_1')}
                   </NavDropdown.Item>
                 </NavDropdown>
-
                 <NavDropdown
                   title={t('menu.exhibitors')}
                   renderMenuOnMount
@@ -119,6 +118,15 @@ export function Menu() {
                   >
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
+
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/exhibitor-information'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_11')}
+                  </NavDropdown.Item>
+
 
                   {/* <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item> */}
 
