@@ -72,23 +72,22 @@ export function Home() {
         <h1 className='text-center text-secondary fs-2 fw-bold'>{t('home.title-sponsors')}</h1>
         <h3 className='mt-5'>{t('home.sponsors')}</h3>
         <Row className='justify-content-md-center'>
-           <Col xs={12} sm={4} md={4} lg={3}>
+           <Col xs={12} sm={4} md={4} lg={3} className='d-flex justify-content-center'>
            <a href='https://mx.mitsubishielectric.com/fa/en/' target='_blank' rel='noreferrer'>
               <img src='/mitsubishi.webp' className='img-fluid' loading='lazy'
-                alt='mitsubishi'
+                alt=""
               />
             </a>
           </Col>
-          <Col xs={12} sm={4} md={4} lg={3}>
+          <Col xs={12} sm={4} md={4} lg={3} className='d-flex justify-content-center'>
             <a  href='http://www.misumimex.com/' target='_blank' rel='noreferrer'>
-              <img src="/misumi.webp" alt="misumi" className="img-fluid" loading='lazy'/>      
+              <img src="/misumi.webp" alt="" className="img-fluid" loading='lazy'/>      
             </a>
           </Col>
         </Row>
       </Container>
       <Container fluid className='my-5'>
         <h3 className='mt-5 mb-4'>{t('menu.title_exhibitors')} 2024</h3>
-        
         <Row className='gap-2 justify-content-md-center justify-content-md-center align-items-center pt-4'>
           <Col xs={12} sm={6} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.benq.com/es-mx/index.html" target='_blank'>
@@ -111,7 +110,6 @@ export function Home() {
             </a>
           </Col>
         </Row>
-
         <Row className='gap-2 justify-content-md-center justify-content-md-center align-items-center pt-4'>
           <Col xs={12} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.ika.technology/" target='_blank'>
@@ -134,7 +132,6 @@ export function Home() {
             </a>
           </Col>
         </Row>
-
         <Row className='gap-2 justify-content-md-center justify-content-md-center align-items-center pt-4'>
           <Col xs={12} sm={6} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.leanmdc.com/" target='_blank'>
@@ -157,7 +154,6 @@ export function Home() {
             </a>
           </Col>
         </Row>
-
         <Row className='gap-2 justify-content-md-center align-items-center'>
           <Col xs={12} sm={6} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.mytec.mx/" target='_blank'>
