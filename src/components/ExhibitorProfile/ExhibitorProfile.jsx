@@ -172,7 +172,7 @@ export function ExhibitorProfile() {
       <section>
         <h1 className='fs-1 fw-bold text-center text-uppercase my-5' style={{ color: '#DD0000' }}>{t("profile.rates.title")}</h1>
         <Container >
-          {/* <Row className="justify-content-md-center gap-2 m-2">
+          <Row className="justify-content-md-center gap-2 m-2">
             <Col lg={6}>
               <div className="card h-100">
                 <div className="row g-0">
@@ -223,8 +223,8 @@ export function ExhibitorProfile() {
                 </div>
               </div>
             </Col>
-          </Row> */}
-          <Row>
+          </Row>
+          {/* <Row>
             <Col  xs={12} sm={12} md={4} lg={4} className='py-3'>
               <Card style={{ width: 'auto' }}>
                 <Card.Img variant="top" src="/stand-1.webp"/>
@@ -263,7 +263,7 @@ export function ExhibitorProfile() {
                 </Card.Body>
               </Card>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </section>
       <section className='pt-5'>
