@@ -121,6 +121,18 @@ export function SocialMediaSlide() {
       alt: 'Heraldo Mexico',
       link: 'https://heraldodemexico.com.mx/',
     },
+    {
+      src: '/manufacturalatam.webp',
+      width: 200,
+      alt: 'Manufactura LATAM',
+      link: 'https://www.manufactura-latam.com/es',
+    },
+    {
+      src: '/metalmecanica.webp',
+      width: 200,
+      alt: 'Metalmecánica',
+      link: 'https://www.metalmecanica.com/es',
+    },
   ]
   return (
     <>
