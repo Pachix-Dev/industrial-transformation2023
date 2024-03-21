@@ -125,45 +125,45 @@ export function ExhibitorProfile() {
       <Container className='fs-5 fw-semibold mt-5 pt-3' style={{ color: '#DD0000' }}>
         <h1 className='fs-1 fw-bold text-center text-uppercase my-5'>{t("profile.segments.title")}</h1>
         <Row className='gap-5 '>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_1.webp" alt="Imagen 1" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-1")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_2.webp" alt="Imagen 2" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-2")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_3.webp" alt="Imagen 3" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-3")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_4.webp" alt="Imagen 4" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-4")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_5.webp" alt="Imagen 5" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-5")}</p>
           </Col>
         </Row>
         <Row className='gap-5 pt-4'>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_6.webp" alt="Imagen 1" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-6")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_7.webp" alt="Imagen 2" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-7")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_8.webp" alt="Imagen 3" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-8")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_9.webp" alt="Imagen 4" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-9")}</p>
           </Col>
-          <Col className="columna text-center d-flex flex-column justify-content-start align-items-center">
+          <Col xs={5} sm={3} md className="columna text-center d-flex flex-column justify-content-start align-items-center">
             <img src="/segment_icon_10.webp" alt="Imagen 5" className="imagen" width={150} />
             <p className="texto">{t("profile.segments.item-10")}</p>
           </Col>
@@ -171,8 +171,8 @@ export function ExhibitorProfile() {
       </Container>
       <section>
         <h1 className='fs-1 fw-bold text-center text-uppercase my-5' style={{ color: '#DD0000' }}>{t("profile.rates.title")}</h1>
-        <Container fluid>
-          <Row className="justify-content-md-center gap-2 m-2">
+        <Container >
+          {/* <Row className="justify-content-md-center gap-2 m-2">
             <Col lg={6}>
               <div className="card h-100">
                 <div className="row g-0">
@@ -222,6 +222,46 @@ export function ExhibitorProfile() {
                   </div>
                 </div>
               </div>
+            </Col>
+          </Row> */}
+          <Row>
+            <Col  xs={12} sm={12} md={4} lg={4} className='py-3'>
+              <Card style={{ width: 'auto' }}>
+                <Card.Img variant="top" src="/stand-1.webp"/>
+                <Card.Body className='text-center'>
+                  <Card.Title><h5 className="fw-bold fs-2" dangerouslySetInnerHTML={{ __html: t("profile.rates.stand-1.title") }} /></Card.Title>
+                  <Card.Text>
+                    <p className="card-text fs-4"> <span className='text-danger fw-bold fs-1'> {t("profile.rates.stand-1.price")} </span> <br /> {t("profile.rates.stand-1.type")} </p>
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col  xs={12} sm={12} md={4} lg={4} className='py-3'>
+              <Card style={{ width: 'auto' }}>
+                <Card.Img variant="top" src="/stand-2.webp" />
+                <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col  xs={12} sm={12} md={4} lg={4} className='py-3'>
+              <Card style={{ width: 'auto' }}>
+                <Card.Img variant="top" src="/stand-3.webp" />
+                <Card.Body>
+                  <Card.Title>Card Title</Card.Title>
+                  <Card.Text>
+                    Some quick example text to build on the card title and make up the
+                    bulk of the card's content.
+                  </Card.Text>
+                  <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+              </Card>
             </Col>
           </Row>
         </Container>
