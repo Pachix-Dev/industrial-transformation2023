@@ -117,7 +117,7 @@ export function SocialMediaSlide() {
     },
     {
       src: '/manufacturalatam.webp',
-      width: 280,
+      width: 300,
       alt: 'Manufactura LATAM',
       link: 'https://www.manufactura-latam.com/es',
     },
