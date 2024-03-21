@@ -267,10 +267,10 @@ export function ExhibitorProfile() {
         </Container>
       </section>
       <section className='pt-5'>
-        <div className='background-info d-flex justify-content-center align-items-center' style={{ height: "350px" }}>
-          <div className='w-50'>
+        <div className='background-info d-flex justify-content-center align-items-center flex-column p-4' style={{ height: "350px" }}>
+          <div className='sm:w-75 mb-5'>
             <a
-              className='home-register col text-center mb-3 text-reset text-decoration-none'
+              className='home-register col text-center mb-3 text-reset text-decoration-none px-5'
               href={
                 i18n.language === 'en'
                   ? '/files/Factsheet-ITM-2024-ENG-V8.pdf'
@@ -281,6 +281,17 @@ export function ExhibitorProfile() {
             >
               <span className='d-flex justify-content-evenly align-items-center fw-bold text-white fs-2'>
                 {t("profile.btn-exhibitor-info")}
+              </span>
+            </a>
+          </div>
+          <div className='sm:w-75'>
+            <a
+              className='home-register col text-center mb-3 text-reset text-decoration-none px-5'
+              href="/exhibitor-information"
+              rel='noreferrer'
+            >
+              <span className='d-flex justify-content-evenly align-items-center fw-bold text-white fs-2'>
+                {t("profile.btn-exhibitor")}
               </span>
             </a>
           </div>
