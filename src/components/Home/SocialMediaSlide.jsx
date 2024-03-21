@@ -110,12 +110,6 @@ export function SocialMediaSlide() {
       link: 'https://www.cosmos.com.mx/',
     },
     {
-      src: '/cuatrocero.webp',
-      width: 200,
-      alt: 'Cuatro Cero',
-      link: 'https://www.cosmos.com.mx/',
-    },
-    {
       src: '/heraldoHorizontal.webp',
       width: 200,
       alt: 'Heraldo Mexico',
@@ -123,13 +117,13 @@ export function SocialMediaSlide() {
     },
     {
       src: '/manufacturalatam.webp',
-      width: 200,
+      width: 280,
       alt: 'Manufactura LATAM',
       link: 'https://www.manufactura-latam.com/es',
     },
     {
       src: '/metalmecanica.webp',
-      width: 200,
+      width: 250,
       alt: 'Metalmecánica',
       link: 'https://www.metalmecanica.com/es',
     },
