@@ -166,6 +166,11 @@ export function Home() {
             </a>
           </Col>
           <Col xs={12} sm={6} md={4} lg={2} className='d-flex justify-content-center'>
+            <a href="https://www.tecmilenio.mx/es" target='_blank'>
+              <img src="/exhibitors/tec-milenio.webp" alt="" className="img-fluid" />      
+            </a>
+          </Col>
+          <Col xs={12} sm={6} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.wago.com/mx-es/" target='_blank'>
               <img src="/exhibitors/wago.webp" alt="" className="img-fluid" />      
             </a>
