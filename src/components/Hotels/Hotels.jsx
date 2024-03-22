@@ -22,18 +22,18 @@ export function Hotels() {
       <Container>
         <h1 className='text-bold'>{t('hotels.title')}</h1>
         <p dangerouslySetInnerHTML={{ __html: t('hotels.description') }}></p>
-        <Row className='mt-5 hotels'>
+        <Row className='mt-5 hotels justify-content-md-center'>
           {hotels.map((hotel, index) => {
             return (
-              <Col md={3} className='pt-5'>
+              <Col md={4} lg={3} className='pt-5 d-flex justify-content-center align-items-center'>
                 <Card
-                  style={{ width: '18rem', border: '1px solid #ddd' }}
+                  style={{ width: '18rem',  height: '750px', border: '1px solid #ddd' }}
                   key={index}
                 >
                   <Card.Img
                     variant='top'
                     src={hotel.src}
-                    height={280}
+                    height={200}
                     className='object-fit-cover'
                   />
                   <Card.Body style={{ flex: '0' }}>
