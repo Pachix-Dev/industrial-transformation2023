@@ -94,9 +94,9 @@ export function Home() {
               <img src="/exhibitors/benq.webp" alt="" className="img-fluid" />      
             </a>
           </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.ckdmex.com.mx/" target='_blank'>
-              <img src="/exhibitors/ckd.webp" alt="" className="img-fluid" />      
+           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
+            <a href="http://www.ryasa.com.mx/" target='_blank'>
+              <img src="/exhibitors/ryasa.webp" alt="ryasa" className="img-fluid"/>      
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
@@ -183,8 +183,8 @@ export function Home() {
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="http://www.ryasa.com.mx/" target='_blank'>
-              <img src="/exhibitors/ryasa.webp" alt="ryasa" className="img-fluid"/>      
+            <a href="https://www.ckdmex.com.mx/" target='_blank'>
+              <img src="/exhibitors/ckd.webp" alt="" className="img-fluid" />      
             </a>
           </Col>
         </Row>
