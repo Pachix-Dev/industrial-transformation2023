@@ -22,6 +22,7 @@
         "exhibitors_9": "Categoría de Productos",
         "exhibitors_10": "Toolkit 2023",
         "exhibitors_11": "Soy expositor",
+        "exhibitors_12": "Pabellon Aleman",
         "visitors": "Visitantes",
         "visitors_0": "Pasaporte",
         "visitors_1": "¿POR QUÉ VISITARNOS?",
@@ -136,7 +137,8 @@
         "description_3": "Aprenda en el mejor programa internacional de conferencias y talleres.",
         "description_4": "Genere alianzas estratégicas dentro del sector más relevante del país.",
         "description_5": "Tome la delantera en los negocios del futuro.",
-        "become_exhibitor": "Si quieres ser expositor contáctate con:"
+        "become_exhibitor": "Si quieres ser expositor contáctate con:",
+        "title-exhibitor": "Forme parte del pabellón alemán en ITM 2024"
     },
     "profile": {        
         "subtitle": "Conviértete en expositor",
@@ -475,5 +477,8 @@
         "title": "Tarifas especiales en hoteles",
         "description": "Nos complace anunciar que hemos asegurado tarifas preferenciales en hoteles de calidad para que tu experiencia sea aún más cómoda y accesible.<br /><br />Ubicados estratégicamente alrededor del lugar del evento, estos hoteles ofrecen no solo comodidad, sino también la oportunidad de sumergirte completamente en la atmósfera del evento. Hemos negociado tarifas especiales para nuestros asistentes, asegurándonos de que tu estancia sea tan inolvidable como el propio evento.",
         "code_reservation": "Codigo de reserva"
+    },
+    "germanPavilion":{
+        "agreement" : "Contrato"
     }
 }

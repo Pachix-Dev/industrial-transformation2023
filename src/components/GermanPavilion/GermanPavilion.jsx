@@ -1,43 +1,40 @@
 import { Container } from "react-bootstrap";
-import { useTranslation } from 'react-i18next'
+import { useTranslation } from "react-i18next";
+import './GermanPavilion.css'
 
-import "./ExhibitorInformation.css"
-import '../ExhibitorProfile/ExhibitorProfile.css'
-
-
-export function ExhibitorInformation() {
+export function GermanPavilion() {
     const { t, i18n } = useTranslation()
-    return(
+    return (
         <>
-            <Container fluid className="exhibition-back d-flex justify-content-center align-items-center flex-column">
+            <Container fluid className="pavilion-back d-flex justify-content-center align-items-center flex-column">
                 <p className="fs-1 fw-bolder mb-5 text-center"> {t("exhibitorReasons.title-exhibitor")} </p><br /><br />
                 <div className='gap-5 row row-cols-auto justify-content-center align-items-start' >
                     <a
                         className='home-register col text-center mb-3 text-decoration-none text-white py-3 px-3'
-                        href="/hotels"
+                        href="/files/Fact Sheet German Pavilion_DE.pdf" target="_blank"
                         rel='noreferrer'
                     >
                         <span className='d-flex justify-content-evenly align-items-center fw-bold fs-4'>
-                            {t("hotels.title")}
+                            Facsheet DE
                         </span>
                     </a>
-                    <a className='home-register col text-center text-decoration-none text-white py-3 px-3' href='/toolkit'>
+                    <a className='home-register col text-center text-decoration-none text-white py-3 px-3' href='/files/Fact Sheet German Pavilion_EN.pdf' target="_blank">
                         <span className='d-flex justify-content-evenly align-items-center fw-bold fs-4'>
-                            Toolkit ITM
+                            Facsheet ENG
                         </span>
                     </a>
                     <a
                         className='home-register col text-center mb-3 text-decoration-none text-white py-3 px-3'
-                        href='/files/Floorplan_ITM_2024_08.03.2024.pdf'
+                        href='/files/ITM2024-German Pavilion_Contract.pdf'
                         target='_blank'
                         rel='noreferrer'
                     >
                         <span className='d-flex justify-content-evenly align-items-center fw-bold fs-4'>
-                            {t('menu.exhibitors_5')}
+                            {t("germanPavilion.agreement")}
                         </span>
                     </a>
                 </div>
             </Container>
         </>
-    )
+    );
 }

@@ -22,6 +22,7 @@
         "exhibitors_9": "products category",
         "exhibitors_10": "toolkit 2023",
         "exhibitors_11": "I'm an exhibitor",
+        "exhibitors_12": "German Pavilion",
         "visitors": "visitors",
         "visitors_0": "Passport",
         "visitors_1": "why visit",
@@ -136,7 +137,8 @@
         "description_3": "Learn about the latest trends, launches and innovations in Industry 4.0 globally.",
         "description_4": "Be part of the best international program of conferences and workshops focused on Industry 4.0 in the country.",
         "description_5": "Connect with the most relevant network of professionals specialized in the sector in the country.",
-        "become_exhibitor": "If you want to be an exhibitor contact:"
+        "become_exhibitor": "If you want to be an exhibitor contact:",
+        "title-exhibitor": "Become part of the German Pavilion at ITM 2024"
     },
     "profile": {        
         "subtitle": "Become an Exhibitor",
@@ -476,5 +478,8 @@
         "title": "Special Hotel Rates",
         "description": "We are pleased to announce that we have secured preferential rates at quality hotels to make your experience even more comfortable and affordable.<br /><br />Strategically located around the event venue, these hotels offer not only comfort, but also the opportunity to fully immerse yourself in the atmosphere of the event. We have negotiated special rates for our attendees, ensuring that your stay will be as unforgettable as the event itself.",
         "code_reservation": "Reservation code"
+    },
+    "germanPavilion":{
+        "agreement" : "Agreement"
     }
 }

@@ -118,7 +118,6 @@ export function Menu() {
                   >
                     {t('menu.exhibitors_3')}
                   </NavDropdown.Item>
-
                   <NavDropdown.Item
                     as={Link}
                     to='/exhibitor-information'
@@ -126,6 +125,14 @@ export function Menu() {
                   >
                     {t('menu.exhibitors_11')}
                   </NavDropdown.Item>
+                  <NavDropdown.Item
+                    as={Link}
+                    to='/german-pavilion'
+                    onClick={handleClose}
+                  >
+                    {t('menu.exhibitors_12')}
+                  </NavDropdown.Item>
+
 
 
                   {/* <NavDropdown.Item as={Link} to='/exibitor-profile' onClick={handleClose}>{t('menu.exhibitors_3')}</NavDropdown.Item> */}

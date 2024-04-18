@@ -29,6 +29,7 @@ import { trackPageView } from './google-analytics'
 import { Sponsorships } from './components/Sponsorships/Sponsorships'
 import { Hotels } from './components/Hotels/Hotels'
 import { ExhibitorInformation } from './components/ExhibitorInformation/ExhibitorInformation'
+import { GermanPavilion } from './components/GermanPavilion/GermanPavilion'
 
 function RouteWithHelmet ({ title, description, element }) {
   return (
@@ -154,6 +155,7 @@ function App () {
         <Route path='sponsorships' element={<RouteWithHelmet title='Sponsorships' element={<Sponsorships />} />} />
         <Route path='hotels' element={<RouteWithHelmet title='Hotels' element={<Hotels />} />} />
         <Route path='exhibitor-information' element={<RouteWithHelmet title='Exhibitor Information' element={<ExhibitorInformation />} />} />
+        <Route path='german-pavilion' element={<RouteWithHelmet title='German Pavilion' element={<GermanPavilion />} />} />
       </Routes>
       <Footer />
     </>
