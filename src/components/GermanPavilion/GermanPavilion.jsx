@@ -30,7 +30,7 @@ export function GermanPavilion() {
                         rel='noreferrer'
                     >
                         <span className='d-flex justify-content-evenly align-items-center fw-bold fs-4'>
-                            {t("germanPavilion.title-exhibitor")}
+                            {t("germanPavilion.agreement")}
                         </span>
                     </a>
                 </div>
