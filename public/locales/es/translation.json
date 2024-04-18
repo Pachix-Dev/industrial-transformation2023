@@ -138,7 +138,7 @@
         "description_4": "Genere alianzas estratégicas dentro del sector más relevante del país.",
         "description_5": "Tome la delantera en los negocios del futuro.",
         "become_exhibitor": "Si quieres ser expositor contáctate con:",
-        "title-exhibitor": "Forme parte del pabellón alemán en ITM 2024"
+        "title-exhibitor": "Información para expositores confirmados"
     },
     "profile": {        
         "subtitle": "Conviértete en expositor",
@@ -479,6 +479,7 @@
         "code_reservation": "Codigo de reserva"
     },
     "germanPavilion":{
+        "title-exhibitor": "Forme parte del Pabellón Alemán en ITM 2024",
         "agreement" : "Contrato"
     }
 }

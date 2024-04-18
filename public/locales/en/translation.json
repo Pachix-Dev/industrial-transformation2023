@@ -138,7 +138,7 @@
         "description_4": "Be part of the best international program of conferences and workshops focused on Industry 4.0 in the country.",
         "description_5": "Connect with the most relevant network of professionals specialized in the sector in the country.",
         "become_exhibitor": "If you want to be an exhibitor contact:",
-        "title-exhibitor": "Become part of the German Pavilion at ITM 2024"
+        "title-exhibitor": "Information for confirmed exhibitors"
     },
     "profile": {        
         "subtitle": "Become an Exhibitor",
@@ -480,6 +480,7 @@
         "code_reservation": "Reservation code"
     },
     "germanPavilion":{
+        "title-exhibitor": "Become part of the German Pavilion at ITM 2024",
         "agreement" : "Agreement"
     }
 }

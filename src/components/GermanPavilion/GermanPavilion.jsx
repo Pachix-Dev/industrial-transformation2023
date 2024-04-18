@@ -7,7 +7,7 @@ export function GermanPavilion() {
     return (
         <>
             <Container fluid className="pavilion-back d-flex justify-content-center align-items-center flex-column">
-                <p className="fs-1 fw-bolder mb-5 text-center"> {t("exhibitorReasons.title-exhibitor")} </p><br /><br />
+                <p className="fs-1 fw-bolder mb-5 text-center"> {t("germanPavilion.title-exhibitor")} </p><br /><br />
                 <div className='gap-5 row row-cols-auto justify-content-center align-items-start' >
                     <a
                         className='home-register col text-center mb-3 text-decoration-none text-white py-3 px-3'
@@ -30,7 +30,7 @@ export function GermanPavilion() {
                         rel='noreferrer'
                     >
                         <span className='d-flex justify-content-evenly align-items-center fw-bold fs-4'>
-                            {t("germanPavilion.agreement")}
+                            {t("germanPavilion.title-exhibitor")}
                         </span>
                     </a>
                 </div>
