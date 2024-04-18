@@ -15,12 +15,12 @@ export function GermanPavilion() {
                         rel='noreferrer'
                     >
                         <span className='d-flex justify-content-evenly align-items-center fw-bold fs-4'>
-                            Facsheet DE
+                            Factsheet DE
                         </span>
                     </a>
                     <a className='home-register col text-center text-decoration-none text-white py-3 px-3' href='/files/Fact Sheet German Pavilion_EN.pdf' target="_blank">
                         <span className='d-flex justify-content-evenly align-items-center fw-bold fs-4'>
-                            Facsheet ENG
+                            Factsheet ENG
                         </span>
                     </a>
                     <a
