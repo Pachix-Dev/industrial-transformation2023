@@ -72,16 +72,16 @@ export function Home() {
         <h1 className='text-center text-secondary fs-2 fw-bold'>{t('home.title-sponsors')}</h1>
         <h3 className='mt-5'>{t('home.sponsors')}</h3>
         <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center'>
-           <Col xs={5} sm={4} md={4} lg={3} className='d-flex justify-content-center'>
-           <a href='https://mx.mitsubishielectric.com/fa/en/' target='_blank' rel='noreferrer'>
+          <Col xs={5} sm={4} md={4} lg={3} className='d-flex justify-content-center'>
+            <a href='https://mx.mitsubishielectric.com/fa/en/' target='_blank' rel='noreferrer'>
               <img src='/mitsubishi.webp' className='img-fluid' loading='lazy'
                 alt=""
               />
             </a>
           </Col>
           <Col xs={5} sm={4} md={4} lg={3} className='d-flex justify-content-center'>
-            <a  href='http://www.misumimex.com/' target='_blank' rel='noreferrer'>
-              <img src="/misumi.webp" alt="" className="img-fluid" loading='lazy'/>      
+            <a href='http://www.misumimex.com/' target='_blank' rel='noreferrer'>
+              <img src="/misumi.webp" alt="" className="img-fluid" loading='lazy' />
             </a>
           </Col>
         </Row>
@@ -91,100 +91,100 @@ export function Home() {
         <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.benq.com/es-mx/index.html" target='_blank'>
-              <img src="/exhibitors/benq.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/benq.webp" alt="" className="img-fluid" />
             </a>
           </Col>
-           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
+          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="http://www.ryasa.com.mx/" target='_blank'>
-              <img src="/exhibitors/ryasa.webp" alt="ryasa" className="img-fluid"/>      
+              <img src="/exhibitors/ryasa.webp" alt="ryasa" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.euchner.mx/" target='_blank'>
-              <img src="/exhibitors/euchner.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/euchner.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.ifm.com/mx/" target='_blank'>
-              <img src="/exhibitors/ifm.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/ifm.webp" alt="" className="img-fluid" />
             </a>
           </Col>
         </Row>
         <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.ika.technology/" target='_blank'>
-              <img src="/exhibitors/ika.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/ika.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.infoportal-mx.com/" target='_blank'>
-              <img src="/exhibitors/info-portal.webp" alt="" className="img-fluid"/>     
+              <img src="/exhibitors/info-portal.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://shop.knipex.com.mx/" target='_blank'>
-              <img src="/exhibitors/knipex.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/knipex.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://store.lacasadelcontrol.com.mx/" target='_blank'>
-              <img src="/exhibitors/ccg.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/ccg.webp" alt="" className="img-fluid" />
             </a>
           </Col>
         </Row>
         <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.leanmdc.com/" target='_blank'>
-              <img src="/exhibitors/lean-mdc.webp" alt="" className="img-fluid"/>     
+              <img src="/exhibitors/lean-mdc.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://mx.misumi-ec.com/es/" target='_blank'>
-              <img src="/exhibitors/misumi.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/misumi.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.mitutoyo.com.mx/es_MX" target='_blank'>
-              <img src="/exhibitors/mitutoyo.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/mitutoyo.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href='https://mx.mitsubishielectric.com/fa/en/' target='_blank' rel='noreferrer'>
-              <img src='/mitsubishi.webp' className='img-fluid' loading='lazy'alt='mitsubishi'/>
+              <img src='/mitsubishi.webp' className='img-fluid' loading='lazy' alt='mitsubishi' />
             </a>
           </Col>
         </Row>
         <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.mytec.mx/" target='_blank'>
-              <img src="/exhibitors/mytec.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/mytec.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://lasalle.mx/" target='_blank'>
-              <img src="/exhibitors/la-salle.webp" alt="" className="img-fluid"/>      
+              <img src="/exhibitors/la-salle.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.tecmilenio.mx/es" target='_blank'>
-              <img src="/exhibitors/tec-milenio.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/tec-milenio.webp" alt="" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.wago.com/mx-es/" target='_blank'>
-              <img src="/exhibitors/wago.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/wago.webp" alt="" className="img-fluid" />
             </a>
           </Col>
         </Row>
         <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="" target='_blank'>
-              <img src="/exhibitors/pulsar.webp" alt="pulsar" className="img-fluid" />      
+              <img src="/exhibitors/pulsar.webp" alt="pulsar" className="img-fluid" />
             </a>
           </Col>
           <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
             <a href="https://www.ckdmex.com.mx/" target='_blank'>
-              <img src="/exhibitors/ckd.webp" alt="" className="img-fluid" />      
+              <img src="/exhibitors/ckd.webp" alt="" className="img-fluid" />
             </a>
           </Col>
         </Row>
@@ -209,36 +209,36 @@ export function Home() {
         </Row>
       </Container> */}
       <div ref={ref}>
-        <Container>
+        <Container fluid>
           {show && (
             <Row className='mt-5 pb-5'>
-              <Col md>
-                <Bullets number='15000' duration='4' />
+              <Col md className='item-num with-background align-bottom pb-4'>
                 <div className='text-center fw-bold'>
+                  <Bullets number='15000' duration='4' />
                   <i>{t('home.bullet_1')}</i>
                 </div>
               </Col>
-              <Col md>
-                <Bullets number='5000' duration='4' />
+              <Col md className='item-num with-background2 align-bottom pb-4'>
                 <div className='text-center fw-bold'>
+                  <Bullets number='5000' duration='4' />
                   <i>{t('home.bullet_2')}</i>
                 </div>
               </Col>
-              <Col md>
-                <Bullets number='1370' duration='4' />
+              <Col md className='item-num with-background3 align-bottom pb-4'>
                 <div className='text-center fw-bold'>
+                  <Bullets number='1370' duration='4' />
                   <i>{t('home.bullet_3')}</i>
                 </div>
               </Col>
-              <Col md>
-                <Bullets number='260' duration='4' />
+              <Col md className='item-num with-background4 align-bottom pb-4'>
                 <div className='text-center fw-bold'>
+                  <Bullets number='260' duration='4' />
                   <i>{t('home.bullet_4')}</i>
                 </div>
               </Col>
-              <Col md>
-                <Bullets number='13700' duration='4' simbol='m2' />
+              <Col md className='item-num with-background5 align-bottom pb-4'>
                 <div className='text-center fw-bold '>
+                  <Bullets number='13700' duration='4' simbol='m2' />
                   <i>{t('home.bullet_5')}</i>
                 </div>
               </Col>
