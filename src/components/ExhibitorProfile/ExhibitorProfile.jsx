@@ -170,7 +170,7 @@ export function ExhibitorProfile() {
         </Row>
       </Container>
       <section>
-        <h1 className='fs-1 fw-bold text-center text-uppercase my-5' style={{ color: '#DD0000' }}>{t("profile.rates.title")}</h1>
+        <h1 className='fs-1 fw-bold text-center text-uppercase my-5' style={{ color: '#DD0000' }} dangerouslySetInnerHTML={{__html: t("profile.rates.title")}} />
         <Container >
           <Row className="justify-content-md-center gap-2 m-2">
             <Col lg={6}>
@@ -181,7 +181,7 @@ export function ExhibitorProfile() {
                   </div>
                   <div className="col-md-6">
                     <div className="card-body">
-                      <h5 className="fw-bold fs-2">{t("profile.rates.stand-1.title")}</h5>
+                      <h5 className="fw-bold fs-2" dangerouslySetInnerHTML={{__html: t("profile.rates.stand-1.title")}} />
                       <p className="card-text fs-3"> <span className='text-danger fw-bold'> {t("profile.rates.stand-1.price")} </span> <br /> {t("profile.rates.stand-1.type")} </p>
                       <p className="card-text"> {t("profile.rates.stand-1.description")} </p>
                     </div>

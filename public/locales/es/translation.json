@@ -169,7 +169,7 @@
         "rates":{
             "title":"TARIFAS DE PARTICIPACIÓN ITM 2024",
             "stand-1":{
-                "title":"Superficie libre (Sin Setup)",
+                "title":"Superficie <br/> libre (Sin Setup)",
                 "type":"Precio de lista m2",
                 "price":"USD 378 + IVA",
                 "description":"Incluye gafetes de expositor (3 por cada 9 m ), código de pre-registro de visitantes ilimitados para su compañía y mención en el directorio. NO incluye alfombra, construcción, mobiliario, ni servicios."
