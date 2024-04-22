@@ -190,7 +190,7 @@ export function Home() {
         </Row>
       </Container>
       <WhyExhibit />
-      <Container className='home mt-5 pb-4'>
+      {/* <Container className='home mt-5 pb-4'>
         <Row>
           <Col md className='my-auto'>
             <h3 className='fw-bold text-start title-reasons'>
@@ -207,7 +207,7 @@ export function Home() {
             />
           </Col>
         </Row>
-      </Container>
+      </Container> */}
       <div ref={ref}>
         <Container>
           {show && (
