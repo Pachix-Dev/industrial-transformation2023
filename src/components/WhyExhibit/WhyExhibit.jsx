@@ -10,12 +10,16 @@ export function WhyExhibit() {
       <div className='exhibit-parallax'>
         <Container className='pt-5 pb-5'>
           <div className='container-text px-4'>
-            <h1 className='title-reasons'>{t('exhibitorReasons.title')}</h1>
-            <p
+            <h1 className='title-reasons text-center text-uppercase mb-5'>{t('exhibitorReasons.title')}</h1>
+            {/* <p
               className='pt-5'
               dangerouslySetInnerHTML={{
                 __html: t('exhibitorReasons.newDesc'),
               }}
+            /> */}
+            <p
+              className='text-center fs-4'
+              dangerouslySetInnerHTML={{ __html: t('profile.description') }}
             />
             <Row className='pt-5 text-center'>
               <Col md>
@@ -182,8 +186,8 @@ export function WhyExhibit() {
               className='home-register text-light text-decoration-none'
               href={
                 i18n.language === 'en'
-                ? '/files/Factsheet_ITM_ENG_v2_120124.pdf'
-                : '/files/Factsheet_ITM_2024_AC_ESP_VF_08-03-2024.pdf'
+                  ? '/files/Factsheet_ITM_ENG_v2_120124.pdf'
+                  : '/files/Factsheet_ITM_2024_AC_ESP_VF_08-03-2024.pdf'
               }
               target='_blank'
               rel='noreferrer'
