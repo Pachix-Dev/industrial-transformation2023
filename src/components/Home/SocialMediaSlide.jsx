@@ -55,13 +55,6 @@ export function SocialMediaSlide() {
       link: 'https://energyandcommerce.com.mx/',
     },
     {
-      src: '/elsoldeleon.webp',
-      width: 200,
-      height: 37,
-      alt: 'El Sol de León',
-      link: 'https://www.elsoldeleon.com.mx/',
-    },
-    {
       src: '/mexicoindustry.webp',
       width: 200,
       height: 133,
@@ -129,6 +122,12 @@ export function SocialMediaSlide() {
       alt: 'Metalmecánica',
       link: 'https://www.metalmecanica.com/es',
     },
+    {
+      src: '/Milenio.webp',
+      width: 200,
+      alt: 'Grupo Milenio',
+      link: 'https://www.milenio.com/',
+    }
   ]
   return (
     <>
