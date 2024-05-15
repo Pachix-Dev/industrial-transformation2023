@@ -28,7 +28,7 @@ export function ExhibitorInformation() {
                     </a>
                     <a
                         className='home-register col text-center mb-3 text-decoration-none text-white py-3 px-3'
-                        href='/files/Floorplan_ITM_2024_08.03.2024.pdf'
+                        href='/files/Floorplan ITM 2024_14-05-2024.pdf'
                         target='_blank'
                         rel='noreferrer'
                     >

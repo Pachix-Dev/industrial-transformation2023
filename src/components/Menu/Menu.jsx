@@ -150,7 +150,7 @@ export function Menu() {
                   </NavDropdown.Item>
 
                   <NavDropdown.Item
-                    href='/files/Floorplan_ITM_2024_08.03.2024.pdf'
+                    href='/files/Floorplan ITM 2024_14-05-2024.pdf'
                     target='_blank'
                     onClick={handleClose}
                   >
