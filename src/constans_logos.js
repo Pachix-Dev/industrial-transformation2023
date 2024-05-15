@@ -25,7 +25,8 @@ const exhibitors_2 = [
     { src: '/exhibitors/ryasa.webp', alt: '', width: 170 },
     { src: '/exhibitors/tec-milenio.webp', alt: '', width: 170 },
     { src: '/exhibitors/vega.webp', alt: '', width: 170 },
-    { src: '/exhibitors/wago.webp', alt: '', width: 170 }
+    { src: '/exhibitors/wago.webp', alt: '', width: 170 },
+    { src: '/exhibitors/schneider.webp', alt: '', width: 170 },
 ]
 
 
