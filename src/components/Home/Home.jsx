@@ -89,7 +89,7 @@ export function Home() {
           </Col>
           <Col xs={5} sm={4} md={4} lg={3} className="d-flex justify-content-center">
   <a href="http://www.misumimex.com/" target="_blank" rel="noreferrer">
-    <img src="/exhibitors/schneider.webp" alt="schneider electric" className="img-fluid px-4" loading="lazy" />
+    <img src="/exhibitors/schneider_v2.webp" alt="schneider electric" className="img-fluid px-4" loading="lazy" />
   </a>
 </Col>
         </Row>
