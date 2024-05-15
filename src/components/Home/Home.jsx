@@ -13,6 +13,9 @@ import { Bullets } from './Bullets'
 import { WhyExhibit } from '../WhyExhibit/WhyExhibit'
 import { AlliesStrategicSlide } from './AlliesStrategicSlide'
 import { SocialMediaSlide } from './SocialMediaSlide'
+import { MarqueeReact } from './MarqueeReact'
+import {exhibitors_1, exhibitors_2} from '../../constans_logos'
+
 export function Home() {
   const { t } = useTranslation()
   const { stateLang } = useLanguage()
@@ -86,109 +89,13 @@ export function Home() {
           </Col>
         </Row>
       </Container>
-      <Container fluid className='my-5'>
+      <Container className='my-5'>
         <h3 className='mt-5 mb-4'>{t('menu.title_exhibitors')} 2024</h3>
-        <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.benq.com/es-mx/index.html" target='_blank'>
-              <img src="/exhibitors/benq.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="http://www.ryasa.com.mx/" target='_blank'>
-              <img src="/exhibitors/ryasa.webp" alt="ryasa" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.euchner.mx/" target='_blank'>
-              <img src="/exhibitors/euchner.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.ifm.com/mx/" target='_blank'>
-              <img src="/exhibitors/ifm.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-        </Row>
-        <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.ika.technology/" target='_blank'>
-              <img src="/exhibitors/ika.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.infoportal-mx.com/" target='_blank'>
-              <img src="/exhibitors/info-portal.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://shop.knipex.com.mx/" target='_blank'>
-              <img src="/exhibitors/knipex.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://store.lacasadelcontrol.com.mx/" target='_blank'>
-              <img src="/exhibitors/ccg.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-        </Row>
-        <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.leanmdc.com/" target='_blank'>
-              <img src="/exhibitors/lean-mdc.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://mx.misumi-ec.com/es/" target='_blank'>
-              <img src="/exhibitors/misumi.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.mitutoyo.com.mx/es_MX" target='_blank'>
-              <img src="/exhibitors/mitutoyo.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href='https://mx.mitsubishielectric.com/fa/en/' target='_blank' rel='noreferrer'>
-              <img src='/mitsubishi.webp' className='img-fluid' loading='lazy' alt='mitsubishi' />
-            </a>
-          </Col>
-        </Row>
-        <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.mytec.mx/" target='_blank'>
-              <img src="/exhibitors/mytec.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://lasalle.mx/" target='_blank'>
-              <img src="/exhibitors/la-salle.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.tecmilenio.mx/es" target='_blank'>
-              <img src="/exhibitors/tec-milenio.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.wago.com/mx-es/" target='_blank'>
-              <img src="/exhibitors/wago.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-        </Row>
-        <Row className='gap-2 md:justify-content-md-center align-items-center justify-content-center pt-4'>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="" target='_blank'>
-              <img src="/exhibitors/pulsar.webp" alt="pulsar" className="img-fluid" />
-            </a>
-          </Col>
-          <Col xs={4} sm={4} md={4} lg={2} className='d-flex justify-content-center'>
-            <a href="https://www.ckdmex.com.mx/" target='_blank'>
-              <img src="/exhibitors/ckd.webp" alt="" className="img-fluid" />
-            </a>
-          </Col>
-        </Row>
+        <MarqueeReact images={exhibitors_1} />
+        <MarqueeReact images={exhibitors_2} direction="left"/>
       </Container>
+
+
       <WhyExhibit />
       {/* <Container className='home mt-5 pb-4'>
         <Row>
