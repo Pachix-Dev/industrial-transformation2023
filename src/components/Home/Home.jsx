@@ -83,13 +83,13 @@ export function Home() {
             </a>
           </Col>
           <Col xs={5} sm={4} md={4} lg={3} className='d-flex justify-content-center'>
-            <a href='http://www.misumimex.com/' target='_blank' rel='noreferrer'>
-              <img src="/misumi.webp" alt="" className="img-fluid" loading='lazy' />
+            <a href='https://www.se.com/ww/en/' target='_blank' rel='noreferrer'>
+              <img src="/misumi.webp" alt="misumi" className="img-fluid" loading='lazy' />
             </a>
           </Col>
           <Col xs={5} sm={4} md={4} lg={3} className="d-flex justify-content-center">
   <a href="http://www.misumimex.com/" target="_blank" rel="noreferrer">
-    <img src="/exhibitors/schneider.webp" alt="" className="img-fluid px-4" loading="lazy" />
+    <img src="/exhibitors/schneider.webp" alt="schneider electric" className="img-fluid px-4" loading="lazy" />
   </a>
 </Col>
         </Row>
