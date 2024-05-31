@@ -14,7 +14,7 @@ import { WhyExhibit } from '../WhyExhibit/WhyExhibit'
 import { AlliesStrategicSlide } from './AlliesStrategicSlide'
 import { SocialMediaSlide } from './SocialMediaSlide'
 import { MarqueeReact } from './MarqueeReact'
-import {exhibitors_1, exhibitors_2} from '../../constans_logos'
+import {exhibitors_1, exhibitors_2, exhibitors_3} from '../../constans_logos'
 
 export function Home() {
   const { t } = useTranslation()
@@ -98,6 +98,7 @@ export function Home() {
         <h3 className='mt-5 mb-4'>{t('menu.title_exhibitors')} 2024</h3>
         <MarqueeReact images={exhibitors_1} />
         <MarqueeReact images={exhibitors_2} direction="left"/>
+        <MarqueeReact images={exhibitors_3} />
       </Container>
 
 

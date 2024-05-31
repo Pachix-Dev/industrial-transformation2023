@@ -29,5 +29,17 @@ const exhibitors_2 = [
     { src: '/exhibitors/schneider_v2.webp', alt: '', width: 170 },
 ]
 
+const exhibitors_3 = [
+    { src: '/exhibitors/cronos.webp', alt: '', width: 190 },
+    { src: '/exhibitors/krohne.webp', alt: '', width: 190 },
+    { src: '/exhibitors/badesa.webp', alt: '', width: 190 },
+    { src: '/exhibitors/polyworks.webp', alt: '', width: 190 },
+    { src: '/exhibitors/emka.webp', alt: '', width: 190 },
+    { src: '/exhibitors/dyce.webp', alt: '', width: 190 },
+    { src: '/exhibitors/mw.webp', alt: '', width: 190 },
+    { src: '/exhibitors/tractian.webp', alt: '', width: 190 },
+    { src: '/exhibitors/halder.webp', alt: '', width: 190 },
+]
 
-export { exhibitors_1, exhibitors_2 }
+
+export { exhibitors_1, exhibitors_2, exhibitors_3 }
